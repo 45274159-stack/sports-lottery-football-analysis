@@ -1,0 +1,1373 @@
+season,date,local_time,stage,home_team,away_team,ft_home_goals,ft_away_goals,ht_home_goals,ht_away_goals,ft_result
+2016-17,2016-09-13,20:45,Group A,FC Basel 1893,PFC Ludogorets Razgrad,1,1,0,1,D
+2016-17,2016-09-13,,Group A,Paris Saint-Germain,Arsenal FC,1,1,1,0,D
+2016-17,2016-09-28,20:45,Group A,Arsenal FC,FC Basel 1893,2,0,2,0,H
+2016-17,2016-09-28,,Group A,PFC Ludogorets Razgrad,Paris Saint-Germain,1,3,1,1,A
+2016-17,2016-10-19,20:45,Group A,Arsenal FC,PFC Ludogorets Razgrad,6,0,2,0,H
+2016-17,2016-10-19,,Group A,Paris Saint-Germain,FC Basel 1893,3,0,1,0,H
+2016-17,2016-11-01,20:45,Group A,FC Basel 1893,Paris Saint-Germain,1,2,0,1,A
+2016-17,2016-11-01,,Group A,PFC Ludogorets Razgrad,Arsenal FC,2,3,2,2,A
+2016-17,2016-11-23,20:45,Group A,Arsenal FC,Paris Saint-Germain,2,2,1,1,D
+2016-17,2016-11-23,,Group A,PFC Ludogorets Razgrad,FC Basel 1893,0,0,,,D
+2016-17,2016-12-06,20:45,Group A,FC Basel 1893,Arsenal FC,1,4,0,2,A
+2016-17,2016-12-06,,Group A,Paris Saint-Germain,PFC Ludogorets Razgrad,2,2,0,1,D
+2016-17,2016-09-13,20:45,Group B,Dinamo Kiev,SSC Napoli,1,2,1,2,A
+2016-17,2016-09-13,,Group B,SL Benfica,Beşiktaş,1,1,1,0,D
+2016-17,2016-09-28,20:45,Group B,Beşiktaş,Dinamo Kiev,1,1,1,0,D
+2016-17,2016-09-28,,Group B,SSC Napoli,SL Benfica,4,2,1,0,H
+2016-17,2016-10-19,20:45,Group B,Dinamo Kiev,SL Benfica,0,2,0,1,A
+2016-17,2016-10-19,,Group B,SSC Napoli,Beşiktaş,2,3,1,2,A
+2016-17,2016-11-01,18:45,Group B,Beşiktaş,SSC Napoli,1,1,0,0,D
+2016-17,2016-11-01,20:45,Group B,SL Benfica,Dinamo Kiev,1,0,1,0,H
+2016-17,2016-11-23,18:45,Group B,Beşiktaş,SL Benfica,3,3,0,3,D
+2016-17,2016-11-23,20:45,Group B,SSC Napoli,Dinamo Kiev,0,0,,,D
+2016-17,2016-12-06,20:45,Group B,Dinamo Kiev,Beşiktaş,6,0,4,0,H
+2016-17,2016-12-06,,Group B,SL Benfica,SSC Napoli,1,2,0,0,A
+2016-17,2016-09-13,20:45,Group C,FC Barcelona,Celtic FC,7,0,2,0,H
+2016-17,2016-09-14,20:45,Group C,Manchester City,Bor. Mönchengladbach,4,0,2,0,H
+2016-17,2016-09-28,20:45,Group C,Bor. Mönchengladbach,FC Barcelona,1,2,1,0,A
+2016-17,2016-09-28,,Group C,Celtic FC,Manchester City,3,3,2,2,D
+2016-17,2016-10-19,20:45,Group C,Celtic FC,Bor. Mönchengladbach,0,2,0,0,A
+2016-17,2016-10-19,,Group C,FC Barcelona,Manchester City,4,0,1,0,H
+2016-17,2016-11-01,20:45,Group C,Bor. Mönchengladbach,Celtic FC,1,1,1,0,D
+2016-17,2016-11-01,,Group C,Manchester City,FC Barcelona,3,1,1,1,H
+2016-17,2016-11-23,20:45,Group C,Bor. Mönchengladbach,Manchester City,1,1,1,1,D
+2016-17,2016-11-23,,Group C,Celtic FC,FC Barcelona,0,2,0,1,A
+2016-17,2016-12-06,20:45,Group C,FC Barcelona,Bor. Mönchengladbach,4,0,1,0,H
+2016-17,2016-12-06,,Group C,Manchester City,Celtic FC,1,1,1,1,D
+2016-17,2016-09-13,20:45,Group D,Bayern München,FK Rostov,5,0,2,0,H
+2016-17,2016-09-13,,Group D,PSV Eindhoven,Atlético Madrid,0,1,0,1,A
+2016-17,2016-09-28,20:45,Group D,Atlético Madrid,Bayern München,1,0,1,0,H
+2016-17,2016-09-28,,Group D,FK Rostov,PSV Eindhoven,2,2,2,2,D
+2016-17,2016-10-19,20:45,Group D,Bayern München,PSV Eindhoven,4,1,2,1,H
+2016-17,2016-10-19,,Group D,FK Rostov,Atlético Madrid,0,1,0,0,A
+2016-17,2016-11-01,20:45,Group D,Atlético Madrid,FK Rostov,2,1,1,1,H
+2016-17,2016-11-01,,Group D,PSV Eindhoven,Bayern München,1,2,1,1,A
+2016-17,2016-11-23,18:00,Group D,FK Rostov,Bayern München,3,2,1,1,H
+2016-17,2016-11-23,20:45,Group D,Atlético Madrid,PSV Eindhoven,2,0,0,0,H
+2016-17,2016-12-06,20:45,Group D,Bayern München,Atlético Madrid,1,0,1,0,H
+2016-17,2016-12-06,,Group D,PSV Eindhoven,FK Rostov,0,0,,,D
+2016-17,2016-09-14,20:45,Group E,Bayer Leverkusen,CSKA Moskva,2,2,2,2,D
+2016-17,2016-09-14,,Group E,Tottenham Hotspur,AS Monaco,1,2,1,2,A
+2016-17,2016-09-27,20:45,Group E,AS Monaco,Bayer Leverkusen,1,1,0,0,D
+2016-17,2016-09-27,,Group E,CSKA Moskva,Tottenham Hotspur,0,1,0,0,A
+2016-17,2016-10-18,20:45,Group E,Bayer Leverkusen,Tottenham Hotspur,0,0,,,D
+2016-17,2016-10-18,,Group E,CSKA Moskva,AS Monaco,1,1,1,0,D
+2016-17,2016-11-02,20:45,Group E,AS Monaco,CSKA Moskva,3,0,3,0,H
+2016-17,2016-11-02,,Group E,Tottenham Hotspur,Bayer Leverkusen,0,1,0,0,A
+2016-17,2016-11-22,18:00,Group E,CSKA Moskva,Bayer Leverkusen,1,1,0,1,D
+2016-17,2016-11-22,20:45,Group E,AS Monaco,Tottenham Hotspur,2,1,0,0,H
+2016-17,2016-12-07,20:45,Group E,Bayer Leverkusen,AS Monaco,3,0,1,0,H
+2016-17,2016-12-07,,Group E,Tottenham Hotspur,CSKA Moskva,3,1,2,1,H
+2016-17,2016-09-14,20:45,Group F,Legia Warszawa,Borussia Dortmund,0,6,0,3,A
+2016-17,2016-09-14,,Group F,Real Madrid,Sporting CP,2,1,0,0,H
+2016-17,2016-09-27,20:45,Group F,Borussia Dortmund,Real Madrid,2,2,1,1,D
+2016-17,2016-09-27,,Group F,Sporting CP,Legia Warszawa,2,0,2,0,H
+2016-17,2016-10-18,20:45,Group F,Real Madrid,Legia Warszawa,5,1,3,1,H
+2016-17,2016-10-18,,Group F,Sporting CP,Borussia Dortmund,1,2,0,2,A
+2016-17,2016-11-02,20:45,Group F,Borussia Dortmund,Sporting CP,1,0,1,0,H
+2016-17,2016-11-02,,Group F,Legia Warszawa,Real Madrid,3,3,1,2,D
+2016-17,2016-11-22,20:45,Group F,Borussia Dortmund,Legia Warszawa,8,4,5,2,H
+2016-17,2016-11-22,,Group F,Sporting CP,Real Madrid,1,2,0,1,A
+2016-17,2016-12-07,20:45,Group F,Legia Warszawa,Sporting CP,1,0,1,0,H
+2016-17,2016-12-07,,Group F,Real Madrid,Borussia Dortmund,2,2,1,0,D
+2016-17,2016-09-14,20:45,Group G,Club Brugge KV,Leicester City,0,3,0,2,A
+2016-17,2016-09-14,,Group G,FC Porto,FC København,1,1,1,0,D
+2016-17,2016-09-27,20:45,Group G,FC København,Club Brugge KV,4,0,0,0,H
+2016-17,2016-09-27,,Group G,Leicester City,FC Porto,1,0,1,0,H
+2016-17,2016-10-18,20:45,Group G,Club Brugge KV,FC Porto,1,2,1,0,A
+2016-17,2016-10-18,,Group G,Leicester City,FC København,1,0,1,0,H
+2016-17,2016-11-02,20:45,Group G,FC København,Leicester City,0,0,,,D
+2016-17,2016-11-02,,Group G,FC Porto,Club Brugge KV,1,0,1,0,H
+2016-17,2016-11-22,20:45,Group G,FC København,FC Porto,0,0,,,D
+2016-17,2016-11-22,,Group G,Leicester City,Club Brugge KV,2,1,2,0,H
+2016-17,2016-12-07,20:45,Group G,Club Brugge KV,FC København,0,2,0,2,A
+2016-17,2016-12-07,,Group G,FC Porto,Leicester City,5,0,3,0,H
+2016-17,2016-09-14,20:45,Group H,Juventus,Sevilla FC,0,0,,,D
+2016-17,2016-09-14,,Group H,Olympique Lyonnais,Dinamo Zagreb,3,0,1,0,H
+2016-17,2016-09-27,20:45,Group H,Dinamo Zagreb,Juventus,0,4,0,2,A
+2016-17,2016-09-27,,Group H,Sevilla FC,Olympique Lyonnais,1,0,0,0,H
+2016-17,2016-10-18,20:45,Group H,Dinamo Zagreb,Sevilla FC,0,1,0,1,A
+2016-17,2016-10-18,,Group H,Olympique Lyonnais,Juventus,0,1,0,0,A
+2016-17,2016-11-02,20:45,Group H,Juventus,Olympique Lyonnais,1,1,1,0,D
+2016-17,2016-11-02,,Group H,Sevilla FC,Dinamo Zagreb,4,0,1,0,H
+2016-17,2016-11-22,20:45,Group H,Dinamo Zagreb,Olympique Lyonnais,0,1,0,0,A
+2016-17,2016-11-22,,Group H,Sevilla FC,Juventus,1,3,1,1,A
+2016-17,2016-12-07,20:45,Group H,Juventus,Dinamo Zagreb,2,0,0,0,H
+2016-17,2016-12-07,,Group H,Olympique Lyonnais,Sevilla FC,0,0,,,D
+2016-17,2017-02-14,20:45,Round of 16,SL Benfica,Borussia Dortmund,1,0,0,0,H
+2016-17,2017-02-14,,Round of 16,Paris Saint-Germain,FC Barcelona,4,0,2,0,H
+2016-17,2017-02-15,20:45,Round of 16,Real Madrid,SSC Napoli,3,1,1,1,H
+2016-17,2017-02-15,,Round of 16,Bayern München,Arsenal FC,5,1,1,1,H
+2016-17,2017-02-21,20:45,Round of 16,Manchester City,AS Monaco,5,3,1,2,H
+2016-17,2017-02-21,,Round of 16,Bayer Leverkusen,Atlético Madrid,2,4,0,2,A
+2016-17,2017-02-22,20:45,Round of 16,FC Porto,Juventus,0,2,0,0,A
+2016-17,2017-02-22,,Round of 16,Sevilla FC,Leicester City,2,1,1,0,H
+2016-17,2017-03-07,20:45,Round of 16,SSC Napoli,Real Madrid,1,3,1,0,A
+2016-17,2017-03-07,,Round of 16,Arsenal FC,Bayern München,1,5,1,0,A
+2016-17,2017-03-08,20:45,Round of 16,Borussia Dortmund,SL Benfica,4,0,1,0,H
+2016-17,2017-03-08,,Round of 16,FC Barcelona,Paris Saint-Germain,6,1,2,0,H
+2016-17,2017-03-14,20:45,Round of 16,Juventus,FC Porto,1,0,1,0,H
+2016-17,2017-03-14,,Round of 16,Leicester City,Sevilla FC,2,0,1,0,H
+2016-17,2017-03-15,20:45,Round of 16,AS Monaco,Manchester City,3,1,2,0,H
+2016-17,2017-03-15,,Round of 16,Atlético Madrid,Bayer Leverkusen,0,0,,,D
+2016-17,2017-04-11,20:45,Quarterfinals,Juventus,FC Barcelona,3,0,2,0,H
+2016-17,2017-04-12,18:45,Quarterfinals,Borussia Dortmund,AS Monaco,2,3,0,2,A
+2016-17,2017-04-12,20:45,Quarterfinals,Atlético Madrid,Leicester City,1,0,1,0,H
+2016-17,2017-04-12,,Quarterfinals,Bayern München,Real Madrid,1,2,1,0,A
+2016-17,2017-04-18,20:45,Quarterfinals,Leicester City,Atlético Madrid,1,1,0,1,D
+2016-17,2017-04-18,,Quarterfinals,Real Madrid,Bayern München,4,2,,,H
+2016-17,2017-04-19,20:45,Quarterfinals,FC Barcelona,Juventus,0,0,,,D
+2016-17,2017-04-19,20:50,Quarterfinals,AS Monaco,Borussia Dortmund,3,1,2,0,H
+2016-17,2017-05-02,20:45,Semifinals,Real Madrid,Atlético Madrid,3,0,1,0,H
+2016-17,2017-05-03,20:45,Semifinals,AS Monaco,Juventus,0,2,0,1,A
+2016-17,2017-05-09,20:45,Semifinals,Juventus,AS Monaco,2,1,2,0,H
+2016-17,2017-05-10,20:45,Semifinals,Atlético Madrid,Real Madrid,2,1,2,1,H
+2016-17,2017-06-03,20:45,Final,Juventus,Real Madrid,1,4,1,1,A
+2017-18,2017-09-12,20:45,Group A,Manchester United,FC Basel 1893,3,0,1,0,H
+2017-18,2017-09-12,,Group A,SL Benfica,CSKA Moskva,1,2,0,0,A
+2017-18,2017-09-27,20:45,Group A,FC Basel 1893,SL Benfica,5,0,2,0,H
+2017-18,2017-09-27,,Group A,CSKA Moskva,Manchester United,1,4,0,3,A
+2017-18,2017-10-18,20:45,Group A,SL Benfica,Manchester United,0,1,0,0,A
+2017-18,2017-10-18,,Group A,CSKA Moskva,FC Basel 1893,0,2,0,1,A
+2017-18,2017-10-31,20:45,Group A,Manchester United,SL Benfica,2,0,1,0,H
+2017-18,2017-10-31,,Group A,FC Basel 1893,CSKA Moskva,1,2,1,0,A
+2017-18,2017-11-22,18:00,Group A,CSKA Moskva,SL Benfica,2,0,1,0,H
+2017-18,2017-11-22,20:45,Group A,FC Basel 1893,Manchester United,1,0,0,0,H
+2017-18,2017-12-05,20:45,Group A,SL Benfica,FC Basel 1893,0,2,0,1,A
+2017-18,2017-12-05,,Group A,Manchester United,CSKA Moskva,2,1,0,1,H
+2017-18,2017-09-12,20:45,Group B,Bayern München,RSC Anderlecht,3,0,1,0,H
+2017-18,2017-09-12,,Group B,Celtic FC,Paris Saint-Germain,0,5,0,3,A
+2017-18,2017-09-27,20:45,Group B,Paris Saint-Germain,Bayern München,3,0,2,0,H
+2017-18,2017-09-27,,Group B,RSC Anderlecht,Celtic FC,0,3,0,1,A
+2017-18,2017-10-18,20:45,Group B,RSC Anderlecht,Paris Saint-Germain,0,4,0,2,A
+2017-18,2017-10-18,,Group B,Bayern München,Celtic FC,3,0,2,0,H
+2017-18,2017-10-31,20:45,Group B,Paris Saint-Germain,RSC Anderlecht,5,0,2,0,H
+2017-18,2017-10-31,,Group B,Celtic FC,Bayern München,1,2,0,1,A
+2017-18,2017-11-22,20:45,Group B,RSC Anderlecht,Bayern München,1,2,0,0,A
+2017-18,2017-11-22,,Group B,Paris Saint-Germain,Celtic FC,7,1,4,1,H
+2017-18,2017-12-05,20:45,Group B,Bayern München,Paris Saint-Germain,3,1,2,0,H
+2017-18,2017-12-05,,Group B,Celtic FC,RSC Anderlecht,0,1,0,0,A
+2017-18,2017-09-12,20:45,Group C,AS Roma,Atlético Madrid,0,0,,,D
+2017-18,2017-09-12,,Group C,Chelsea FC,Qarabağ FK,6,0,2,0,H
+2017-18,2017-09-27,18:00,Group C,Qarabağ FK,AS Roma,1,2,1,2,A
+2017-18,2017-09-27,20:45,Group C,Atlético Madrid,Chelsea FC,1,2,1,0,A
+2017-18,2017-10-18,18:00,Group C,Qarabağ FK,Atlético Madrid,0,0,,,D
+2017-18,2017-10-18,20:45,Group C,Chelsea FC,AS Roma,3,3,2,1,D
+2017-18,2017-10-31,20:45,Group C,AS Roma,Chelsea FC,3,0,2,0,H
+2017-18,2017-10-31,,Group C,Atlético Madrid,Qarabağ FK,1,1,0,1,D
+2017-18,2017-11-22,18:00,Group C,Qarabağ FK,Chelsea FC,0,4,0,2,A
+2017-18,2017-11-22,20:45,Group C,Atlético Madrid,AS Roma,2,0,0,0,H
+2017-18,2017-12-05,20:45,Group C,Chelsea FC,Atlético Madrid,1,1,0,0,D
+2017-18,2017-12-05,,Group C,AS Roma,Qarabağ FK,1,0,0,0,H
+2017-18,2017-09-12,20:45,Group D,FC Barcelona,Juventus,3,0,1,0,H
+2017-18,2017-09-12,,Group D,Olympiakos Piraeus,Sporting CP,2,3,0,3,A
+2017-18,2017-09-27,20:45,Group D,Juventus,Olympiakos Piraeus,2,0,0,0,H
+2017-18,2017-09-27,,Group D,Sporting CP,FC Barcelona,0,1,0,0,A
+2017-18,2017-10-18,20:45,Group D,FC Barcelona,Olympiakos Piraeus,3,1,1,0,H
+2017-18,2017-10-18,,Group D,Juventus,Sporting CP,2,1,1,1,H
+2017-18,2017-10-31,20:45,Group D,Olympiakos Piraeus,FC Barcelona,0,0,,,D
+2017-18,2017-10-31,,Group D,Sporting CP,Juventus,1,1,1,0,D
+2017-18,2017-11-22,20:45,Group D,Juventus,FC Barcelona,0,0,,,D
+2017-18,2017-11-22,,Group D,Sporting CP,Olympiakos Piraeus,3,1,2,0,H
+2017-18,2017-12-05,20:45,Group D,FC Barcelona,Sporting CP,2,0,0,0,H
+2017-18,2017-12-05,,Group D,Olympiakos Piraeus,Juventus,0,2,0,1,A
+2017-18,2017-09-13,20:45,Group E,Liverpool FC,Sevilla FC,2,2,2,1,D
+2017-18,2017-09-13,,Group E,NK Maribor,Spartak Moskva,1,1,0,0,D
+2017-18,2017-09-26,20:45,Group E,Spartak Moskva,Liverpool FC,1,1,1,1,D
+2017-18,2017-09-26,,Group E,Sevilla FC,NK Maribor,3,0,2,0,H
+2017-18,2017-10-17,20:45,Group E,Spartak Moskva,Sevilla FC,5,1,1,1,H
+2017-18,2017-10-17,,Group E,NK Maribor,Liverpool FC,0,7,0,4,A
+2017-18,2017-11-01,20:45,Group E,Sevilla FC,Spartak Moskva,2,1,1,0,H
+2017-18,2017-11-01,,Group E,Liverpool FC,NK Maribor,3,0,0,0,H
+2017-18,2017-11-21,18:00,Group E,Spartak Moskva,NK Maribor,1,1,0,0,D
+2017-18,2017-11-21,20:45,Group E,Sevilla FC,Liverpool FC,3,3,0,3,D
+2017-18,2017-12-06,20:45,Group E,Liverpool FC,Spartak Moskva,7,0,3,0,H
+2017-18,2017-12-06,,Group E,NK Maribor,Sevilla FC,1,1,1,0,D
+2017-18,2017-09-13,20:45,Group F,Shakhtar Donetsk,SSC Napoli,2,1,1,0,H
+2017-18,2017-09-13,,Group F,Feyenoord,Manchester City,0,4,0,3,A
+2017-18,2017-09-26,20:45,Group F,Manchester City,Shakhtar Donetsk,2,0,0,0,H
+2017-18,2017-09-26,,Group F,SSC Napoli,Feyenoord,3,1,1,0,H
+2017-18,2017-10-17,20:45,Group F,Manchester City,SSC Napoli,2,1,2,0,H
+2017-18,2017-10-17,,Group F,Feyenoord,Shakhtar Donetsk,1,2,1,1,A
+2017-18,2017-11-01,20:45,Group F,SSC Napoli,Manchester City,2,4,1,1,A
+2017-18,2017-11-01,,Group F,Shakhtar Donetsk,Feyenoord,3,1,2,1,H
+2017-18,2017-11-21,20:45,Group F,SSC Napoli,Shakhtar Donetsk,3,0,0,0,H
+2017-18,2017-11-21,,Group F,Manchester City,Feyenoord,1,0,0,0,H
+2017-18,2017-12-06,20:45,Group F,Shakhtar Donetsk,Manchester City,2,1,2,0,H
+2017-18,2017-12-06,,Group F,Feyenoord,SSC Napoli,2,1,1,1,H
+2017-18,2017-09-13,20:45,Group G,FC Porto,Beşiktaş,1,3,1,2,A
+2017-18,2017-09-13,,Group G,RB Leipzig,AS Monaco,1,1,1,1,D
+2017-18,2017-09-26,20:45,Group G,AS Monaco,FC Porto,0,3,0,1,A
+2017-18,2017-09-26,,Group G,Beşiktaş,RB Leipzig,2,0,2,0,H
+2017-18,2017-10-17,20:45,Group G,AS Monaco,Beşiktaş,1,2,1,1,A
+2017-18,2017-10-17,,Group G,RB Leipzig,FC Porto,3,2,3,2,H
+2017-18,2017-11-01,18:00,Group G,Beşiktaş,AS Monaco,1,1,0,1,D
+2017-18,2017-11-01,20:45,Group G,FC Porto,RB Leipzig,3,1,1,0,H
+2017-18,2017-11-21,18:00,Group G,Beşiktaş,FC Porto,1,1,1,1,D
+2017-18,2017-11-21,20:45,Group G,AS Monaco,RB Leipzig,1,4,1,4,A
+2017-18,2017-12-06,20:45,Group G,FC Porto,AS Monaco,5,2,3,0,H
+2017-18,2017-12-06,,Group G,RB Leipzig,Beşiktaş,1,2,0,1,A
+2017-18,2017-09-13,20:45,Group H,Tottenham Hotspur,Borussia Dortmund,3,1,2,1,H
+2017-18,2017-09-13,,Group H,Real Madrid,APOEL Nikosia,3,0,1,0,H
+2017-18,2017-09-26,20:45,Group H,Borussia Dortmund,Real Madrid,1,3,0,1,A
+2017-18,2017-09-26,,Group H,APOEL Nikosia,Tottenham Hotspur,0,3,0,1,A
+2017-18,2017-10-17,20:45,Group H,Real Madrid,Tottenham Hotspur,1,1,1,1,D
+2017-18,2017-10-17,,Group H,APOEL Nikosia,Borussia Dortmund,1,1,0,0,D
+2017-18,2017-11-01,20:45,Group H,Tottenham Hotspur,Real Madrid,3,1,1,0,H
+2017-18,2017-11-01,,Group H,Borussia Dortmund,APOEL Nikosia,1,1,1,0,D
+2017-18,2017-11-21,20:45,Group H,Borussia Dortmund,Tottenham Hotspur,1,2,1,0,A
+2017-18,2017-11-21,,Group H,APOEL Nikosia,Real Madrid,0,6,0,4,A
+2017-18,2017-12-06,20:45,Group H,Real Madrid,Borussia Dortmund,3,2,2,1,H
+2017-18,2017-12-06,,Group H,Tottenham Hotspur,APOEL Nikosia,3,0,2,0,H
+2017-18,2018-02-13,20:45,Round of 16,Juventus,Tottenham Hotspur,2,2,2,1,D
+2017-18,2018-02-13,,Round of 16,FC Basel 1893,Manchester City,0,4,0,3,A
+2017-18,2018-02-14,20:45,Round of 16,FC Porto,Liverpool FC,0,5,0,2,A
+2017-18,2018-02-14,,Round of 16,Real Madrid,Paris Saint-Germain,3,1,1,1,H
+2017-18,2018-02-20,20:45,Round of 16,Chelsea FC,FC Barcelona,1,1,0,0,D
+2017-18,2018-02-20,,Round of 16,Bayern München,Beşiktaş,5,0,1,0,H
+2017-18,2018-02-21,20:45,Round of 16,Sevilla FC,Manchester United,0,0,,,D
+2017-18,2018-02-21,,Round of 16,Shakhtar Donetsk,AS Roma,2,1,0,1,H
+2017-18,2018-03-06,20:45,Round of 16,Liverpool FC,FC Porto,0,0,,,D
+2017-18,2018-03-06,,Round of 16,Paris Saint-Germain,Real Madrid,1,2,0,0,A
+2017-18,2018-03-07,20:45,Round of 16,Tottenham Hotspur,Juventus,1,2,1,0,A
+2017-18,2018-03-07,,Round of 16,Manchester City,FC Basel 1893,1,2,1,1,A
+2017-18,2018-03-13,20:45,Round of 16,Manchester United,Sevilla FC,1,2,0,0,A
+2017-18,2018-03-13,,Round of 16,AS Roma,Shakhtar Donetsk,1,0,0,0,H
+2017-18,2018-03-14,18:00,Round of 16,Beşiktaş,Bayern München,1,3,0,1,A
+2017-18,2018-03-14,20:45,Round of 16,FC Barcelona,Chelsea FC,3,0,2,0,H
+2017-18,2018-04-03,20:45,Quarterfinals,Sevilla FC,Bayern München,1,2,1,1,A
+2017-18,2018-04-03,,Quarterfinals,Juventus,Real Madrid,0,3,0,1,A
+2017-18,2018-04-04,20:45,Quarterfinals,FC Barcelona,AS Roma,4,1,1,0,H
+2017-18,2018-04-04,,Quarterfinals,Liverpool FC,Manchester City,3,0,3,0,H
+2017-18,2018-04-10,20:45,Quarterfinals,AS Roma,FC Barcelona,3,0,1,0,H
+2017-18,2018-04-10,,Quarterfinals,Manchester City,Liverpool FC,1,2,1,0,A
+2017-18,2018-04-11,20:45,Quarterfinals,Bayern München,Sevilla FC,0,0,,,D
+2017-18,2018-04-11,,Quarterfinals,Real Madrid,Juventus,1,3,0,2,A
+2017-18,2018-04-24,20:45,Semifinals,Liverpool FC,AS Roma,5,2,2,0,H
+2017-18,2018-04-25,20:45,Semifinals,Bayern München,Real Madrid,1,2,1,1,A
+2017-18,2018-05-01,20:45,Semifinals,Real Madrid,Bayern München,2,2,1,1,D
+2017-18,2018-05-02,20:45,Semifinals,AS Roma,Liverpool FC,4,2,1,2,H
+2017-18,2018-05-26,20:45,Final,Real Madrid,Liverpool FC,3,1,0,0,H
+2018-19,2018-09-18,21:00,Group A,AS Monaco,Atlético Madrid,1,2,1,2,A
+2018-19,2018-09-18,,Group A,Club Brugge KV,Borussia Dortmund,0,1,0,0,A
+2018-19,2018-10-03,21:00,Group A,Borussia Dortmund,AS Monaco,3,0,0,0,H
+2018-19,2018-10-03,,Group A,Atlético Madrid,Club Brugge KV,3,1,1,1,H
+2018-19,2018-10-24,18:55,Group A,Club Brugge KV,AS Monaco,1,1,1,1,D
+2018-19,2018-10-24,21:00,Group A,Borussia Dortmund,Atlético Madrid,4,0,1,0,H
+2018-19,2018-11-06,18:55,Group A,AS Monaco,Club Brugge KV,0,4,0,3,A
+2018-19,2018-11-06,21:00,Group A,Atlético Madrid,Borussia Dortmund,2,0,1,0,H
+2018-19,2018-11-28,18:55,Group A,Atlético Madrid,AS Monaco,2,0,2,0,H
+2018-19,2018-11-28,21:00,Group A,Borussia Dortmund,Club Brugge KV,0,0,,,D
+2018-19,2018-12-11,21:00,Group A,AS Monaco,Borussia Dortmund,0,2,0,1,A
+2018-19,2018-12-11,,Group A,Club Brugge KV,Atlético Madrid,0,0,,,D
+2018-19,2018-09-18,18:55,Group B,FC Barcelona,PSV Eindhoven,4,0,1,0,H
+2018-19,2018-09-18,,Group B,Inter,Tottenham Hotspur,2,1,0,0,H
+2018-19,2018-10-03,21:00,Group B,Tottenham Hotspur,FC Barcelona,2,4,0,2,A
+2018-19,2018-10-03,,Group B,PSV Eindhoven,Inter,1,2,1,1,A
+2018-19,2018-10-24,18:55,Group B,PSV Eindhoven,Tottenham Hotspur,2,2,1,1,D
+2018-19,2018-10-24,21:00,Group B,FC Barcelona,Inter,2,0,1,0,H
+2018-19,2018-11-06,21:00,Group B,Tottenham Hotspur,PSV Eindhoven,2,1,0,1,H
+2018-19,2018-11-06,,Group B,Inter,FC Barcelona,1,1,0,0,D
+2018-19,2018-11-28,21:00,Group B,PSV Eindhoven,FC Barcelona,1,2,0,0,A
+2018-19,2018-11-28,,Group B,Tottenham Hotspur,Inter,1,0,0,0,H
+2018-19,2018-12-11,21:00,Group B,FC Barcelona,Tottenham Hotspur,1,1,1,0,D
+2018-19,2018-12-11,,Group B,Inter,PSV Eindhoven,1,1,0,1,D
+2018-19,2018-09-18,21:00,Group C,Liverpool FC,Paris Saint-Germain,3,2,2,1,H
+2018-19,2018-09-18,,Group C,Crvena Zvezda,SSC Napoli,0,0,,,D
+2018-19,2018-10-03,18:55,Group C,Paris Saint-Germain,Crvena Zvezda,6,1,4,0,H
+2018-19,2018-10-03,21:00,Group C,SSC Napoli,Liverpool FC,1,0,0,0,H
+2018-19,2018-10-24,21:00,Group C,Paris Saint-Germain,SSC Napoli,2,2,0,1,D
+2018-19,2018-10-24,,Group C,Liverpool FC,Crvena Zvezda,4,0,2,0,H
+2018-19,2018-11-06,18:55,Group C,Crvena Zvezda,Liverpool FC,2,0,2,0,H
+2018-19,2018-11-06,21:00,Group C,SSC Napoli,Paris Saint-Germain,1,1,0,1,D
+2018-19,2018-11-28,21:00,Group C,Paris Saint-Germain,Liverpool FC,2,1,2,1,H
+2018-19,2018-11-28,,Group C,SSC Napoli,Crvena Zvezda,3,1,2,0,H
+2018-19,2018-12-11,21:00,Group C,Liverpool FC,SSC Napoli,1,0,1,0,H
+2018-19,2018-12-11,,Group C,Crvena Zvezda,Paris Saint-Germain,1,4,0,2,A
+2018-19,2018-09-18,21:00,Group D,FC Schalke 04,FC Porto,1,1,0,0,D
+2018-19,2018-09-18,,Group D,Galatasaray,Lokomotiv Moskva,3,0,1,0,H
+2018-19,2018-10-03,18:55,Group D,Lokomotiv Moskva,FC Schalke 04,0,1,0,0,A
+2018-19,2018-10-03,21:00,Group D,FC Porto,Galatasaray,1,0,0,0,H
+2018-19,2018-10-24,21:00,Group D,Lokomotiv Moskva,FC Porto,1,3,1,2,A
+2018-19,2018-10-24,,Group D,Galatasaray,FC Schalke 04,0,0,,,D
+2018-19,2018-11-06,21:00,Group D,FC Porto,Lokomotiv Moskva,4,1,2,0,H
+2018-19,2018-11-06,,Group D,FC Schalke 04,Galatasaray,2,0,1,0,H
+2018-19,2018-11-28,18:55,Group D,Lokomotiv Moskva,Galatasaray,2,0,1,0,H
+2018-19,2018-11-28,21:00,Group D,FC Porto,FC Schalke 04,3,1,0,0,H
+2018-19,2018-12-11,18:55,Group D,FC Schalke 04,Lokomotiv Moskva,1,0,0,0,H
+2018-19,2018-12-11,,Group D,Galatasaray,FC Porto,2,3,1,2,A
+2018-19,2018-09-19,18:55,Group E,AFC Ajax,AEK Athen,3,0,0,0,H
+2018-19,2018-09-19,21:00,Group E,SL Benfica,Bayern München,0,2,0,1,A
+2018-19,2018-10-02,21:00,Group E,Bayern München,AFC Ajax,1,1,1,1,D
+2018-19,2018-10-02,,Group E,AEK Athen,SL Benfica,2,3,0,2,A
+2018-19,2018-10-23,18:55,Group E,AEK Athen,Bayern München,0,2,0,0,A
+2018-19,2018-10-23,21:00,Group E,AFC Ajax,SL Benfica,1,0,0,0,H
+2018-19,2018-11-07,21:00,Group E,SL Benfica,AFC Ajax,1,1,1,0,D
+2018-19,2018-11-07,,Group E,Bayern München,AEK Athen,2,0,1,0,H
+2018-19,2018-11-27,18:55,Group E,AEK Athen,AFC Ajax,0,2,0,0,A
+2018-19,2018-11-27,21:00,Group E,Bayern München,SL Benfica,5,1,3,0,H
+2018-19,2018-12-12,21:00,Group E,AFC Ajax,Bayern München,3,3,0,1,D
+2018-19,2018-12-12,,Group E,SL Benfica,AEK Athen,1,0,0,0,H
+2018-19,2018-09-19,18:55,Group F,Shakhtar Donetsk,1899 Hoffenheim,2,2,1,2,D
+2018-19,2018-09-19,21:00,Group F,Manchester City,Olympique Lyonnais,1,2,0,2,A
+2018-19,2018-10-02,18:55,Group F,1899 Hoffenheim,Manchester City,1,2,1,1,A
+2018-19,2018-10-02,21:00,Group F,Olympique Lyonnais,Shakhtar Donetsk,2,2,0,1,D
+2018-19,2018-10-23,21:00,Group F,Shakhtar Donetsk,Manchester City,0,3,0,2,A
+2018-19,2018-10-23,,Group F,1899 Hoffenheim,Olympique Lyonnais,3,3,1,1,D
+2018-19,2018-11-07,21:00,Group F,Manchester City,Shakhtar Donetsk,6,0,2,0,H
+2018-19,2018-11-07,,Group F,Olympique Lyonnais,1899 Hoffenheim,2,2,2,0,D
+2018-19,2018-11-27,21:00,Group F,Olympique Lyonnais,Manchester City,2,2,0,0,D
+2018-19,2018-11-27,,Group F,1899 Hoffenheim,Shakhtar Donetsk,2,3,2,2,A
+2018-19,2018-12-12,21:00,Group F,Shakhtar Donetsk,Olympique Lyonnais,1,1,1,0,D
+2018-19,2018-12-12,,Group F,Manchester City,1899 Hoffenheim,2,1,1,1,H
+2018-19,2018-09-19,21:00,Group G,Real Madrid,AS Roma,3,0,1,0,H
+2018-19,2018-09-19,,Group G,Viktoria Plzeň,CSKA Moskva,2,2,2,0,D
+2018-19,2018-10-02,21:00,Group G,CSKA Moskva,Real Madrid,1,0,1,0,H
+2018-19,2018-10-02,,Group G,AS Roma,Viktoria Plzeň,5,0,2,0,H
+2018-19,2018-10-23,21:00,Group G,AS Roma,CSKA Moskva,3,0,2,0,H
+2018-19,2018-10-23,,Group G,Real Madrid,Viktoria Plzeň,2,1,1,0,H
+2018-19,2018-11-07,18:55,Group G,CSKA Moskva,AS Roma,1,2,0,1,A
+2018-19,2018-11-07,21:00,Group G,Viktoria Plzeň,Real Madrid,0,5,0,4,A
+2018-19,2018-11-27,18:55,Group G,CSKA Moskva,Viktoria Plzeň,1,2,1,0,A
+2018-19,2018-11-27,21:00,Group G,AS Roma,Real Madrid,0,2,0,0,A
+2018-19,2018-12-12,18:55,Group G,Real Madrid,CSKA Moskva,0,3,0,2,A
+2018-19,2018-12-12,,Group G,Viktoria Plzeň,AS Roma,2,1,0,0,H
+2018-19,2018-09-19,21:00,Group H,Valencia CF,Juventus,0,2,0,1,A
+2018-19,2018-09-19,,Group H,BSC Young Boys,Manchester United,0,3,0,2,A
+2018-19,2018-10-02,18:55,Group H,Juventus,BSC Young Boys,3,0,2,0,H
+2018-19,2018-10-02,21:00,Group H,Manchester United,Valencia CF,0,0,,,D
+2018-19,2018-10-23,18:55,Group H,BSC Young Boys,Valencia CF,1,1,0,1,D
+2018-19,2018-10-23,21:00,Group H,Manchester United,Juventus,0,1,0,1,A
+2018-19,2018-11-07,18:55,Group H,Valencia CF,BSC Young Boys,3,1,2,1,H
+2018-19,2018-11-07,21:00,Group H,Juventus,Manchester United,1,2,0,0,A
+2018-19,2018-11-27,21:00,Group H,Juventus,Valencia CF,1,0,0,0,H
+2018-19,2018-11-27,,Group H,Manchester United,BSC Young Boys,1,0,0,0,H
+2018-19,2018-12-12,21:00,Group H,Valencia CF,Manchester United,2,1,1,0,H
+2018-19,2018-12-12,,Group H,BSC Young Boys,Juventus,2,1,1,0,H
+2018-19,2019-02-12,21:00,Round of 16,Manchester United,Paris Saint-Germain,0,2,0,0,A
+2018-19,2019-02-12,,Round of 16,AS Roma,FC Porto,2,1,0,0,H
+2018-19,2019-02-13,21:00,Round of 16,Tottenham Hotspur,Borussia Dortmund,3,0,0,0,H
+2018-19,2019-02-13,,Round of 16,AFC Ajax,Real Madrid,1,2,0,0,A
+2018-19,2019-02-19,21:00,Round of 16,Olympique Lyonnais,FC Barcelona,0,0,,,D
+2018-19,2019-02-19,,Round of 16,Liverpool FC,Bayern München,0,0,,,D
+2018-19,2019-02-20,21:00,Round of 16,FC Schalke 04,Manchester City,2,3,2,1,A
+2018-19,2019-02-20,,Round of 16,Atlético Madrid,Juventus,2,0,0,0,H
+2018-19,2019-03-05,21:00,Round of 16,Borussia Dortmund,Tottenham Hotspur,0,1,0,0,A
+2018-19,2019-03-05,,Round of 16,Real Madrid,AFC Ajax,1,4,0,2,A
+2018-19,2019-03-06,21:00,Round of 16,Paris Saint-Germain,Manchester United,1,3,1,2,A
+2018-19,2019-03-06,,Round of 16,FC Porto,AS Roma,3,1,,,H
+2018-19,2019-03-12,21:00,Round of 16,Manchester City,FC Schalke 04,7,0,3,0,H
+2018-19,2019-03-12,,Round of 16,Juventus,Atlético Madrid,3,0,1,0,H
+2018-19,2019-03-13,21:00,Round of 16,FC Barcelona,Olympique Lyonnais,5,1,2,0,H
+2018-19,2019-03-13,,Round of 16,Bayern München,Liverpool FC,1,3,1,1,A
+2018-19,2019-04-09,21:00,Quarterfinals,Liverpool FC,FC Porto,2,0,2,0,H
+2018-19,2019-04-09,,Quarterfinals,Tottenham Hotspur,Manchester City,1,0,0,0,H
+2018-19,2019-04-10,21:00,Quarterfinals,AFC Ajax,Juventus,1,1,0,1,D
+2018-19,2019-04-10,,Quarterfinals,Manchester United,FC Barcelona,0,1,0,1,A
+2018-19,2019-04-16,21:00,Quarterfinals,Juventus,AFC Ajax,1,2,1,1,A
+2018-19,2019-04-16,,Quarterfinals,FC Barcelona,Manchester United,3,0,2,0,H
+2018-19,2019-04-17,21:00,Quarterfinals,FC Porto,Liverpool FC,1,4,0,1,A
+2018-19,2019-04-17,,Quarterfinals,Manchester City,Tottenham Hotspur,4,3,3,2,H
+2018-19,2019-04-30,21:00,Semifinals,Tottenham Hotspur,AFC Ajax,0,1,0,1,A
+2018-19,2019-05-01,21:00,Semifinals,FC Barcelona,Liverpool FC,3,0,1,0,H
+2018-19,2019-05-07,21:00,Semifinals,Liverpool FC,FC Barcelona,4,0,1,0,H
+2018-19,2019-05-08,21:00,Semifinals,AFC Ajax,Tottenham Hotspur,2,3,2,0,A
+2018-19,2019-06-01,21:00,Final,Tottenham Hotspur,Liverpool FC,0,2,0,1,A
+2019-20,2019-09-18,18:55,Group A,Club Brugge KV,Galatasaray,0,0,,,D
+2019-20,2019-09-18,21:00,Group A,Paris Saint-Germain,Real Madrid,3,0,2,0,H
+2019-20,2019-10-01,18:55,Group A,Real Madrid,Club Brugge KV,2,2,0,2,D
+2019-20,2019-10-01,21:00,Group A,Galatasaray,Paris Saint-Germain,0,1,0,0,A
+2019-20,2019-10-22,21:00,Group A,Club Brugge KV,Paris Saint-Germain,0,5,0,1,A
+2019-20,2019-10-22,,Group A,Galatasaray,Real Madrid,0,1,0,1,A
+2019-20,2019-11-06,21:00,Group A,Paris Saint-Germain,Club Brugge KV,1,0,1,0,H
+2019-20,2019-11-06,,Group A,Real Madrid,Galatasaray,6,0,4,0,H
+2019-20,2019-11-26,18:55,Group A,Galatasaray,Club Brugge KV,1,1,1,0,D
+2019-20,2019-11-26,21:00,Group A,Real Madrid,Paris Saint-Germain,2,2,1,0,D
+2019-20,2019-12-11,21:00,Group A,Paris Saint-Germain,Galatasaray,5,0,2,0,H
+2019-20,2019-12-11,,Group A,Club Brugge KV,Real Madrid,1,3,0,0,A
+2019-20,2019-09-18,18:55,Group B,Olympiakos Piraeus,Tottenham Hotspur,2,2,1,2,D
+2019-20,2019-09-18,21:00,Group B,Bayern München,Crvena Zvezda,3,0,1,0,H
+2019-20,2019-10-01,21:00,Group B,Tottenham Hotspur,Bayern München,2,7,1,2,A
+2019-20,2019-10-01,,Group B,Crvena Zvezda,Olympiakos Piraeus,3,1,0,1,H
+2019-20,2019-10-22,21:00,Group B,Tottenham Hotspur,Crvena Zvezda,5,0,3,0,H
+2019-20,2019-10-22,,Group B,Olympiakos Piraeus,Bayern München,2,3,1,1,A
+2019-20,2019-11-06,18:55,Group B,Bayern München,Olympiakos Piraeus,2,0,0,0,H
+2019-20,2019-11-06,21:00,Group B,Crvena Zvezda,Tottenham Hotspur,0,4,0,1,A
+2019-20,2019-11-26,21:00,Group B,Tottenham Hotspur,Olympiakos Piraeus,4,2,1,2,H
+2019-20,2019-11-26,,Group B,Crvena Zvezda,Bayern München,0,6,0,1,A
+2019-20,2019-12-11,21:00,Group B,Bayern München,Tottenham Hotspur,3,1,2,1,H
+2019-20,2019-12-11,,Group B,Olympiakos Piraeus,Crvena Zvezda,1,0,0,0,H
+2019-20,2019-09-18,21:00,Group C,Shakhtar Donetsk,Manchester City,0,3,0,2,A
+2019-20,2019-09-18,,Group C,Dinamo Zagreb,Atalanta,4,0,3,0,H
+2019-20,2019-10-01,18:55,Group C,Atalanta,Shakhtar Donetsk,1,2,1,1,A
+2019-20,2019-10-01,21:00,Group C,Manchester City,Dinamo Zagreb,2,0,0,0,H
+2019-20,2019-10-22,18:55,Group C,Shakhtar Donetsk,Dinamo Zagreb,2,2,1,1,D
+2019-20,2019-10-22,21:00,Group C,Manchester City,Atalanta,5,1,2,1,H
+2019-20,2019-11-06,21:00,Group C,Dinamo Zagreb,Shakhtar Donetsk,3,3,1,1,D
+2019-20,2019-11-06,,Group C,Atalanta,Manchester City,1,1,0,1,D
+2019-20,2019-11-26,21:00,Group C,Manchester City,Shakhtar Donetsk,1,1,0,0,D
+2019-20,2019-11-26,,Group C,Atalanta,Dinamo Zagreb,2,0,1,0,H
+2019-20,2019-12-11,18:55,Group C,Shakhtar Donetsk,Atalanta,0,3,0,0,A
+2019-20,2019-12-11,,Group C,Dinamo Zagreb,Manchester City,1,4,1,1,A
+2019-20,2019-09-18,21:00,Group D,Atlético Madrid,Juventus,2,2,0,0,D
+2019-20,2019-09-18,,Group D,Bayer Leverkusen,Lokomotiv Moskva,1,2,1,2,A
+2019-20,2019-10-01,21:00,Group D,Juventus,Bayer Leverkusen,3,0,1,0,H
+2019-20,2019-10-01,,Group D,Lokomotiv Moskva,Atlético Madrid,0,2,0,0,A
+2019-20,2019-10-22,18:55,Group D,Atlético Madrid,Bayer Leverkusen,1,0,0,0,H
+2019-20,2019-10-22,21:00,Group D,Juventus,Lokomotiv Moskva,2,1,0,1,H
+2019-20,2019-11-06,18:55,Group D,Lokomotiv Moskva,Juventus,1,2,1,1,A
+2019-20,2019-11-06,21:00,Group D,Bayer Leverkusen,Atlético Madrid,2,1,1,0,H
+2019-20,2019-11-26,18:55,Group D,Lokomotiv Moskva,Bayer Leverkusen,0,2,0,1,A
+2019-20,2019-11-26,21:00,Group D,Juventus,Atlético Madrid,1,0,1,0,H
+2019-20,2019-12-11,21:00,Group D,Atlético Madrid,Lokomotiv Moskva,2,0,1,0,H
+2019-20,2019-12-11,,Group D,Bayer Leverkusen,Juventus,0,2,0,0,A
+2019-20,2019-09-17,21:00,Group E,SSC Napoli,Liverpool FC,2,0,0,0,H
+2019-20,2019-09-17,,Group E,RB Salzburg,KRC Genk,6,2,5,1,H
+2019-20,2019-10-02,18:55,Group E,KRC Genk,SSC Napoli,0,0,,,D
+2019-20,2019-10-02,21:00,Group E,Liverpool FC,RB Salzburg,4,3,3,1,H
+2019-20,2019-10-23,21:00,Group E,RB Salzburg,SSC Napoli,2,3,1,1,A
+2019-20,2019-10-23,,Group E,KRC Genk,Liverpool FC,1,4,0,1,A
+2019-20,2019-11-05,21:00,Group E,Liverpool FC,KRC Genk,2,1,1,1,H
+2019-20,2019-11-05,,Group E,SSC Napoli,RB Salzburg,1,1,1,1,D
+2019-20,2019-11-27,21:00,Group E,Liverpool FC,SSC Napoli,1,1,0,1,D
+2019-20,2019-11-27,,Group E,KRC Genk,RB Salzburg,1,4,0,2,A
+2019-20,2019-12-10,18:55,Group E,SSC Napoli,KRC Genk,4,0,3,0,H
+2019-20,2019-12-10,,Group E,RB Salzburg,Liverpool FC,0,2,0,0,A
+2019-20,2019-09-17,18:55,Group F,Inter,Slavia Praha,1,1,0,0,D
+2019-20,2019-09-17,21:00,Group F,Borussia Dortmund,FC Barcelona,0,0,,,D
+2019-20,2019-10-02,18:55,Group F,Slavia Praha,Borussia Dortmund,0,2,0,1,A
+2019-20,2019-10-02,21:00,Group F,FC Barcelona,Inter,2,1,0,1,H
+2019-20,2019-10-23,21:00,Group F,Inter,Borussia Dortmund,2,0,1,0,H
+2019-20,2019-10-23,,Group F,Slavia Praha,FC Barcelona,1,2,0,1,A
+2019-20,2019-11-05,18:55,Group F,FC Barcelona,Slavia Praha,0,0,,,D
+2019-20,2019-11-05,21:00,Group F,Borussia Dortmund,Inter,3,2,0,2,H
+2019-20,2019-11-27,21:00,Group F,FC Barcelona,Borussia Dortmund,3,1,2,0,H
+2019-20,2019-11-27,,Group F,Slavia Praha,Inter,1,3,1,1,A
+2019-20,2019-12-10,21:00,Group F,Borussia Dortmund,Slavia Praha,2,1,1,1,H
+2019-20,2019-12-10,,Group F,Inter,FC Barcelona,1,2,1,1,A
+2019-20,2019-09-17,18:55,Group G,Olympique Lyonnais,Zenit St. Petersburg,1,1,0,1,D
+2019-20,2019-09-17,21:00,Group G,SL Benfica,RB Leipzig,1,2,0,0,A
+2019-20,2019-10-02,21:00,Group G,Zenit St. Petersburg,SL Benfica,3,1,1,0,H
+2019-20,2019-10-02,,Group G,RB Leipzig,Olympique Lyonnais,0,2,0,1,A
+2019-20,2019-10-23,18:55,Group G,RB Leipzig,Zenit St. Petersburg,2,1,0,1,H
+2019-20,2019-10-23,21:00,Group G,SL Benfica,Olympique Lyonnais,2,1,1,0,H
+2019-20,2019-11-05,18:55,Group G,Zenit St. Petersburg,RB Leipzig,0,2,0,1,A
+2019-20,2019-11-05,21:00,Group G,Olympique Lyonnais,SL Benfica,3,1,2,0,H
+2019-20,2019-11-27,18:55,Group G,Zenit St. Petersburg,Olympique Lyonnais,2,0,1,0,H
+2019-20,2019-11-27,21:00,Group G,RB Leipzig,SL Benfica,2,2,0,1,D
+2019-20,2019-12-10,21:00,Group G,SL Benfica,Zenit St. Petersburg,3,0,0,0,H
+2019-20,2019-12-10,,Group G,Olympique Lyonnais,RB Leipzig,2,2,0,2,D
+2019-20,2019-09-17,21:00,Group H,Chelsea FC,Valencia CF,0,1,0,0,A
+2019-20,2019-09-17,,Group H,AFC Ajax,Lille OSC,3,0,1,0,H
+2019-20,2019-10-02,21:00,Group H,Valencia CF,AFC Ajax,0,3,0,2,A
+2019-20,2019-10-02,,Group H,Lille OSC,Chelsea FC,1,2,1,1,A
+2019-20,2019-10-23,18:55,Group H,AFC Ajax,Chelsea FC,0,1,0,0,A
+2019-20,2019-10-23,21:00,Group H,Lille OSC,Valencia CF,1,1,0,0,D
+2019-20,2019-11-05,21:00,Group H,Chelsea FC,AFC Ajax,4,4,1,3,D
+2019-20,2019-11-05,,Group H,Valencia CF,Lille OSC,4,1,0,1,H
+2019-20,2019-11-27,18:55,Group H,Valencia CF,Chelsea FC,2,2,1,1,D
+2019-20,2019-11-27,21:00,Group H,Lille OSC,AFC Ajax,0,2,0,1,A
+2019-20,2019-12-10,21:00,Group H,Chelsea FC,Lille OSC,2,1,2,0,H
+2019-20,2019-12-10,,Group H,AFC Ajax,Valencia CF,0,1,0,1,A
+2019-20,2020-02-18,21:00,Round of 16,Borussia Dortmund,Paris Saint-Germain,2,1,0,0,H
+2019-20,2020-02-18,,Round of 16,Atlético Madrid,Liverpool FC,1,0,1,0,H
+2019-20,2020-02-19,21:00,Round of 16,Atalanta,Valencia CF,4,1,2,0,H
+2019-20,2020-02-19,,Round of 16,Tottenham Hotspur,RB Leipzig,0,1,0,0,A
+2019-20,2020-02-25,21:00,Round of 16,Chelsea FC,Bayern München,0,3,0,0,A
+2019-20,2020-02-25,,Round of 16,SSC Napoli,FC Barcelona,1,1,1,0,D
+2019-20,2020-02-26,21:00,Round of 16,Real Madrid,Manchester City,1,2,0,0,A
+2019-20,2020-02-26,,Round of 16,Olympique Lyonnais,Juventus,1,0,1,0,H
+2019-20,2020-03-10,21:00,Round of 16,Valencia CF,Atalanta,3,4,1,2,A
+2019-20,2020-03-10,,Round of 16,RB Leipzig,Tottenham Hotspur,3,0,2,0,H
+2019-20,2020-03-11,21:00,Round of 16,Paris Saint-Germain,Borussia Dortmund,2,0,2,0,H
+2019-20,2020-03-11,,Round of 16,Liverpool FC,Atlético Madrid,2,3,,,A
+2019-20,2019-08-07,21:00,Round of 16,Manchester City,Real Madrid,2,1,1,1,H
+2019-20,2019-08-07,,Round of 16,Juventus,Olympique Lyonnais,2,1,1,1,H
+2019-20,2019-08-08,21:00,Round of 16,Bayern München,Chelsea FC,4,1,2,1,H
+2019-20,2019-08-08,,Round of 16,FC Barcelona,SSC Napoli,3,1,3,1,H
+2019-20,2019-08-12,21:00,Quarterfinals,Atalanta,Paris Saint-Germain,1,2,1,0,A
+2019-20,2019-08-13,21:00,Quarterfinals,RB Leipzig,Atlético Madrid,2,1,0,0,H
+2019-20,2019-08-14,21:00,Quarterfinals,FC Barcelona,Bayern München,2,8,1,4,A
+2019-20,2019-08-15,21:00,Quarterfinals,Manchester City,Olympique Lyonnais,1,3,0,1,A
+2019-20,2019-08-18,21:00,Semifinals,RB Leipzig,Paris Saint-Germain,0,3,0,2,A
+2019-20,2019-08-19,21:00,Semifinals,Olympique Lyonnais,Bayern München,0,3,0,2,A
+2019-20,2019-08-23,21:00,Final,Paris Saint-Germain,Bayern München,0,1,0,0,A
+2020-21,2020-10-21,18:55,Group A,RB Salzburg,Lokomotiv Moskva,2,2,1,1,D
+2020-21,2020-10-21,21:00,Group A,Bayern München,Atlético Madrid,4,0,2,0,H
+2020-21,2020-10-27,18:55,Group A,Lokomotiv Moskva,Bayern München,1,2,0,1,A
+2020-21,2020-10-27,21:00,Group A,Atlético Madrid,RB Salzburg,3,2,1,1,H
+2020-21,2020-11-03,18:55,Group A,Lokomotiv Moskva,Atlético Madrid,1,1,1,1,D
+2020-21,2020-11-03,21:00,Group A,RB Salzburg,Bayern München,2,6,1,2,A
+2020-21,2020-11-25,21:00,Group A,Atlético Madrid,Lokomotiv Moskva,0,0,,,D
+2020-21,2020-11-25,,Group A,Bayern München,RB Salzburg,3,1,1,0,H
+2020-21,2020-12-01,18:55,Group A,Lokomotiv Moskva,RB Salzburg,1,3,0,2,A
+2020-21,2020-12-01,21:00,Group A,Atlético Madrid,Bayern München,1,1,1,0,D
+2020-21,2020-12-09,21:00,Group A,Bayern München,Lokomotiv Moskva,2,0,0,0,H
+2020-21,2020-12-09,,Group A,RB Salzburg,Atlético Madrid,0,2,0,1,A
+2020-21,2020-10-21,18:55,Group B,Real Madrid,Shakhtar Donetsk,2,3,0,3,A
+2020-21,2020-10-21,21:00,Group B,Inter,Bor. Mönchengladbach,2,2,0,0,D
+2020-21,2020-10-27,18:55,Group B,Shakhtar Donetsk,Inter,0,0,,,D
+2020-21,2020-10-27,21:00,Group B,Bor. Mönchengladbach,Real Madrid,2,2,1,0,D
+2020-21,2020-11-03,18:55,Group B,Shakhtar Donetsk,Bor. Mönchengladbach,0,6,0,4,A
+2020-21,2020-11-03,21:00,Group B,Real Madrid,Inter,3,2,2,1,H
+2020-21,2020-11-25,18:55,Group B,Bor. Mönchengladbach,Shakhtar Donetsk,4,0,3,0,H
+2020-21,2020-11-25,21:00,Group B,Inter,Real Madrid,0,2,0,1,A
+2020-21,2020-12-01,18:55,Group B,Shakhtar Donetsk,Real Madrid,2,0,0,0,H
+2020-21,2020-12-01,21:00,Group B,Bor. Mönchengladbach,Inter,2,3,1,1,A
+2020-21,2020-12-09,21:00,Group B,Inter,Shakhtar Donetsk,0,0,,,D
+2020-21,2020-12-09,,Group B,Real Madrid,Bor. Mönchengladbach,2,0,2,0,H
+2020-21,2020-10-21,21:00,Group C,Manchester City,FC Porto,3,1,1,1,H
+2020-21,2020-10-21,,Group C,Olympiakos Piraeus,Olympique Marseille,1,0,0,0,H
+2020-21,2020-10-27,21:00,Group C,FC Porto,Olympiakos Piraeus,2,0,1,0,H
+2020-21,2020-10-27,,Group C,Olympique Marseille,Manchester City,0,3,0,1,A
+2020-21,2020-11-03,21:00,Group C,FC Porto,Olympique Marseille,3,0,2,0,H
+2020-21,2020-11-03,,Group C,Manchester City,Olympiakos Piraeus,3,0,1,0,H
+2020-21,2020-11-25,18:55,Group C,Olympiakos Piraeus,Manchester City,0,1,0,1,A
+2020-21,2020-11-25,21:00,Group C,Olympique Marseille,FC Porto,0,2,0,1,A
+2020-21,2020-12-01,21:00,Group C,FC Porto,Manchester City,0,0,,,D
+2020-21,2020-12-01,,Group C,Olympique Marseille,Olympiakos Piraeus,2,1,0,1,H
+2020-21,2020-12-09,21:00,Group C,Manchester City,Olympique Marseille,3,0,0,0,H
+2020-21,2020-12-09,,Group C,Olympiakos Piraeus,FC Porto,0,2,0,1,A
+2020-21,2020-10-21,21:00,Group D,AFC Ajax,Liverpool FC,0,1,0,1,A
+2020-21,2020-10-21,,Group D,FC Midtjylland,Atalanta,0,4,0,3,A
+2020-21,2020-10-27,21:00,Group D,Atalanta,AFC Ajax,2,2,0,2,D
+2020-21,2020-10-27,,Group D,Liverpool FC,FC Midtjylland,2,0,0,0,H
+2020-21,2020-11-03,21:00,Group D,Atalanta,Liverpool FC,0,5,0,2,A
+2020-21,2020-11-03,,Group D,FC Midtjylland,AFC Ajax,1,2,1,2,A
+2020-21,2020-11-25,21:00,Group D,AFC Ajax,FC Midtjylland,3,1,0,0,H
+2020-21,2020-11-25,,Group D,Liverpool FC,Atalanta,0,2,0,0,A
+2020-21,2020-12-01,21:00,Group D,Atalanta,FC Midtjylland,1,1,0,1,D
+2020-21,2020-12-01,,Group D,Liverpool FC,AFC Ajax,1,0,0,0,H
+2020-21,2020-12-09,18:55,Group D,AFC Ajax,Atalanta,0,1,0,0,A
+2020-21,2020-12-09,,Group D,FC Midtjylland,Liverpool FC,1,1,0,1,D
+2020-21,2020-10-20,21:00,Group E,Chelsea FC,Sevilla FC,0,0,,,D
+2020-21,2020-10-20,,Group E,Stade Rennais,FK Krasnodar,1,1,0,0,D
+2020-21,2020-10-28,18:55,Group E,FK Krasnodar,Chelsea FC,0,4,0,1,A
+2020-21,2020-10-28,21:00,Group E,Sevilla FC,Stade Rennais,1,0,0,0,H
+2020-21,2020-11-04,21:00,Group E,Chelsea FC,Stade Rennais,3,0,2,0,H
+2020-21,2020-11-04,,Group E,Sevilla FC,FK Krasnodar,3,2,1,2,H
+2020-21,2020-11-24,18:55,Group E,Stade Rennais,Chelsea FC,1,2,0,1,A
+2020-21,2020-11-24,,Group E,FK Krasnodar,Sevilla FC,1,2,0,1,A
+2020-21,2020-12-02,18:55,Group E,FK Krasnodar,Stade Rennais,1,0,0,0,H
+2020-21,2020-12-02,21:00,Group E,Sevilla FC,Chelsea FC,0,4,0,1,A
+2020-21,2020-12-08,21:00,Group E,Chelsea FC,FK Krasnodar,1,1,1,1,D
+2020-21,2020-12-08,,Group E,Stade Rennais,Sevilla FC,1,3,0,2,A
+2020-21,2020-10-20,18:55,Group F,Zenit St. Petersburg,Club Brugge KV,1,2,0,0,A
+2020-21,2020-10-20,21:00,Group F,Lazio Roma,Borussia Dortmund,3,1,2,0,H
+2020-21,2020-10-28,21:00,Group F,Borussia Dortmund,Zenit St. Petersburg,2,0,0,0,H
+2020-21,2020-10-28,,Group F,Club Brugge KV,Lazio Roma,1,1,1,1,D
+2020-21,2020-11-04,18:55,Group F,Zenit St. Petersburg,Lazio Roma,1,1,1,0,D
+2020-21,2020-11-04,21:00,Group F,Club Brugge KV,Borussia Dortmund,0,3,0,3,A
+2020-21,2020-11-24,21:00,Group F,Borussia Dortmund,Club Brugge KV,3,0,2,0,H
+2020-21,2020-11-24,,Group F,Lazio Roma,Zenit St. Petersburg,3,1,2,1,H
+2020-21,2020-12-02,21:00,Group F,Borussia Dortmund,Lazio Roma,1,1,1,0,D
+2020-21,2020-12-02,,Group F,Club Brugge KV,Zenit St. Petersburg,3,0,1,0,H
+2020-21,2020-12-08,18:55,Group F,Zenit St. Petersburg,Borussia Dortmund,1,2,1,0,A
+2020-21,2020-12-08,,Group F,Lazio Roma,Club Brugge KV,2,2,2,1,D
+2020-21,2020-10-20,18:55,Gruppe G,Dinamo Kiev,Juventus,0,2,0,0,A
+2020-21,2020-10-20,21:00,Gruppe G,FC Barcelona,Ferencvárosi TC,5,1,2,0,H
+2020-21,2020-10-28,21:00,Gruppe G,Ferencvárosi TC,Dinamo Kiev,2,2,0,2,D
+2020-21,2020-10-28,,Gruppe G,Juventus,FC Barcelona,0,2,0,1,A
+2020-21,2020-11-04,21:00,Gruppe G,FC Barcelona,Dinamo Kiev,2,1,1,0,H
+2020-21,2020-11-04,,Gruppe G,Ferencvárosi TC,Juventus,1,4,0,1,A
+2020-21,2020-11-24,21:00,Gruppe G,Dinamo Kiev,FC Barcelona,0,4,0,0,A
+2020-21,2020-11-24,,Gruppe G,Juventus,Ferencvárosi TC,2,1,1,1,H
+2020-21,2020-12-02,21:00,Gruppe G,Juventus,Dinamo Kiev,3,0,1,0,H
+2020-21,2020-12-02,,Gruppe G,Ferencvárosi TC,FC Barcelona,0,3,0,3,A
+2020-21,2020-12-08,21:00,Gruppe G,Dinamo Kiev,Ferencvárosi TC,1,0,0,0,H
+2020-21,2020-12-08,,Gruppe G,FC Barcelona,Juventus,0,3,0,2,A
+2020-21,2020-10-20,21:00,Gruppe H,RB Leipzig,İstanbul Başakşehir,2,0,2,0,H
+2020-21,2020-10-20,,Gruppe H,Paris Saint-Germain,Manchester United,1,2,0,1,A
+2020-21,2020-10-28,18:55,Gruppe H,İstanbul Başakşehir,Paris Saint-Germain,0,2,0,0,A
+2020-21,2020-10-28,21:00,Gruppe H,Manchester United,RB Leipzig,5,0,1,0,H
+2020-21,2020-11-04,18:55,Gruppe H,İstanbul Başakşehir,Manchester United,2,1,2,1,H
+2020-21,2020-11-04,21:00,Gruppe H,RB Leipzig,Paris Saint-Germain,2,1,1,1,H
+2020-21,2020-11-24,21:00,Gruppe H,Manchester United,İstanbul Başakşehir,4,1,3,0,H
+2020-21,2020-11-24,,Gruppe H,Paris Saint-Germain,RB Leipzig,1,0,1,0,H
+2020-21,2020-12-02,18:55,Gruppe H,İstanbul Başakşehir,RB Leipzig,3,4,1,2,A
+2020-21,2020-12-02,21:00,Gruppe H,Manchester United,Paris Saint-Germain,1,3,1,1,A
+2020-21,2020-12-08,21:00,Gruppe H,RB Leipzig,Manchester United,3,2,2,0,H
+2020-21,2020-12-09,18:55,Gruppe H,Paris Saint-Germain,İstanbul Başakşehir,5,1,3,0,H
+2020-21,2021-02-16,21:00,Round of 16,RB Leipzig,Liverpool FC,0,2,0,0,A
+2020-21,2021-02-16,,Round of 16,FC Barcelona,Paris Saint-Germain,1,4,1,1,A
+2020-21,2021-02-17,21:00,Round of 16,FC Porto,Juventus,2,1,1,0,H
+2020-21,2021-02-17,,Round of 16,Sevilla FC,Borussia Dortmund,2,3,1,3,A
+2020-21,2021-02-23,21:00,Round of 16,Lazio Roma,Bayern München,1,4,0,3,A
+2020-21,2021-02-23,,Round of 16,Atlético Madrid,Chelsea FC,0,1,0,0,A
+2020-21,2021-02-24,21:00,Round of 16,Bor. Mönchengladbach,Manchester City,0,2,0,1,A
+2020-21,2021-02-24,,Round of 16,Atalanta,Real Madrid,0,1,0,0,A
+2020-21,2021-03-09,21:00,Round of 16,Juventus,FC Porto,3,2,,,H
+2020-21,2021-03-09,,Round of 16,Borussia Dortmund,Sevilla FC,2,2,1,0,D
+2020-21,2021-03-10,21:00,Round of 16,Liverpool FC,RB Leipzig,2,0,0,0,H
+2020-21,2021-03-10,,Round of 16,Paris Saint-Germain,FC Barcelona,1,1,1,1,D
+2020-21,2021-03-16,21:00,Round of 16,Manchester City,Bor. Mönchengladbach,2,0,2,0,H
+2020-21,2021-03-16,,Round of 16,Real Madrid,Atalanta,3,1,1,0,H
+2020-21,2021-03-17,21:00,Round of 16,Bayern München,Lazio Roma,2,1,1,0,H
+2020-21,2021-03-17,,Round of 16,Chelsea FC,Atlético Madrid,2,0,1,0,H
+2020-21,2021-04-06,21:00,Quarterfinals,Manchester City,Borussia Dortmund,2,1,1,0,H
+2020-21,2021-04-06,,Quarterfinals,Real Madrid,Liverpool FC,3,1,2,0,H
+2020-21,2021-04-07,21:00,Quarterfinals,FC Porto,Chelsea FC,0,2,0,1,A
+2020-21,2021-04-07,,Quarterfinals,Bayern München,Paris Saint-Germain,2,3,1,2,A
+2020-21,2021-04-13,21:00,Quarterfinals,Chelsea FC,FC Porto,0,1,0,0,A
+2020-21,2021-04-13,,Quarterfinals,Paris Saint-Germain,Bayern München,0,1,0,1,A
+2020-21,2021-04-14,21:00,Quarterfinals,Borussia Dortmund,Manchester City,1,2,1,0,A
+2020-21,2021-04-14,,Quarterfinals,Liverpool FC,Real Madrid,0,0,,,D
+2020-21,2021-04-27,21:00,Semifinals,Real Madrid,Chelsea FC,1,1,1,1,D
+2020-21,2021-04-28,21:00,Semifinals,Paris Saint-Germain,Manchester City,1,2,1,0,A
+2020-21,2021-05-04,21:00,Semifinals,Manchester City,Paris Saint-Germain,2,0,1,0,H
+2020-21,2021-05-05,21:00,Semifinals,Chelsea FC,Real Madrid,2,0,1,0,H
+2020-21,2021-05-29,21:00,Final,Manchester City,Chelsea FC,0,1,0,1,A
+2021-22,2021-09-15,21:00,Group A,Manchester City,RB Leipzig,6,3,3,1,H
+2021-22,2021-09-15,,Group A,Club Brugge KV,Paris Saint-Germain,1,1,1,1,D
+2021-22,2021-09-28,21:00,Group A,Paris Saint-Germain,Manchester City,2,0,1,0,H
+2021-22,2021-09-28,,Group A,RB Leipzig,Club Brugge KV,1,2,1,2,A
+2021-22,2021-10-19,18:45,Group A,Club Brugge KV,Manchester City,1,5,0,2,A
+2021-22,2021-10-19,21:00,Group A,Paris Saint-Germain,RB Leipzig,3,2,1,1,H
+2021-22,2021-11-03,21:00,Group A,RB Leipzig,Paris Saint-Germain,2,2,1,2,D
+2021-22,2021-11-03,,Group A,Manchester City,Club Brugge KV,4,1,1,1,H
+2021-22,2021-11-24,21:00,Group A,Manchester City,Paris Saint-Germain,2,1,0,0,H
+2021-22,2021-11-24,,Group A,Club Brugge KV,RB Leipzig,0,5,0,4,A
+2021-22,2021-12-07,18:45,Group A,RB Leipzig,Manchester City,2,1,1,0,H
+2021-22,2021-12-07,,Group A,Paris Saint-Germain,Club Brugge KV,4,1,3,0,H
+2021-22,2021-09-15,21:00,Group B,Atlético Madrid,FC Porto,0,0,,,D
+2021-22,2021-09-15,,Group B,Liverpool FC,AC Milan,3,2,1,2,H
+2021-22,2021-09-28,21:00,Group B,FC Porto,Liverpool FC,1,5,0,2,A
+2021-22,2021-09-28,,Group B,AC Milan,Atlético Madrid,1,2,1,0,A
+2021-22,2021-10-19,21:00,Group B,Atlético Madrid,Liverpool FC,2,3,2,2,A
+2021-22,2021-10-19,,Group B,FC Porto,AC Milan,1,0,0,0,H
+2021-22,2021-11-03,18:45,Group B,AC Milan,FC Porto,1,1,0,1,D
+2021-22,2021-11-03,21:00,Group B,Liverpool FC,Atlético Madrid,2,0,2,0,H
+2021-22,2021-11-24,21:00,Group B,Liverpool FC,FC Porto,2,0,0,0,H
+2021-22,2021-11-24,,Group B,Atlético Madrid,AC Milan,0,1,0,0,A
+2021-22,2021-12-07,21:00,Group B,FC Porto,Atlético Madrid,1,3,0,0,A
+2021-22,2021-12-07,,Group B,AC Milan,Liverpool FC,1,2,1,1,A
+2021-22,2021-09-15,18:45,Group C,Beşiktaş,Borussia Dortmund,1,2,0,2,A
+2021-22,2021-09-15,21:00,Group C,Sporting CP,AFC Ajax,1,5,1,3,A
+2021-22,2021-09-28,18:45,Group C,AFC Ajax,Beşiktaş,2,0,2,0,H
+2021-22,2021-09-28,21:00,Group C,Borussia Dortmund,Sporting CP,1,0,1,0,H
+2021-22,2021-10-19,18:45,Group C,Beşiktaş,Sporting CP,1,4,1,3,A
+2021-22,2021-10-19,21:00,Group C,AFC Ajax,Borussia Dortmund,4,0,2,0,H
+2021-22,2021-11-03,21:00,Group C,Borussia Dortmund,AFC Ajax,1,3,1,0,A
+2021-22,2021-11-03,,Group C,Sporting CP,Beşiktaş,4,0,3,0,H
+2021-22,2021-11-24,18:45,Group C,Beşiktaş,AFC Ajax,1,2,1,0,A
+2021-22,2021-11-24,21:00,Group C,Sporting CP,Borussia Dortmund,3,1,2,0,H
+2021-22,2021-12-07,21:00,Group C,AFC Ajax,Sporting CP,4,2,2,1,H
+2021-22,2021-12-07,,Group C,Borussia Dortmund,Beşiktaş,5,0,2,0,H
+2021-22,2021-09-15,18:45,Group D,FC Sheriff,Shakhtar Donetsk,2,0,1,0,H
+2021-22,2021-09-15,21:00,Group D,Inter,Real Madrid,0,1,0,0,A
+2021-22,2021-09-28,18:45,Group D,Shakhtar Donetsk,Inter,0,0,,,D
+2021-22,2021-09-28,21:00,Group D,Real Madrid,FC Sheriff,1,2,0,1,A
+2021-22,2021-10-19,21:00,Group D,Shakhtar Donetsk,Real Madrid,0,5,0,1,A
+2021-22,2021-10-19,,Group D,Inter,FC Sheriff,3,1,1,0,H
+2021-22,2021-11-03,18:45,Group D,Real Madrid,Shakhtar Donetsk,2,1,1,1,H
+2021-22,2021-11-03,21:00,Group D,FC Sheriff,Inter,1,3,0,0,A
+2021-22,2021-11-24,18:45,Group D,Inter,Shakhtar Donetsk,2,0,0,0,H
+2021-22,2021-11-24,21:00,Group D,FC Sheriff,Real Madrid,0,3,0,2,A
+2021-22,2021-12-07,21:00,Group D,Real Madrid,Inter,2,0,1,0,H
+2021-22,2021-12-07,,Group D,Shakhtar Donetsk,FC Sheriff,1,1,1,0,D
+2021-22,2021-09-14,21:00,Group E,FC Barcelona,Bayern München,0,3,0,1,A
+2021-22,2021-09-14,,Group E,Dinamo Kiev,SL Benfica,0,0,,,D
+2021-22,2021-09-29,21:00,Group E,SL Benfica,FC Barcelona,3,0,1,0,H
+2021-22,2021-09-29,,Group E,Bayern München,Dinamo Kiev,5,0,2,0,H
+2021-22,2021-10-20,18:45,Group E,FC Barcelona,Dinamo Kiev,1,0,1,0,H
+2021-22,2021-10-20,21:00,Group E,SL Benfica,Bayern München,0,4,0,0,A
+2021-22,2021-11-02,21:00,Group E,Bayern München,SL Benfica,5,2,2,1,H
+2021-22,2021-11-02,,Group E,Dinamo Kiev,FC Barcelona,0,1,0,0,A
+2021-22,2021-11-23,18:45,Group E,Dinamo Kiev,Bayern München,1,2,0,2,A
+2021-22,2021-11-23,21:00,Group E,FC Barcelona,SL Benfica,0,0,,,D
+2021-22,2021-12-08,21:00,Group E,Bayern München,FC Barcelona,3,0,2,0,H
+2021-22,2021-12-08,,Group E,SL Benfica,Dinamo Kiev,2,0,2,0,H
+2021-22,2021-09-14,18:45,Group F,BSC Young Boys,Manchester United,2,1,0,1,H
+2021-22,2021-09-14,21:00,Group F,Villarreal CF,Atalanta,2,2,1,1,D
+2021-22,2021-09-29,18:45,Group F,Atalanta,BSC Young Boys,1,0,0,0,H
+2021-22,2021-09-29,21:00,Group F,Manchester United,Villarreal CF,2,1,0,0,H
+2021-22,2021-10-20,21:00,Group F,Manchester United,Atalanta,3,2,0,2,H
+2021-22,2021-10-20,,Group F,BSC Young Boys,Villarreal CF,1,4,0,2,A
+2021-22,2021-11-02,21:00,Group F,Atalanta,Manchester United,2,2,1,1,D
+2021-22,2021-11-02,,Group F,Villarreal CF,BSC Young Boys,2,0,1,0,H
+2021-22,2021-11-23,18:45,Group F,Villarreal CF,Manchester United,0,2,0,0,A
+2021-22,2021-11-23,21:00,Group F,BSC Young Boys,Atalanta,3,3,1,1,D
+2021-22,2021-12-08,21:00,Group F,Manchester United,BSC Young Boys,1,1,1,1,D
+2021-22,2021-12-09,19:00,Group F,Atalanta,Villarreal CF,2,3,0,2,A
+2021-22,2021-09-14,18:45,Gruppe G,Sevilla FC,RB Salzburg,1,1,1,1,D
+2021-22,2021-09-14,21:00,Gruppe G,Lille OSC,VfL Wolfsburg,0,0,,,D
+2021-22,2021-09-29,21:00,Gruppe G,RB Salzburg,Lille OSC,2,1,1,0,H
+2021-22,2021-09-29,,Gruppe G,VfL Wolfsburg,Sevilla FC,1,1,0,0,D
+2021-22,2021-10-20,18:45,Gruppe G,RB Salzburg,VfL Wolfsburg,3,1,1,1,H
+2021-22,2021-10-20,21:00,Gruppe G,Lille OSC,Sevilla FC,0,0,,,D
+2021-22,2021-11-02,18:45,Gruppe G,VfL Wolfsburg,RB Salzburg,2,1,1,1,H
+2021-22,2021-11-02,21:00,Gruppe G,Sevilla FC,Lille OSC,1,2,1,1,A
+2021-22,2021-11-23,21:00,Gruppe G,Lille OSC,RB Salzburg,1,0,1,0,H
+2021-22,2021-11-23,,Gruppe G,Sevilla FC,VfL Wolfsburg,2,0,1,0,H
+2021-22,2021-12-08,21:00,Gruppe G,RB Salzburg,Sevilla FC,1,0,0,0,H
+2021-22,2021-12-08,,Gruppe G,VfL Wolfsburg,Lille OSC,1,3,0,1,A
+2021-22,2021-09-14,21:00,Gruppe H,Chelsea FC,Zenit St. Petersburg,1,0,0,0,H
+2021-22,2021-09-14,,Gruppe H,Malmö FF,Juventus,0,3,0,3,A
+2021-22,2021-09-29,18:45,Gruppe H,Zenit St. Petersburg,Malmö FF,4,0,1,0,H
+2021-22,2021-09-29,21:00,Gruppe H,Juventus,Chelsea FC,1,0,0,0,H
+2021-22,2021-10-20,21:00,Gruppe H,Zenit St. Petersburg,Juventus,0,1,0,0,A
+2021-22,2021-10-20,,Gruppe H,Chelsea FC,Malmö FF,4,0,2,0,H
+2021-22,2021-11-02,18:45,Gruppe H,Malmö FF,Chelsea FC,0,1,0,0,A
+2021-22,2021-11-02,21:00,Gruppe H,Juventus,Zenit St. Petersburg,4,2,1,1,H
+2021-22,2021-11-23,21:00,Gruppe H,Chelsea FC,Juventus,4,0,1,0,H
+2021-22,2021-11-23,,Gruppe H,Malmö FF,Zenit St. Petersburg,1,1,1,0,D
+2021-22,2021-12-08,18:45,Gruppe H,Zenit St. Petersburg,Chelsea FC,3,3,2,1,D
+2021-22,2021-12-08,,Gruppe H,Juventus,Malmö FF,1,0,1,0,H
+2021-22,2022-02-15,21:00,Round of 16,Sporting CP,Manchester City,0,5,0,4,A
+2021-22,2022-02-15,,Round of 16,Paris Saint-Germain,Real Madrid,1,0,0,0,H
+2021-22,2022-02-16,21:00,Round of 16,RB Salzburg,Bayern München,1,1,1,0,D
+2021-22,2022-02-16,,Round of 16,Inter,Liverpool FC,0,2,0,0,A
+2021-22,2022-02-22,21:00,Round of 16,Chelsea FC,Lille OSC,2,0,1,0,H
+2021-22,2022-02-22,,Round of 16,Villarreal CF,Juventus,1,1,0,1,D
+2021-22,2022-02-23,21:00,Round of 16,SL Benfica,AFC Ajax,2,2,1,2,D
+2021-22,2022-02-23,,Round of 16,Atlético Madrid,Manchester United,1,1,1,0,D
+2021-22,2022-03-08,21:00,Round of 16,Bayern München,RB Salzburg,7,1,4,0,H
+2021-22,2022-03-08,,Round of 16,Liverpool FC,Inter,0,1,0,0,A
+2021-22,2022-03-09,21:00,Round of 16,Manchester City,Sporting CP,0,0,,,D
+2021-22,2022-03-09,,Round of 16,Real Madrid,Paris Saint-Germain,3,1,0,1,H
+2021-22,2022-03-15,21:00,Round of 16,AFC Ajax,SL Benfica,0,1,0,0,A
+2021-22,2022-03-15,,Round of 16,Manchester United,Atlético Madrid,0,1,0,1,A
+2021-22,2022-03-16,21:00,Round of 16,Lille OSC,Chelsea FC,1,2,1,1,A
+2021-22,2022-03-16,,Round of 16,Juventus,Villarreal CF,0,3,0,0,A
+2021-22,2022-04-05,21:00,Quarterfinals,Manchester City,Atlético Madrid,1,0,0,0,H
+2021-22,2022-04-05,,Quarterfinals,SL Benfica,Liverpool FC,1,3,0,2,A
+2021-22,2022-04-06,21:00,Quarterfinals,Chelsea FC,Real Madrid,1,3,1,2,A
+2021-22,2022-04-06,,Quarterfinals,Villarreal CF,Bayern München,1,0,1,0,H
+2021-22,2022-04-12,21:00,Quarterfinals,Real Madrid,Chelsea FC,2,3,,,A
+2021-22,2022-04-12,,Quarterfinals,Bayern München,Villarreal CF,1,1,0,0,D
+2021-22,2022-04-13,21:00,Quarterfinals,Atlético Madrid,Manchester City,0,0,,,D
+2021-22,2022-04-13,,Quarterfinals,Liverpool FC,SL Benfica,3,3,1,1,D
+2021-22,2022-04-26,21:00,Semifinals,Manchester City,Real Madrid,4,3,2,1,H
+2021-22,2022-04-27,21:00,Semifinals,Liverpool FC,Villarreal CF,2,0,0,0,H
+2021-22,2022-05-03,21:00,Semifinals,Villarreal CF,Liverpool FC,2,3,2,0,A
+2021-22,2022-05-04,21:00,Semifinals,Real Madrid,Manchester City,3,1,,,H
+2021-22,2022-05-28,21:35,Final,Liverpool FC,Real Madrid,0,1,0,0,A
+2022-23,2022-09-07,18:45,Group A,AFC Ajax,Rangers FC,4,0,3,0,H
+2022-23,2022-09-07,21:00,Group A,SSC Napoli,Liverpool FC,4,1,3,0,H
+2022-23,2022-09-13,21:00,Group A,Liverpool FC,AFC Ajax,2,1,1,1,H
+2022-23,2022-09-14,21:00,Group A,Rangers FC,SSC Napoli,0,3,0,0,A
+2022-23,2022-10-04,21:00,Group A,AFC Ajax,SSC Napoli,1,6,1,3,A
+2022-23,2022-10-04,,Group A,Liverpool FC,Rangers FC,2,0,1,0,H
+2022-23,2022-10-12,18:45,Group A,SSC Napoli,AFC Ajax,4,2,2,0,H
+2022-23,2022-10-12,21:00,Group A,Rangers FC,Liverpool FC,1,7,1,1,A
+2022-23,2022-10-26,21:00,Group A,AFC Ajax,Liverpool FC,0,3,0,1,A
+2022-23,2022-10-26,,Group A,SSC Napoli,Rangers FC,3,0,2,0,H
+2022-23,2022-11-01,21:00,Group A,Rangers FC,AFC Ajax,1,3,0,2,A
+2022-23,2022-11-01,,Group A,Liverpool FC,SSC Napoli,2,0,0,0,H
+2022-23,2022-09-07,21:00,Group B,Atlético Madrid,FC Porto,2,1,0,0,H
+2022-23,2022-09-07,,Group B,Club Brugge KV,Bayer Leverkusen,1,0,1,0,H
+2022-23,2022-09-13,21:00,Group B,Bayer Leverkusen,Atlético Madrid,2,0,0,0,H
+2022-23,2022-09-13,,Group B,FC Porto,Club Brugge KV,0,4,0,1,A
+2022-23,2022-10-04,21:00,Group B,Club Brugge KV,Atlético Madrid,2,0,1,0,H
+2022-23,2022-10-04,,Group B,FC Porto,Bayer Leverkusen,2,0,0,0,H
+2022-23,2022-10-12,18:45,Group B,Atlético Madrid,Club Brugge KV,0,0,,,D
+2022-23,2022-10-12,21:00,Group B,Bayer Leverkusen,FC Porto,0,3,0,1,A
+2022-23,2022-10-26,18:45,Group B,Club Brugge KV,FC Porto,0,4,0,1,A
+2022-23,2022-10-26,21:00,Group B,Atlético Madrid,Bayer Leverkusen,2,2,1,2,D
+2022-23,2022-11-01,18:45,Group B,FC Porto,Atlético Madrid,2,1,2,0,H
+2022-23,2022-11-01,,Group B,Bayer Leverkusen,Club Brugge KV,0,0,,,D
+2022-23,2022-09-07,21:00,Group C,Inter,Bayern München,0,2,0,1,A
+2022-23,2022-09-07,,Group C,FC Barcelona,Viktoria Plzeň,5,1,3,1,H
+2022-23,2022-09-13,18:45,Group C,Viktoria Plzeň,Inter,0,2,0,1,A
+2022-23,2022-09-13,21:00,Group C,Bayern München,FC Barcelona,2,0,0,0,H
+2022-23,2022-10-04,18:45,Group C,Bayern München,Viktoria Plzeň,5,0,3,0,H
+2022-23,2022-10-04,21:00,Group C,Inter,FC Barcelona,1,0,1,0,H
+2022-23,2022-10-12,21:00,Group C,Viktoria Plzeň,Bayern München,2,4,0,4,A
+2022-23,2022-10-12,,Group C,FC Barcelona,Inter,3,3,1,0,D
+2022-23,2022-10-26,18:45,Group C,Inter,Viktoria Plzeň,4,0,2,0,H
+2022-23,2022-10-26,21:00,Group C,FC Barcelona,Bayern München,0,3,0,2,A
+2022-23,2022-11-01,21:00,Group C,Bayern München,Inter,2,0,1,0,H
+2022-23,2022-11-01,,Group C,Viktoria Plzeň,FC Barcelona,2,4,0,2,A
+2022-23,2022-09-07,18:45,Group D,Eintracht Frankfurt,Sporting CP,0,3,0,0,A
+2022-23,2022-09-07,21:00,Group D,Tottenham Hotspur,Olympique Marseille,2,0,0,0,H
+2022-23,2022-09-13,18:45,Group D,Sporting CP,Tottenham Hotspur,2,0,0,0,H
+2022-23,2022-09-13,21:00,Group D,Olympique Marseille,Eintracht Frankfurt,0,1,0,1,A
+2022-23,2022-10-04,18:45,Group D,Olympique Marseille,Sporting CP,4,1,3,1,H
+2022-23,2022-10-04,21:00,Group D,Eintracht Frankfurt,Tottenham Hotspur,0,0,,,D
+2022-23,2022-10-12,21:00,Group D,Tottenham Hotspur,Eintracht Frankfurt,3,2,3,1,H
+2022-23,2022-10-12,,Group D,Sporting CP,Olympique Marseille,0,2,0,2,A
+2022-23,2022-10-26,21:00,Group D,Eintracht Frankfurt,Olympique Marseille,2,1,2,1,H
+2022-23,2022-10-26,,Group D,Tottenham Hotspur,Sporting CP,1,1,0,1,D
+2022-23,2022-11-01,21:00,Group D,Sporting CP,Eintracht Frankfurt,1,2,1,0,A
+2022-23,2022-11-01,,Group D,Olympique Marseille,Tottenham Hotspur,1,2,1,0,A
+2022-23,2022-09-06,18:45,Group E,Dinamo Zagreb,Chelsea FC,1,0,1,0,H
+2022-23,2022-09-06,21:00,Group E,RB Salzburg,AC Milan,1,1,1,1,D
+2022-23,2022-09-14,18:45,Group E,AC Milan,Dinamo Zagreb,3,1,1,0,H
+2022-23,2022-09-14,21:00,Group E,Chelsea FC,RB Salzburg,1,1,0,0,D
+2022-23,2022-10-05,18:45,Group E,RB Salzburg,Dinamo Zagreb,1,0,0,0,H
+2022-23,2022-10-05,21:00,Group E,Chelsea FC,AC Milan,3,0,1,0,H
+2022-23,2022-10-11,21:00,Group E,AC Milan,Chelsea FC,0,2,0,2,A
+2022-23,2022-10-11,,Group E,Dinamo Zagreb,RB Salzburg,1,1,1,1,D
+2022-23,2022-10-25,18:45,Group E,RB Salzburg,Chelsea FC,1,2,0,1,A
+2022-23,2022-10-25,21:00,Group E,Dinamo Zagreb,AC Milan,0,4,0,1,A
+2022-23,2022-11-02,21:00,Group E,AC Milan,RB Salzburg,4,0,1,0,H
+2022-23,2022-11-02,,Group E,Chelsea FC,Dinamo Zagreb,2,1,2,1,H
+2022-23,2022-09-06,21:00,Group F,Celtic FC,Real Madrid,0,3,0,0,A
+2022-23,2022-09-06,,Group F,RB Leipzig,Shakhtar Donetsk,1,4,0,1,A
+2022-23,2022-09-14,18:45,Group F,Shakhtar Donetsk,Celtic FC,1,1,1,1,D
+2022-23,2022-09-14,21:00,Group F,Real Madrid,RB Leipzig,2,0,0,0,H
+2022-23,2022-10-05,18:45,Group F,RB Leipzig,Celtic FC,3,1,1,0,H
+2022-23,2022-10-05,21:00,Group F,Real Madrid,Shakhtar Donetsk,2,1,2,1,H
+2022-23,2022-10-11,21:00,Group F,Celtic FC,RB Leipzig,0,2,0,0,A
+2022-23,2022-10-11,,Group F,Shakhtar Donetsk,Real Madrid,1,1,0,0,D
+2022-23,2022-10-25,21:00,Group F,Celtic FC,Shakhtar Donetsk,1,1,1,0,D
+2022-23,2022-10-25,,Group F,RB Leipzig,Real Madrid,3,2,2,1,H
+2022-23,2022-11-02,18:45,Group F,Real Madrid,Celtic FC,5,1,2,0,H
+2022-23,2022-11-02,,Group F,Shakhtar Donetsk,RB Leipzig,0,4,0,1,A
+2022-23,2022-09-06,18:45,Gruppe G,Borussia Dortmund,FC København,3,0,2,0,H
+2022-23,2022-09-06,21:00,Gruppe G,Sevilla FC,Manchester City,0,4,0,1,A
+2022-23,2022-09-14,21:00,Gruppe G,Manchester City,Borussia Dortmund,2,1,0,0,H
+2022-23,2022-09-14,,Gruppe G,FC København,Sevilla FC,0,0,,,D
+2022-23,2022-10-05,21:00,Gruppe G,Sevilla FC,Borussia Dortmund,1,4,0,3,A
+2022-23,2022-10-05,,Gruppe G,Manchester City,FC København,5,0,3,0,H
+2022-23,2022-10-11,18:45,Gruppe G,FC København,Manchester City,0,0,,,D
+2022-23,2022-10-11,21:00,Gruppe G,Borussia Dortmund,Sevilla FC,1,1,1,1,D
+2022-23,2022-10-25,18:45,Gruppe G,Sevilla FC,FC København,3,0,0,0,H
+2022-23,2022-10-25,21:00,Gruppe G,Borussia Dortmund,Manchester City,0,0,,,D
+2022-23,2022-11-02,21:00,Gruppe G,FC København,Borussia Dortmund,1,1,1,1,D
+2022-23,2022-11-02,,Gruppe G,Manchester City,Sevilla FC,3,1,0,1,H
+2022-23,2022-09-06,21:00,Gruppe H,Paris Saint-Germain,Juventus,2,1,2,0,H
+2022-23,2022-09-06,,Gruppe H,SL Benfica,Maccabi Haifa,2,0,0,0,H
+2022-23,2022-09-14,21:00,Gruppe H,Juventus,SL Benfica,1,2,1,1,A
+2022-23,2022-09-14,,Gruppe H,Maccabi Haifa,Paris Saint-Germain,1,3,1,1,A
+2022-23,2022-10-05,21:00,Gruppe H,Juventus,Maccabi Haifa,3,1,1,0,H
+2022-23,2022-10-05,,Gruppe H,SL Benfica,Paris Saint-Germain,1,1,1,1,D
+2022-23,2022-10-11,18:45,Gruppe H,Maccabi Haifa,Juventus,2,0,2,0,H
+2022-23,2022-10-11,21:00,Gruppe H,Paris Saint-Germain,SL Benfica,1,1,1,0,D
+2022-23,2022-10-25,21:00,Gruppe H,SL Benfica,Juventus,4,3,2,1,H
+2022-23,2022-10-25,,Gruppe H,Paris Saint-Germain,Maccabi Haifa,7,2,4,1,H
+2022-23,2022-11-02,21:00,Gruppe H,Juventus,Paris Saint-Germain,1,2,1,1,A
+2022-23,2022-11-02,,Gruppe H,Maccabi Haifa,SL Benfica,1,6,1,1,A
+2022-23,2023-02-14,21:00,Round of 16,AC Milan,Tottenham Hotspur,1,0,1,0,H
+2022-23,2023-02-14,,Round of 16,Paris Saint-Germain,Bayern München,0,1,0,0,A
+2022-23,2023-02-15,21:00,Round of 16,Club Brugge KV,SL Benfica,0,2,0,0,A
+2022-23,2023-02-15,,Round of 16,Borussia Dortmund,Chelsea FC,1,0,0,0,H
+2022-23,2023-02-21,21:00,Round of 16,Liverpool FC,Real Madrid,2,5,2,2,A
+2022-23,2023-02-21,,Round of 16,Eintracht Frankfurt,SSC Napoli,0,2,0,1,A
+2022-23,2023-02-22,21:00,Round of 16,RB Leipzig,Manchester City,1,1,0,1,D
+2022-23,2023-02-22,,Round of 16,Inter,FC Porto,1,0,0,0,H
+2022-23,2023-03-07,21:00,Round of 16,SL Benfica,Club Brugge KV,5,1,2,0,H
+2022-23,2023-03-07,21:10,Round of 16,Chelsea FC,Borussia Dortmund,2,0,1,0,H
+2022-23,2023-03-08,21:00,Round of 16,Bayern München,Paris Saint-Germain,2,0,0,0,H
+2022-23,2023-03-08,21:10,Round of 16,Tottenham Hotspur,AC Milan,0,0,,,D
+2022-23,2023-03-14,21:00,Round of 16,Manchester City,RB Leipzig,7,0,3,0,H
+2022-23,2023-03-14,,Round of 16,FC Porto,Inter,0,0,,,D
+2022-23,2023-03-15,21:00,Round of 16,Real Madrid,Liverpool FC,1,0,0,0,H
+2022-23,2023-03-15,,Round of 16,SSC Napoli,Eintracht Frankfurt,3,0,1,0,H
+2022-23,2023-04-11,21:00,Quarterfinals,SL Benfica,Inter,0,2,0,0,A
+2022-23,2023-04-11,,Quarterfinals,Manchester City,Bayern München,3,0,1,0,H
+2022-23,2023-04-12,21:00,Quarterfinals,Real Madrid,Chelsea FC,2,0,1,0,H
+2022-23,2023-04-12,,Quarterfinals,AC Milan,SSC Napoli,1,0,1,0,H
+2022-23,2023-04-18,21:00,Quarterfinals,Chelsea FC,Real Madrid,0,2,0,0,A
+2022-23,2023-04-18,,Quarterfinals,SSC Napoli,AC Milan,1,1,0,1,D
+2022-23,2023-04-19,21:00,Quarterfinals,Inter,SL Benfica,3,3,1,1,D
+2022-23,2023-04-19,,Quarterfinals,Bayern München,Manchester City,1,1,0,0,D
+2022-23,2023-05-09,21:00,Semifinals,Real Madrid,Manchester City,1,1,1,0,D
+2022-23,2023-05-10,21:00,Semifinals,AC Milan,Inter,0,2,0,2,A
+2022-23,2023-05-16,21:00,Semifinals,Inter,AC Milan,1,0,0,0,H
+2022-23,2023-05-17,21:00,Semifinals,Manchester City,Real Madrid,4,0,2,0,H
+2022-23,2023-06-10,21:00,Final,Manchester City,Inter,1,0,0,0,H
+2023-24,2023-09-19,18:45,"Group, Matchday 1",AC Milan,Newcastle United FC,0,0,,,D
+2023-24,2023-09-19,,"Group, Matchday 1",BSC Young Boys,RB Leipzig,1,3,1,1,A
+2023-24,2023-09-19,21:00,"Group, Matchday 1",SS Lazio,Club Atlético de Madrid,1,1,0,1,D
+2023-24,2023-09-19,,"Group, Matchday 1",Feyenoord Rotterdam,Celtic FC,2,0,1,0,H
+2023-24,2023-09-19,,"Group, Matchday 1",Paris Saint-Germain FC,Borussia Dortmund,2,0,0,0,H
+2023-24,2023-09-19,,"Group, Matchday 1",Manchester City FC,FK Crvena Zvezda,3,1,0,1,H
+2023-24,2023-09-19,,"Group, Matchday 1",FC Barcelona,Royal Antwerp FC,5,0,3,0,H
+2023-24,2023-09-19,,"Group, Matchday 1",FK Shakhtar Donetsk,FC Porto,1,3,1,3,A
+2023-24,2023-09-20,18:45,"Group, Matchday 1",Real Madrid CF,1. FC Union Berlin,1,0,0,0,H
+2023-24,2023-09-20,,"Group, Matchday 1",Galatasaray SK,FC København,2,2,0,1,D
+2023-24,2023-09-20,21:00,"Group, Matchday 1",Sevilla FC,Racing Club de Lens,1,1,1,1,D
+2023-24,2023-09-20,,"Group, Matchday 1",Sporting Clube de Braga,SSC Napoli,1,2,0,1,A
+2023-24,2023-09-20,,"Group, Matchday 1",Real Sociedad de Fútbol,FC Internazionale Milano,1,1,1,0,D
+2023-24,2023-09-20,,"Group, Matchday 1",Sport Lisboa e Benfica,FC Red Bull Salzburg,0,2,0,1,A
+2023-24,2023-09-20,,"Group, Matchday 1",FC Bayern München,Manchester United FC,4,3,2,0,H
+2023-24,2023-09-20,,"Group, Matchday 1",Arsenal FC,PSV,4,0,3,0,H
+2023-24,2023-10-03,18:45,"Group, Matchday 2",1. FC Union Berlin,Sporting Clube de Braga,2,3,2,1,A
+2023-24,2023-10-03,,"Group, Matchday 2",FC Red Bull Salzburg,Real Sociedad de Fútbol,0,2,0,2,A
+2023-24,2023-10-03,21:00,"Group, Matchday 2",SSC Napoli,Real Madrid CF,2,3,1,2,A
+2023-24,2023-10-03,,"Group, Matchday 2",FC Internazionale Milano,Sport Lisboa e Benfica,1,0,0,0,H
+2023-24,2023-10-03,,"Group, Matchday 2",FC København,FC Bayern München,1,2,0,0,A
+2023-24,2023-10-03,,"Group, Matchday 2",Manchester United FC,Galatasaray SK,2,3,1,1,A
+2023-24,2023-10-03,,"Group, Matchday 2",Racing Club de Lens,Arsenal FC,2,1,1,1,H
+2023-24,2023-10-03,,"Group, Matchday 2",PSV,Sevilla FC,2,2,0,0,D
+2023-24,2023-10-04,18:45,"Group, Matchday 2",Club Atlético de Madrid,Feyenoord Rotterdam,3,2,2,2,H
+2023-24,2023-10-04,,"Group, Matchday 2",Royal Antwerp FC,FK Shakhtar Donetsk,2,3,2,0,A
+2023-24,2023-10-04,21:00,"Group, Matchday 2",Celtic FC,SS Lazio,1,2,1,1,A
+2023-24,2023-10-04,,"Group, Matchday 2",Borussia Dortmund,AC Milan,0,0,,,D
+2023-24,2023-10-04,,"Group, Matchday 2",Newcastle United FC,Paris Saint-Germain FC,4,1,2,0,H
+2023-24,2023-10-04,,"Group, Matchday 2",FK Crvena Zvezda,BSC Young Boys,2,2,1,0,D
+2023-24,2023-10-04,,"Group, Matchday 2",RB Leipzig,Manchester City FC,1,3,0,1,A
+2023-24,2023-10-04,,"Group, Matchday 2",FC Porto,FC Barcelona,0,1,0,1,A
+2023-24,2023-10-24,18:45,"Group, Matchday 3",FC Internazionale Milano,FC Red Bull Salzburg,2,1,1,0,H
+2023-24,2023-10-24,,"Group, Matchday 3",Galatasaray SK,FC Bayern München,1,3,1,1,A
+2023-24,2023-10-24,21:00,"Group, Matchday 3",1. FC Union Berlin,SSC Napoli,0,1,0,0,A
+2023-24,2023-10-24,,"Group, Matchday 3",Sporting Clube de Braga,Real Madrid CF,1,2,0,1,A
+2023-24,2023-10-24,,"Group, Matchday 3",Sport Lisboa e Benfica,Real Sociedad de Fútbol,0,1,0,0,A
+2023-24,2023-10-24,,"Group, Matchday 3",Manchester United FC,FC København,1,0,0,0,H
+2023-24,2023-10-24,,"Group, Matchday 3",Sevilla FC,Arsenal FC,1,2,0,1,A
+2023-24,2023-10-24,,"Group, Matchday 3",Racing Club de Lens,PSV,1,1,0,0,D
+2023-24,2023-10-25,18:45,"Group, Matchday 3",Feyenoord Rotterdam,SS Lazio,3,1,2,0,H
+2023-24,2023-10-25,,"Group, Matchday 3",FC Barcelona,FK Shakhtar Donetsk,2,1,2,0,H
+2023-24,2023-10-25,21:00,"Group, Matchday 3",Celtic FC,Club Atlético de Madrid,2,2,2,1,D
+2023-24,2023-10-25,,"Group, Matchday 3",Paris Saint-Germain FC,AC Milan,3,0,1,0,H
+2023-24,2023-10-25,,"Group, Matchday 3",Newcastle United FC,Borussia Dortmund,0,1,0,1,A
+2023-24,2023-10-25,,"Group, Matchday 3",BSC Young Boys,Manchester City FC,1,3,0,0,A
+2023-24,2023-10-25,,"Group, Matchday 3",RB Leipzig,FK Crvena Zvezda,3,1,1,0,H
+2023-24,2023-10-25,,"Group, Matchday 3",Royal Antwerp FC,FC Porto,1,4,1,0,A
+2023-24,2023-11-07,18:45,"Group, Matchday 4",Borussia Dortmund,Newcastle United FC,2,0,1,0,H
+2023-24,2023-11-07,,"Group, Matchday 4",FK Shakhtar Donetsk,FC Barcelona,1,0,1,0,H
+2023-24,2023-11-07,21:00,"Group, Matchday 4",Club Atlético de Madrid,Celtic FC,6,0,2,0,H
+2023-24,2023-11-07,,"Group, Matchday 4",SS Lazio,Feyenoord Rotterdam,1,0,1,0,H
+2023-24,2023-11-07,,"Group, Matchday 4",AC Milan,Paris Saint-Germain FC,2,1,1,1,H
+2023-24,2023-11-07,,"Group, Matchday 4",Manchester City FC,BSC Young Boys,3,0,2,0,H
+2023-24,2023-11-07,,"Group, Matchday 4",FK Crvena Zvezda,RB Leipzig,1,2,0,1,A
+2023-24,2023-11-07,,"Group, Matchday 4",FC Porto,Royal Antwerp FC,2,0,1,0,H
+2023-24,2023-11-08,18:45,"Group, Matchday 4",SSC Napoli,1. FC Union Berlin,1,1,1,0,D
+2023-24,2023-11-08,,"Group, Matchday 4",Real Sociedad de Fútbol,Sport Lisboa e Benfica,3,1,3,0,H
+2023-24,2023-11-08,21:00,"Group, Matchday 4",Real Madrid CF,Sporting Clube de Braga,3,0,1,0,H
+2023-24,2023-11-08,,"Group, Matchday 4",FC Red Bull Salzburg,FC Internazionale Milano,0,1,0,0,A
+2023-24,2023-11-08,,"Group, Matchday 4",FC Bayern München,Galatasaray SK,2,1,0,0,H
+2023-24,2023-11-08,,"Group, Matchday 4",FC København,Manchester United FC,4,3,2,2,H
+2023-24,2023-11-08,,"Group, Matchday 4",Arsenal FC,Sevilla FC,2,0,1,0,H
+2023-24,2023-11-08,,"Group, Matchday 4",PSV,Racing Club de Lens,1,0,1,0,H
+2023-24,2023-11-28,18:45,"Group, Matchday 5",SS Lazio,Celtic FC,2,0,0,0,H
+2023-24,2023-11-28,,"Group, Matchday 5",FK Shakhtar Donetsk,Royal Antwerp FC,1,0,1,0,H
+2023-24,2023-11-28,21:00,"Group, Matchday 5",Feyenoord Rotterdam,Club Atlético de Madrid,1,3,0,1,A
+2023-24,2023-11-28,,"Group, Matchday 5",AC Milan,Borussia Dortmund,1,3,1,1,A
+2023-24,2023-11-28,,"Group, Matchday 5",Paris Saint-Germain FC,Newcastle United FC,1,1,0,1,D
+2023-24,2023-11-28,,"Group, Matchday 5",BSC Young Boys,FK Crvena Zvezda,2,0,2,0,H
+2023-24,2023-11-28,,"Group, Matchday 5",Manchester City FC,RB Leipzig,3,2,0,2,H
+2023-24,2023-11-28,,"Group, Matchday 5",FC Barcelona,FC Porto,2,1,1,1,H
+2023-24,2023-11-29,18:45,"Group, Matchday 5",Galatasaray SK,Manchester United FC,3,3,1,2,D
+2023-24,2023-11-29,,"Group, Matchday 5",Sevilla FC,PSV,2,3,1,0,A
+2023-24,2023-11-29,21:00,"Group, Matchday 5",Sporting Clube de Braga,1. FC Union Berlin,1,1,0,1,D
+2023-24,2023-11-29,,"Group, Matchday 5",Real Madrid CF,SSC Napoli,4,2,2,1,H
+2023-24,2023-11-29,,"Group, Matchday 5",Sport Lisboa e Benfica,FC Internazionale Milano,3,3,3,0,D
+2023-24,2023-11-29,,"Group, Matchday 5",Real Sociedad de Fútbol,FC Red Bull Salzburg,0,0,,,D
+2023-24,2023-11-29,,"Group, Matchday 5",FC Bayern München,FC København,0,0,,,D
+2023-24,2023-11-29,,"Group, Matchday 5",Arsenal FC,Racing Club de Lens,6,0,5,0,H
+2023-24,2023-12-12,18:45,"Group, Matchday 6",PSV,Arsenal FC,1,1,0,1,D
+2023-24,2023-12-12,,"Group, Matchday 6",Racing Club de Lens,Sevilla FC,2,1,0,0,H
+2023-24,2023-12-12,21:00,"Group, Matchday 6",1. FC Union Berlin,Real Madrid CF,2,3,1,0,A
+2023-24,2023-12-12,,"Group, Matchday 6",SSC Napoli,Sporting Clube de Braga,2,0,2,0,H
+2023-24,2023-12-12,,"Group, Matchday 6",FC Internazionale Milano,Real Sociedad de Fútbol,0,0,,,D
+2023-24,2023-12-12,,"Group, Matchday 6",FC Red Bull Salzburg,Sport Lisboa e Benfica,1,3,0,2,A
+2023-24,2023-12-12,,"Group, Matchday 6",Manchester United FC,FC Bayern München,0,1,0,0,A
+2023-24,2023-12-12,,"Group, Matchday 6",FC København,Galatasaray SK,1,0,0,0,H
+2023-24,2023-12-13,18:45,"Group, Matchday 6",RB Leipzig,BSC Young Boys,2,1,0,0,H
+2023-24,2023-12-13,,"Group, Matchday 6",FK Crvena Zvezda,Manchester City FC,2,3,0,1,A
+2023-24,2023-12-13,21:00,"Group, Matchday 6",Club Atlético de Madrid,SS Lazio,2,0,1,0,H
+2023-24,2023-12-13,,"Group, Matchday 6",Celtic FC,Feyenoord Rotterdam,2,1,1,0,H
+2023-24,2023-12-13,,"Group, Matchday 6",Newcastle United FC,AC Milan,1,2,1,0,A
+2023-24,2023-12-13,,"Group, Matchday 6",Borussia Dortmund,Paris Saint-Germain FC,1,1,0,0,D
+2023-24,2023-12-13,,"Group, Matchday 6",Royal Antwerp FC,FC Barcelona,3,2,1,1,H
+2023-24,2023-12-13,,"Group, Matchday 6",FC Porto,FK Shakhtar Donetsk,5,3,2,1,H
+2023-24,2024-02-13,21:00,"Finals, Round of 16",FC København,Manchester City FC,1,3,1,2,A
+2023-24,2024-02-13,,"Finals, Round of 16",RB Leipzig,Real Madrid CF,0,1,0,0,A
+2023-24,2024-02-14,21:00,"Finals, Round of 16",Paris Saint-Germain FC,Real Sociedad de Fútbol,2,0,0,0,H
+2023-24,2024-02-14,,"Finals, Round of 16",SS Lazio,FC Bayern München,1,0,0,0,H
+2023-24,2024-02-20,21:00,"Finals, Round of 16",FC Internazionale Milano,Club Atlético de Madrid,1,0,0,0,H
+2023-24,2024-02-20,,"Finals, Round of 16",PSV,Borussia Dortmund,1,1,0,1,D
+2023-24,2024-02-21,21:00,"Finals, Round of 16",FC Porto,Arsenal FC,1,0,0,0,H
+2023-24,2024-02-21,,"Finals, Round of 16",SSC Napoli,FC Barcelona,1,1,0,0,D
+2023-24,2024-03-05,21:00,"Finals, Round of 16",Real Sociedad de Fútbol,Paris Saint-Germain FC,1,2,0,1,A
+2023-24,2024-03-05,,"Finals, Round of 16",FC Bayern München,SS Lazio,3,0,2,0,H
+2023-24,2024-03-06,21:00,"Finals, Round of 16",Manchester City FC,FC København,3,1,3,1,H
+2023-24,2024-03-06,,"Finals, Round of 16",Real Madrid CF,RB Leipzig,1,1,0,0,D
+2023-24,2024-03-12,21:00,"Finals, Round of 16",Arsenal FC,FC Porto,4,2,,,H
+2023-24,2024-03-12,,"Finals, Round of 16",FC Barcelona,SSC Napoli,3,1,2,1,H
+2023-24,2024-03-13,21:00,"Finals, Round of 16",Club Atlético de Madrid,FC Internazionale Milano,3,2,,,H
+2023-24,2024-03-13,,"Finals, Round of 16",Borussia Dortmund,PSV,2,0,1,0,H
+2023-24,2024-04-09,21:00,"Finals, Quarterfinals",Arsenal FC,FC Bayern München,2,2,1,2,D
+2023-24,2024-04-09,,"Finals, Quarterfinals",Real Madrid CF,Manchester City FC,3,3,2,1,D
+2023-24,2024-04-10,21:00,"Finals, Quarterfinals",Club Atlético de Madrid,Borussia Dortmund,2,1,2,0,H
+2023-24,2024-04-10,,"Finals, Quarterfinals",Paris Saint-Germain FC,FC Barcelona,2,3,0,1,A
+2023-24,2024-04-16,21:00,"Finals, Quarterfinals",Borussia Dortmund,Club Atlético de Madrid,4,2,2,0,H
+2023-24,2024-04-16,,"Finals, Quarterfinals",FC Barcelona,Paris Saint-Germain FC,1,4,1,1,A
+2023-24,2024-04-17,21:00,"Finals, Quarterfinals",FC Bayern München,Arsenal FC,1,0,0,0,H
+2023-24,2024-04-17,,"Finals, Quarterfinals",Manchester City FC,Real Madrid CF,3,4,,,A
+2023-24,2024-04-30,21:00,"Finals, Semifinals",FC Bayern München,Real Madrid CF,2,2,0,1,D
+2023-24,2024-05-01,21:00,"Finals, Semifinals",Borussia Dortmund,Paris Saint-Germain FC,1,0,1,0,H
+2023-24,2024-05-07,21:00,"Finals, Semifinals",Paris Saint-Germain FC,Borussia Dortmund,0,1,0,0,A
+2023-24,2024-05-08,21:00,"Finals, Semifinals",Real Madrid CF,FC Bayern München,2,1,0,0,H
+2023-24,2024-06-01,21:00,"Finals, Final",Borussia Dortmund,Real Madrid CF,0,2,0,0,A
+2024-25,2024-09-17,18:45,"League, Matchday 1",BSC Young Boys,Aston Villa FC,0,3,0,2,A
+2024-25,2024-09-17,,"League, Matchday 1",Juventus FC,PSV,3,1,2,0,H
+2024-25,2024-09-17,21:00,"League, Matchday 1",Sporting Clube de Portugal,Lille OSC,2,0,1,0,H
+2024-25,2024-09-17,,"League, Matchday 1",FC Bayern München,GNK Dinamo Zagreb,9,2,3,0,H
+2024-25,2024-09-17,,"League, Matchday 1",Real Madrid CF,VfB Stuttgart,3,1,0,0,H
+2024-25,2024-09-17,,"League, Matchday 1",AC Milan,Liverpool FC,1,3,1,2,A
+2024-25,2024-09-18,18:45,"League, Matchday 1",Bologna FC 1909,FK Shakhtar Donetsk,0,0,,,D
+2024-25,2024-09-18,,"League, Matchday 1",AC Sparta Praha,FC Red Bull Salzburg,3,0,2,0,H
+2024-25,2024-09-18,21:00,"League, Matchday 1",Manchester City FC,FC Internazionale Milano,0,0,,,D
+2024-25,2024-09-18,,"League, Matchday 1",Paris Saint-Germain FC,Girona FC,1,0,0,0,H
+2024-25,2024-09-18,,"League, Matchday 1",Club Brugge KV,Borussia Dortmund,0,3,0,0,A
+2024-25,2024-09-18,,"League, Matchday 1",Celtic FC,ŠK Slovan Bratislava,5,1,1,0,H
+2024-25,2024-09-19,18:45,"League, Matchday 1",Feyenoord Rotterdam,Bayer 04 Leverkusen,0,4,0,4,A
+2024-25,2024-09-19,,"League, Matchday 1",FK Crvena Zvezda,Sport Lisboa e Benfica,1,2,0,2,A
+2024-25,2024-09-19,21:00,"League, Matchday 1",AS Monaco FC,FC Barcelona,2,1,1,1,H
+2024-25,2024-09-19,,"League, Matchday 1",Stade Brestois 29,SK Sturm Graz,2,1,1,1,H
+2024-25,2024-09-19,,"League, Matchday 1",Atalanta BC,Arsenal FC,0,0,,,D
+2024-25,2024-09-19,,"League, Matchday 1",Club Atlético de Madrid,RB Leipzig,2,1,1,1,H
+2024-25,2024-10-01,18:45,"League, Matchday 2",VfB Stuttgart,AC Sparta Praha,1,1,1,1,D
+2024-25,2024-10-01,,"League, Matchday 2",FC Red Bull Salzburg,Stade Brestois 29,0,4,0,1,A
+2024-25,2024-10-01,21:00,"League, Matchday 2",ŠK Slovan Bratislava,Manchester City FC,0,4,0,2,A
+2024-25,2024-10-01,,"League, Matchday 2",Borussia Dortmund,Celtic FC,7,1,5,1,H
+2024-25,2024-10-01,,"League, Matchday 2",FC Barcelona,BSC Young Boys,5,0,3,0,H
+2024-25,2024-10-01,,"League, Matchday 2",FC Internazionale Milano,FK Crvena Zvezda,4,0,1,0,H
+2024-25,2024-10-01,,"League, Matchday 2",Bayer 04 Leverkusen,AC Milan,1,0,0,0,H
+2024-25,2024-10-01,,"League, Matchday 2",Arsenal FC,Paris Saint-Germain FC,2,0,2,0,H
+2024-25,2024-10-01,,"League, Matchday 2",PSV,Sporting Clube de Portugal,1,1,1,0,D
+2024-25,2024-10-02,18:45,"League, Matchday 2",Girona FC,Feyenoord Rotterdam,2,3,1,2,A
+2024-25,2024-10-02,,"League, Matchday 2",FK Shakhtar Donetsk,Atalanta BC,0,3,0,2,A
+2024-25,2024-10-02,21:00,"League, Matchday 2",Aston Villa FC,FC Bayern München,1,0,0,0,H
+2024-25,2024-10-02,,"League, Matchday 2",SK Sturm Graz,Club Brugge KV,0,1,0,1,A
+2024-25,2024-10-02,,"League, Matchday 2",Liverpool FC,Bologna FC 1909,2,0,1,0,H
+2024-25,2024-10-02,,"League, Matchday 2",RB Leipzig,Juventus FC,2,3,1,0,A
+2024-25,2024-10-02,,"League, Matchday 2",Sport Lisboa e Benfica,Club Atlético de Madrid,4,0,1,0,H
+2024-25,2024-10-02,,"League, Matchday 2",GNK Dinamo Zagreb,AS Monaco FC,2,2,1,0,D
+2024-25,2024-10-02,,"League, Matchday 2",Lille OSC,Real Madrid CF,1,0,1,0,H
+2024-25,2024-10-22,18:45,"League, Matchday 3",AS Monaco FC,FK Crvena Zvezda,5,1,2,1,H
+2024-25,2024-10-22,,"League, Matchday 3",AC Milan,Club Brugge KV,3,1,1,0,H
+2024-25,2024-10-22,21:00,"League, Matchday 3",Aston Villa FC,Bologna FC 1909,2,0,0,0,H
+2024-25,2024-10-22,,"League, Matchday 3",Girona FC,ŠK Slovan Bratislava,2,0,1,0,H
+2024-25,2024-10-22,,"League, Matchday 3",SK Sturm Graz,Sporting Clube de Portugal,0,2,0,1,A
+2024-25,2024-10-22,,"League, Matchday 3",Paris Saint-Germain FC,PSV,1,1,0,1,D
+2024-25,2024-10-22,,"League, Matchday 3",Real Madrid CF,Borussia Dortmund,5,2,0,2,H
+2024-25,2024-10-22,,"League, Matchday 3",Arsenal FC,FK Shakhtar Donetsk,1,0,1,0,H
+2024-25,2024-10-22,,"League, Matchday 3",Juventus FC,VfB Stuttgart,0,1,0,0,A
+2024-25,2024-10-23,18:45,"League, Matchday 3",Stade Brestois 29,Bayer 04 Leverkusen,1,1,1,1,D
+2024-25,2024-10-23,,"League, Matchday 3",Atalanta BC,Celtic FC,0,0,,,D
+2024-25,2024-10-23,21:00,"League, Matchday 3",BSC Young Boys,FC Internazionale Milano,0,1,0,0,A
+2024-25,2024-10-23,,"League, Matchday 3",FC Barcelona,FC Bayern München,4,1,3,1,H
+2024-25,2024-10-23,,"League, Matchday 3",Manchester City FC,AC Sparta Praha,5,0,1,0,H
+2024-25,2024-10-23,,"League, Matchday 3",RB Leipzig,Liverpool FC,0,1,0,1,A
+2024-25,2024-10-23,,"League, Matchday 3",Club Atlético de Madrid,Lille OSC,1,3,1,0,A
+2024-25,2024-10-23,,"League, Matchday 3",Sport Lisboa e Benfica,Feyenoord Rotterdam,1,3,0,2,A
+2024-25,2024-10-23,,"League, Matchday 3",FC Red Bull Salzburg,GNK Dinamo Zagreb,0,2,0,0,A
+2024-25,2024-11-05,18:45,"League, Matchday 4",ŠK Slovan Bratislava,GNK Dinamo Zagreb,1,4,1,2,A
+2024-25,2024-11-05,,"League, Matchday 4",PSV,Girona FC,4,0,2,0,H
+2024-25,2024-11-05,21:00,"League, Matchday 4",Sporting Clube de Portugal,Manchester City FC,4,1,1,1,H
+2024-25,2024-11-05,,"League, Matchday 4",Bologna FC 1909,AS Monaco FC,0,1,0,0,A
+2024-25,2024-11-05,,"League, Matchday 4",Borussia Dortmund,SK Sturm Graz,1,0,0,0,H
+2024-25,2024-11-05,,"League, Matchday 4",Liverpool FC,Bayer 04 Leverkusen,4,0,0,0,H
+2024-25,2024-11-05,,"League, Matchday 4",Real Madrid CF,AC Milan,1,3,1,2,A
+2024-25,2024-11-05,,"League, Matchday 4",Celtic FC,RB Leipzig,3,1,2,1,H
+2024-25,2024-11-05,,"League, Matchday 4",Lille OSC,Juventus FC,1,1,1,0,D
+2024-25,2024-11-06,18:45,"League, Matchday 4",Club Brugge KV,Aston Villa FC,1,0,0,0,H
+2024-25,2024-11-06,,"League, Matchday 4",FK Shakhtar Donetsk,BSC Young Boys,2,1,2,1,H
+2024-25,2024-11-06,21:00,"League, Matchday 4",AC Sparta Praha,Stade Brestois 29,1,2,0,1,A
+2024-25,2024-11-06,,"League, Matchday 4",VfB Stuttgart,Atalanta BC,0,2,0,0,A
+2024-25,2024-11-06,,"League, Matchday 4",FC Internazionale Milano,Arsenal FC,1,0,1,0,H
+2024-25,2024-11-06,,"League, Matchday 4",Paris Saint-Germain FC,Club Atlético de Madrid,1,2,1,1,A
+2024-25,2024-11-06,,"League, Matchday 4",Feyenoord Rotterdam,FC Red Bull Salzburg,1,3,0,1,A
+2024-25,2024-11-06,,"League, Matchday 4",FK Crvena Zvezda,FC Barcelona,2,5,1,2,A
+2024-25,2024-11-06,21:15,"League, Matchday 4",FC Bayern München,Sport Lisboa e Benfica,1,0,0,0,H
+2024-25,2024-11-26,18:45,"League, Matchday 5",ŠK Slovan Bratislava,AC Milan,2,3,1,1,A
+2024-25,2024-11-26,,"League, Matchday 5",AC Sparta Praha,Club Atlético de Madrid,0,6,0,2,A
+2024-25,2024-11-26,21:00,"League, Matchday 5",Sporting Clube de Portugal,Arsenal FC,1,5,0,3,A
+2024-25,2024-11-26,,"League, Matchday 5",BSC Young Boys,Atalanta BC,1,6,1,4,A
+2024-25,2024-11-26,,"League, Matchday 5",FC Bayern München,Paris Saint-Germain FC,1,0,1,0,H
+2024-25,2024-11-26,,"League, Matchday 5",FC Barcelona,Stade Brestois 29,3,0,1,0,H
+2024-25,2024-11-26,,"League, Matchday 5",FC Internazionale Milano,RB Leipzig,1,0,1,0,H
+2024-25,2024-11-26,,"League, Matchday 5",Manchester City FC,Feyenoord Rotterdam,3,3,1,0,D
+2024-25,2024-11-26,,"League, Matchday 5",Bayer 04 Leverkusen,FC Red Bull Salzburg,5,0,3,0,H
+2024-25,2024-11-27,18:45,"League, Matchday 5",SK Sturm Graz,Girona FC,1,0,0,0,H
+2024-25,2024-11-27,,"League, Matchday 5",FK Crvena Zvezda,VfB Stuttgart,5,1,2,1,H
+2024-25,2024-11-27,21:00,"League, Matchday 5",AS Monaco FC,Sport Lisboa e Benfica,2,3,1,0,A
+2024-25,2024-11-27,,"League, Matchday 5",Aston Villa FC,Juventus FC,0,0,,,D
+2024-25,2024-11-27,,"League, Matchday 5",Bologna FC 1909,Lille OSC,1,2,0,1,A
+2024-25,2024-11-27,,"League, Matchday 5",Liverpool FC,Real Madrid CF,2,0,0,0,H
+2024-25,2024-11-27,,"League, Matchday 5",Celtic FC,Club Brugge KV,1,1,0,1,D
+2024-25,2024-11-27,,"League, Matchday 5",GNK Dinamo Zagreb,Borussia Dortmund,0,3,0,1,A
+2024-25,2024-11-27,,"League, Matchday 5",PSV,FK Shakhtar Donetsk,3,2,0,2,H
+2024-25,2024-12-10,18:45,"League, Matchday 6",Girona FC,Liverpool FC,0,1,0,0,A
+2024-25,2024-12-10,,"League, Matchday 6",GNK Dinamo Zagreb,Celtic FC,0,0,,,D
+2024-25,2024-12-10,21:00,"League, Matchday 6",Stade Brestois 29,PSV,1,0,1,0,H
+2024-25,2024-12-10,,"League, Matchday 6",RB Leipzig,Aston Villa FC,2,3,1,1,A
+2024-25,2024-12-10,,"League, Matchday 6",Atalanta BC,Real Madrid CF,2,3,1,1,A
+2024-25,2024-12-10,,"League, Matchday 6",Bayer 04 Leverkusen,FC Internazionale Milano,1,0,0,0,H
+2024-25,2024-12-10,,"League, Matchday 6",Club Brugge KV,Sporting Clube de Portugal,2,1,1,1,H
+2024-25,2024-12-10,,"League, Matchday 6",FK Shakhtar Donetsk,FC Bayern München,1,5,1,2,A
+2024-25,2024-12-10,,"League, Matchday 6",FC Red Bull Salzburg,Paris Saint-Germain FC,0,3,0,1,A
+2024-25,2024-12-11,18:45,"League, Matchday 6",Club Atlético de Madrid,ŠK Slovan Bratislava,3,1,2,0,H
+2024-25,2024-12-11,,"League, Matchday 6",Lille OSC,SK Sturm Graz,3,2,2,1,H
+2024-25,2024-12-11,21:00,"League, Matchday 6",VfB Stuttgart,BSC Young Boys,5,1,1,1,H
+2024-25,2024-12-11,,"League, Matchday 6",Borussia Dortmund,FC Barcelona,2,3,0,0,A
+2024-25,2024-12-11,,"League, Matchday 6",AC Milan,FK Crvena Zvezda,2,1,1,0,H
+2024-25,2024-12-11,,"League, Matchday 6",Sport Lisboa e Benfica,Bologna FC 1909,0,0,,,D
+2024-25,2024-12-11,,"League, Matchday 6",Arsenal FC,AS Monaco FC,3,0,1,0,H
+2024-25,2024-12-11,,"League, Matchday 6",Juventus FC,Manchester City FC,2,0,0,0,H
+2024-25,2024-12-11,,"League, Matchday 6",Feyenoord Rotterdam,AC Sparta Praha,4,2,3,1,H
+2024-25,2025-01-21,18:45,"League, Matchday 7",AS Monaco FC,Aston Villa FC,1,0,1,0,H
+2024-25,2025-01-21,,"League, Matchday 7",Atalanta BC,SK Sturm Graz,5,0,1,0,H
+2024-25,2025-01-21,21:00,"League, Matchday 7",Bologna FC 1909,Borussia Dortmund,2,1,0,1,H
+2024-25,2025-01-21,,"League, Matchday 7",ŠK Slovan Bratislava,VfB Stuttgart,1,3,0,2,A
+2024-25,2025-01-21,,"League, Matchday 7",Liverpool FC,Lille OSC,2,1,1,0,H
+2024-25,2025-01-21,,"League, Matchday 7",Club Atlético de Madrid,Bayer 04 Leverkusen,2,1,0,1,H
+2024-25,2025-01-21,,"League, Matchday 7",Sport Lisboa e Benfica,FC Barcelona,4,5,3,1,A
+2024-25,2025-01-21,,"League, Matchday 7",Club Brugge KV,Juventus FC,0,0,,,D
+2024-25,2025-01-21,,"League, Matchday 7",FK Crvena Zvezda,PSV,2,3,0,3,A
+2024-25,2025-01-22,18:45,"League, Matchday 7",RB Leipzig,Sporting Clube de Portugal,2,1,1,0,H
+2024-25,2025-01-22,,"League, Matchday 7",FK Shakhtar Donetsk,Stade Brestois 29,2,0,2,0,H
+2024-25,2025-01-22,21:00,"League, Matchday 7",AC Sparta Praha,FC Internazionale Milano,0,1,0,1,A
+2024-25,2025-01-22,,"League, Matchday 7",Paris Saint-Germain FC,Manchester City FC,4,2,0,0,H
+2024-25,2025-01-22,,"League, Matchday 7",Real Madrid CF,FC Red Bull Salzburg,5,1,2,0,H
+2024-25,2025-01-22,,"League, Matchday 7",AC Milan,Girona FC,1,0,1,0,H
+2024-25,2025-01-22,,"League, Matchday 7",Arsenal FC,GNK Dinamo Zagreb,3,0,1,0,H
+2024-25,2025-01-22,,"League, Matchday 7",Celtic FC,BSC Young Boys,1,0,0,0,H
+2024-25,2025-01-22,,"League, Matchday 7",Feyenoord Rotterdam,FC Bayern München,3,0,2,0,H
+2024-25,2025-01-29,21:00,"League, Matchday 8",Sporting Clube de Portugal,Bologna FC 1909,1,1,0,1,D
+2024-25,2025-01-29,,"League, Matchday 8",BSC Young Boys,FK Crvena Zvezda,0,1,0,0,A
+2024-25,2025-01-29,,"League, Matchday 8",Aston Villa FC,Celtic FC,4,2,2,2,H
+2024-25,2025-01-29,,"League, Matchday 8",Girona FC,Arsenal FC,1,2,1,2,A
+2024-25,2025-01-29,,"League, Matchday 8",Stade Brestois 29,Real Madrid CF,0,3,0,1,A
+2024-25,2025-01-29,,"League, Matchday 8",SK Sturm Graz,RB Leipzig,1,0,1,0,H
+2024-25,2025-01-29,,"League, Matchday 8",VfB Stuttgart,Paris Saint-Germain FC,1,4,0,3,A
+2024-25,2025-01-29,,"League, Matchday 8",FC Bayern München,ŠK Slovan Bratislava,3,1,1,0,H
+2024-25,2025-01-29,,"League, Matchday 8",Borussia Dortmund,FK Shakhtar Donetsk,3,1,2,0,H
+2024-25,2025-01-29,,"League, Matchday 8",FC Barcelona,Atalanta BC,2,2,0,0,D
+2024-25,2025-01-29,,"League, Matchday 8",FC Internazionale Milano,AS Monaco FC,3,0,2,0,H
+2024-25,2025-01-29,,"League, Matchday 8",Manchester City FC,Club Brugge KV,3,1,0,1,H
+2024-25,2025-01-29,,"League, Matchday 8",Bayer 04 Leverkusen,AC Sparta Praha,2,0,1,0,H
+2024-25,2025-01-29,,"League, Matchday 8",Juventus FC,Sport Lisboa e Benfica,0,2,0,1,A
+2024-25,2025-01-29,,"League, Matchday 8",GNK Dinamo Zagreb,AC Milan,2,1,1,0,H
+2024-25,2025-01-29,,"League, Matchday 8",Lille OSC,Feyenoord Rotterdam,6,1,2,1,H
+2024-25,2025-01-29,,"League, Matchday 8",PSV,Liverpool FC,3,2,3,2,H
+2024-25,2025-01-29,,"League, Matchday 8",FC Red Bull Salzburg,Club Atlético de Madrid,1,4,0,3,A
+2024-25,2025-02-11,18:45,"Playoffs, Matchday 1",Stade Brestois 29,Paris Saint-Germain FC,0,3,0,2,A
+2024-25,2025-02-11,21:00,"Playoffs, Matchday 1",Manchester City FC,Real Madrid CF,2,3,1,0,A
+2024-25,2025-02-11,,"Playoffs, Matchday 1",Juventus FC,PSV,2,1,1,0,H
+2024-25,2025-02-11,,"Playoffs, Matchday 1",Sporting Clube de Portugal,Borussia Dortmund,0,3,0,0,A
+2024-25,2025-02-12,18:45,"Playoffs, Matchday 1",Club Brugge KV,Atalanta BC,2,1,1,1,H
+2024-25,2025-02-12,21:00,"Playoffs, Matchday 1",AS Monaco FC,Sport Lisboa e Benfica,0,1,0,0,A
+2024-25,2025-02-12,,"Playoffs, Matchday 1",Celtic FC,FC Bayern München,1,2,0,1,A
+2024-25,2025-02-12,,"Playoffs, Matchday 1",Feyenoord Rotterdam,AC Milan,1,0,1,0,H
+2024-25,2025-02-18,18:45,"Playoffs, Matchday 2",AC Milan,Feyenoord Rotterdam,1,1,1,0,D
+2024-25,2025-02-18,21:00,"Playoffs, Matchday 2",Sport Lisboa e Benfica,AS Monaco FC,3,3,1,1,D
+2024-25,2025-02-18,,"Playoffs, Matchday 2",FC Bayern München,Celtic FC,1,1,0,0,D
+2024-25,2025-02-18,,"Playoffs, Matchday 2",Atalanta BC,Club Brugge KV,1,3,0,3,A
+2024-25,2025-02-19,18:45,"Playoffs, Matchday 2",Borussia Dortmund,Sporting Clube de Portugal,0,0,,,D
+2024-25,2025-02-19,21:00,"Playoffs, Matchday 2",Paris Saint-Germain FC,Stade Brestois 29,7,0,2,0,H
+2024-25,2025-02-19,,"Playoffs, Matchday 2",Real Madrid CF,Manchester City FC,3,1,2,0,H
+2024-25,2025-02-19,,"Playoffs, Matchday 2",PSV,Juventus FC,3,1,0,0,H
+2024-25,2025-03-04,18:45,"Finals, Round of 16",Club Brugge KV,Aston Villa FC,1,3,1,1,A
+2024-25,2025-03-04,21:00,"Finals, Round of 16",Real Madrid CF,Club Atlético de Madrid,2,1,1,1,H
+2024-25,2025-03-04,,"Finals, Round of 16",PSV,Arsenal FC,1,7,1,3,A
+2024-25,2025-03-04,,"Finals, Round of 16",Borussia Dortmund,Lille OSC,1,1,1,0,D
+2024-25,2025-03-05,18:45,"Finals, Round of 16",Feyenoord Rotterdam,FC Internazionale Milano,0,2,0,1,A
+2024-25,2025-03-05,21:00,"Finals, Round of 16",Paris Saint-Germain FC,Liverpool FC,0,1,0,0,A
+2024-25,2025-03-05,,"Finals, Round of 16",FC Bayern München,Bayer 04 Leverkusen,3,0,1,0,H
+2024-25,2025-03-05,,"Finals, Round of 16",Sport Lisboa e Benfica,FC Barcelona,0,1,0,0,A
+2024-25,2025-03-11,18:45,"Finals, Round of 16",FC Barcelona,Sport Lisboa e Benfica,3,1,3,1,H
+2024-25,2025-03-11,21:00,"Finals, Round of 16",Liverpool FC,Paris Saint-Germain FC,1,4,,,A
+2024-25,2025-03-11,,"Finals, Round of 16",FC Internazionale Milano,Feyenoord Rotterdam,2,1,1,1,H
+2024-25,2025-03-11,,"Finals, Round of 16",Bayer 04 Leverkusen,FC Bayern München,0,2,0,0,A
+2024-25,2025-03-12,18:45,"Finals, Round of 16",Lille OSC,Borussia Dortmund,1,2,1,0,A
+2024-25,2025-03-12,21:00,"Finals, Round of 16",Aston Villa FC,Club Brugge KV,3,0,0,0,H
+2024-25,2025-03-12,,"Finals, Round of 16",Club Atlético de Madrid,Real Madrid CF,2,4,,,A
+2024-25,2025-03-12,,"Finals, Round of 16",Arsenal FC,PSV,2,2,2,1,D
+2024-25,2025-04-08,21:00,"Finals, Quarterfinals",Arsenal FC,Real Madrid CF,3,0,0,0,H
+2024-25,2025-04-08,,"Finals, Quarterfinals",FC Bayern München,FC Internazionale Milano,1,2,0,1,A
+2024-25,2025-04-09,21:00,"Finals, Quarterfinals",Paris Saint-Germain FC,Aston Villa FC,3,1,1,1,H
+2024-25,2025-04-09,,"Finals, Quarterfinals",FC Barcelona,Borussia Dortmund,4,0,1,0,H
+2024-25,2025-04-15,21:00,"Finals, Quarterfinals",Aston Villa FC,Paris Saint-Germain FC,3,2,1,2,H
+2024-25,2025-04-15,,"Finals, Quarterfinals",Borussia Dortmund,FC Barcelona,3,1,1,0,H
+2024-25,2025-04-16,21:00,"Finals, Quarterfinals",Real Madrid CF,Arsenal FC,1,2,0,0,A
+2024-25,2025-04-16,,"Finals, Quarterfinals",FC Internazionale Milano,FC Bayern München,2,2,0,0,D
+2024-25,2025-04-29,21:00,"Finals, Semifinals",Arsenal FC,Paris Saint-Germain FC,0,1,0,1,A
+2024-25,2025-04-30,21:00,"Finals, Semifinals",FC Barcelona,FC Internazionale Milano,3,3,2,2,D
+2024-25,2025-05-06,21:00,"Finals, Semifinals",FC Internazionale Milano,FC Barcelona,4,3,2,0,H
+2024-25,2025-05-07,21:00,"Finals, Semifinals",Paris Saint-Germain FC,Arsenal FC,2,1,1,0,H
+2024-25,2025-05-31,21:00,"Finals, Final",Paris Saint-Germain FC,FC Internazionale Milano,5,0,2,0,H
+2025-26,2025-09-16,18:45,"League, Matchday 1",Athletic Club,Arsenal FC,0,2,0,0,A
+2025-26,2025-09-16,,"League, Matchday 1",PSV,Royale Union Saint-Gilloise,1,3,0,2,A
+2025-26,2025-09-16,21:00,"League, Matchday 1",Juventus FC,Borussia Dortmund,4,4,0,0,D
+2025-26,2025-09-16,,"League, Matchday 1",Sport Lisboa e Benfica,Qarabağ Ağdam FK,2,3,2,1,A
+2025-26,2025-09-16,,"League, Matchday 1",Tottenham Hotspur FC,Villarreal CF,1,0,1,0,H
+2025-26,2025-09-16,,"League, Matchday 1",Real Madrid CF,Olympique de Marseille,2,1,1,1,H
+2025-26,2025-09-17,18:45,"League, Matchday 1",SK Slavia Praha,FK Bodø/Glimt,2,2,1,0,D
+2025-26,2025-09-17,,"League, Matchday 1",PAE Olympiakos SFP,Paphos FC,0,0,,,D
+2025-26,2025-09-17,21:00,"League, Matchday 1",AFC Ajax,FC Internazionale Milano,0,2,0,1,A
+2025-26,2025-09-17,,"League, Matchday 1",Liverpool FC,Club Atlético de Madrid,3,2,2,1,H
+2025-26,2025-09-17,,"League, Matchday 1",Paris Saint-Germain FC,Atalanta BC,4,0,2,0,H
+2025-26,2025-09-17,,"League, Matchday 1",FC Bayern München,Chelsea FC,3,1,2,1,H
+2025-26,2025-09-18,18:45,"League, Matchday 1",FC København,Bayer 04 Leverkusen,2,2,1,0,D
+2025-26,2025-09-18,,"League, Matchday 1",Club Brugge KV,AS Monaco FC,4,1,3,0,H
+2025-26,2025-09-18,21:00,"League, Matchday 1",Newcastle United FC,FC Barcelona,1,2,0,0,A
+2025-26,2025-09-18,,"League, Matchday 1",Manchester City FC,SSC Napoli,2,0,0,0,H
+2025-26,2025-09-18,,"League, Matchday 1",Eintracht Frankfurt,Galatasaray SK,5,1,3,1,H
+2025-26,2025-09-18,,"League, Matchday 1",Sporting Clube de Portugal,FK Kairat,4,1,1,0,H
+2025-26,2025-09-30,18:45,"League, Matchday 2",Atalanta BC,Club Brugge KV,2,1,0,1,H
+2025-26,2025-09-30,,"League, Matchday 2",FK Kairat,Real Madrid CF,0,5,0,1,A
+2025-26,2025-09-30,21:00,"League, Matchday 2",Galatasaray SK,Liverpool FC,1,0,1,0,H
+2025-26,2025-09-30,,"League, Matchday 2",Club Atlético de Madrid,Eintracht Frankfurt,5,1,3,0,H
+2025-26,2025-09-30,,"League, Matchday 2",Olympique de Marseille,AFC Ajax,4,0,3,0,H
+2025-26,2025-09-30,,"League, Matchday 2",FK Bodø/Glimt,Tottenham Hotspur FC,2,2,0,0,D
+2025-26,2025-09-30,,"League, Matchday 2",Paphos FC,FC Bayern München,1,5,1,4,A
+2025-26,2025-09-30,,"League, Matchday 2",Chelsea FC,Sport Lisboa e Benfica,1,0,1,0,H
+2025-26,2025-09-30,,"League, Matchday 2",FC Internazionale Milano,SK Slavia Praha,3,0,2,0,H
+2025-26,2025-10-01,18:45,"League, Matchday 2",Qarabağ Ağdam FK,FC København,2,0,1,0,H
+2025-26,2025-10-01,,"League, Matchday 2",Royale Union Saint-Gilloise,Newcastle United FC,0,4,0,2,A
+2025-26,2025-10-01,21:00,"League, Matchday 2",Borussia Dortmund,Athletic Club,4,1,1,0,H
+2025-26,2025-10-01,,"League, Matchday 2",FC Barcelona,Paris Saint-Germain FC,1,2,1,1,A
+2025-26,2025-10-01,,"League, Matchday 2",AS Monaco FC,Manchester City FC,2,2,1,2,D
+2025-26,2025-10-01,,"League, Matchday 2",Bayer 04 Leverkusen,PSV,1,1,0,0,D
+2025-26,2025-10-01,,"League, Matchday 2",Arsenal FC,PAE Olympiakos SFP,2,0,1,0,H
+2025-26,2025-10-01,,"League, Matchday 2",Villarreal CF,Juventus FC,2,2,1,0,D
+2025-26,2025-10-01,,"League, Matchday 2",SSC Napoli,Sporting Clube de Portugal,2,1,1,0,H
+2025-26,2025-10-21,18:45,"League, Matchday 3",FC Barcelona,PAE Olympiakos SFP,6,1,2,0,H
+2025-26,2025-10-21,,"League, Matchday 3",FK Kairat,Paphos FC,0,0,,,D
+2025-26,2025-10-21,21:00,"League, Matchday 3",Royale Union Saint-Gilloise,FC Internazionale Milano,0,4,0,2,A
+2025-26,2025-10-21,,"League, Matchday 3",FC København,Borussia Dortmund,2,4,1,1,A
+2025-26,2025-10-21,,"League, Matchday 3",Bayer 04 Leverkusen,Paris Saint-Germain FC,2,7,1,4,A
+2025-26,2025-10-21,,"League, Matchday 3",Villarreal CF,Manchester City FC,0,2,0,2,A
+2025-26,2025-10-21,,"League, Matchday 3",Arsenal FC,Club Atlético de Madrid,4,0,0,0,H
+2025-26,2025-10-21,,"League, Matchday 3",Newcastle United FC,Sport Lisboa e Benfica,3,0,1,0,H
+2025-26,2025-10-21,,"League, Matchday 3",PSV,SSC Napoli,6,2,2,1,H
+2025-26,2025-10-22,18:45,"League, Matchday 3",Galatasaray SK,FK Bodø/Glimt,3,1,2,0,H
+2025-26,2025-10-22,,"League, Matchday 3",Athletic Club,Qarabağ Ağdam FK,3,1,1,1,H
+2025-26,2025-10-22,21:00,"League, Matchday 3",Eintracht Frankfurt,Liverpool FC,1,5,1,3,A
+2025-26,2025-10-22,,"League, Matchday 3",Atalanta BC,SK Slavia Praha,0,0,,,D
+2025-26,2025-10-22,,"League, Matchday 3",Sporting Clube de Portugal,Olympique de Marseille,2,1,0,1,H
+2025-26,2025-10-22,,"League, Matchday 3",AS Monaco FC,Tottenham Hotspur FC,0,0,,,D
+2025-26,2025-10-22,,"League, Matchday 3",FC Bayern München,Club Brugge KV,4,0,3,0,H
+2025-26,2025-10-22,,"League, Matchday 3",Chelsea FC,AFC Ajax,5,1,4,1,H
+2025-26,2025-10-22,,"League, Matchday 3",Real Madrid CF,Juventus FC,1,0,0,0,H
+2025-26,2025-11-04,18:45,"League, Matchday 4",SK Slavia Praha,Arsenal FC,0,3,0,1,A
+2025-26,2025-11-04,,"League, Matchday 4",SSC Napoli,Eintracht Frankfurt,0,0,,,D
+2025-26,2025-11-04,21:00,"League, Matchday 4",Juventus FC,Sporting Clube de Portugal,1,1,1,1,D
+2025-26,2025-11-04,,"League, Matchday 4",Club Atlético de Madrid,Royale Union Saint-Gilloise,3,1,1,0,H
+2025-26,2025-11-04,,"League, Matchday 4",Tottenham Hotspur FC,FC København,4,0,1,0,H
+2025-26,2025-11-04,,"League, Matchday 4",FK Bodø/Glimt,AS Monaco FC,0,1,0,1,A
+2025-26,2025-11-04,,"League, Matchday 4",PAE Olympiakos SFP,PSV,1,1,1,0,D
+2025-26,2025-11-04,,"League, Matchday 4",Paris Saint-Germain FC,FC Bayern München,1,2,0,2,A
+2025-26,2025-11-04,,"League, Matchday 4",Liverpool FC,Real Madrid CF,1,0,0,0,H
+2025-26,2025-11-05,18:45,"League, Matchday 4",Paphos FC,Villarreal CF,1,0,0,0,H
+2025-26,2025-11-05,,"League, Matchday 4",Qarabağ Ağdam FK,Chelsea FC,2,2,2,1,D
+2025-26,2025-11-05,21:00,"League, Matchday 4",FC Internazionale Milano,FK Kairat,2,1,1,0,H
+2025-26,2025-11-05,,"League, Matchday 4",Manchester City FC,Borussia Dortmund,4,1,2,0,H
+2025-26,2025-11-05,,"League, Matchday 4",Club Brugge KV,FC Barcelona,3,3,2,1,D
+2025-26,2025-11-05,,"League, Matchday 4",Sport Lisboa e Benfica,Bayer 04 Leverkusen,0,1,0,0,A
+2025-26,2025-11-05,,"League, Matchday 4",Olympique de Marseille,Atalanta BC,0,1,0,0,A
+2025-26,2025-11-05,,"League, Matchday 4",AFC Ajax,Galatasaray SK,0,3,0,0,A
+2025-26,2025-11-05,,"League, Matchday 4",Newcastle United FC,Athletic Club,2,0,1,0,H
+2025-26,2025-11-25,18:45,"League, Matchday 5",AFC Ajax,Sport Lisboa e Benfica,0,2,0,1,A
+2025-26,2025-11-25,,"League, Matchday 5",Galatasaray SK,Royale Union Saint-Gilloise,0,1,0,0,A
+2025-26,2025-11-25,21:00,"League, Matchday 5",Borussia Dortmund,Villarreal CF,4,0,1,0,H
+2025-26,2025-11-25,,"League, Matchday 5",Manchester City FC,Bayer 04 Leverkusen,0,2,0,1,A
+2025-26,2025-11-25,,"League, Matchday 5",FK Bodø/Glimt,Juventus FC,2,3,1,0,A
+2025-26,2025-11-25,,"League, Matchday 5",Olympique de Marseille,Newcastle United FC,2,1,0,1,H
+2025-26,2025-11-25,,"League, Matchday 5",SK Slavia Praha,Athletic Club,0,0,,,D
+2025-26,2025-11-25,,"League, Matchday 5",SSC Napoli,Qarabağ Ağdam FK,2,0,0,0,H
+2025-26,2025-11-25,,"League, Matchday 5",Chelsea FC,FC Barcelona,3,0,1,0,H
+2025-26,2025-11-26,18:45,"League, Matchday 5",Paphos FC,AS Monaco FC,2,2,1,2,D
+2025-26,2025-11-26,,"League, Matchday 5",FC København,FK Kairat,3,2,1,0,H
+2025-26,2025-11-26,21:00,"League, Matchday 5",Liverpool FC,PSV,1,4,1,1,A
+2025-26,2025-11-26,,"League, Matchday 5",Paris Saint-Germain FC,Tottenham Hotspur FC,5,3,1,1,H
+2025-26,2025-11-26,,"League, Matchday 5",Eintracht Frankfurt,Atalanta BC,0,3,0,0,A
+2025-26,2025-11-26,,"League, Matchday 5",Sporting Clube de Portugal,Club Brugge KV,3,0,2,0,H
+2025-26,2025-11-26,,"League, Matchday 5",Arsenal FC,FC Bayern München,3,1,1,1,H
+2025-26,2025-11-26,,"League, Matchday 5",PAE Olympiakos SFP,Real Madrid CF,3,4,1,3,A
+2025-26,2025-11-26,,"League, Matchday 5",Club Atlético de Madrid,FC Internazionale Milano,2,1,1,0,H
+2025-26,2025-12-09,16:30,"League, Matchday 6",FK Kairat,PAE Olympiakos SFP,0,1,0,0,A
+2025-26,2025-12-09,18:45,"League, Matchday 6",FC Bayern München,Sporting Clube de Portugal,3,1,0,0,H
+2025-26,2025-12-09,21:00,"League, Matchday 6",FC Barcelona,Eintracht Frankfurt,2,1,0,1,H
+2025-26,2025-12-09,,"League, Matchday 6",PSV,Club Atlético de Madrid,2,3,1,1,A
+2025-26,2025-12-09,,"League, Matchday 6",Royale Union Saint-Gilloise,Olympique de Marseille,2,3,1,2,A
+2025-26,2025-12-09,,"League, Matchday 6",Tottenham Hotspur FC,SK Slavia Praha,3,0,1,0,H
+2025-26,2025-12-09,,"League, Matchday 6",AS Monaco FC,Galatasaray SK,1,0,0,0,H
+2025-26,2025-12-09,,"League, Matchday 6",Atalanta BC,Chelsea FC,2,1,0,1,H
+2025-26,2025-12-09,,"League, Matchday 6",FC Internazionale Milano,Liverpool FC,0,1,0,0,A
+2025-26,2025-12-10,18:45,"League, Matchday 6",Villarreal CF,FC København,2,3,0,1,A
+2025-26,2025-12-10,,"League, Matchday 6",Qarabağ Ağdam FK,AFC Ajax,2,4,1,1,A
+2025-26,2025-12-10,21:00,"League, Matchday 6",Borussia Dortmund,FK Bodø/Glimt,2,2,1,1,D
+2025-26,2025-12-10,,"League, Matchday 6",Athletic Club,Paris Saint-Germain FC,0,0,,,D
+2025-26,2025-12-10,,"League, Matchday 6",Bayer 04 Leverkusen,Newcastle United FC,2,2,1,0,D
+2025-26,2025-12-10,,"League, Matchday 6",Club Brugge KV,Arsenal FC,0,3,0,1,A
+2025-26,2025-12-10,,"League, Matchday 6",Sport Lisboa e Benfica,SSC Napoli,2,0,1,0,H
+2025-26,2025-12-10,,"League, Matchday 6",Juventus FC,Paphos FC,2,0,0,0,H
+2025-26,2025-12-10,,"League, Matchday 6",Real Madrid CF,Manchester City FC,1,2,1,2,A
+2025-26,2026-01-20,16:30,"League, Matchday 7",FK Kairat,Club Brugge KV,1,4,0,2,A
+2025-26,2026-01-20,18:45,"League, Matchday 7",FK Bodø/Glimt,Manchester City FC,3,1,2,0,H
+2025-26,2026-01-20,21:00,"League, Matchday 7",Tottenham Hotspur FC,Borussia Dortmund,2,0,2,0,H
+2025-26,2026-01-20,,"League, Matchday 7",Sporting Clube de Portugal,Paris Saint-Germain FC,2,1,0,0,H
+2025-26,2026-01-20,,"League, Matchday 7",PAE Olympiakos SFP,Bayer 04 Leverkusen,2,0,2,0,H
+2025-26,2026-01-20,,"League, Matchday 7",Villarreal CF,AFC Ajax,1,2,0,0,A
+2025-26,2026-01-20,,"League, Matchday 7",FC København,SSC Napoli,1,1,0,1,D
+2025-26,2026-01-20,,"League, Matchday 7",Real Madrid CF,AS Monaco FC,6,1,2,0,H
+2025-26,2026-01-20,,"League, Matchday 7",FC Internazionale Milano,Arsenal FC,1,3,1,2,A
+2025-26,2026-01-21,18:45,"League, Matchday 7",Qarabağ Ağdam FK,Eintracht Frankfurt,3,2,1,1,H
+2025-26,2026-01-21,,"League, Matchday 7",Galatasaray SK,Club Atlético de Madrid,1,1,1,1,D
+2025-26,2026-01-21,21:00,"League, Matchday 7",Olympique de Marseille,Liverpool FC,0,3,0,1,A
+2025-26,2026-01-21,,"League, Matchday 7",SK Slavia Praha,FC Barcelona,2,4,2,2,A
+2025-26,2026-01-21,,"League, Matchday 7",Atalanta BC,Athletic Club,2,3,1,0,A
+2025-26,2026-01-21,,"League, Matchday 7",Juventus FC,Sport Lisboa e Benfica,2,0,0,0,H
+2025-26,2026-01-21,,"League, Matchday 7",Newcastle United FC,PSV,3,0,2,0,H
+2025-26,2026-01-21,,"League, Matchday 7",FC Bayern München,Royale Union Saint-Gilloise,2,0,0,0,H
+2025-26,2026-01-21,,"League, Matchday 7",Chelsea FC,Paphos FC,1,0,0,0,H
+2025-26,2026-01-28,21:00,"League, Matchday 8",Liverpool FC,Qarabağ Ağdam FK,6,0,2,0,H
+2025-26,2026-01-28,,"League, Matchday 8",FC Barcelona,FC København,4,1,0,1,H
+2025-26,2026-01-28,,"League, Matchday 8",Manchester City FC,Galatasaray SK,2,0,2,0,H
+2025-26,2026-01-28,,"League, Matchday 8",Bayer 04 Leverkusen,Villarreal CF,3,0,2,0,H
+2025-26,2026-01-28,,"League, Matchday 8",Arsenal FC,FK Kairat,3,2,3,1,H
+2025-26,2026-01-28,,"League, Matchday 8",Royale Union Saint-Gilloise,Atalanta BC,1,0,0,0,H
+2025-26,2026-01-28,,"League, Matchday 8",Club Brugge KV,Olympique de Marseille,3,0,2,0,H
+2025-26,2026-01-28,,"League, Matchday 8",Eintracht Frankfurt,Tottenham Hotspur FC,0,2,0,0,A
+2025-26,2026-01-28,,"League, Matchday 8",AS Monaco FC,Juventus FC,0,0,,,D
+2025-26,2026-01-28,,"League, Matchday 8",Club Atlético de Madrid,FK Bodø/Glimt,1,2,1,1,A
+2025-26,2026-01-28,,"League, Matchday 8",Athletic Club,Sporting Clube de Portugal,2,3,2,1,A
+2025-26,2026-01-28,,"League, Matchday 8",AFC Ajax,PAE Olympiakos SFP,1,2,0,0,A
+2025-26,2026-01-28,,"League, Matchday 8",Paris Saint-Germain FC,Newcastle United FC,1,1,1,1,D
+2025-26,2026-01-28,,"League, Matchday 8",Paphos FC,SK Slavia Praha,4,1,1,1,H
+2025-26,2026-01-28,,"League, Matchday 8",PSV,FC Bayern München,1,2,0,0,A
+2025-26,2026-01-28,,"League, Matchday 8",SSC Napoli,Chelsea FC,2,3,2,1,A
+2025-26,2026-01-28,,"League, Matchday 8",Sport Lisboa e Benfica,Real Madrid CF,4,2,2,1,H
+2025-26,2026-01-28,,"League, Matchday 8",Borussia Dortmund,FC Internazionale Milano,0,2,0,0,A
+2025-26,2026-02-17,18:45,"Playoffs, Matchday 1",Galatasaray SK,Juventus FC,5,2,1,2,H
+2025-26,2026-02-17,21:00,"Playoffs, Matchday 1",Sport Lisboa e Benfica,Real Madrid CF,0,1,0,0,A
+2025-26,2026-02-17,,"Playoffs, Matchday 1",AS Monaco FC,Paris Saint-Germain FC,2,3,2,2,A
+2025-26,2026-02-17,21:15,"Playoffs, Matchday 1",Borussia Dortmund,Atalanta BC,2,0,2,0,H
+2025-26,2026-02-18,18:45,"Playoffs, Matchday 1",Qarabağ Ağdam FK,Newcastle United FC,1,6,0,5,A
+2025-26,2026-02-18,21:00,"Playoffs, Matchday 1",Club Brugge KV,Club Atlético de Madrid,3,3,0,2,D
+2025-26,2026-02-18,,"Playoffs, Matchday 1",PAE Olympiakos SFP,Bayer 04 Leverkusen,0,2,0,0,A
+2025-26,2026-02-18,,"Playoffs, Matchday 1",FK Bodø/Glimt,FC Internazionale Milano,3,1,1,1,H
+2025-26,2026-02-24,18:45,"Playoffs, Matchday 2",Club Atlético de Madrid,Club Brugge KV,4,1,1,1,H
+2025-26,2026-02-24,21:00,"Playoffs, Matchday 2",Newcastle United FC,Qarabağ Ağdam FK,3,2,2,0,H
+2025-26,2026-02-24,,"Playoffs, Matchday 2",Bayer 04 Leverkusen,PAE Olympiakos SFP,0,0,,,D
+2025-26,2026-02-24,,"Playoffs, Matchday 2",FC Internazionale Milano,FK Bodø/Glimt,1,2,0,0,A
+2025-26,2026-02-25,18:45,"Playoffs, Matchday 2",Atalanta BC,Borussia Dortmund,4,1,2,0,H
+2025-26,2026-02-25,21:00,"Playoffs, Matchday 2",Real Madrid CF,Sport Lisboa e Benfica,2,1,1,1,H
+2025-26,2026-02-25,,"Playoffs, Matchday 2",Paris Saint-Germain FC,AS Monaco FC,2,2,0,1,D
+2025-26,2026-02-25,,"Playoffs, Matchday 2",Juventus FC,Galatasaray SK,3,2,,,H
+2025-26,2026-03-10,18:45,"Finals, Round of 16",Galatasaray SK,Liverpool FC,1,0,1,0,H
+2025-26,2026-03-10,21:00,"Finals, Round of 16",Atalanta BC,FC Bayern München,1,6,0,3,A
+2025-26,2026-03-10,,"Finals, Round of 16",Newcastle United FC,FC Barcelona,1,1,0,0,D
+2025-26,2026-03-10,,"Finals, Round of 16",Club Atlético de Madrid,Tottenham Hotspur FC,5,2,4,1,H
+2025-26,2026-03-11,18:45,"Finals, Round of 16",Bayer 04 Leverkusen,Arsenal FC,1,1,0,0,D
+2025-26,2026-03-11,21:00,"Finals, Round of 16",Paris Saint-Germain FC,Chelsea FC,5,2,2,1,H
+2025-26,2026-03-11,,"Finals, Round of 16",Real Madrid CF,Manchester City FC,3,0,3,0,H
+2025-26,2026-03-11,,"Finals, Round of 16",FK Bodø/Glimt,Sporting Clube de Portugal,3,0,2,0,H
+2025-26,2026-03-17,18:45,"Finals, Round of 16",Sporting Clube de Portugal,FK Bodø/Glimt,5,0,,,H
+2025-26,2026-03-17,21:00,"Finals, Round of 16",Chelsea FC,Paris Saint-Germain FC,0,3,0,2,A
+2025-26,2026-03-17,,"Finals, Round of 16",Manchester City FC,Real Madrid CF,1,2,1,1,A
+2025-26,2026-03-17,,"Finals, Round of 16",Arsenal FC,Bayer 04 Leverkusen,2,0,1,0,H
+2025-26,2026-03-18,18:45,"Finals, Round of 16",FC Barcelona,Newcastle United FC,7,2,3,2,H
+2025-26,2026-03-18,21:00,"Finals, Round of 16",Liverpool FC,Galatasaray SK,4,0,1,0,H
+2025-26,2026-03-18,,"Finals, Round of 16",FC Bayern München,Atalanta BC,4,1,1,0,H
+2025-26,2026-03-18,,"Finals, Round of 16",Tottenham Hotspur FC,Club Atlético de Madrid,3,2,1,0,H
+2025-26,2026-04-07,21:00,"Finals, Quarterfinals",Real Madrid CF,FC Bayern München,1,2,0,1,A
+2025-26,2026-04-07,,"Finals, Quarterfinals",Sporting Clube de Portugal,Arsenal FC,0,1,0,0,A
+2025-26,2026-04-08,21:00,"Finals, Quarterfinals",Paris Saint-Germain FC,Liverpool FC,2,0,1,0,H
+2025-26,2026-04-08,,"Finals, Quarterfinals",FC Barcelona,Club Atlético de Madrid,0,2,0,1,A
+2025-26,2026-04-14,21:00,"Finals, Quarterfinals",Liverpool FC,Paris Saint-Germain FC,0,2,0,0,A
+2025-26,2026-04-14,,"Finals, Quarterfinals",Club Atlético de Madrid,FC Barcelona,1,2,1,2,A
+2025-26,2026-04-15,21:00,"Finals, Quarterfinals",FC Bayern München,Real Madrid CF,4,3,2,3,H
+2025-26,2026-04-15,,"Finals, Quarterfinals",Arsenal FC,Sporting Clube de Portugal,0,0,,,D
+2025-26,2026-04-28,21:00,"Finals, Semifinals",Paris Saint-Germain FC,FC Bayern München,5,4,3,2,H
+2025-26,2026-04-29,21:00,"Finals, Semifinals",Club Atlético de Madrid,Arsenal FC,1,1,0,1,D
+2025-26,2026-05-05,21:00,"Finals, Semifinals",Arsenal FC,Club Atlético de Madrid,1,0,1,0,H
+2025-26,2026-05-06,21:00,"Finals, Semifinals",FC Bayern München,Paris Saint-Germain FC,1,1,0,1,D
+2025-26,2026-05-30,18:00,"Finals, Final",Paris Saint-Germain FC,Arsenal FC,4,3,,,H
