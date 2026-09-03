@@ -1,0 +1,48 @@
+from pathlib import Path
+import tempfile
+import unittest
+
+from sports_lottery.analysis import estimate_match
+from sports_lottery.database import connect, import_rows
+from sports_lottery.schema import validate_csv
+
+
+HEADER = "match_id,lottery_date,match_no,competition,kickoff_time,home_team,away_team,home_score,away_score,handicap,spf_home_odds,spf_draw_odds,spf_away_odds,rqspf_home_odds,rqspf_draw_odds,rqspf_away_odds,source_url,collected_at\n"
+
+
+class CoreTests(unittest.TestCase):
+    def test_validate_and_import(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            csv_path = Path(directory) / "matches.csv"
+            csv_path.write_text(
+                HEADER
+                + "20260101-001,2026-01-01,周四001,测试联赛,2026-01-01T20:00:00+08:00,甲队,乙队,2,0,0,1.80,3.20,4.00,,,,https://example.com,2026-01-01T19:00:00+08:00\n",
+                encoding="utf-8",
+            )
+            rows, issues = validate_csv(csv_path)
+            self.assertFalse(issues)
+            database = connect(Path(directory) / "test.sqlite3")
+            self.assertEqual(import_rows(database, rows), 1)
+            self.assertEqual(database.execute("SELECT COUNT(*) FROM matches").fetchone()[0], 1)
+
+    def test_estimate_uses_only_prior_matches(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            csv_path = Path(directory) / "matches.csv"
+            csv_path.write_text(
+                HEADER
+                + "1,2026-01-01,周四001,测试联赛,2026-01-01T20:00:00+08:00,甲队,乙队,2,0,0,,,,,,,,\n"
+                + "2,2026-01-02,周五001,测试联赛,2026-01-02T20:00:00+08:00,丙队,丁队,1,1,0,,,,,,,,\n",
+                encoding="utf-8",
+            )
+            rows, issues = validate_csv(csv_path)
+            self.assertFalse(issues)
+            database = connect(Path(directory) / "test.sqlite3")
+            import_rows(database, rows)
+            estimate = estimate_match(database, "甲队", "丁队", "2026-01-03T20:00:00+08:00")
+            self.assertTrue(0 < estimate.home_win < 1)
+            self.assertAlmostEqual(estimate.home_win + estimate.draw + estimate.away_win, 1)
+            self.assertEqual(len(estimate.top_scores), 5)
+
+
+if __name__ == "__main__":
+    unittest.main()
