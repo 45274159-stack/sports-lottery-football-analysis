@@ -11,6 +11,19 @@ HEADER = "match_id,lottery_date,match_no,competition,kickoff_time,home_team,away
 
 
 class CoreTests(unittest.TestCase):
+    def test_optional_columns_may_be_omitted(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            csv_path = Path(directory) / "minimal.csv"
+            csv_path.write_text(
+                "match_id,lottery_date,match_no,competition,kickoff_time,home_team,away_team,home_score,away_score\n"
+                "minimal-1,2026-01-01,周四001,测试联赛,2026-01-01T20:00:00+08:00,甲队,乙队,,\n",
+                encoding="utf-8",
+            )
+            rows, issues = validate_csv(csv_path)
+            self.assertFalse(issues)
+            database = connect(Path(directory) / "test.sqlite3")
+            self.assertEqual(import_rows(database, rows), 1)
+
     def test_validate_and_import(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             csv_path = Path(directory) / "matches.csv"
