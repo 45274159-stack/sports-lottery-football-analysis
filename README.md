@@ -12,6 +12,8 @@
 - 严格只读取开赛前历史比赛，避免数据泄漏；
 - 输出基础胜平负概率、预期进球和参考比分；
 - 为后续十年历史数据、伤停、赛程强度和赔率快照扩展保留结构。
+- 已收录2016/17至2025/26五大联赛17,937场标准化比赛数据；
+- 可一键复算十年主胜率、平局率、客胜率、进球和双方进球分布。
 
 ## 快速开始
 
@@ -24,6 +26,7 @@ sporttery validate data/templates/matches_template.csv
 sporttery init-db
 sporttery import data/templates/matches_template.csv
 sporttery analyze --home 皇家社会 --away 塞尔塔 --kickoff 2026-09-04T03:00:00+08:00
+sporttery review-history data/processed/top5_2016_2026
 ```
 
 ## 目录
@@ -31,7 +34,8 @@ sporttery analyze --home 皇家社会 --away 塞尔塔 --kickoff 2026-09-04T03:0
 ```text
 data/templates/    标准导入模板
 data/raw/          原始快照（默认不提交大文件）
-data/processed/    SQLite和清洗结果（默认不提交）
+data/processed/    SQLite、清洗结果及已审计的十年数据集
+reports/           可复核的统计复盘报告
 docs/              数据字典与分析方法
 src/               校验、入库和分析代码
 tests/             自动化测试
@@ -47,9 +51,8 @@ tests/             自动化测试
 
 历史数据必须来自可核验来源。仓库不会为了“凑满十年”而生成虚假记录。
 
-详细字段见 [数据字典](docs/DATA_DICTIONARY.md)，分析边界见 [方法说明](docs/METHODOLOGY.md)。
+首批结果见 [五大联赛十赛季复盘](reports/top5_2016_2026_review.md)。详细字段见 [数据字典](docs/DATA_DICTIONARY.md)，分析边界见 [方法说明](docs/METHODOLOGY.md)。
 
 ## 责任提示
 
 足球比赛具有高度随机性。任何分析都可能错误；请将投注限制在能够完全承受损失的小额娱乐预算内，不追损、不借款、不翻倍。
-
