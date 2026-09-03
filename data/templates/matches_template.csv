@@ -1,0 +1,3 @@
+match_id,lottery_date,match_no,competition,kickoff_time,home_team,away_team,home_score,away_score,handicap,spf_home_odds,spf_draw_odds,spf_away_odds,rqspf_home_odds,rqspf_draw_odds,rqspf_away_odds,source_url,collected_at
+20260903-006,2026-09-03,周四006,西甲,2026-09-04T03:00:00+08:00,皇家社会,塞尔塔,,,0,1.71,3.50,3.86,,,,https://www.sporttery.cn/,2026-09-03T21:30:00+08:00
+
