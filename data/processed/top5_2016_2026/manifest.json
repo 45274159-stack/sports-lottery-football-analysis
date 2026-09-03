@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-09-03",
+  "source_repository": "datasets/football-datasets",
+  "source_url": "https://github.com/datasets/football-datasets",
+  "source_license": "PDDL-1.0",
+  "seasons": [
+    "1617",
+    "1718",
+    "1819",
+    "1920",
+    "2021",
+    "2122",
+    "2223",
+    "2324",
+    "2425",
+    "2526"
+  ],
+  "leagues": [
+    "Premier League",
+    "La Liga",
+    "Serie A",
+    "Bundesliga",
+    "Ligue 1"
+  ],
+  "matches": 17937,
+  "distinction": "Market match data; not official China Sports Lottery IDs or fixed odds."
+}
