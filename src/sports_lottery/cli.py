@@ -5,6 +5,7 @@ from pathlib import Path
 
 from .analysis import estimate_match
 from .database import connect, import_rows
+from .review import render_review
 from .schema import validate_csv
 
 
@@ -57,6 +58,9 @@ def build_parser() -> argparse.ArgumentParser:
     analyze.add_argument("--home", required=True)
     analyze.add_argument("--away", required=True)
     analyze.add_argument("--kickoff", required=True)
+
+    review = subparsers.add_parser("review-history", help="复盘标准化历史赛果")
+    review.add_argument("directory", nargs="?", default="data/processed/top5_2016_2026")
     return parser
 
 
@@ -72,9 +76,11 @@ def main() -> int:
     if args.command == "import":
         Path(args.db).parent.mkdir(parents=True, exist_ok=True)
         return _import(args.csv, args.db)
+    if args.command == "review-history":
+        print(render_review(args.directory))
+        return 0
     return _analyze(args.db, args.home, args.away, args.kickoff)
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
