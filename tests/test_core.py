@@ -4,6 +4,7 @@ import unittest
 
 from sports_lottery.analysis import estimate_match
 from sports_lottery.database import connect, import_rows
+from sports_lottery.review import load_history
 from sports_lottery.schema import validate_csv
 
 
@@ -55,6 +56,22 @@ class CoreTests(unittest.TestCase):
             self.assertTrue(0 < estimate.home_win < 1)
             self.assertAlmostEqual(estimate.home_win + estimate.draw + estimate.away_win, 1)
             self.assertEqual(len(estimate.top_scores), 5)
+
+    def test_history_review(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "sample.csv"
+            path.write_text(
+                "league,ft_home_goals,ft_away_goals,ft_result\n"
+                "英超,2,1,H\n"
+                "英超,1,1,D\n"
+                "西甲,0,1,A\n",
+                encoding="utf-8",
+            )
+            total, leagues = load_history(directory)
+            self.assertEqual(total.matches, 3)
+            self.assertEqual(total.goals, 6)
+            self.assertEqual(total.over_2_5, 1)
+            self.assertEqual(leagues["英超"].both_score, 2)
 
 
 if __name__ == "__main__":
