@@ -78,7 +78,12 @@ def validate_csv(path: str | Path) -> tuple[list[dict[str, object]], list[Valida
             return [], issues
 
         for row_number, raw in enumerate(reader, start=2):
+            extra_values = raw.pop(None, None)
+            if extra_values:
+                issues.append(ValidationIssue(row_number, "columns", "存在多余列"))
             row = {key: (value or "").strip() for key, value in raw.items()}
+            for field in OPTIONAL_FIELDS:
+                row.setdefault(field, "")
             for field in ("match_id", "lottery_date", "match_no", "competition", "kickoff_time", "home_team", "away_team"):
                 if not row[field]:
                     issues.append(ValidationIssue(row_number, field, "不能为空"))
@@ -114,4 +119,3 @@ def validate_csv(path: str | Path) -> tuple[list[dict[str, object]], list[Valida
             typed_rows.append(typed)
 
     return typed_rows, issues
-
