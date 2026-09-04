@@ -1,0 +1,128 @@
+[
+  {
+    "after": "2016-17,2017-04-18,,Quarterfinals,Real Madrid,Bayern München,1,2,0,0,A",
+    "away": "Bayern München",
+    "before": "2016-17,2017-04-18,,Quarterfinals,Real Madrid,Bayern München,4,2,,,H",
+    "date": "2017-04-18",
+    "home": "Real Madrid",
+    "season": "2016-17",
+    "source": "Real Madrid (ESP)       v Bayern München (GER)     4-2 a.e.t. (1-2, 0-0)"
+  },
+  {
+    "after": "2018-19,2019-03-06,,Round of 16,FC Porto,AS Roma,2,1,1,1,H",
+    "away": "AS Roma",
+    "before": "2018-19,2019-03-06,,Round of 16,FC Porto,AS Roma,3,1,,,H",
+    "date": "2019-03-06",
+    "home": "FC Porto",
+    "season": "2018-19",
+    "source": "FC Porto (POR)          v AS Roma (ITA)            3-1 a.e.t. (2-1, 1-1)"
+  },
+  {
+    "after": "2019-20,2020-03-11,,Round of 16,Liverpool FC,Atlético Madrid,1,0,1,0,H",
+    "away": "Atlético Madrid",
+    "before": "2019-20,2020-03-11,,Round of 16,Liverpool FC,Atlético Madrid,2,3,,,A",
+    "date": "2020-03-11",
+    "home": "Liverpool FC",
+    "season": "2019-20",
+    "source": "Liverpool FC (ENG)      v Atlético Madrid (ESP)    2-3 a.e.t. (1-0, 1-0)"
+  },
+  {
+    "after": "2020-21,2021-03-09,21:00,Round of 16,Juventus,FC Porto,2,1,0,1,H",
+    "away": "FC Porto",
+    "before": "2020-21,2021-03-09,21:00,Round of 16,Juventus,FC Porto,3,2,,,H",
+    "date": "2021-03-09",
+    "home": "Juventus",
+    "season": "2020-21",
+    "source": "21:00  Juventus (ITA)          v FC Porto (POR)           3-2 a.e.t. (2-1, 0-1)"
+  },
+  {
+    "after": "2021-22,2022-04-12,21:00,Quarterfinals,Real Madrid,Chelsea FC,1,3,0,1,A",
+    "away": "Chelsea FC",
+    "before": "2021-22,2022-04-12,21:00,Quarterfinals,Real Madrid,Chelsea FC,2,3,,,A",
+    "date": "2022-04-12",
+    "home": "Real Madrid",
+    "season": "2021-22",
+    "source": "21:00  Real Madrid (ESP)       v Chelsea FC (ENG)         2-3 a.e.t. (1-3, 0-1)"
+  },
+  {
+    "after": "2021-22,2022-05-04,21:00,Semifinals,Real Madrid,Manchester City,2,1,0,0,H",
+    "away": "Manchester City",
+    "before": "2021-22,2022-05-04,21:00,Semifinals,Real Madrid,Manchester City,3,1,,,H",
+    "date": "2022-05-04",
+    "home": "Real Madrid",
+    "season": "2021-22",
+    "source": "21:00  Real Madrid (ESP)       v Manchester City (ENG)    3-1 a.e.t. (2-1, 0-0)"
+  },
+  {
+    "after": "2023-24,2024-03-12,21:00,\"Finals, Round of 16\",Arsenal FC,FC Porto,1,0,1,0,H",
+    "away": "FC Porto",
+    "before": "2023-24,2024-03-12,21:00,\"Finals, Round of 16\",Arsenal FC,FC Porto,4,2,,,H",
+    "date": "2024-03-12",
+    "home": "Arsenal FC",
+    "season": "2023-24",
+    "source": "21:00  Arsenal FC (ENG)        v FC Porto (POR)           4-2 pen. 1-0 a.e.t. (1-0, 1-0)"
+  },
+  {
+    "after": "2023-24,2024-03-13,21:00,\"Finals, Round of 16\",Club Atlético de Madrid,FC Internazionale Milano,2,1,1,1,H",
+    "away": "FC Internazionale Milano",
+    "before": "2023-24,2024-03-13,21:00,\"Finals, Round of 16\",Club Atlético de Madrid,FC Internazionale Milano,3,2,,,H",
+    "date": "2024-03-13",
+    "home": "Club Atlético de Madrid",
+    "season": "2023-24",
+    "source": "21:00  Club Atlético de Madrid (ESP) v FC Internazionale Milano (ITA)  3-2 pen. 2-1 a.e.t. (2-1, 1-1)"
+  },
+  {
+    "after": "2023-24,2024-04-17,,\"Finals, Quarterfinals\",Manchester City FC,Real Madrid CF,1,1,0,1,D",
+    "away": "Real Madrid CF",
+    "before": "2023-24,2024-04-17,,\"Finals, Quarterfinals\",Manchester City FC,Real Madrid CF,3,4,,,A",
+    "date": "2024-04-17",
+    "home": "Manchester City FC",
+    "season": "2023-24",
+    "source": "Manchester City FC (ENG) v Real Madrid CF (ESP)     3-4 pen. 1-1 a.e.t. (1-1, 0-1)"
+  },
+  {
+    "after": "2024-25,2025-03-11,21:00,\"Finals, Round of 16\",Liverpool FC,Paris Saint-Germain FC,0,1,0,1,A",
+    "away": "Paris Saint-Germain FC",
+    "before": "2024-25,2025-03-11,21:00,\"Finals, Round of 16\",Liverpool FC,Paris Saint-Germain FC,1,4,,,A",
+    "date": "2025-03-11",
+    "home": "Liverpool FC",
+    "season": "2024-25",
+    "source": "21:00  Liverpool FC (ENG)      v Paris Saint-Germain FC (FRA)  1-4 pen. 0-1 a.e.t. (0-1, 0-1)"
+  },
+  {
+    "after": "2024-25,2025-03-12,,\"Finals, Round of 16\",Club Atlético de Madrid,Real Madrid CF,1,0,1,0,H",
+    "away": "Real Madrid CF",
+    "before": "2024-25,2025-03-12,,\"Finals, Round of 16\",Club Atlético de Madrid,Real Madrid CF,2,4,,,A",
+    "date": "2025-03-12",
+    "home": "Club Atlético de Madrid",
+    "season": "2024-25",
+    "source": "Club Atlético de Madrid (ESP) v Real Madrid CF (ESP)     2-4 pen. 1-0 a.e.t. (1-0, 1-0)"
+  },
+  {
+    "after": "2025-26,2026-02-25,,\"Playoffs, Matchday 2\",Juventus FC,Galatasaray SK,3,0,1,0,H",
+    "away": "Galatasaray SK",
+    "before": "2025-26,2026-02-25,,\"Playoffs, Matchday 2\",Juventus FC,Galatasaray SK,3,2,,,H",
+    "date": "2026-02-25",
+    "home": "Juventus FC",
+    "season": "2025-26",
+    "source": "Juventus FC (ITA)       v Galatasaray SK (TUR)     3-2 a.e.t. (3-0, 1-0)"
+  },
+  {
+    "after": "2025-26,2026-03-17,18:45,\"Finals, Round of 16\",Sporting Clube de Portugal,FK Bodø/Glimt,3,0,1,0,H",
+    "away": "FK Bodø/Glimt",
+    "before": "2025-26,2026-03-17,18:45,\"Finals, Round of 16\",Sporting Clube de Portugal,FK Bodø/Glimt,5,0,,,H",
+    "date": "2026-03-17",
+    "home": "Sporting Clube de Portugal",
+    "season": "2025-26",
+    "source": "18:45  Sporting Clube de Portugal (POR) v FK Bodø/Glimt (NOR)      5-0 a.e.t. (3-0, 1-0)"
+  },
+  {
+    "after": "2025-26,2026-05-30,18:00,\"Finals, Final\",Paris Saint-Germain FC,Arsenal FC,1,1,0,1,D",
+    "away": "Arsenal FC",
+    "before": "2025-26,2026-05-30,18:00,\"Finals, Final\",Paris Saint-Germain FC,Arsenal FC,4,3,,,H",
+    "date": "2026-05-30",
+    "home": "Paris Saint-Germain FC",
+    "season": "2025-26",
+    "source": "18:00  Paris Saint-Germain FC (FRA) v Arsenal FC (ENG)         4-3 pen. 1-1 a.e.t. (1-1, 0-1)"
+  }
+]
