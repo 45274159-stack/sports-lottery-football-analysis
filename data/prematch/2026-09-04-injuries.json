@@ -1,0 +1,1193 @@
+{
+  "schema_version": "injury-snapshot-v1",
+  "lottery_date": "2026-09-04",
+  "observed_at": "2026-09-04T06:45:59.791Z",
+  "scope": "当日竞彩足球14场28队",
+  "schedule_source": "https://live.zgzcw.com/",
+  "official_number_verification": "pending_terminal",
+  "numeric_adjustment": false,
+  "publication_policy": "published_date保留来源日期；精确published_at未知则null。可回测最早使用时间为observed_at，不得回填早先预测。",
+  "sources": {
+    "lyon": {
+      "url": "https://www.sportsmole.co.uk/football/lyon/preview/lyon-vs-auxerre-prediction-team-news-lineups_604264.html",
+      "type": "secondary",
+      "published_date": "2026-09-02",
+      "published_at": null,
+      "observed_at": "2026-09-04T06:45:59.791Z"
+    },
+    "lyon_alt": {
+      "url": "https://www.thestatszone.com/lyon-vs-auxerre-preview-team-news-prediction-221772",
+      "type": "secondary",
+      "published_date": null,
+      "published_at": null,
+      "observed_at": "2026-09-04T06:45:59.791Z"
+    },
+    "norway": {
+      "url": "https://www.fotmob.com/matches/bodoglimt-vs-fredrikstad/2c7wb3",
+      "type": "secondary",
+      "published_date": null,
+      "published_at": null,
+      "observed_at": "2026-09-04T06:45:59.791Z"
+    },
+    "saudi": {
+      "url": "https://www.fotmob.com/en-GB/matches/al-hilal-vs-al-shabab/2i7fg10",
+      "type": "secondary",
+      "published_date": null,
+      "published_at": null,
+      "observed_at": "2026-09-04T06:45:59.791Z"
+    },
+    "dutch": {
+      "url": "https://www.fotmob.com/matches/pec-zwolle-vs-sparta-rotterdam/1v8as4",
+      "type": "secondary",
+      "published_date": null,
+      "published_at": null,
+      "observed_at": "2026-09-04T06:45:59.791Z"
+    },
+    "emmen": {
+      "url": "https://fcemmen.nl/vbsemmvol2627/",
+      "type": "official",
+      "published_date": "2026-09-03",
+      "published_at": null,
+      "observed_at": "2026-09-04T06:45:59.791Z"
+    },
+    "stuttgart": {
+      "url": "https://www.vfb.de/de/vfb/aktuell/neues/profis/2627/vorschau-vfb-stuttgart-gegen-1--fc-koeln/",
+      "type": "official",
+      "published_date": "2026-09-03",
+      "published_at": null,
+      "observed_at": "2026-09-04T06:45:59.791Z"
+    },
+    "koln": {
+      "url": "https://www.welt.de/regionales/nrw/article6a981aee9452c52238231763/einsaetze-von-el-mala-und-dallinga-in-stuttgart-fraglich.html",
+      "type": "secondary",
+      "published_date": "2026-09-03",
+      "published_at": null,
+      "observed_at": "2026-09-04T06:45:59.791Z"
+    },
+    "italy": {
+      "url": "https://www.sportsmole.co.uk/football/genoa/preview/genoa-vs-como-prediction-team-news-lineups_604303.html",
+      "type": "secondary",
+      "published_date": "2026-09-02",
+      "published_at": null,
+      "observed_at": "2026-09-04T06:45:59.791Z"
+    },
+    "liverpool": {
+      "url": "https://www.liverpoolfc.com/news/ipswich-town-v-liverpool-team-news",
+      "type": "official",
+      "published_date": "2026-09-03",
+      "published_at": null,
+      "observed_at": "2026-09-04T06:45:59.791Z"
+    },
+    "spain": {
+      "url": "https://www.si.com/soccer/real-betis-vs-real-madrid-preview-predictions-lineups-9-4-26",
+      "type": "secondary",
+      "published_date": "2026-09-04",
+      "published_at": null,
+      "observed_at": "2026-09-04T06:45:59.791Z"
+    },
+    "paris": {
+      "url": "https://www.fotmob.com/matches/monaco-vs-paris-saint-germain/379cod",
+      "type": "secondary",
+      "published_date": null,
+      "published_at": null,
+      "observed_at": "2026-09-04T06:45:59.791Z"
+    },
+    "monaco": {
+      "url": "https://www.asmonaco.com/fr/news/le-groupe-de-l-as-monaco-pour-affronter-le-paris-saint-germain-au-parc-des-princes",
+      "type": "official",
+      "published_date": "2026-09-03",
+      "published_at": null,
+      "observed_at": "2026-09-04T06:45:59.791Z"
+    },
+    "porto": {
+      "url": "https://www.sportsmole.co.uk/football/porto/preview/porto-vs-moreirense-prediction-team-news-lineups_604320.html",
+      "type": "secondary",
+      "published_date": "2026-09-03",
+      "published_at": null,
+      "observed_at": "2026-09-04T06:45:59.791Z"
+    },
+    "mls": {
+      "url": "https://www.sixonefivesoccer.com/availability-report-new-york-city-fc-vs-nashville-sc-2026/",
+      "type": "secondary",
+      "published_date": "2026-09-03",
+      "published_at": null,
+      "observed_at": "2026-09-04T06:45:59.791Z"
+    },
+    "annecy": {
+      "url": "https://www.fc-annecy.fr/news/fiche-actualite/francois-lajugie-absent-plusieurs-mois",
+      "type": "official",
+      "published_date": "2026-08-18",
+      "published_at": null,
+      "observed_at": "2026-09-04T06:45:59.791Z"
+    }
+  },
+  "quality_notes": [
+    "所有名单都只是局部报告，非完整伤停覆盖",
+    "conflicting需人工核对，不能用于计数或自动模型调整",
+    "不同来源/状态不覆盖；returned_training不等同出场确认",
+    "本次不修改此前概率或训练赛果",
+    "Nashville官方页面读取失败；搜索摘要还提及Chris Applewhite，未核实故仅保留为缺口，不添加为确认缺阵"
+  ],
+  "fixtures": [
+    {
+      "source_id": "2026-09-04-001",
+      "number": "周五001",
+      "league": "Bundesliga 2",
+      "kickoff": "2026-09-05T00:30:00+08:00",
+      "home": "Hannover",
+      "away": "Karlsruhe",
+      "teams": [
+        {
+          "team": "Hannover",
+          "name_zh": "汉诺威96",
+          "records": [],
+          "coverage": "unknown",
+          "note": "搜索摘要出现Virgil Ghita，但打开正文无法复现；不作为已确认伤员入库。",
+          "injured_count": null
+        },
+        {
+          "team": "Karlsruhe",
+          "name_zh": "卡尔斯鲁厄",
+          "records": [],
+          "coverage": "unknown",
+          "note": "未取得可核验本场伤停名单；网页未列伤员不等于全员健康。",
+          "injured_count": null
+        }
+      ]
+    },
+    {
+      "source_id": "2026-09-04-002",
+      "number": "周五002",
+      "league": "Ligue 1",
+      "kickoff": "2026-09-05T01:00:00+08:00",
+      "home": "Lyon",
+      "away": "Auxerre",
+      "teams": [
+        {
+          "team": "Lyon",
+          "name_zh": "里昂",
+          "records": [
+            {
+              "player": "Julien Duranville",
+              "availability": "out",
+              "reason": "muscle injury",
+              "source_key": "lyon",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Julien Duranville",
+              "availability": "doubtful",
+              "reason": "injury",
+              "source_key": "lyon_alt",
+              "verification": "secondary_report_unconfirmed",
+              "notes": "与Sports Mole确认缺阵表述不同；保留两条"
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        },
+        {
+          "team": "Auxerre",
+          "name_zh": "欧塞尔",
+          "records": [
+            {
+              "player": "Bryan Okoh",
+              "availability": "out",
+              "reason": "cruciate ligament injury",
+              "source_key": "lyon",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Assane Diousse",
+              "availability": "out",
+              "reason": "cruciate ligament injury",
+              "source_key": "lyon",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Francisco Sierralta",
+              "availability": "out",
+              "reason": "undisclosed injury",
+              "source_key": "lyon",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Marvin Senaya",
+              "availability": "out",
+              "reason": "hamstring injury",
+              "source_key": "lyon",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Sekou Fofana",
+              "availability": "conflicting",
+              "reason": "groin injury",
+              "source_key": "lyon",
+              "verification": "secondary_report_unconfirmed",
+              "notes": "同日波尔图前瞻也列同名球员；球队归属未独立确认，禁止进入人数和模型特征"
+            },
+            {
+              "player": "Sekou Fofana",
+              "availability": "conflicting",
+              "reason": "injury doubtful",
+              "source_key": "lyon_alt",
+              "verification": "secondary_report_unconfirmed",
+              "notes": "与另一前瞻缺阵状态不同，且球队归属冲突"
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        }
+      ]
+    },
+    {
+      "source_id": "2026-09-04-003",
+      "number": "周五003",
+      "league": "Eliteserien",
+      "kickoff": "2026-09-05T01:00:00+08:00",
+      "home": "Fredrikstad",
+      "away": "Bodo Glimt",
+      "teams": [
+        {
+          "team": "Fredrikstad",
+          "name_zh": "腓特烈斯塔",
+          "records": [
+            {
+              "player": "Kennedy Okpaleke",
+              "availability": "out",
+              "reason": "knock",
+              "source_key": "norway",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Sigurd Kvile",
+              "availability": "out",
+              "reason": "knee injury",
+              "source_key": "norway",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        },
+        {
+          "team": "Bodo Glimt",
+          "name_zh": "博德闪耀",
+          "records": [
+            {
+              "player": "Haitam Aleesami",
+              "availability": "out",
+              "reason": "leg injury",
+              "source_key": "norway",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Jostein Gundersen",
+              "availability": "out",
+              "reason": "thigh injury",
+              "source_key": "norway",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Magnus Bech Riisnæs",
+              "availability": "out",
+              "reason": "knee injury",
+              "source_key": "norway",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Håkon Evjen",
+              "availability": "out",
+              "reason": "knee injury",
+              "source_key": "norway",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "August Mikkelsen",
+              "availability": "out",
+              "reason": "groin injury",
+              "source_key": "norway",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        }
+      ]
+    },
+    {
+      "source_id": "2026-09-04-004",
+      "number": "周五004",
+      "league": "Saudi Pro League",
+      "kickoff": "2026-09-05T02:00:00+08:00",
+      "home": "Al Shabab",
+      "away": "Al Hilal",
+      "teams": [
+        {
+          "team": "Al Shabab",
+          "name_zh": "利雅得青年",
+          "records": [
+            {
+              "player": "Dhari Al-Anazi",
+              "availability": "suspended",
+              "reason": "suspension",
+              "source_key": "saudi",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Mohammed Harbush",
+              "availability": "out",
+              "reason": "injury",
+              "source_key": "saudi",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        },
+        {
+          "team": "Al Hilal",
+          "name_zh": "利雅得新月",
+          "records": [
+            {
+              "player": "Theo Hernández",
+              "availability": "out",
+              "reason": "muscle injury",
+              "source_key": "saudi",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Yusuf Akçiçek",
+              "availability": "out",
+              "reason": "knee injury",
+              "source_key": "saudi",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Ali Lajami",
+              "availability": "out",
+              "reason": "hamstring injury",
+              "source_key": "saudi",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Salem Al-Dawsari",
+              "availability": "doubtful",
+              "reason": "tendon injury",
+              "source_key": "saudi",
+              "verification": "secondary_report_unconfirmed",
+              "notes": "详细球员标签为Doubtful，网页摘要笼统称unavailable；采用更审慎分类"
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        }
+      ]
+    },
+    {
+      "source_id": "2026-09-04-005",
+      "number": "周五005",
+      "league": "Ligue 2",
+      "kickoff": "2026-09-05T02:00:00+08:00",
+      "home": "Grenoble",
+      "away": "Annecy",
+      "teams": [
+        {
+          "team": "Grenoble",
+          "name_zh": "格勒诺布尔",
+          "records": [],
+          "coverage": "unknown",
+          "note": "官方周程确认本场；搜索到社区缺阵名单混合伤病与新援，不采纳为可靠名单。",
+          "injured_count": null
+        },
+        {
+          "team": "Annecy",
+          "name_zh": "阿讷西",
+          "records": [
+            {
+              "player": "François Lajugie",
+              "availability": "out",
+              "reason": "injury under further examination",
+              "source_key": "annecy",
+              "verification": "official_report",
+              "notes": "8月18日官方公告缺阵数月；具体诊断未确认，不采用社交媒体诊断"
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        }
+      ]
+    },
+    {
+      "source_id": "2026-09-04-006",
+      "number": "周五006",
+      "league": "Eredivisie",
+      "kickoff": "2026-09-05T02:00:00+08:00",
+      "home": "Sparta Rotterdam",
+      "away": "PEC Zwolle",
+      "teams": [
+        {
+          "team": "Sparta Rotterdam",
+          "name_zh": "鹿特丹斯巴达",
+          "records": [
+            {
+              "player": "Robin van Cruijsen",
+              "availability": "out",
+              "reason": "unspecified injury",
+              "source_key": "dutch",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Cedric Hatenboer",
+              "availability": "out",
+              "reason": "collarbone injury",
+              "source_key": "dutch",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        },
+        {
+          "team": "PEC Zwolle",
+          "name_zh": "兹沃勒",
+          "records": [
+            {
+              "player": "Younes Namli",
+              "availability": "doubtful",
+              "reason": "knee injury",
+              "source_key": "dutch",
+              "verification": "secondary_report_unconfirmed",
+              "notes": "逐日观察；非官方确定缺阵"
+            },
+            {
+              "player": "Filip Krastev",
+              "availability": "doubtful",
+              "reason": "Achilles tendon injury",
+              "source_key": "dutch",
+              "verification": "secondary_report_unconfirmed",
+              "notes": "逐日观察；非官方确定缺阵"
+            },
+            {
+              "player": "Jan Bürger",
+              "availability": "out",
+              "reason": "knee injury",
+              "source_key": "dutch",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        }
+      ]
+    },
+    {
+      "source_id": "2026-09-04-007",
+      "number": "周五007",
+      "league": "Eerste Divisie",
+      "kickoff": "2026-09-05T02:00:00+08:00",
+      "home": "Emmen",
+      "away": "Volendam",
+      "teams": [
+        {
+          "team": "Emmen",
+          "name_zh": "埃门",
+          "records": [
+            {
+              "player": "Nelson Amadin",
+              "availability": "out",
+              "reason": "training injury pending scan",
+              "source_key": "emmen",
+              "verification": "official_report",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        },
+        {
+          "team": "Volendam",
+          "name_zh": "福伦丹",
+          "records": [],
+          "coverage": "unknown",
+          "note": "已检索本场和俱乐部消息，未取得可靠当日名单。",
+          "injured_count": null
+        }
+      ]
+    },
+    {
+      "source_id": "2026-09-04-008",
+      "number": "周五008",
+      "league": "Bundesliga",
+      "kickoff": "2026-09-05T02:30:00+08:00",
+      "home": "Stuttgart",
+      "away": "FC Koln",
+      "teams": [
+        {
+          "team": "Stuttgart",
+          "name_zh": "斯图加特",
+          "records": [
+            {
+              "player": "Tiago Tomás",
+              "availability": "out",
+              "reason": "muscle injury",
+              "source_key": "stuttgart",
+              "verification": "official_report",
+              "notes": ""
+            },
+            {
+              "player": "Dennis Seimen",
+              "availability": "out",
+              "reason": "injury; diagnosis not specified in this preview",
+              "source_key": "stuttgart",
+              "verification": "official_report",
+              "notes": ""
+            },
+            {
+              "player": "Dan-Axel Zagadou",
+              "availability": "out",
+              "reason": "injury; diagnosis not specified in this preview",
+              "source_key": "stuttgart",
+              "verification": "official_report",
+              "notes": ""
+            },
+            {
+              "player": "Nikolas Nartey",
+              "availability": "out",
+              "reason": "injury; diagnosis not specified in this preview",
+              "source_key": "stuttgart",
+              "verification": "official_report",
+              "notes": ""
+            },
+            {
+              "player": "Justin Diehl",
+              "availability": "out",
+              "reason": "injury; diagnosis not specified in this preview",
+              "source_key": "stuttgart",
+              "verification": "official_report",
+              "notes": ""
+            },
+            {
+              "player": "Jeremy Arévalo",
+              "availability": "out",
+              "reason": "injury; diagnosis not specified in this preview",
+              "source_key": "stuttgart",
+              "verification": "official_report",
+              "notes": ""
+            },
+            {
+              "player": "Chris Führich",
+              "availability": "doubtful",
+              "reason": "fitness assessment before match",
+              "source_key": "stuttgart",
+              "verification": "official_report",
+              "notes": ""
+            },
+            {
+              "player": "Lorenz Assignon",
+              "availability": "returned_training",
+              "reason": "returned to team training",
+              "source_key": "stuttgart",
+              "verification": "official_report",
+              "notes": "恢复训练不等于本场可以出场"
+            },
+            {
+              "player": "Luca Jaquez",
+              "availability": "rehabilitation",
+              "reason": "progressing towards team training",
+              "source_key": "stuttgart",
+              "verification": "official_report",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        },
+        {
+          "team": "FC Koln",
+          "name_zh": "科隆",
+          "records": [
+            {
+              "player": "Said El Mala",
+              "availability": "doubtful",
+              "reason": "illness",
+              "source_key": "koln",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Thijs Dallinga",
+              "availability": "doubtful",
+              "reason": "illness",
+              "source_key": "koln",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        }
+      ]
+    },
+    {
+      "source_id": "2026-09-04-009",
+      "number": "周五009",
+      "league": "Serie A",
+      "kickoff": "2026-09-05T02:45:00+08:00",
+      "home": "Genoa",
+      "away": "Como",
+      "teams": [
+        {
+          "team": "Genoa",
+          "name_zh": "热那亚",
+          "records": [
+            {
+              "player": "Lorenzo Venturino",
+              "availability": "out",
+              "reason": "knee injury",
+              "source_key": "italy",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        },
+        {
+          "team": "Como",
+          "name_zh": "科莫",
+          "records": [
+            {
+              "player": "Jayden Addai",
+              "availability": "out",
+              "reason": "long-term injury",
+              "source_key": "italy",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        }
+      ]
+    },
+    {
+      "source_id": "2026-09-04-010",
+      "number": "周五010",
+      "league": "Premier League",
+      "kickoff": "2026-09-05T03:00:00+08:00",
+      "home": "Ipswich",
+      "away": "Liverpool",
+      "teams": [
+        {
+          "team": "Ipswich",
+          "name_zh": "伊普斯维奇",
+          "records": [
+            {
+              "player": "Azor Matusiwa",
+              "availability": "out",
+              "reason": "injury; type unspecified",
+              "source_key": "liverpool",
+              "verification": "official_report",
+              "notes": ""
+            },
+            {
+              "player": "Jaden Philogene",
+              "availability": "out",
+              "reason": "injury; type unspecified",
+              "source_key": "liverpool",
+              "verification": "official_report",
+              "notes": ""
+            },
+            {
+              "player": "Jack Taylor",
+              "availability": "out",
+              "reason": "injury; type unspecified",
+              "source_key": "liverpool",
+              "verification": "official_report",
+              "notes": ""
+            },
+            {
+              "player": "Emersonn",
+              "availability": "returned_training",
+              "reason": "knee symptoms settled; trained this week",
+              "source_key": "liverpool",
+              "verification": "official_report",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        },
+        {
+          "team": "Liverpool",
+          "name_zh": "利物浦",
+          "records": [
+            {
+              "player": "Joe Gomez",
+              "availability": "out",
+              "reason": "muscle injury",
+              "source_key": "liverpool",
+              "verification": "official_report",
+              "notes": ""
+            },
+            {
+              "player": "Conor Bradley",
+              "availability": "out",
+              "reason": "injury; type unspecified",
+              "source_key": "liverpool",
+              "verification": "official_report",
+              "notes": ""
+            },
+            {
+              "player": "Federico Chiesa",
+              "availability": "out",
+              "reason": "injury; type unspecified",
+              "source_key": "liverpool",
+              "verification": "official_report",
+              "notes": ""
+            },
+            {
+              "player": "Hugo Ekitike",
+              "availability": "out",
+              "reason": "injury; type unspecified",
+              "source_key": "liverpool",
+              "verification": "official_report",
+              "notes": ""
+            },
+            {
+              "player": "Giovanni Leoni",
+              "availability": "out",
+              "reason": "injury; type unspecified",
+              "source_key": "liverpool",
+              "verification": "official_report",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        }
+      ]
+    },
+    {
+      "source_id": "2026-09-04-011",
+      "number": "周五011",
+      "league": "La Liga",
+      "kickoff": "2026-09-05T03:00:00+08:00",
+      "home": "Betis",
+      "away": "Real Madrid",
+      "teams": [
+        {
+          "team": "Betis",
+          "name_zh": "皇家贝蒂斯",
+          "records": [
+            {
+              "player": "Ángel Ortiz",
+              "availability": "out",
+              "reason": "injury",
+              "source_key": "spain",
+              "verification": "secondary_report_unconfirmed",
+              "notes": "原文Rubial拼写标准化Ruibal；仅媒体报告"
+            },
+            {
+              "player": "Aitor Ruibal",
+              "availability": "out",
+              "reason": "injury",
+              "source_key": "spain",
+              "verification": "secondary_report_unconfirmed",
+              "notes": "原文Rubial拼写标准化Ruibal；仅媒体报告"
+            },
+            {
+              "player": "Giovani Lo Celso",
+              "availability": "out",
+              "reason": "injury",
+              "source_key": "spain",
+              "verification": "secondary_report_unconfirmed",
+              "notes": "原文Rubial拼写标准化Ruibal；仅媒体报告"
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        },
+        {
+          "team": "Real Madrid",
+          "name_zh": "皇家马德里",
+          "records": [
+            {
+              "player": "Aurélien Tchouaméni",
+              "availability": "out",
+              "reason": "muscle injury",
+              "source_key": "spain",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Thiago Pitarch",
+              "availability": "out",
+              "reason": "knee injury",
+              "source_key": "spain",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Éder Militão",
+              "availability": "out",
+              "reason": "injury; type unspecified",
+              "source_key": "spain",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Raúl Asencio",
+              "availability": "out",
+              "reason": "injury; type unspecified",
+              "source_key": "spain",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Ferland Mendy",
+              "availability": "out",
+              "reason": "injury; type unspecified",
+              "source_key": "spain",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Endrick",
+              "availability": "out",
+              "reason": "injury; type unspecified",
+              "source_key": "spain",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Rodrygo",
+              "availability": "out",
+              "reason": "injury; type unspecified",
+              "source_key": "spain",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        }
+      ]
+    },
+    {
+      "source_id": "2026-09-04-012",
+      "number": "周五012",
+      "league": "Ligue 1",
+      "kickoff": "2026-09-05T03:05:00+08:00",
+      "home": "Paris SG",
+      "away": "Monaco",
+      "teams": [
+        {
+          "team": "Paris SG",
+          "name_zh": "巴黎圣日耳曼",
+          "records": [
+            {
+              "player": "João Neves",
+              "availability": "doubtful",
+              "reason": "illness",
+              "source_key": "paris",
+              "verification": "secondary_report_unconfirmed",
+              "notes": "使用详细Doubtful标签而非摘要injury"
+            },
+            {
+              "player": "Nuno Mendes",
+              "availability": "suspended",
+              "reason": "suspension",
+              "source_key": "paris",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        },
+        {
+          "team": "Monaco",
+          "name_zh": "摩纳哥",
+          "records": [
+            {
+              "player": "Edan Diop",
+              "availability": "out",
+              "reason": "thigh injury",
+              "source_key": "paris",
+              "verification": "secondary_report_unconfirmed",
+              "notes": "官方已复训；保留状态差异，不自动计为仍伤缺"
+            },
+            {
+              "player": "Mohammed Salisu",
+              "availability": "out",
+              "reason": "cruciate ligament injury",
+              "source_key": "paris",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Ansu Fati",
+              "availability": "out",
+              "reason": "calf injury",
+              "source_key": "paris",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Folarin Balogun",
+              "availability": "out",
+              "reason": "unspecified injury",
+              "source_key": "paris",
+              "verification": "secondary_report_unconfirmed",
+              "notes": "官方已复训；保留状态差异，不自动计为仍伤缺"
+            },
+            {
+              "player": "Folarin Balogun",
+              "availability": "returned_training",
+              "reason": "returned to collective training",
+              "source_key": "monaco",
+              "verification": "official_report",
+              "notes": "恢复训练不等于进入比赛名单或首发"
+            },
+            {
+              "player": "Edan Diop",
+              "availability": "returned_training",
+              "reason": "returned to collective training",
+              "source_key": "monaco",
+              "verification": "official_report",
+              "notes": "恢复训练不等于进入比赛名单或首发"
+            },
+            {
+              "player": "Ansu Fati",
+              "availability": "rehabilitation",
+              "reason": "partial return to training",
+              "source_key": "monaco",
+              "verification": "official_report",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        }
+      ]
+    },
+    {
+      "source_id": "2026-09-04-013",
+      "number": "周五013",
+      "league": "Primeira Liga",
+      "kickoff": "2026-09-05T03:15:00+08:00",
+      "home": "Porto",
+      "away": "Moreirense",
+      "teams": [
+        {
+          "team": "Porto",
+          "name_zh": "波尔图",
+          "records": [
+            {
+              "player": "Zaidu Sanusi",
+              "availability": "out",
+              "reason": "muscle injury",
+              "source_key": "porto",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Vasco Sousa",
+              "availability": "out",
+              "reason": "conditioning during rehabilitation",
+              "source_key": "porto",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Andre Miranda",
+              "availability": "out",
+              "reason": "conditioning during rehabilitation",
+              "source_key": "porto",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Oskar Pietuszewski",
+              "availability": "out",
+              "reason": "conditioning during rehabilitation",
+              "source_key": "porto",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Samu Aghehowa",
+              "availability": "out",
+              "reason": "conditioning during rehabilitation",
+              "source_key": "porto",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Sekou Fofana",
+              "availability": "conflicting",
+              "reason": "regaining fitness",
+              "source_key": "porto",
+              "verification": "secondary_report_unconfirmed",
+              "notes": "同日欧塞尔前瞻列同名球员，球队归属未确认，禁止用于模型"
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        },
+        {
+          "team": "Moreirense",
+          "name_zh": "莫雷伦斯",
+          "records": [
+            {
+              "player": "Janderson",
+              "availability": "out",
+              "reason": "injury sustained at former club",
+              "source_key": "porto",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        }
+      ]
+    },
+    {
+      "source_id": "2026-09-04-014",
+      "number": "周五014",
+      "league": "MLS",
+      "kickoff": "2026-09-05T07:30:00+08:00",
+      "home": "New York City",
+      "away": "Nashville",
+      "teams": [
+        {
+          "team": "New York City",
+          "name_zh": "纽约城",
+          "records": [
+            {
+              "player": "Drew Baiera",
+              "availability": "out",
+              "reason": "leg injury",
+              "source_key": "mls",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Arnau Farnós",
+              "availability": "out",
+              "reason": "leg injury",
+              "source_key": "mls",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Talles Magno",
+              "availability": "out",
+              "reason": "leg injury",
+              "source_key": "mls",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Maxi Moralez",
+              "availability": "out",
+              "reason": "leg injury",
+              "source_key": "mls",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Keaton Parks",
+              "availability": "out",
+              "reason": "leg injury",
+              "source_key": "mls",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Kai Trewin",
+              "availability": "out",
+              "reason": "leg injury",
+              "source_key": "mls",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            },
+            {
+              "player": "Hannes Wolf",
+              "availability": "out",
+              "reason": "leg injury",
+              "source_key": "mls",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        },
+        {
+          "team": "Nashville",
+          "name_zh": "纳什维尔",
+          "records": [
+            {
+              "player": "Warren Madrigal",
+              "availability": "out",
+              "reason": "lower body",
+              "source_key": "mls",
+              "verification": "secondary_report_unconfirmed",
+              "notes": ""
+            }
+          ],
+          "coverage": "partial_reports",
+          "note": "仅收集到的报告，不代表完整球队名单",
+          "injured_count": null
+        }
+      ]
+    }
+  ]
+}
