@@ -1,0 +1,237 @@
+{
+  "created_at": "2026-09-04T07:37:06.605394+00:00",
+  "source_commit": "f77737fb6ad7e06bb8b39b38761f790352c61705",
+  "scope": "All data and reports present in the pinned project snapshot; not worldwide comprehensive data",
+  "history_rows": 40657,
+  "history_by_competition": {
+    "2. Bundesliga": 3006,
+    "Bundesliga": 3060,
+    "Champions League": 1372,
+    "Eerste Divisie": 2249,
+    "Eliteserien": 2068,
+    "Eredivisie": 2982,
+    "La Liga": 3800,
+    "Ligue 1": 3477,
+    "Ligue 2": 3505,
+    "MLS": 3763,
+    "Premier League": 3800,
+    "Primeira Liga": 3041,
+    "Saudi Pro League": 734,
+    "Serie A": 3800
+  },
+  "earliest_date": "2016-03-06",
+  "latest_history_date": "2026-05-30",
+  "source_files": 32,
+  "today_fixture_count": 14,
+  "injury_records": 84,
+  "archived_forecast_fixtures": 6,
+  "separately_archived_results": 7,
+  "separately_archived_results_lottery_date": "2026-09-03",
+  "results_added_for_20260904": false,
+  "files": [
+    {
+      "path": "data/archives/expansion_20260904_raw.tar.gz",
+      "bytes": 456874,
+      "git_blob_sha": "b5a2e9d3e98ce4d3710a3bd3efa9852bdce42019",
+      "sha256": "df3acfbb632cd4bded3937564adf07bcb9aee6e771623c4f341ee3370d05cc6b"
+    },
+    {
+      "path": "data/config/expanded_team_aliases.json",
+      "bytes": 4587,
+      "git_blob_sha": "15a6ebf48742d7e376abf2a6afc3fd0db911892c",
+      "sha256": "e1842f85b5c3bd8577d049c320cff5a639dd9c50e65a63314ac006ae44afe13e"
+    },
+    {
+      "path": "data/models/catalog.json",
+      "bytes": 7137,
+      "git_blob_sha": "925ef0f0bc9b1d56c28099b122d128d0ec1776c9",
+      "sha256": "ab3ec1b681be15a1de3141f940875da22e0446e101b52f26ee155a2cedd06064"
+    },
+    {
+      "path": "data/models/fitted_poisson_2024-06-30.json",
+      "bytes": 29785,
+      "git_blob_sha": "e273c9d869e496a7eed5f9057d08a1bb879a3f71",
+      "sha256": "adf032d9caa7d35266dda90f8d54a32eb928bc2a3ab4704b6f9e4150cfdc78f7"
+    },
+    {
+      "path": "data/models/fitted_poisson_2026-06-30.json",
+      "bytes": 30446,
+      "git_blob_sha": "5c2d502d60937b2761d01fc5b8102aacfe1b65c1",
+      "sha256": "d27ad89a995bb1ad783c8ff84dd30a9258a50a245656693f39f3a13aab00c42b"
+    },
+    {
+      "path": "data/prematch/2026-09-04-injuries.json",
+      "bytes": 40371,
+      "git_blob_sha": "158bfcfc72c670c99a4a283460bbcf8925517b01",
+      "sha256": "e563ad0d75235595557886c7391225621f598d642b19678b8766e4b55fffdb85"
+    },
+    {
+      "path": "data/processed/expanded_leagues_2016_2026/2_bundesliga.csv",
+      "bytes": 1023686,
+      "git_blob_sha": "c2fcb7dbf4ed3fe9d7a3e70d6b37309cfe4858eb",
+      "sha256": "7fc32f2f47ed7c35d047a84578c920d0c0528c00a8d590cb8d758afa1bc56512"
+    },
+    {
+      "path": "data/processed/expanded_leagues_2016_2026/eerste_divisie.csv",
+      "bytes": 784807,
+      "git_blob_sha": "e0544a64e8a366b79ca935e434b0569b1e2c6669",
+      "sha256": "b78360ca12900d3eb45029eaafed2c18596fbf18066a92a2f8c46a95f88293b1"
+    },
+    {
+      "path": "data/processed/expanded_leagues_2016_2026/eliteserien.csv",
+      "bytes": 651938,
+      "git_blob_sha": "4f438ba04ed60cafd1e03d5c02e9a70aa0a79331",
+      "sha256": "18c20d453438c947a4fe18e1a2a469367787e6ad13fd3945b6b9ad0c982ebe93"
+    },
+    {
+      "path": "data/processed/expanded_leagues_2016_2026/eredivisie.csv",
+      "bytes": 978812,
+      "git_blob_sha": "b06f2c35d9703f4e3baf16bb0600ec327d32542a",
+      "sha256": "4a378c9959a5367a4ca976f42afd58e3f95f11204152be99acad388f4f0cb77b"
+    },
+    {
+      "path": "data/processed/expanded_leagues_2016_2026/ligue_2.csv",
+      "bytes": 1125516,
+      "git_blob_sha": "9d607664fae9c8c8c4b7989f15bfb8020f7b36f4",
+      "sha256": "82f4ce216631fd7c3fcba682ff4ddefe0fcf1417d74bde36051edb308ca12a67"
+    },
+    {
+      "path": "data/processed/expanded_leagues_2016_2026/mls.csv",
+      "bytes": 1252208,
+      "git_blob_sha": "22525aa0df3fb9cac4da5ed60f57201961fc342c",
+      "sha256": "76e664e2790ac8a4c4274274f06b61ee7659620f2a47a6b9073b98b9b96adabb"
+    },
+    {
+      "path": "data/processed/expanded_leagues_2016_2026/primeira_liga.csv",
+      "bytes": 1002999,
+      "git_blob_sha": "32c3d5b0b93fb364d687b5d7cac45103d229bb3f",
+      "sha256": "1cd768078396c810b5906b31e2f4c7d72a07ab318bf038129c7cffb5d04a6a68"
+    },
+    {
+      "path": "data/processed/expanded_leagues_2016_2026/saudi_pro_league.csv",
+      "bytes": 290648,
+      "git_blob_sha": "378076a8bab87f2a24ac033c76358889e74e8b16",
+      "sha256": "94c9396fc253e77e3e1d3aee58be07bedb2a3d64bf51c1e19ff7e8b7454764ac"
+    },
+    {
+      "path": "data/processed/openfootball_2016_2026/champions_league.csv",
+      "bytes": 103660,
+      "git_blob_sha": "8beca3826a63f0c1dcb40c78dcae4998b929519f",
+      "sha256": "c59e9ade52b5f593f6992e828271b3e5e0bb25a2c81899723834b8ea65224277"
+    },
+    {
+      "path": "data/processed/openfootball_2016_2026/manifest.json",
+      "bytes": 632,
+      "git_blob_sha": "e2e9655d171d17245932ab6c9cd8c6c44f3f4a57",
+      "sha256": "7111c743504d958bb7bdf6a39e21ee44a062b7c4125acfad46042bebb62c82c3"
+    },
+    {
+      "path": "data/processed/results/2026-09-03.json",
+      "bytes": 4913,
+      "git_blob_sha": "773d244129f2f01bbd7c7129843bd49ff9f12a44",
+      "sha256": "b0c7f4f5b6314318fe1dc2c9aeda4d057d6838cca16a6a4831846e6a91e53ed4"
+    },
+    {
+      "path": "data/processed/top5_2016_2026/bundesliga.csv",
+      "bytes": 321676,
+      "git_blob_sha": "5bf72fa0c9085f1ab6f9ef84895d755d0eee46c5",
+      "sha256": "b27b06072048d8d3dfe5a303b6c6f1830bf9ca58e7ca03a0f64a3fd0451bf6ed"
+    },
+    {
+      "path": "data/processed/top5_2016_2026/la_liga.csv",
+      "bytes": 374002,
+      "git_blob_sha": "64b16984c7fa02c578017244b5ce00133af3572e",
+      "sha256": "c8695c8d7ad588c9453137efa85820e4fb1069769e588863352ed67c92c29110"
+    },
+    {
+      "path": "data/processed/top5_2016_2026/ligue_1.csv",
+      "bytes": 334991,
+      "git_blob_sha": "7099ff2e2c5d8d51976ad1c5f57cfe60833d2bca",
+      "sha256": "6e2f36cd5fec966adcb25744177f0183619c19e8f54db38b61a64735e65317eb"
+    },
+    {
+      "path": "data/processed/top5_2016_2026/manifest.json",
+      "bytes": 540,
+      "git_blob_sha": "9e3c0ddbb377cfd45a526e87a6b8ea532fb15e26",
+      "sha256": "9bd14a4ef2d8455236cf613ebe6d9fc95b980bed12c2afc74b204e573f44cbe9"
+    },
+    {
+      "path": "data/processed/top5_2016_2026/premier_league.csv",
+      "bytes": 408449,
+      "git_blob_sha": "8cc3c895e454a78b316fcae84ee85923bcfb3756",
+      "sha256": "7ee2ced1b1242c2be8039627ad26f43df483ca733a87fd85e81f9a9f750bea5b"
+    },
+    {
+      "path": "data/processed/top5_2016_2026/serie_a.csv",
+      "bytes": 366285,
+      "git_blob_sha": "cbb98b96165619796ad7414721cc2c5c1200c178",
+      "sha256": "b633cc3311efe67002c175fed0f454dd0d627a4e838f8ce6facc8019bdd49bbd"
+    },
+    {
+      "path": "reports/champions_league_2016_2026_review.md",
+      "bytes": 705,
+      "git_blob_sha": "f8b37eae3c28e675e1f96b4b25fb71da43b6606e",
+      "sha256": "1e5c5decd5d5308126395de0875415fb1f360da24490151561a5a52f9612a9fb"
+    },
+    {
+      "path": "reports/champions_league_score_corrections.json",
+      "bytes": 5826,
+      "git_blob_sha": "445fab224195fcf019073a4a89a835b4fe433a7f",
+      "sha256": "e730ca55022d07fa30a0253b6c38473836437cab17f9e132a3d766dfcff8665a"
+    },
+    {
+      "path": "reports/expansion_20260904.json",
+      "bytes": 391685,
+      "git_blob_sha": "9662020a17cf33256d9205c7d6c27406413c1489",
+      "sha256": "d7e83f03698c588cc39a8a278d91ae5fc01a2ae30a6324abbbedf62e5aaf5462"
+    },
+    {
+      "path": "reports/forecast_backtest_2026-09-04.json",
+      "bytes": 1844,
+      "git_blob_sha": "52c050709fcb978e746e34623a44606104753d84",
+      "sha256": "d4cfc5d751299c02d207386e33b7d24127de9ebf796875e96b1c52ebd32125f9"
+    },
+    {
+      "path": "reports/forecast_reliability_2026-09-04.json",
+      "bytes": 12370,
+      "git_blob_sha": "6dd8f78e0bebc550b096782b12b1bfa7862e786b",
+      "sha256": "74eaa8f0251333c1dd6c3e028246cfc69c2243daed730786c471c248683607f1"
+    },
+    {
+      "path": "reports/model_run_20260904_injuries.json",
+      "bytes": 323504,
+      "git_blob_sha": "718cb825eb3a95b30f7b941d4d25e29a36913224",
+      "sha256": "9bad8d8577c0bd2a1387ecbc690b61c7bbf12452dff26214b1be5ad6cf3fc9a2"
+    },
+    {
+      "path": "reports/quality_baseline_2026-09-04.json",
+      "bytes": 1699,
+      "git_blob_sha": "1326bf4422f5fe42eef7e370ea9d1c51ea05eda3",
+      "sha256": "f00da2ff98404ccbd073746ac2bb87f9bf46def2e448924dffa4518cdd9782ca"
+    },
+    {
+      "path": "reports/review_2026-09-03.md",
+      "bytes": 1921,
+      "git_blob_sha": "e2ba5af618c5908eeb4adb1d2dc1405715dd92e7",
+      "sha256": "1e61ef610435b18e2430b72634944da4286b0d1f6d24901b75f99d110e2c585f"
+    },
+    {
+      "path": "reports/top5_2016_2026_review.md",
+      "bytes": 3243,
+      "git_blob_sha": "726291b9882730c37cbb5ffd131f6cf186b8d212",
+      "sha256": "f38f511760c0ba72ceca15fc4d851a5fe30b5f7bf04526fe599d9421b69ea887"
+    }
+  ],
+  "limitations": [
+    "Missing seasons and rounds remain. See reports/expansion_20260904.json.",
+    "No complete worldwide fixtures or ten-year injury/lineup/SP archive.",
+    "History FT and competition phases retain existing verification limitations.",
+    "No new training, calibration or forecast was performed by packaging."
+  ],
+  "archive": {
+    "path": "data/archives/football_data_available_2016_to_20260904.zip",
+    "bytes": 1207181,
+    "sha256": "23a7053a58130e64318feaa6dc440bf061686c8267e174620f8198e04f2f1f5b",
+    "members": 35
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "source_commit": "f77737fb6ad7e06bb8b39b38761f790352c61705",
+  "entries": [
+    {
+      "mode": "100644",
+      "path": "data/archives/expansion_20260904_raw.tar.gz",
+      "sha": "b5a2e9d3e98ce4d3710a3bd3efa9852bdce42019",
+      "size": 456874,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/b5a2e9d3e98ce4d3710a3bd3efa9852bdce42019"
+    },
+    {
+      "mode": "100644",
+      "path": "data/config/expanded_team_aliases.json",
+      "sha": "15a6ebf48742d7e376abf2a6afc3fd0db911892c",
+      "size": 4587,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/15a6ebf48742d7e376abf2a6afc3fd0db911892c"
+    },
+    {
+      "mode": "100644",
+      "path": "data/models/catalog.json",
+      "sha": "925ef0f0bc9b1d56c28099b122d128d0ec1776c9",
+      "size": 7137,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/925ef0f0bc9b1d56c28099b122d128d0ec1776c9"
+    },
+    {
+      "mode": "100644",
+      "path": "data/models/fitted_poisson_2024-06-30.json",
+      "sha": "e273c9d869e496a7eed5f9057d08a1bb879a3f71",
+      "size": 29785,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/e273c9d869e496a7eed5f9057d08a1bb879a3f71"
+    },
+    {
+      "mode": "100644",
+      "path": "data/models/fitted_poisson_2026-06-30.json",
+      "sha": "5c2d502d60937b2761d01fc5b8102aacfe1b65c1",
+      "size": 30446,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/5c2d502d60937b2761d01fc5b8102aacfe1b65c1"
+    },
+    {
+      "mode": "100644",
+      "path": "data/prematch/2026-09-04-injuries.json",
+      "sha": "158bfcfc72c670c99a4a283460bbcf8925517b01",
+      "size": 40371,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/158bfcfc72c670c99a4a283460bbcf8925517b01"
+    },
+    {
+      "mode": "100644",
+      "path": "data/processed/expanded_leagues_2016_2026/2_bundesliga.csv",
+      "sha": "c2fcb7dbf4ed3fe9d7a3e70d6b37309cfe4858eb",
+      "size": 1023686,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/c2fcb7dbf4ed3fe9d7a3e70d6b37309cfe4858eb"
+    },
+    {
+      "mode": "100644",
+      "path": "data/processed/expanded_leagues_2016_2026/eerste_divisie.csv",
+      "sha": "e0544a64e8a366b79ca935e434b0569b1e2c6669",
+      "size": 784807,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/e0544a64e8a366b79ca935e434b0569b1e2c6669"
+    },
+    {
+      "mode": "100644",
+      "path": "data/processed/expanded_leagues_2016_2026/eliteserien.csv",
+      "sha": "4f438ba04ed60cafd1e03d5c02e9a70aa0a79331",
+      "size": 651938,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/4f438ba04ed60cafd1e03d5c02e9a70aa0a79331"
+    },
+    {
+      "mode": "100644",
+      "path": "data/processed/expanded_leagues_2016_2026/eredivisie.csv",
+      "sha": "b06f2c35d9703f4e3baf16bb0600ec327d32542a",
+      "size": 978812,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/b06f2c35d9703f4e3baf16bb0600ec327d32542a"
+    },
+    {
+      "mode": "100644",
+      "path": "data/processed/expanded_leagues_2016_2026/ligue_2.csv",
+      "sha": "9d607664fae9c8c8c4b7989f15bfb8020f7b36f4",
+      "size": 1125516,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/9d607664fae9c8c8c4b7989f15bfb8020f7b36f4"
+    },
+    {
+      "mode": "100644",
+      "path": "data/processed/expanded_leagues_2016_2026/mls.csv",
+      "sha": "22525aa0df3fb9cac4da5ed60f57201961fc342c",
+      "size": 1252208,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/22525aa0df3fb9cac4da5ed60f57201961fc342c"
+    },
+    {
+      "mode": "100644",
+      "path": "data/processed/expanded_leagues_2016_2026/primeira_liga.csv",
+      "sha": "32c3d5b0b93fb364d687b5d7cac45103d229bb3f",
+      "size": 1002999,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/32c3d5b0b93fb364d687b5d7cac45103d229bb3f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/processed/expanded_leagues_2016_2026/saudi_pro_league.csv",
+      "sha": "378076a8bab87f2a24ac033c76358889e74e8b16",
+      "size": 290648,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/378076a8bab87f2a24ac033c76358889e74e8b16"
+    },
+    {
+      "mode": "100644",
+      "path": "data/processed/openfootball_2016_2026/champions_league.csv",
+      "sha": "8beca3826a63f0c1dcb40c78dcae4998b929519f",
+      "size": 103660,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/8beca3826a63f0c1dcb40c78dcae4998b929519f"
+    },
+    {
+      "mode": "100644",
+      "path": "data/processed/openfootball_2016_2026/manifest.json",
+      "sha": "e2e9655d171d17245932ab6c9cd8c6c44f3f4a57",
+      "size": 632,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/e2e9655d171d17245932ab6c9cd8c6c44f3f4a57"
+    },
+    {
+      "mode": "100644",
+      "path": "data/processed/results/2026-09-03.json",
+      "sha": "773d244129f2f01bbd7c7129843bd49ff9f12a44",
+      "size": 4913,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/773d244129f2f01bbd7c7129843bd49ff9f12a44"
+    },
+    {
+      "mode": "100644",
+      "path": "data/processed/top5_2016_2026/bundesliga.csv",
+      "sha": "5bf72fa0c9085f1ab6f9ef84895d755d0eee46c5",
+      "size": 321676,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/5bf72fa0c9085f1ab6f9ef84895d755d0eee46c5"
+    },
+    {
+      "mode": "100644",
+      "path": "data/processed/top5_2016_2026/la_liga.csv",
+      "sha": "64b16984c7fa02c578017244b5ce00133af3572e",
+      "size": 374002,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/64b16984c7fa02c578017244b5ce00133af3572e"
+    },
+    {
+      "mode": "100644",
+      "path": "data/processed/top5_2016_2026/ligue_1.csv",
+      "sha": "7099ff2e2c5d8d51976ad1c5f57cfe60833d2bca",
+      "size": 334991,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/7099ff2e2c5d8d51976ad1c5f57cfe60833d2bca"
+    },
+    {
+      "mode": "100644",
+      "path": "data/processed/top5_2016_2026/manifest.json",
+      "sha": "9e3c0ddbb377cfd45a526e87a6b8ea532fb15e26",
+      "size": 540,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/9e3c0ddbb377cfd45a526e87a6b8ea532fb15e26"
+    },
+    {
+      "mode": "100644",
+      "path": "data/processed/top5_2016_2026/premier_league.csv",
+      "sha": "8cc3c895e454a78b316fcae84ee85923bcfb3756",
+      "size": 408449,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/8cc3c895e454a78b316fcae84ee85923bcfb3756"
+    },
+    {
+      "mode": "100644",
+      "path": "data/processed/top5_2016_2026/serie_a.csv",
+      "sha": "cbb98b96165619796ad7414721cc2c5c1200c178",
+      "size": 366285,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/cbb98b96165619796ad7414721cc2c5c1200c178"
+    },
+    {
+      "mode": "100644",
+      "path": "reports/champions_league_2016_2026_review.md",
+      "sha": "f8b37eae3c28e675e1f96b4b25fb71da43b6606e",
+      "size": 705,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/f8b37eae3c28e675e1f96b4b25fb71da43b6606e"
+    },
+    {
+      "mode": "100644",
+      "path": "reports/champions_league_score_corrections.json",
+      "sha": "445fab224195fcf019073a4a89a835b4fe433a7f",
+      "size": 5826,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/445fab224195fcf019073a4a89a835b4fe433a7f"
+    },
+    {
+      "mode": "100644",
+      "path": "reports/expansion_20260904.json",
+      "sha": "9662020a17cf33256d9205c7d6c27406413c1489",
+      "size": 391685,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/9662020a17cf33256d9205c7d6c27406413c1489"
+    },
+    {
+      "mode": "100644",
+      "path": "reports/forecast_backtest_2026-09-04.json",
+      "sha": "52c050709fcb978e746e34623a44606104753d84",
+      "size": 1844,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/52c050709fcb978e746e34623a44606104753d84"
+    },
+    {
+      "mode": "100644",
+      "path": "reports/forecast_reliability_2026-09-04.json",
+      "sha": "6dd8f78e0bebc550b096782b12b1bfa7862e786b",
+      "size": 12370,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/6dd8f78e0bebc550b096782b12b1bfa7862e786b"
+    },
+    {
+      "mode": "100644",
+      "path": "reports/model_run_20260904_injuries.json",
+      "sha": "718cb825eb3a95b30f7b941d4d25e29a36913224",
+      "size": 323504,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/718cb825eb3a95b30f7b941d4d25e29a36913224"
+    },
+    {
+      "mode": "100644",
+      "path": "reports/quality_baseline_2026-09-04.json",
+      "sha": "1326bf4422f5fe42eef7e370ea9d1c51ea05eda3",
+      "size": 1699,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/1326bf4422f5fe42eef7e370ea9d1c51ea05eda3"
+    },
+    {
+      "mode": "100644",
+      "path": "reports/review_2026-09-03.md",
+      "sha": "e2ba5af618c5908eeb4adb1d2dc1405715dd92e7",
+      "size": 1921,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/e2ba5af618c5908eeb4adb1d2dc1405715dd92e7"
+    },
+    {
+      "mode": "100644",
+      "path": "reports/top5_2016_2026_review.md",
+      "sha": "726291b9882730c37cbb5ffd131f6cf186b8d212",
+      "size": 3243,
+      "type": "blob",
+      "url": "https://api.github.com/repos/45274159-stack/sports-lottery-football-analysis/git/blobs/726291b9882730c37cbb5ffd131f6cf186b8d212"
+    }
+  ]
+}
