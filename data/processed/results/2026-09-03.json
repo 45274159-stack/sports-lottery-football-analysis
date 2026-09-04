@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "lottery_date": "2026-09-03",
+  "record_type": "sourced_results_batch",
+  "model_training_ingested": false,
+  "official_number_verification": "pending; mapping from user-provided September 3 screenshot",
+  "observed_at": "2026-09-04T06:24:44Z",
+  "prediction_review_type": "retrospective comparison with visible chat; not authenticated model forecast archive",
+  "records": [
+    {
+      "match_key": "2026-09-03-周四001",
+      "display_number": "周四001",
+      "home": "迈季宽广（费哈）",
+      "away": "拉斯永恒",
+      "league": "Saudi Pro League",
+      "status": "final",
+      "period": "90_minutes",
+      "home_goals": 2,
+      "away_goals": 2,
+      "total_goals": 4,
+      "result": "D",
+      "source_urls": [
+        "https://www.sofascore.com/football/match/al-kholood-al-fayha/UlrbsZIhc",
+        "https://www.espn.ph/football/match/_/gameId/401900374/al-kholood-al-fayha"
+      ],
+      "verification": "secondary_sources",
+      "extra_time_goals": null,
+      "penalty_shootout": null
+    },
+    {
+      "match_key": "2026-09-03-周四002",
+      "display_number": "周四002",
+      "home": "新未来SC",
+      "away": "赛哈海湾",
+      "league": "Saudi Pro League",
+      "status": "final",
+      "period": "90_minutes",
+      "home_goals": 3,
+      "away_goals": 0,
+      "total_goals": 3,
+      "result": "H",
+      "source_urls": [
+        "https://www.espn.co.uk/football/match/_/gameId/401900373/al-khaleej-neom-sc",
+        "https://www.sofascore.com/football/match/neom-sc-al-khaleej/DUqbsGmme"
+      ],
+      "verification": "secondary_sources",
+      "extra_time_goals": null,
+      "penalty_shootout": null
+    },
+    {
+      "match_key": "2026-09-03-周四003",
+      "display_number": "周四003",
+      "home": "米亚尔比",
+      "away": "佐加顿斯",
+      "league": "Allsvenskan",
+      "status": "final",
+      "period": "90_minutes",
+      "home_goals": 0,
+      "away_goals": 2,
+      "total_goals": 2,
+      "result": "A",
+      "source_urls": [
+        "https://www.espn.com/soccer/match/_/gameId/401874077/djurgarden-mjallby-aif",
+        "https://www.skysports.com/football/mjallby-aif-vs-djurgardens-if/5517802802532880232"
+      ],
+      "verification": "secondary_sources",
+      "extra_time_goals": null,
+      "penalty_shootout": null
+    },
+    {
+      "match_key": "2026-09-03-周四004",
+      "display_number": "周四004",
+      "home": "迪里耶",
+      "away": "胡巴卡德（库迪西亚）",
+      "league": "Saudi Pro League",
+      "status": "final",
+      "period": "90_minutes",
+      "home_goals": 0,
+      "away_goals": 2,
+      "total_goals": 2,
+      "result": "A",
+      "source_urls": [
+        "https://www.sofascore.com/football/match/al-diriyah-al-qadsiah/CvxszwQg"
+      ],
+      "verification": "single_secondary_source",
+      "extra_time_goals": null,
+      "penalty_shootout": null
+    },
+    {
+      "match_key": "2026-09-03-周四005",
+      "display_number": "周四005",
+      "home": "图卢兹",
+      "away": "里尔",
+      "league": "Ligue 1",
+      "status": "final",
+      "period": "90_minutes",
+      "home_goals": 0,
+      "away_goals": 1,
+      "total_goals": 1,
+      "result": "A",
+      "source_urls": [
+        "https://www.losc.fr/actualites",
+        "https://sports.sina.com.cn/l/2026-09-04/doc-iniqrpqy0834031.shtml"
+      ],
+      "verification": "club_report_and_secondary",
+      "extra_time_goals": null,
+      "penalty_shootout": null
+    },
+    {
+      "match_key": "2026-09-03-周四006",
+      "display_number": "周四006",
+      "home": "皇家社会",
+      "away": "塞尔塔",
+      "league": "La Liga",
+      "status": "final",
+      "period": "90_minutes",
+      "home_goals": 0,
+      "away_goals": 0,
+      "total_goals": 0,
+      "result": "D",
+      "source_urls": [
+        "https://www.realsociedad.eus/en/news/details/honours-even-at-anoeta",
+        "https://www.365scores.com/football/match/laliga-11/celta-vigo-real-sociedad-154-158-11"
+      ],
+      "verification": "club_report_and_secondary",
+      "extra_time_goals": null,
+      "penalty_shootout": null
+    },
+    {
+      "match_key": "2026-09-03-周四007",
+      "display_number": "周四007",
+      "home": "格雷米奥",
+      "away": "巴西国际",
+      "league": "Copa do Brasil",
+      "status": "final",
+      "period": "90_minutes",
+      "home_goals": 3,
+      "away_goals": 1,
+      "total_goals": 4,
+      "result": "H",
+      "source_urls": [
+        "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/09/03/gremio-x-internacional---copa-do-brasil.ghtm",
+        "https://www.espn.com.br/futebol/copa-do-brasil/artigo/_/id/17206896/gremio-vence-internacional-se-classifica-semifinal-copa-do-brasil-faz-crise-trocar-de-lado"
+      ],
+      "verification": "secondary_sources",
+      "extra_time_goals": null,
+      "penalty_shootout": null
+    }
+  ]
+}
