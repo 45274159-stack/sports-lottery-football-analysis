@@ -1,0 +1,57 @@
+{
+  "evaluation_start": "2024-07-01",
+  "metrics": {
+    "Bundesliga": {
+      "baseline_log_loss": 1.081739647078233,
+      "brier": 0.6212003729649613,
+      "correct": 0.4852941176470588,
+      "goals_correct": 0.21241830065359477,
+      "home_correct": 0.4117647058823529,
+      "log_loss": 1.035734178481044,
+      "matches": 612,
+      "score_correct": 0.08986928104575163
+    },
+    "La Liga": {
+      "baseline_log_loss": 1.0617547471885052,
+      "brier": 0.6034673578186898,
+      "correct": 0.5131578947368421,
+      "goals_correct": 0.2776315789473684,
+      "home_correct": 0.46710526315789475,
+      "log_loss": 1.010405965211292,
+      "matches": 760,
+      "score_correct": 0.14868421052631578
+    },
+    "Ligue 1": {
+      "baseline_log_loss": 1.0604669959613284,
+      "brier": 0.6068379594482386,
+      "correct": 0.5261437908496732,
+      "goals_correct": 0.2238562091503268,
+      "home_correct": 0.46405228758169936,
+      "log_loss": 1.0137831194311189,
+      "matches": 612,
+      "score_correct": 0.10130718954248366
+    },
+    "Premier League": {
+      "baseline_log_loss": 1.083403580828018,
+      "brier": 0.6238614593787285,
+      "correct": 0.49736842105263157,
+      "goals_correct": 0.2381578947368421,
+      "home_correct": 0.41710526315789476,
+      "log_loss": 1.039240421074684,
+      "matches": 760,
+      "score_correct": 0.12631578947368421
+    },
+    "Serie A": {
+      "baseline_log_loss": 1.0897834637168844,
+      "brier": 0.6229678353746704,
+      "correct": 0.5013157894736842,
+      "goals_correct": 0.25263157894736843,
+      "home_correct": 0.39342105263157895,
+      "log_loss": 1.0374556428854524,
+      "matches": 760,
+      "score_correct": 0.12368421052631579
+    }
+  },
+  "roi": null,
+  "warning": "Retrospective evaluation, not an untouched prospective test; no verified Sporttery odds"
+}
