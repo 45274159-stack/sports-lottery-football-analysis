@@ -1,12 +1,14 @@
 from __future__ import annotations
 
 import argparse
+from datetime import date
 from pathlib import Path
 
 from .analysis import estimate_match
 from .database import connect, import_rows
 from .review import render_review
 from .schema import validate_csv
+from .sporttery_source import SourceBlocked, collect_results, save_snapshot
 
 
 def _validate(path: str) -> int:
@@ -61,6 +63,12 @@ def build_parser() -> argparse.ArgumentParser:
 
     review = subparsers.add_parser("review-history", help="复盘标准化历史赛果")
     review.add_argument("directory", nargs="?", default="data/processed/top5_2016_2026")
+
+    collect = subparsers.add_parser("collect-sporttery", help="从体彩官方公开接口逐日采集赛果")
+    collect.add_argument("--start", required=True, help="开始日期 YYYY-MM-DD")
+    collect.add_argument("--end", required=True, help="结束日期 YYYY-MM-DD")
+    collect.add_argument("--output", required=True, help="原始JSON快照输出路径")
+    collect.add_argument("--delay", type=float, default=0.4, help="分页请求间隔秒数")
     return parser
 
 
@@ -78,6 +86,19 @@ def main() -> int:
         return _import(args.csv, args.db)
     if args.command == "review-history":
         print(render_review(args.directory))
+        return 0
+    if args.command == "collect-sporttery":
+        start, end = date.fromisoformat(args.start), date.fromisoformat(args.end)
+        if start > end:
+            raise SystemExit("开始日期不能晚于结束日期")
+        try:
+            rows = collect_results(start, end, delay=max(0.0, args.delay))
+        except SourceBlocked as error:
+            print(f"采集停止：{error}")
+            print("请在可正常打开竞彩网的本地网络运行同一命令；不要绕过网站安全策略。")
+            return 2
+        save_snapshot(args.output, rows, start, end)
+        print(f"采集完成：{len(rows)} 场，保存至 {args.output}")
         return 0
     return _analyze(args.db, args.home, args.away, args.kickoff)
 
