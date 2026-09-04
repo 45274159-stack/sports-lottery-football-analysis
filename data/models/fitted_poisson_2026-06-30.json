@@ -1,0 +1,1006 @@
+{
+  "evaluations": {
+    "Bundesliga": {
+      "accuracy": null,
+      "always_home_accuracy": null,
+      "brier": null,
+      "eligible_matches": 0,
+      "evaluated": 0,
+      "log_loss": null,
+      "protocol": "Fixed trained parameters; later chronological holdout; not a new prospective trial",
+      "roi": null,
+      "score_accuracy": null,
+      "skipped": 0,
+      "total_goals_accuracy": null
+    },
+    "La Liga": {
+      "accuracy": null,
+      "always_home_accuracy": null,
+      "brier": null,
+      "eligible_matches": 0,
+      "evaluated": 0,
+      "log_loss": null,
+      "protocol": "Fixed trained parameters; later chronological holdout; not a new prospective trial",
+      "roi": null,
+      "score_accuracy": null,
+      "skipped": 0,
+      "total_goals_accuracy": null
+    },
+    "Ligue 1": {
+      "accuracy": null,
+      "always_home_accuracy": null,
+      "brier": null,
+      "eligible_matches": 0,
+      "evaluated": 0,
+      "log_loss": null,
+      "protocol": "Fixed trained parameters; later chronological holdout; not a new prospective trial",
+      "roi": null,
+      "score_accuracy": null,
+      "skipped": 0,
+      "total_goals_accuracy": null
+    },
+    "Premier League": {
+      "accuracy": null,
+      "always_home_accuracy": null,
+      "brier": null,
+      "eligible_matches": 0,
+      "evaluated": 0,
+      "log_loss": null,
+      "protocol": "Fixed trained parameters; later chronological holdout; not a new prospective trial",
+      "roi": null,
+      "score_accuracy": null,
+      "skipped": 0,
+      "total_goals_accuracy": null
+    },
+    "Serie A": {
+      "accuracy": null,
+      "always_home_accuracy": null,
+      "brier": null,
+      "eligible_matches": 0,
+      "evaluated": 0,
+      "log_loss": null,
+      "protocol": "Fixed trained parameters; later chronological holdout; not a new prospective trial",
+      "roi": null,
+      "score_accuracy": null,
+      "skipped": 0,
+      "total_goals_accuracy": null
+    }
+  },
+  "models": {
+    "Bundesliga": {
+      "family": "fitted-poisson-attack-defence",
+      "intercept_away": 0.32068936142703414,
+      "intercept_home": 0.505758229343526,
+      "latest_training_match": "2026-05-16",
+      "league": "Bundesliga",
+      "limitations": [
+        "Independent goals assumption",
+        "No injuries, lineups, xG or odds",
+        "Structural input checks are not independent verification of source results",
+        "No prospective validation or profit claim"
+      ],
+      "parameters": {
+        "half_life_days": 365,
+        "iterations": 300,
+        "ridge": 5
+      },
+      "schema_version": 1,
+      "status": "experimental",
+      "teams": {
+        "Augsburg": {
+          "attack_log": -0.13337211591381998,
+          "defence_log": -0.0015353216150492408,
+          "matches": 340
+        },
+        "Bayern Munich": {
+          "attack_log": 0.7483516216497216,
+          "defence_log": -0.3309430184395089,
+          "matches": 340
+        },
+        "Bielefeld": {
+          "attack_log": -0.19234278975703475,
+          "defence_log": -0.03881842067696043,
+          "matches": 68
+        },
+        "Bochum": {
+          "attack_log": -0.23762541743288754,
+          "defence_log": 0.14644512230709214,
+          "matches": 136
+        },
+        "Darmstadt": {
+          "attack_log": -0.3016292379179123,
+          "defence_log": 0.2946011288953888,
+          "matches": 68
+        },
+        "Dortmund": {
+          "attack_log": 0.35702410521271144,
+          "defence_log": -0.2941987318535621,
+          "matches": 340
+        },
+        "Ein Frankfurt": {
+          "attack_log": 0.1829301378777583,
+          "defence_log": -0.002416111941765614,
+          "matches": 340
+        },
+        "FC Koln": {
+          "attack_log": -0.0680294289833934,
+          "defence_log": 0.0720881829633643,
+          "matches": 272
+        },
+        "Fortuna Dusseldorf": {
+          "attack_log": -0.025335874512790454,
+          "defence_log": 0.023745859809595465,
+          "matches": 68
+        },
+        "Freiburg": {
+          "attack_log": 0.01569406641298241,
+          "defence_log": -0.03523573648878309,
+          "matches": 340
+        },
+        "Greuther Furth": {
+          "attack_log": -0.13296742130156664,
+          "defence_log": 0.12769578617273436,
+          "matches": 34
+        },
+        "Hamburg": {
+          "attack_log": -0.1455454720119987,
+          "defence_log": -0.05258796957588666,
+          "matches": 102
+        },
+        "Hannover": {
+          "attack_log": -0.0217913342335819,
+          "defence_log": 0.01025537106265286,
+          "matches": 68
+        },
+        "Heidenheim": {
+          "attack_log": -0.13319134827969065,
+          "defence_log": 0.13500853721731926,
+          "matches": 102
+        },
+        "Hertha": {
+          "attack_log": -0.10385731047101407,
+          "defence_log": 0.09674170228143536,
+          "matches": 238
+        },
+        "Hoffenheim": {
+          "attack_log": 0.1696907519489358,
+          "defence_log": 0.03891361071666317,
+          "matches": 340
+        },
+        "Holstein Kiel": {
+          "attack_log": 0.011810416097236577,
+          "defence_log": 0.27454046857010767,
+          "matches": 34
+        },
+        "Ingolstadt": {
+          "attack_log": -0.0037582841937123163,
+          "defence_log": 0.00011771706661311208,
+          "matches": 34
+        },
+        "Leverkusen": {
+          "attack_log": 0.3325410161999176,
+          "defence_log": -0.24658040040868853,
+          "matches": 340
+        },
+        "M'gladbach": {
+          "attack_log": -0.0076079343099451115,
+          "defence_log": -0.025654873277016335,
+          "matches": 340
+        },
+        "Mainz": {
+          "attack_log": -0.029925012661038773,
+          "defence_log": -0.13373041580157521,
+          "matches": 340
+        },
+        "Nurnberg": {
+          "attack_log": -0.025251626403006995,
+          "defence_log": 0.008958181358714169,
+          "matches": 34
+        },
+        "Paderborn": {
+          "attack_log": -0.02787226189285353,
+          "defence_log": 0.034548668273379476,
+          "matches": 34
+        },
+        "RB Leipzig": {
+          "attack_log": 0.24237494328544323,
+          "defence_log": -0.19083321159334982,
+          "matches": 340
+        },
+        "Schalke 04": {
+          "attack_log": -0.17024066881863434,
+          "defence_log": 0.1303556071283008,
+          "matches": 204
+        },
+        "St Pauli": {
+          "attack_log": -0.4763031622464393,
+          "defence_log": -0.07140800126949351,
+          "matches": 68
+        },
+        "Stuttgart": {
+          "attack_log": 0.30393807953514396,
+          "defence_log": -0.11763721490179485,
+          "matches": 272
+        },
+        "Union Berlin": {
+          "attack_log": -0.15956599520456446,
+          "defence_log": -0.047206523995893014,
+          "matches": 238
+        },
+        "Werder Bremen": {
+          "attack_log": -0.11530201248894059,
+          "defence_log": 0.004746760330932781,
+          "matches": 306
+        },
+        "Wolfsburg": {
+          "attack_log": -0.025100005382979917,
+          "defence_log": 0.055917091213208044,
+          "matches": 340
+        }
+      },
+      "trained_through": "2026-06-30",
+      "training_hash": "a12ad3231fdbb5993540c64322a9c12501458d3cd5dfbd7afa57f998dfd0195e",
+      "training_matches": 3060,
+      "version": "1.0.0"
+    },
+    "La Liga": {
+      "family": "fitted-poisson-attack-defence",
+      "intercept_away": 0.0835674644381313,
+      "intercept_home": 0.3770745724537246,
+      "latest_training_match": "2026-05-24",
+      "league": "La Liga",
+      "limitations": [
+        "Independent goals assumption",
+        "No injuries, lineups, xG or odds",
+        "Structural input checks are not independent verification of source results",
+        "No prospective validation or profit claim"
+      ],
+      "parameters": {
+        "half_life_days": 365,
+        "iterations": 300,
+        "ridge": 5
+      },
+      "schema_version": 1,
+      "status": "experimental",
+      "teams": {
+        "Alaves": {
+          "attack_log": -0.10338514321525547,
+          "defence_log": 0.0019368692393760816,
+          "matches": 342
+        },
+        "Almeria": {
+          "attack_log": 0.004937976476523591,
+          "defence_log": 0.23134302096893483,
+          "matches": 76
+        },
+        "Ath Bilbao": {
+          "attack_log": 0.030628160551706626,
+          "defence_log": -0.11654215977136256,
+          "matches": 380
+        },
+        "Ath Madrid": {
+          "attack_log": 0.3099984862700613,
+          "defence_log": -0.23150236932937265,
+          "matches": 380
+        },
+        "Barcelona": {
+          "attack_log": 0.6338793263188096,
+          "defence_log": -0.29481393048480725,
+          "matches": 380
+        },
+        "Betis": {
+          "attack_log": 0.18519476686487926,
+          "defence_log": -0.07632682864302183,
+          "matches": 380
+        },
+        "Cadiz": {
+          "attack_log": -0.3257406792864774,
+          "defence_log": 0.008472878989743126,
+          "matches": 152
+        },
+        "Celta": {
+          "attack_log": 0.13124799914108012,
+          "defence_log": -0.015092183963688256,
+          "matches": 380
+        },
+        "Eibar": {
+          "attack_log": -0.07626362009539743,
+          "defence_log": 0.0013073428089089485,
+          "matches": 190
+        },
+        "Elche": {
+          "attack_log": 0.010474931042957429,
+          "defence_log": 0.08767103876744918,
+          "matches": 152
+        },
+        "Espanol": {
+          "attack_log": -0.0774260533999112,
+          "defence_log": 0.033605664406974364,
+          "matches": 304
+        },
+        "Getafe": {
+          "attack_log": -0.29426730023380077,
+          "defence_log": -0.24936958407914758,
+          "matches": 342
+        },
+        "Girona": {
+          "attack_log": 0.02759174461445483,
+          "defence_log": 0.026733458702926018,
+          "matches": 228
+        },
+        "Granada": {
+          "attack_log": -0.10047393270945933,
+          "defence_log": 0.25948341164728983,
+          "matches": 190
+        },
+        "Huesca": {
+          "attack_log": -0.05283453701593726,
+          "defence_log": 0.00812114948411387,
+          "matches": 76
+        },
+        "La Coruna": {
+          "attack_log": -0.005669958857005963,
+          "defence_log": 0.013907167741292036,
+          "matches": 76
+        },
+        "Las Palmas": {
+          "attack_log": -0.19229488910381998,
+          "defence_log": 0.06760903574081972,
+          "matches": 152
+        },
+        "Leganes": {
+          "attack_log": -0.1203612128638091,
+          "defence_log": 0.044906221313773545,
+          "matches": 190
+        },
+        "Levante": {
+          "attack_log": 0.040891187656050404,
+          "defence_log": 0.1288527700056032,
+          "matches": 228
+        },
+        "Malaga": {
+          "attack_log": -0.011614897623525957,
+          "defence_log": 0.003816280616294226,
+          "matches": 76
+        },
+        "Mallorca": {
+          "attack_log": -0.10330320784226968,
+          "defence_log": -0.029153358556404645,
+          "matches": 228
+        },
+        "Osasuna": {
+          "attack_log": -0.03202473475809728,
+          "defence_log": -0.026603236275221008,
+          "matches": 304
+        },
+        "Oviedo": {
+          "attack_log": -0.4352588914684318,
+          "defence_log": 0.09697961645785906,
+          "matches": 38
+        },
+        "Real Madrid": {
+          "attack_log": 0.47966863652686803,
+          "defence_log": -0.35203546256230833,
+          "matches": 380
+        },
+        "Sevilla": {
+          "attack_log": -0.018791879551313718,
+          "defence_log": 0.04994651662852573,
+          "matches": 380
+        },
+        "Sociedad": {
+          "attack_log": 0.09659066259107132,
+          "defence_log": 0.0030496607666495932,
+          "matches": 380
+        },
+        "Sp Gijon": {
+          "attack_log": -0.0012914945705359113,
+          "defence_log": 0.0048812425298700845,
+          "matches": 38
+        },
+        "Valencia": {
+          "attack_log": -0.017083865816941803,
+          "defence_log": -0.0141949542649718,
+          "matches": 380
+        },
+        "Valladolid": {
+          "attack_log": -0.36308345916398616,
+          "defence_log": 0.4022397611305587,
+          "matches": 190
+        },
+        "Vallecano": {
+          "attack_log": -0.14409048636249955,
+          "defence_log": -0.1364471739457949,
+          "matches": 228
+        },
+        "Villarreal": {
+          "attack_log": 0.39056941784902127,
+          "defence_log": -0.04087247429631189,
+          "matches": 380
+        }
+      },
+      "trained_through": "2026-06-30",
+      "training_hash": "19eec32ba5e8467cad354f574368ba062116e11ae1ed12ea1eddca93a98008e5",
+      "training_matches": 3800,
+      "version": "1.0.0"
+    },
+    "Ligue 1": {
+      "family": "fitted-poisson-attack-defence",
+      "intercept_away": 0.2115618133427374,
+      "intercept_home": 0.3976914424089362,
+      "latest_training_match": "2026-05-17",
+      "league": "Ligue 1",
+      "limitations": [
+        "Independent goals assumption",
+        "No injuries, lineups, xG or odds",
+        "Structural input checks are not independent verification of source results",
+        "No prospective validation or profit claim"
+      ],
+      "parameters": {
+        "half_life_days": 365,
+        "iterations": 300,
+        "ridge": 5
+      },
+      "schema_version": 1,
+      "status": "experimental",
+      "teams": {
+        "Ajaccio": {
+          "attack_log": -0.2833961554240713,
+          "defence_log": 0.1725647500675206,
+          "matches": 38
+        },
+        "Amiens": {
+          "attack_log": -0.04060792652382216,
+          "defence_log": 0.002410247531847236,
+          "matches": 104
+        },
+        "Angers": {
+          "attack_log": -0.33649484640930194,
+          "defence_log": 0.007262071521052643,
+          "matches": 324
+        },
+        "Auxerre": {
+          "attack_log": -0.1043007059466397,
+          "defence_log": -0.09492245848159768,
+          "matches": 106
+        },
+        "Bastia": {
+          "attack_log": -0.006637421484456534,
+          "defence_log": 0.001057847311569049,
+          "matches": 38
+        },
+        "Bordeaux": {
+          "attack_log": -0.03018135285545641,
+          "defence_log": 0.14941355163186532,
+          "matches": 218
+        },
+        "Brest": {
+          "attack_log": 0.044891002867417054,
+          "defence_log": 0.04149283111848676,
+          "matches": 244
+        },
+        "Caen": {
+          "attack_log": -0.041020579195233865,
+          "defence_log": 0.0015302185317869936,
+          "matches": 114
+        },
+        "Clermont": {
+          "attack_log": -0.23287518888433395,
+          "defence_log": 0.07414186618294587,
+          "matches": 110
+        },
+        "Dijon": {
+          "attack_log": -0.1182816014812478,
+          "defence_log": 0.06693911352968192,
+          "matches": 180
+        },
+        "Guingamp": {
+          "attack_log": -0.026607751194148203,
+          "defence_log": 0.014793249479543882,
+          "matches": 114
+        },
+        "Le Havre": {
+          "attack_log": -0.19293555443723284,
+          "defence_log": 0.007653055288241255,
+          "matches": 102
+        },
+        "Lens": {
+          "attack_log": 0.22988114193117842,
+          "defence_log": -0.2765003917097031,
+          "matches": 216
+        },
+        "Lille": {
+          "attack_log": 0.1231823177734371,
+          "defence_log": -0.31381228671632,
+          "matches": 358
+        },
+        "Lorient": {
+          "attack_log": 0.04958727039337335,
+          "defence_log": 0.03255939864590105,
+          "matches": 220
+        },
+        "Lyon": {
+          "attack_log": 0.24495609648305447,
+          "defence_log": -0.11192934422033347,
+          "matches": 358
+        },
+        "Marseille": {
+          "attack_log": 0.32466142088987554,
+          "defence_log": -0.09366154232679536,
+          "matches": 358
+        },
+        "Metz": {
+          "attack_log": -0.2414104575710712,
+          "defence_log": 0.2953974677161597,
+          "matches": 248
+        },
+        "Monaco": {
+          "attack_log": 0.3241245428937357,
+          "defence_log": -0.02912797282461206,
+          "matches": 358
+        },
+        "Montpellier": {
+          "attack_log": -0.19232889149638943,
+          "defence_log": 0.21607139776375345,
+          "matches": 324
+        },
+        "Nancy": {
+          "attack_log": -0.006383508710145637,
+          "defence_log": -0.0005582074294472609,
+          "matches": 38
+        },
+        "Nantes": {
+          "attack_log": -0.27504396555927496,
+          "defence_log": -0.006132452723355361,
+          "matches": 358
+        },
+        "Nice": {
+          "attack_log": 0.01835667096258699,
+          "defence_log": -0.05112866983783168,
+          "matches": 358
+        },
+        "Nimes": {
+          "attack_log": -0.04542661540253826,
+          "defence_log": 0.0573222622114844,
+          "matches": 104
+        },
+        "Paris FC": {
+          "attack_log": 0.07805177557153446,
+          "defence_log": -0.058073814273007014,
+          "matches": 34
+        },
+        "Paris SG": {
+          "attack_log": 0.5486878454003389,
+          "defence_log": -0.3788467571317926,
+          "matches": 357
+        },
+        "Reims": {
+          "attack_log": -0.20053621888291084,
+          "defence_log": -0.10459572215462293,
+          "matches": 248
+        },
+        "Rennes": {
+          "attack_log": 0.24773209302158797,
+          "defence_log": -0.04161629972529229,
+          "matches": 358
+        },
+        "St Etienne": {
+          "attack_log": -0.06248547153248345,
+          "defence_log": 0.3221184528520906,
+          "matches": 252
+        },
+        "Strasbourg": {
+          "attack_log": 0.1857919948797572,
+          "defence_log": -0.061528248450138046,
+          "matches": 319
+        },
+        "Toulouse": {
+          "attack_log": 0.02370488683038856,
+          "defence_log": -0.0918805017348646,
+          "matches": 282
+        },
+        "Troyes": {
+          "attack_log": -0.1142616092459909,
+          "defence_log": 0.16299858874869866,
+          "matches": 114
+        }
+      },
+      "trained_through": "2026-06-30",
+      "training_hash": "7a4f33f4eb9cd1218f72ff1591ace777ceeedc9e6567c020fdb97c4dcf4cbf72",
+      "training_matches": 3477,
+      "version": "1.0.0"
+    },
+    "Premier League": {
+      "family": "fitted-poisson-attack-defence",
+      "intercept_away": 0.2498890993098346,
+      "intercept_home": 0.42481156935418307,
+      "latest_training_match": "2026-05-24",
+      "league": "Premier League",
+      "limitations": [
+        "Independent goals assumption",
+        "No injuries, lineups, xG or odds",
+        "Structural input checks are not independent verification of source results",
+        "No prospective validation or profit claim"
+      ],
+      "parameters": {
+        "half_life_days": 365,
+        "iterations": 300,
+        "ridge": 5
+      },
+      "schema_version": 1,
+      "status": "experimental",
+      "teams": {
+        "Arsenal": {
+          "attack_log": 0.3389355684680762,
+          "defence_log": -0.5382690058449296,
+          "matches": 380
+        },
+        "Aston Villa": {
+          "attack_log": 0.14976070936219404,
+          "defence_log": -0.11047450175175229,
+          "matches": 266
+        },
+        "Bournemouth": {
+          "attack_log": 0.10023039461509677,
+          "defence_log": -0.07437555446294429,
+          "matches": 304
+        },
+        "Brentford": {
+          "attack_log": 0.13127303116501654,
+          "defence_log": -0.0654991903410013,
+          "matches": 190
+        },
+        "Brighton": {
+          "attack_log": 0.10219708808166095,
+          "defence_log": -0.10582977828774082,
+          "matches": 342
+        },
+        "Burnley": {
+          "attack_log": -0.22460157421842136,
+          "defence_log": 0.2051270027241854,
+          "matches": 304
+        },
+        "Cardiff": {
+          "attack_log": -0.018544611008832083,
+          "defence_log": 0.012330691737918672,
+          "matches": 38
+        },
+        "Chelsea": {
+          "attack_log": 0.16724200325595928,
+          "defence_log": -0.12184483601403773,
+          "matches": 380
+        },
+        "Crystal Palace": {
+          "attack_log": -0.07342468026482284,
+          "defence_log": -0.09549691038448363,
+          "matches": 380
+        },
+        "Everton": {
+          "attack_log": -0.11377795431747227,
+          "defence_log": -0.15188655255629938,
+          "matches": 380
+        },
+        "Fulham": {
+          "attack_log": -0.011805944681448058,
+          "defence_log": -0.09103006003339821,
+          "matches": 228
+        },
+        "Huddersfield": {
+          "attack_log": -0.04296614230365657,
+          "defence_log": 0.02126127906903518,
+          "matches": 76
+        },
+        "Hull": {
+          "attack_log": -0.004144631103722085,
+          "defence_log": 0.007129795612226296,
+          "matches": 38
+        },
+        "Ipswich": {
+          "attack_log": -0.24525288958180508,
+          "defence_log": 0.3065443788212784,
+          "matches": 38
+        },
+        "Leeds": {
+          "attack_log": -0.003757197212723167,
+          "defence_log": -0.0018849567503672483,
+          "matches": 152
+        },
+        "Leicester": {
+          "attack_log": -0.19512598711213797,
+          "defence_log": 0.20526964549908638,
+          "matches": 304
+        },
+        "Liverpool": {
+          "attack_log": 0.3603698991060177,
+          "defence_log": -0.1680806463874345,
+          "matches": 380
+        },
+        "Luton": {
+          "attack_log": 0.03040488066967008,
+          "defence_log": 0.2963814578957437,
+          "matches": 38
+        },
+        "Man City": {
+          "attack_log": 0.43392655703689975,
+          "defence_log": -0.4126865010960127,
+          "matches": 380
+        },
+        "Man United": {
+          "attack_log": 0.17683338276999347,
+          "defence_log": -0.11474480440868373,
+          "matches": 380
+        },
+        "Middlesbrough": {
+          "attack_log": -0.007199147602023688,
+          "defence_log": -0.00016051942518853247,
+          "matches": 38
+        },
+        "Newcastle": {
+          "attack_log": 0.1977105222483306,
+          "defence_log": -0.07283936517646467,
+          "matches": 342
+        },
+        "Norwich": {
+          "attack_log": -0.21615869852580666,
+          "defence_log": 0.17613150583135412,
+          "matches": 76
+        },
+        "Nott'm Forest": {
+          "attack_log": 0.028413477151429452,
+          "defence_log": -0.09967125402097272,
+          "matches": 152
+        },
+        "Sheffield United": {
+          "attack_log": -0.2430753135850772,
+          "defence_log": 0.4036730028960267,
+          "matches": 114
+        },
+        "Southampton": {
+          "attack_log": -0.378253044044144,
+          "defence_log": 0.29237434274229507,
+          "matches": 304
+        },
+        "Stoke": {
+          "attack_log": -0.012678424500005218,
+          "defence_log": 0.00519873596164335,
+          "matches": 76
+        },
+        "Sunderland": {
+          "attack_log": -0.1294992062239788,
+          "defence_log": -0.1565342204805697,
+          "matches": 76
+        },
+        "Swansea": {
+          "attack_log": -0.014597074046190225,
+          "defence_log": 0.003237038924939347,
+          "matches": 76
+        },
+        "Tottenham": {
+          "attack_log": 0.11485319592966899,
+          "defence_log": 0.03955198834044697,
+          "matches": 380
+        },
+        "Watford": {
+          "attack_log": -0.13652272999993298,
+          "defence_log": 0.1260705838914849,
+          "matches": 190
+        },
+        "West Brom": {
+          "attack_log": -0.07183459956391994,
+          "defence_log": 0.06500500302281813,
+          "matches": 114
+        },
+        "West Ham": {
+          "attack_log": -0.02379408641707728,
+          "defence_log": 0.07285387227293673,
+          "matches": 380
+        },
+        "Wolves": {
+          "attack_log": -0.2555798424951823,
+          "defence_log": 0.09376576018645354,
+          "matches": 304
+        }
+      },
+      "trained_through": "2026-06-30",
+      "training_hash": "5bfe73161c8dfbcfd32d1a61b8101906a1868953632280c119121f7bf3e3ed66",
+      "training_matches": 3800,
+      "version": "1.0.0"
+    },
+    "Serie A": {
+      "family": "fitted-poisson-attack-defence",
+      "intercept_away": 0.14776955794383595,
+      "intercept_home": 0.2637269450778571,
+      "latest_training_match": "2026-05-24",
+      "league": "Serie A",
+      "limitations": [
+        "Independent goals assumption",
+        "No injuries, lineups, xG or odds",
+        "Structural input checks are not independent verification of source results",
+        "No prospective validation or profit claim"
+      ],
+      "parameters": {
+        "half_life_days": 365,
+        "iterations": 300,
+        "ridge": 5
+      },
+      "schema_version": 1,
+      "status": "experimental",
+      "teams": {
+        "Atalanta": {
+          "attack_log": 0.3295525099264791,
+          "defence_log": -0.2456890627154078,
+          "matches": 380
+        },
+        "Benevento": {
+          "attack_log": -0.022794876359626074,
+          "defence_log": 0.09866545330593463,
+          "matches": 76
+        },
+        "Bologna": {
+          "attack_log": 0.1511953347811931,
+          "defence_log": -0.09507651443885429,
+          "matches": 380
+        },
+        "Brescia": {
+          "attack_log": -0.018076014875424748,
+          "defence_log": 0.06618318973849176,
+          "matches": 38
+        },
+        "Cagliari": {
+          "attack_log": -0.06403927065955715,
+          "defence_log": 0.08566955928741046,
+          "matches": 342
+        },
+        "Chievo": {
+          "attack_log": -0.025647092916184767,
+          "defence_log": 0.027958875713945695,
+          "matches": 114
+        },
+        "Como": {
+          "attack_log": 0.299586958018012,
+          "defence_log": -0.29500830759603225,
+          "matches": 76
+        },
+        "Cremonese": {
+          "attack_log": -0.2583600289198823,
+          "defence_log": 0.13071757657237976,
+          "matches": 76
+        },
+        "Crotone": {
+          "attack_log": 0.0031013212340319104,
+          "defence_log": 0.1491047689770101,
+          "matches": 114
+        },
+        "Empoli": {
+          "attack_log": -0.2058074019539724,
+          "defence_log": 0.10330600205849973,
+          "matches": 228
+        },
+        "Fiorentina": {
+          "attack_log": 0.1195707138971651,
+          "defence_log": -0.08602752694705304,
+          "matches": 380
+        },
+        "Frosinone": {
+          "attack_log": -0.034724541620558255,
+          "defence_log": 0.20779938098060743,
+          "matches": 76
+        },
+        "Genoa": {
+          "attack_log": -0.07305927833883442,
+          "defence_log": -0.03687019755763677,
+          "matches": 342
+        },
+        "Inter": {
+          "attack_log": 0.6157305345959558,
+          "defence_log": -0.3387655260743672,
+          "matches": 380
+        },
+        "Juventus": {
+          "attack_log": 0.26522612078122687,
+          "defence_log": -0.34263394106421663,
+          "matches": 380
+        },
+        "Lazio": {
+          "attack_log": 0.11124147607368225,
+          "defence_log": -0.15952768512424984,
+          "matches": 380
+        },
+        "Lecce": {
+          "attack_log": -0.36278629121209244,
+          "defence_log": 0.0043356859150210595,
+          "matches": 190
+        },
+        "Milan": {
+          "attack_log": 0.2701237603601556,
+          "defence_log": -0.20918870319040958,
+          "matches": 380
+        },
+        "Monza": {
+          "attack_log": -0.2071615068096732,
+          "defence_log": 0.18233998667768045,
+          "matches": 114
+        },
+        "Napoli": {
+          "attack_log": 0.2766563893849018,
+          "defence_log": -0.33200561089756325,
+          "matches": 380
+        },
+        "Palermo": {
+          "attack_log": -0.002909335501017528,
+          "defence_log": 0.006993022965683357,
+          "matches": 38
+        },
+        "Parma": {
+          "attack_log": -0.22148521569716215,
+          "defence_log": -0.02818917998775363,
+          "matches": 190
+        },
+        "Pescara": {
+          "attack_log": -0.0018065974925292002,
+          "defence_log": 0.008101036577707707,
+          "matches": 38
+        },
+        "Pisa": {
+          "attack_log": -0.4091487540780322,
+          "defence_log": 0.3148869746378133,
+          "matches": 38
+        },
+        "Roma": {
+          "attack_log": 0.2876283205134568,
+          "defence_log": -0.3214640406794844,
+          "matches": 380
+        },
+        "Salernitana": {
+          "attack_log": -0.12152155480570542,
+          "defence_log": 0.3162021723514264,
+          "matches": 114
+        },
+        "Sampdoria": {
+          "attack_log": -0.11299063971290836,
+          "defence_log": 0.1777446069678641,
+          "matches": 266
+        },
+        "Sassuolo": {
+          "attack_log": 0.0602820756872952,
+          "defence_log": 0.09554815360411409,
+          "matches": 342
+        },
+        "Spal": {
+          "attack_log": -0.03512862561852202,
+          "defence_log": 0.06619988889274965,
+          "matches": 114
+        },
+        "Spezia": {
+          "attack_log": -0.11087447818693959,
+          "defence_log": 0.17032627922803553,
+          "matches": 114
+        },
+        "Torino": {
+          "attack_log": -0.035442234920889396,
+          "defence_log": 0.030359074189964752,
+          "matches": 380
+        },
+        "Udinese": {
+          "attack_log": -0.007539474066821644,
+          "defence_log": -0.014088928918418132,
+          "matches": 380
+        },
+        "Venezia": {
+          "attack_log": -0.21023962291433418,
+          "defence_log": 0.08260831592083008,
+          "matches": 76
+        },
+        "Verona": {
+          "attack_log": -0.32108643403515535,
+          "defence_log": 0.12816299198315817,
+          "matches": 304
+        }
+      },
+      "trained_through": "2026-06-30",
+      "training_hash": "94576b4b1df4210f1134a54a6e1bacc29332eea3c229896311dab1c0e631068c",
+      "training_matches": 3800,
+      "version": "1.0.0"
+    }
+  }
+}
