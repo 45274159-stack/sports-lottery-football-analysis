@@ -1,0 +1,330 @@
+{
+  "as_of": "2026-09-04",
+  "scope": "14 tracked competitions, not all world football",
+  "new_current_season_matches": 163,
+  "completed_2025_26_additions": {
+    "Eredivisie": {
+      "added": 3,
+      "original_total": 2982,
+      "rejected": 0
+    },
+    "Primeira Liga": {
+      "added": 19,
+      "original_total": 3041,
+      "rejected": 0
+    }
+  },
+  "total_validated_rows": 40842,
+  "coverage": {
+    "Bundesliga": {
+      "rows": 3069,
+      "seasons": {
+        "1617": 306,
+        "1718": 306,
+        "1819": 306,
+        "1920": 306,
+        "2021": 306,
+        "2026-27": 9,
+        "2122": 306,
+        "2223": 306,
+        "2324": 306,
+        "2425": 306,
+        "2526": 306
+      },
+      "first_date": "2016-08-26",
+      "last_date": "2026-08-30"
+    },
+    "La Liga": {
+      "rows": 3830,
+      "seasons": {
+        "1617": 380,
+        "1718": 380,
+        "1819": 380,
+        "1920": 380,
+        "2021": 380,
+        "2026-27": 30,
+        "2122": 380,
+        "2223": 380,
+        "2324": 380,
+        "2425": 380,
+        "2526": 380
+      },
+      "first_date": "2016-08-19",
+      "last_date": "2026-08-31"
+    },
+    "Ligue 1": {
+      "rows": 3495,
+      "seasons": {
+        "1617": 380,
+        "1718": 380,
+        "1819": 380,
+        "1920": 279,
+        "2021": 380,
+        "2026-27": 18,
+        "2122": 380,
+        "2223": 380,
+        "2324": 306,
+        "2425": 306,
+        "2526": 306
+      },
+      "first_date": "2016-08-12",
+      "last_date": "2026-08-30"
+    },
+    "Premier League": {
+      "rows": 3820,
+      "seasons": {
+        "1617": 380,
+        "1718": 380,
+        "1819": 380,
+        "1920": 380,
+        "2021": 380,
+        "2026-27": 20,
+        "2122": 380,
+        "2223": 380,
+        "2324": 380,
+        "2425": 380,
+        "2526": 380
+      },
+      "first_date": "2016-08-13",
+      "last_date": "2026-08-31"
+    },
+    "Serie A": {
+      "rows": 3820,
+      "seasons": {
+        "1617": 380,
+        "1718": 380,
+        "1819": 380,
+        "1920": 380,
+        "2021": 380,
+        "2026-27": 20,
+        "2122": 380,
+        "2223": 380,
+        "2324": 380,
+        "2425": 380,
+        "2526": 380
+      },
+      "first_date": "2016-08-20",
+      "last_date": "2026-08-31"
+    },
+    "2. Bundesliga": {
+      "rows": 3006,
+      "seasons": {
+        "2016-17": 306,
+        "2017-18": 306,
+        "2018-19": 306,
+        "2019-20": 306,
+        "2020-21": 306,
+        "2021-22": 306,
+        "2022-23": 306,
+        "2023-24": 306,
+        "2024-25": 306,
+        "2025-26": 252
+      },
+      "first_date": "2016-08-05",
+      "last_date": "2026-04-05"
+    },
+    "Eerste Divisie": {
+      "rows": 2249,
+      "seasons": {
+        "2020-21": 380,
+        "2021-22": 380,
+        "2022-23": 380,
+        "2023-24": 380,
+        "2024-25": 380,
+        "2025-26": 349
+      },
+      "first_date": "2020-08-28",
+      "last_date": "2026-04-06"
+    },
+    "Eliteserien": {
+      "rows": 2068,
+      "seasons": {
+        "2016": 242,
+        "2017": 242,
+        "2018": 241,
+        "2019": 242,
+        "2020": 240,
+        "2021": 241,
+        "2022": 242,
+        "2023": 242,
+        "2024": 92,
+        "2025": 44
+      },
+      "first_date": "2016-03-11",
+      "last_date": "2025-05-04"
+    },
+    "Eredivisie": {
+      "rows": 3018,
+      "seasons": {
+        "2016-17": 306,
+        "2017-18": 306,
+        "2018-19": 306,
+        "2019-20": 232,
+        "2020-21": 306,
+        "2021-22": 306,
+        "2022-23": 306,
+        "2023-24": 306,
+        "2024-25": 306,
+        "2025-26": 305,
+        "2026-27": 33
+      },
+      "first_date": "2016-08-05",
+      "last_date": "2026-08-30"
+    },
+    "Ligue 2": {
+      "rows": 3505,
+      "seasons": {
+        "2016-17": 380,
+        "2017-18": 380,
+        "2018-19": 380,
+        "2019-20": 280,
+        "2020-21": 380,
+        "2021-22": 380,
+        "2022-23": 379,
+        "2023-24": 379,
+        "2024-25": 306,
+        "2025-26": 261
+      },
+      "first_date": "2016-07-29",
+      "last_date": "2026-04-06"
+    },
+    "MLS": {
+      "rows": 3763,
+      "seasons": {
+        "2016": 357,
+        "2017": 391,
+        "2018": 408,
+        "2019": 421,
+        "2020": 324,
+        "2021": 472,
+        "2022": 489,
+        "2023": 521,
+        "2024": 234,
+        "2025": 146
+      },
+      "first_date": "2016-03-06",
+      "last_date": "2025-05-04"
+    },
+    "Primeira Liga": {
+      "rows": 3093,
+      "seasons": {
+        "2016-17": 306,
+        "2017-18": 306,
+        "2018-19": 306,
+        "2019-20": 306,
+        "2020-21": 306,
+        "2021-22": 306,
+        "2022-23": 306,
+        "2023-24": 306,
+        "2024-25": 306,
+        "2025-26": 306,
+        "2026-27": 33
+      },
+      "first_date": "2016-08-12",
+      "last_date": "2026-08-31"
+    },
+    "Saudi Pro League": {
+      "rows": 734,
+      "seasons": {
+        "2016-17": 182,
+        "2024-25": 306,
+        "2025-26": 246
+      },
+      "first_date": "2016-08-11",
+      "last_date": "2026-04-08"
+    },
+    "champions_league": {
+      "rows": 1372,
+      "seasons": {
+        "2016-17": 125,
+        "2017-18": 125,
+        "2018-19": 125,
+        "2019-20": 119,
+        "2020-21": 125,
+        "2021-22": 125,
+        "2022-23": 125,
+        "2023-24": 125,
+        "2024-25": 189,
+        "2025-26": 189
+      },
+      "first_date": "2016-09-13",
+      "last_date": "2026-05-30"
+    }
+  },
+  "validation_issues": [],
+  "conflicts": [],
+  "quarantine": [],
+  "sources": [
+    {
+      "league": "Premier League",
+      "path": "data/raw/openfootball_20260904/2026-27/en.1.json",
+      "url": "https://raw.githubusercontent.com/openfootball/football.json/8aa4cd0ce0410b21037f063eeb4edd981081d85d/2026-27/en.1.json",
+      "revision": "8aa4cd0ce0410b21037f063eeb4edd981081d85d",
+      "sha256": "787f33ddbb32b491b34fbeb7a0ede1a0b44e80864383b354c6a05b38fe45b925",
+      "accepted": 20,
+      "rejected": 0
+    },
+    {
+      "league": "Bundesliga",
+      "path": "data/raw/openfootball_20260904/2026-27/de.1.json",
+      "url": "https://raw.githubusercontent.com/openfootball/football.json/8aa4cd0ce0410b21037f063eeb4edd981081d85d/2026-27/de.1.json",
+      "revision": "8aa4cd0ce0410b21037f063eeb4edd981081d85d",
+      "sha256": "1fc39eeaba00a078dfb240130b91809ce4820144549920244762086e6018b962",
+      "accepted": 9,
+      "rejected": 0
+    },
+    {
+      "league": "La Liga",
+      "path": "data/raw/openfootball_20260904/2026-27/es.1.json",
+      "url": "https://raw.githubusercontent.com/openfootball/football.json/8aa4cd0ce0410b21037f063eeb4edd981081d85d/2026-27/es.1.json",
+      "revision": "8aa4cd0ce0410b21037f063eeb4edd981081d85d",
+      "sha256": "47d473fdc50b361fb3a0f656f6582d411f8f99207c9e74e0454a7cf093d6e475",
+      "accepted": 30,
+      "rejected": 0
+    },
+    {
+      "league": "Ligue 1",
+      "path": "data/raw/openfootball_20260904/2026-27/fr.1.json",
+      "url": "https://raw.githubusercontent.com/openfootball/football.json/8aa4cd0ce0410b21037f063eeb4edd981081d85d/2026-27/fr.1.json",
+      "revision": "8aa4cd0ce0410b21037f063eeb4edd981081d85d",
+      "sha256": "fa705b5858febc67ceda75c4cbebf2a345433076e5828e559f08d2fa2feab904",
+      "accepted": 18,
+      "rejected": 0
+    },
+    {
+      "league": "Serie A",
+      "path": "data/raw/openfootball_20260904/2026-27/it.1.json",
+      "url": "https://raw.githubusercontent.com/openfootball/football.json/8aa4cd0ce0410b21037f063eeb4edd981081d85d/2026-27/it.1.json",
+      "revision": "8aa4cd0ce0410b21037f063eeb4edd981081d85d",
+      "sha256": "dfc7eec1ab5c6ad39739bdf7d67485ba52412e2395b9e410b21c70ee89e182e2",
+      "accepted": 20,
+      "rejected": 0
+    },
+    {
+      "league": "Eredivisie",
+      "path": "data/raw/openfootball_20260904/2026-27/nl.1.json",
+      "url": "https://raw.githubusercontent.com/openfootball/football.json/8aa4cd0ce0410b21037f063eeb4edd981081d85d/2026-27/nl.1.json",
+      "revision": "8aa4cd0ce0410b21037f063eeb4edd981081d85d",
+      "sha256": "d6882acfb88bcc9145a855ad441f08792a0f25207b097b9df417acf812527655",
+      "accepted": 33,
+      "rejected": 0
+    },
+    {
+      "league": "Primeira Liga",
+      "path": "data/raw/openfootball_20260904/2026-27/pt.1.json",
+      "url": "https://raw.githubusercontent.com/openfootball/football.json/8aa4cd0ce0410b21037f063eeb4edd981081d85d/2026-27/pt.1.json",
+      "revision": "8aa4cd0ce0410b21037f063eeb4edd981081d85d",
+      "sha256": "9133bb6ae84eb3e831cd48d0d51b482c23e5a2367c017e820a9ff747f33edd36",
+      "accepted": 33,
+      "rejected": 0
+    }
+  ],
+  "known_gaps": [
+    "Eerste Divisie 2016-17 through 2019-20 absent",
+    "Saudi Pro League 2017-18 through 2023-24 absent",
+    "MLS 2024-2026 incomplete and phase/90-minute review pending",
+    "Eliteserien 2024-2026 incomplete and phase/90-minute review pending",
+    "2026-27 second divisions and Saudi/MLS/Eliteserien not available in this source snapshot",
+    "No global lower-league, youth, women, reserve, friendly, or every cup competition coverage"
+  ]
+}
