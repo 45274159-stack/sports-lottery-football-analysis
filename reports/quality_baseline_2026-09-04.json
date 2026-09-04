@@ -1,0 +1,60 @@
+{
+  "top5": {
+    "baseline": {
+      "Bundesliga": {
+        "accuracy": 0.4408783783783784,
+        "always_home_accuracy": 0.4408783783783784,
+        "brier": 0.6483216549588051,
+        "evaluated": 2960,
+        "log_loss": 1.0716959399668387
+      },
+      "La Liga": {
+        "accuracy": 0.4556756756756757,
+        "always_home_accuracy": 0.4556756756756757,
+        "brier": 0.6446156277262792,
+        "evaluated": 3700,
+        "log_loss": 1.0670660444472457
+      },
+      "Ligue 1": {
+        "accuracy": 0.4364820846905538,
+        "always_home_accuracy": 0.4364820846905538,
+        "brier": 0.6501824588024658,
+        "evaluated": 3377,
+        "log_loss": 1.0744220963477404
+      },
+      "Premier League": {
+        "accuracy": 0.447027027027027,
+        "always_home_accuracy": 0.447027027027027,
+        "brier": 0.6438645859725978,
+        "evaluated": 3700,
+        "log_loss": 1.0644692966236629
+      },
+      "Serie A": {
+        "accuracy": 0.4174101108407678,
+        "always_home_accuracy": 0.4174101108407678,
+        "brier": 0.6544136577271322,
+        "evaluated": 3699,
+        "log_loss": 1.0802867726345624
+      }
+    },
+    "issues": [],
+    "note": "No verified historical Sporttery odds; ROI unavailable.",
+    "roi": null,
+    "rows": 17937
+  },
+  "champions_league": {
+    "baseline": {
+      "champions_league": {
+        "accuracy": 0.4693396226415094,
+        "always_home_accuracy": 0.4693396226415094,
+        "brier": 0.6300508149926289,
+        "evaluated": 1272,
+        "log_loss": 1.0418104793166123
+      }
+    },
+    "issues": [],
+    "note": "No verified historical Sporttery odds; ROI unavailable.",
+    "roi": null,
+    "rows": 1372
+  }
+}
