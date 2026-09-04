@@ -1,3 +1,4 @@
+from datetime import date
 from pathlib import Path
 import tempfile
 import unittest
@@ -6,6 +7,7 @@ from sports_lottery.analysis import estimate_match
 from sports_lottery.database import connect, import_rows
 from sports_lottery.review import load_history
 from sports_lottery.schema import validate_csv
+from sports_lottery.sporttery_source import collect_results, flatten_matches, normalize_match
 
 
 HEADER = "match_id,lottery_date,match_no,competition,kickoff_time,home_team,away_team,home_score,away_score,handicap,spf_home_odds,spf_draw_odds,spf_away_odds,rqspf_home_odds,rqspf_draw_odds,rqspf_away_odds,source_url,collected_at\n"
@@ -72,6 +74,37 @@ class CoreTests(unittest.TestCase):
             self.assertEqual(total.goals, 6)
             self.assertEqual(total.over_2_5, 1)
             self.assertEqual(leagues["英超"].both_score, 2)
+
+    def test_sporttery_payload_is_flattened_and_normalized(self) -> None:
+        match = {
+            "matchId": 2041001,
+            "matchDate": "2026-09-03",
+            "matchTime": "02:45",
+            "matchNumStr": "周四005",
+            "leagueAbbName": "法甲",
+            "homeTeamAbbName": "图卢兹",
+            "awayTeamAbbName": "里尔",
+            "matchStatusName": "已完成",
+            "sectionsNo1": "0:0",
+            "sectionsNo999": "0:1",
+        }
+        payload = {"value": {"matchInfoList": [{"subMatchList": [match]}]}}
+        self.assertEqual(flatten_matches(payload), [match])
+        row = normalize_match(match, "2026-09-04T00:00:00+00:00")
+        self.assertEqual(row["match_id"], "2041001")
+        self.assertEqual(row["match_num"], "周四005")
+        self.assertEqual(row["full_score"], "0:1")
+
+    def test_sporttery_collection_stops_on_repeated_page(self) -> None:
+        match = {"matchId": 1, "matchDate": "2026-09-03", "matchNumStr": "周四001"}
+        payload = {"value": {"matchInfoList": [{"subMatchList": [match]}]}}
+        rows = collect_results(
+            date.fromisoformat("2026-09-03"),
+            date.fromisoformat("2026-09-03"),
+            request=lambda _: payload,
+            delay=0,
+        )
+        self.assertEqual(len(rows), 1)
 
 
 if __name__ == "__main__":
