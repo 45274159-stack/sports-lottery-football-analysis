@@ -16,6 +16,7 @@ from .forecast import ForecastModel
 from .fitted_model import fit, predict
 from .match_context import aware_time, validate_evidence
 from .team_names import normalize_team
+from .prematch import dossier
 
 MODELS = ("league-frequency-v1", "venue-form-v1", "fitted-attack-defence-v1")
 
@@ -75,7 +76,8 @@ def compare(db, rows, fixture, created_at):
     for item in fixture.get("evidence",[]):
         if item.get("source_id")!=fixture["source_id"]:raise ValueError("Evidence match mismatch")
         evidence.append(validate_evidence(item,created_at,fixture["kickoff"]))
-    snapshot=dict(history=history,evidence=evidence,fixture=fixture,cutoff=created.isoformat(),
+    prematch=dossier(rows,fixture,created_at)
+    snapshot=dict(history=history,evidence=evidence,prematch=prematch,fixture=fixture,cutoff=created.isoformat(),
                   method="UTC prediction-day matches excluded; all algorithms receive same rows",
                   model_versions=MODELS)
     comparison_id=fingerprint(dict(fixture_id=fixture["id"],cutoff=created.isoformat()))
@@ -109,7 +111,7 @@ def compare(db, rows, fixture, created_at):
         for name,output in outputs.items():
             db.execute("INSERT INTO forecasts VALUES (?,?,?,?)",(comparison_id,name,output["status"],encoded(output)))
     return dict(comparison_id=comparison_id,fixture_id=fixture["id"],snapshot_hash=fingerprint(snapshot),
-                history_matches=len(history),outputs=outputs,
+                history_matches=len(history),outputs=outputs,prematch=prematch,
                 warning="Shared input availability, different algorithms/windows; supplied evidence not incorporated numerically or verified automatically")
 
 
