@@ -13,7 +13,9 @@
 - 输出基础胜平负概率、预期进球和参考比分；
 - 为后续十年历史数据、伤停、赛程强度和赔率快照扩展保留结构。
 - 已收录2016/17至2025/26五大联赛17,937场标准化比赛数据；
+- 已加入2016/17至2025/26欧冠1,372场比赛，当前合计19,309场；
 - 可一键复算十年主胜率、平局率、客胜率、进球和双方进球分布。
+- 支持在可访问竞彩网的本地网络按日期采集官方编号与赛果，自动翻页、去重并保存原始证据。
 
 ## 快速开始
 
@@ -27,6 +29,7 @@ sporttery init-db
 sporttery import data/templates/matches_template.csv
 sporttery analyze --home 皇家社会 --away 塞尔塔 --kickoff 2026-09-04T03:00:00+08:00
 sporttery review-history data/processed/top5_2016_2026
+sporttery collect-sporttery --start 2026-09-01 --end 2026-09-03 --output data/raw/sporttery/2026-09-01_2026-09-03.json
 ```
 
 ## 目录
@@ -51,7 +54,7 @@ tests/             自动化测试
 
 历史数据必须来自可核验来源。仓库不会为了“凑满十年”而生成虚假记录。
 
-首批结果见 [五大联赛十赛季复盘](reports/top5_2016_2026_review.md)。详细字段见 [数据字典](docs/DATA_DICTIONARY.md)，分析边界见 [方法说明](docs/METHODOLOGY.md)。
+首批结果见 [五大联赛十赛季复盘](reports/top5_2016_2026_review.md)。详细字段见 [数据字典](docs/DATA_DICTIONARY.md)，分析边界见 [方法说明](docs/METHODOLOGY.md)，来源等级见 [数据来源](docs/SOURCES.md)。
 
 ## 责任提示
 
