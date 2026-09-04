@@ -116,7 +116,7 @@ season,date,local_time,stage,home_team,away_team,ft_home_goals,ft_away_goals,ht_
 2016-17,2017-04-12,20:45,Quarterfinals,Atlético Madrid,Leicester City,1,0,1,0,H
 2016-17,2017-04-12,,Quarterfinals,Bayern München,Real Madrid,1,2,1,0,A
 2016-17,2017-04-18,20:45,Quarterfinals,Leicester City,Atlético Madrid,1,1,0,1,D
-2016-17,2017-04-18,,Quarterfinals,Real Madrid,Bayern München,4,2,,,H
+2016-17,2017-04-18,,Quarterfinals,Real Madrid,Bayern München,1,2,0,0,A
 2016-17,2017-04-19,20:45,Quarterfinals,FC Barcelona,Juventus,0,0,,,D
 2016-17,2017-04-19,20:50,Quarterfinals,AS Monaco,Borussia Dortmund,3,1,2,0,H
 2016-17,2017-05-02,20:45,Semifinals,Real Madrid,Atlético Madrid,3,0,1,0,H
@@ -356,7 +356,7 @@ season,date,local_time,stage,home_team,away_team,ft_home_goals,ft_away_goals,ht_
 2018-19,2019-03-05,21:00,Round of 16,Borussia Dortmund,Tottenham Hotspur,0,1,0,0,A
 2018-19,2019-03-05,,Round of 16,Real Madrid,AFC Ajax,1,4,0,2,A
 2018-19,2019-03-06,21:00,Round of 16,Paris Saint-Germain,Manchester United,1,3,1,2,A
-2018-19,2019-03-06,,Round of 16,FC Porto,AS Roma,3,1,,,H
+2018-19,2019-03-06,,Round of 16,FC Porto,AS Roma,2,1,1,1,H
 2018-19,2019-03-12,21:00,Round of 16,Manchester City,FC Schalke 04,7,0,3,0,H
 2018-19,2019-03-12,,Round of 16,Juventus,Atlético Madrid,3,0,1,0,H
 2018-19,2019-03-13,21:00,Round of 16,FC Barcelona,Olympique Lyonnais,5,1,2,0,H
@@ -481,7 +481,7 @@ season,date,local_time,stage,home_team,away_team,ft_home_goals,ft_away_goals,ht_
 2019-20,2020-03-10,21:00,Round of 16,Valencia CF,Atalanta,3,4,1,2,A
 2019-20,2020-03-10,,Round of 16,RB Leipzig,Tottenham Hotspur,3,0,2,0,H
 2019-20,2020-03-11,21:00,Round of 16,Paris Saint-Germain,Borussia Dortmund,2,0,2,0,H
-2019-20,2020-03-11,,Round of 16,Liverpool FC,Atlético Madrid,2,3,,,A
+2019-20,2020-03-11,,Round of 16,Liverpool FC,Atlético Madrid,1,0,1,0,H
 2019-20,2019-08-07,21:00,Round of 16,Manchester City,Real Madrid,2,1,1,1,H
 2019-20,2019-08-07,,Round of 16,Juventus,Olympique Lyonnais,2,1,1,1,H
 2019-20,2019-08-08,21:00,Round of 16,Bayern München,Chelsea FC,4,1,2,1,H
@@ -597,7 +597,7 @@ season,date,local_time,stage,home_team,away_team,ft_home_goals,ft_away_goals,ht_
 2020-21,2021-02-23,,Round of 16,Atlético Madrid,Chelsea FC,0,1,0,0,A
 2020-21,2021-02-24,21:00,Round of 16,Bor. Mönchengladbach,Manchester City,0,2,0,1,A
 2020-21,2021-02-24,,Round of 16,Atalanta,Real Madrid,0,1,0,0,A
-2020-21,2021-03-09,21:00,Round of 16,Juventus,FC Porto,3,2,,,H
+2020-21,2021-03-09,21:00,Round of 16,Juventus,FC Porto,2,1,0,1,H
 2020-21,2021-03-09,,Round of 16,Borussia Dortmund,Sevilla FC,2,2,1,0,D
 2020-21,2021-03-10,21:00,Round of 16,Liverpool FC,RB Leipzig,2,0,0,0,H
 2020-21,2021-03-10,,Round of 16,Paris Saint-Germain,FC Barcelona,1,1,1,1,D
@@ -734,14 +734,14 @@ season,date,local_time,stage,home_team,away_team,ft_home_goals,ft_away_goals,ht_
 2021-22,2022-04-05,,Quarterfinals,SL Benfica,Liverpool FC,1,3,0,2,A
 2021-22,2022-04-06,21:00,Quarterfinals,Chelsea FC,Real Madrid,1,3,1,2,A
 2021-22,2022-04-06,,Quarterfinals,Villarreal CF,Bayern München,1,0,1,0,H
-2021-22,2022-04-12,21:00,Quarterfinals,Real Madrid,Chelsea FC,2,3,,,A
+2021-22,2022-04-12,21:00,Quarterfinals,Real Madrid,Chelsea FC,1,3,0,1,A
 2021-22,2022-04-12,,Quarterfinals,Bayern München,Villarreal CF,1,1,0,0,D
 2021-22,2022-04-13,21:00,Quarterfinals,Atlético Madrid,Manchester City,0,0,,,D
 2021-22,2022-04-13,,Quarterfinals,Liverpool FC,SL Benfica,3,3,1,1,D
 2021-22,2022-04-26,21:00,Semifinals,Manchester City,Real Madrid,4,3,2,1,H
 2021-22,2022-04-27,21:00,Semifinals,Liverpool FC,Villarreal CF,2,0,0,0,H
 2021-22,2022-05-03,21:00,Semifinals,Villarreal CF,Liverpool FC,2,3,2,0,A
-2021-22,2022-05-04,21:00,Semifinals,Real Madrid,Manchester City,3,1,,,H
+2021-22,2022-05-04,21:00,Semifinals,Real Madrid,Manchester City,2,1,0,0,H
 2021-22,2022-05-28,21:35,Final,Liverpool FC,Real Madrid,0,1,0,0,A
 2022-23,2022-09-07,18:45,Group A,AFC Ajax,Rangers FC,4,0,3,0,H
 2022-23,2022-09-07,21:00,Group A,SSC Napoli,Liverpool FC,4,1,3,0,H
@@ -976,9 +976,9 @@ season,date,local_time,stage,home_team,away_team,ft_home_goals,ft_away_goals,ht_
 2023-24,2024-03-05,,"Finals, Round of 16",FC Bayern München,SS Lazio,3,0,2,0,H
 2023-24,2024-03-06,21:00,"Finals, Round of 16",Manchester City FC,FC København,3,1,3,1,H
 2023-24,2024-03-06,,"Finals, Round of 16",Real Madrid CF,RB Leipzig,1,1,0,0,D
-2023-24,2024-03-12,21:00,"Finals, Round of 16",Arsenal FC,FC Porto,4,2,,,H
+2023-24,2024-03-12,21:00,"Finals, Round of 16",Arsenal FC,FC Porto,1,0,1,0,H
 2023-24,2024-03-12,,"Finals, Round of 16",FC Barcelona,SSC Napoli,3,1,2,1,H
-2023-24,2024-03-13,21:00,"Finals, Round of 16",Club Atlético de Madrid,FC Internazionale Milano,3,2,,,H
+2023-24,2024-03-13,21:00,"Finals, Round of 16",Club Atlético de Madrid,FC Internazionale Milano,2,1,1,1,H
 2023-24,2024-03-13,,"Finals, Round of 16",Borussia Dortmund,PSV,2,0,1,0,H
 2023-24,2024-04-09,21:00,"Finals, Quarterfinals",Arsenal FC,FC Bayern München,2,2,1,2,D
 2023-24,2024-04-09,,"Finals, Quarterfinals",Real Madrid CF,Manchester City FC,3,3,2,1,D
@@ -987,7 +987,7 @@ season,date,local_time,stage,home_team,away_team,ft_home_goals,ft_away_goals,ht_
 2023-24,2024-04-16,21:00,"Finals, Quarterfinals",Borussia Dortmund,Club Atlético de Madrid,4,2,2,0,H
 2023-24,2024-04-16,,"Finals, Quarterfinals",FC Barcelona,Paris Saint-Germain FC,1,4,1,1,A
 2023-24,2024-04-17,21:00,"Finals, Quarterfinals",FC Bayern München,Arsenal FC,1,0,0,0,H
-2023-24,2024-04-17,,"Finals, Quarterfinals",Manchester City FC,Real Madrid CF,3,4,,,A
+2023-24,2024-04-17,,"Finals, Quarterfinals",Manchester City FC,Real Madrid CF,1,1,0,1,D
 2023-24,2024-04-30,21:00,"Finals, Semifinals",FC Bayern München,Real Madrid CF,2,2,0,1,D
 2023-24,2024-05-01,21:00,"Finals, Semifinals",Borussia Dortmund,Paris Saint-Germain FC,1,0,1,0,H
 2023-24,2024-05-07,21:00,"Finals, Semifinals",Paris Saint-Germain FC,Borussia Dortmund,0,1,0,0,A
@@ -1162,12 +1162,12 @@ season,date,local_time,stage,home_team,away_team,ft_home_goals,ft_away_goals,ht_
 2024-25,2025-03-05,,"Finals, Round of 16",FC Bayern München,Bayer 04 Leverkusen,3,0,1,0,H
 2024-25,2025-03-05,,"Finals, Round of 16",Sport Lisboa e Benfica,FC Barcelona,0,1,0,0,A
 2024-25,2025-03-11,18:45,"Finals, Round of 16",FC Barcelona,Sport Lisboa e Benfica,3,1,3,1,H
-2024-25,2025-03-11,21:00,"Finals, Round of 16",Liverpool FC,Paris Saint-Germain FC,1,4,,,A
+2024-25,2025-03-11,21:00,"Finals, Round of 16",Liverpool FC,Paris Saint-Germain FC,0,1,0,1,A
 2024-25,2025-03-11,,"Finals, Round of 16",FC Internazionale Milano,Feyenoord Rotterdam,2,1,1,1,H
 2024-25,2025-03-11,,"Finals, Round of 16",Bayer 04 Leverkusen,FC Bayern München,0,2,0,0,A
 2024-25,2025-03-12,18:45,"Finals, Round of 16",Lille OSC,Borussia Dortmund,1,2,1,0,A
 2024-25,2025-03-12,21:00,"Finals, Round of 16",Aston Villa FC,Club Brugge KV,3,0,0,0,H
-2024-25,2025-03-12,,"Finals, Round of 16",Club Atlético de Madrid,Real Madrid CF,2,4,,,A
+2024-25,2025-03-12,,"Finals, Round of 16",Club Atlético de Madrid,Real Madrid CF,1,0,1,0,H
 2024-25,2025-03-12,,"Finals, Round of 16",Arsenal FC,PSV,2,2,2,1,D
 2024-25,2025-04-08,21:00,"Finals, Quarterfinals",Arsenal FC,Real Madrid CF,3,0,0,0,H
 2024-25,2025-04-08,,"Finals, Quarterfinals",FC Bayern München,FC Internazionale Milano,1,2,0,1,A
@@ -1341,7 +1341,7 @@ season,date,local_time,stage,home_team,away_team,ft_home_goals,ft_away_goals,ht_
 2025-26,2026-02-25,18:45,"Playoffs, Matchday 2",Atalanta BC,Borussia Dortmund,4,1,2,0,H
 2025-26,2026-02-25,21:00,"Playoffs, Matchday 2",Real Madrid CF,Sport Lisboa e Benfica,2,1,1,1,H
 2025-26,2026-02-25,,"Playoffs, Matchday 2",Paris Saint-Germain FC,AS Monaco FC,2,2,0,1,D
-2025-26,2026-02-25,,"Playoffs, Matchday 2",Juventus FC,Galatasaray SK,3,2,,,H
+2025-26,2026-02-25,,"Playoffs, Matchday 2",Juventus FC,Galatasaray SK,3,0,1,0,H
 2025-26,2026-03-10,18:45,"Finals, Round of 16",Galatasaray SK,Liverpool FC,1,0,1,0,H
 2025-26,2026-03-10,21:00,"Finals, Round of 16",Atalanta BC,FC Bayern München,1,6,0,3,A
 2025-26,2026-03-10,,"Finals, Round of 16",Newcastle United FC,FC Barcelona,1,1,0,0,D
@@ -1350,7 +1350,7 @@ season,date,local_time,stage,home_team,away_team,ft_home_goals,ft_away_goals,ht_
 2025-26,2026-03-11,21:00,"Finals, Round of 16",Paris Saint-Germain FC,Chelsea FC,5,2,2,1,H
 2025-26,2026-03-11,,"Finals, Round of 16",Real Madrid CF,Manchester City FC,3,0,3,0,H
 2025-26,2026-03-11,,"Finals, Round of 16",FK Bodø/Glimt,Sporting Clube de Portugal,3,0,2,0,H
-2025-26,2026-03-17,18:45,"Finals, Round of 16",Sporting Clube de Portugal,FK Bodø/Glimt,5,0,,,H
+2025-26,2026-03-17,18:45,"Finals, Round of 16",Sporting Clube de Portugal,FK Bodø/Glimt,3,0,1,0,H
 2025-26,2026-03-17,21:00,"Finals, Round of 16",Chelsea FC,Paris Saint-Germain FC,0,3,0,2,A
 2025-26,2026-03-17,,"Finals, Round of 16",Manchester City FC,Real Madrid CF,1,2,1,1,A
 2025-26,2026-03-17,,"Finals, Round of 16",Arsenal FC,Bayer 04 Leverkusen,2,0,1,0,H
@@ -1370,4 +1370,4 @@ season,date,local_time,stage,home_team,away_team,ft_home_goals,ft_away_goals,ht_
 2025-26,2026-04-29,21:00,"Finals, Semifinals",Club Atlético de Madrid,Arsenal FC,1,1,0,1,D
 2025-26,2026-05-05,21:00,"Finals, Semifinals",Arsenal FC,Club Atlético de Madrid,1,0,1,0,H
 2025-26,2026-05-06,21:00,"Finals, Semifinals",FC Bayern München,Paris Saint-Germain FC,1,1,0,1,D
-2025-26,2026-05-30,18:00,"Finals, Final",Paris Saint-Germain FC,Arsenal FC,4,3,,,H
+2025-26,2026-05-30,18:00,"Finals, Final",Paris Saint-Germain FC,Arsenal FC,1,1,0,1,D
