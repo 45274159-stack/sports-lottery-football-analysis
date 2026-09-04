@@ -2,6 +2,7 @@
 from datetime import date
 from .match_context import aware_time, validate_evidence, team_context
 from .team_names import normalize_team
+from .season_form import season_form
 
 CATEGORIES = ("injuries", "lineup", "rest", "transfers", "cup")
 
@@ -56,6 +57,8 @@ def dossier(rows, fixture, at):
     for team in teams:
         context = team_context(past, team, cutoff.date().isoformat())
         result[team]["form"] = context
+        result[team]["season_form"] = season_form(past, fixture["league"], team,
+                                                 cutoff.date().isoformat(), fixture.get("season"))
         played = [date.fromisoformat(r["date"]) for r in past
                   if team in (normalize_team(r["home_team"]), normalize_team(r["away_team"]))]
         result[team]["rest"]["historical_calendar_gap_days"] = (
