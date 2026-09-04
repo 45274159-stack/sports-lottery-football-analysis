@@ -9,6 +9,8 @@ from datetime import date
 from itertools import groupby
 
 from .history_quality import load_validated
+from .match_context import team_context
+from .calibration import reliability
 
 
 def markets(home_rate, away_rate):
@@ -76,6 +78,7 @@ class ForecastModel:
 
 def evaluate(rows, start="2024-07-01"):
     model = ForecastModel()
+    calibration_records = defaultdict(list)
     totals = defaultdict(lambda: dict(n=0, correct=0, home_correct=0, log_loss=0.,
                                      brier=0., baseline_log_loss=0., score_correct=0, goals_correct=0))
     for day, batch in groupby(sorted(rows, key=lambda r: r["date"]), key=lambda r: r["date"]):
@@ -88,6 +91,8 @@ def evaluate(rows, start="2024-07-01"):
             baseline = (1+sum(x["ft_result"] == r["ft_result"] for x in prior))/(3+len(prior))
             m = totals[r["league"]]
             actual = r["ft_result"]
+            chosen = max(p["result"], key=p["result"].get)
+            calibration_records[r["league"]].append(dict(probability=p["result"][chosen], outcome=int(chosen == actual)))
             m["n"] += 1
             m["correct"] += max(p["result"], key=p["result"].get) == actual
             m["home_correct"] += actual == "H"
@@ -99,7 +104,7 @@ def evaluate(rows, start="2024-07-01"):
             m["goals_correct"] += max(p["total_goals"], key=p["total_goals"].get) == (str(total) if total < 7 else "7+")
         for r in batch:
             model.observe(r)
-    return {league: {"matches": m["n"], **{k: v/m["n"] for k,v in m.items() if k != "n"}}
+    return {league: {"matches": m["n"], "reliability": reliability(calibration_records[league]), **{k: v/m["n"] for k,v in m.items() if k != "n"}}
             for league,m in totals.items()}
 
 
@@ -123,6 +128,8 @@ def main():
             if row["date"] < args.before:
                 model.observe(row)
         result = model.predict(args.league, args.home, args.away, args.before)
+        result["context"] = {"home": team_context(rows, args.home, args.before, args.league),
+                             "away": team_context(rows, args.away, args.before, args.league)}
     else:
         date.fromisoformat(args.start)
         result = dict(evaluation_start=args.start, metrics=evaluate(rows, args.start),
