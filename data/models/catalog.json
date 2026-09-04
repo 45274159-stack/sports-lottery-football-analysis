@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-04T00:00:00Z",
+  "dataset": "data/processed/top5_2016_2026/*.csv",
+  "models": [
+    {
+      "model": {
+        "model_id": "venue-poisson-v1-la-liga",
+        "family": "venue-poisson",
+        "version": "1.0.0",
+        "competition": "La Liga",
+        "markets": [
+          "result",
+          "score",
+          "total_goals"
+        ],
+        "trained_through": "2024-06-30",
+        "training_data_hash": "68d78f2a3331d180ec9bc26403379152d95e41eaa65709174cb6bfa658d868ab",
+        "parameters": {
+          "league_window": 500,
+          "venue_window": 20,
+          "prior_matches": 5,
+          "half_life_days": 180,
+          "min_rate": 0.15,
+          "max_rate": 6,
+          "distribution": "independent_poisson"
+        },
+        "code_ref": "src/sports_lottery/forecast.py@6c83416bd7a3cb67cd4db94bb3f09ef7b6ca6acd",
+        "created_at": "2026-09-04T00:00:00Z",
+        "status": "candidate",
+        "notes": "Retrospective rolling-origin evaluation only; no verified odds, injuries, xG or prospective validation."
+      },
+      "evaluation": {
+        "split_name": "rolling-origin-2024-07-01",
+        "start_date": "2024-07-01",
+        "end_date": "2026-05-31",
+        "matches": 760,
+        "metrics": {
+          "accuracy": 0.5131578947368421,
+          "log_loss": 1.010405965211292,
+          "brier": 0.6034673578186898,
+          "expected_calibration_error": 0.05386889441251511
+        },
+        "is_prospective": false
+      }
+    },
+    {
+      "model": {
+        "model_id": "venue-poisson-v1-ligue-1",
+        "family": "venue-poisson",
+        "version": "1.0.0",
+        "competition": "Ligue 1",
+        "markets": [
+          "result",
+          "score",
+          "total_goals"
+        ],
+        "trained_through": "2024-06-30",
+        "training_data_hash": "68d78f2a3331d180ec9bc26403379152d95e41eaa65709174cb6bfa658d868ab",
+        "parameters": {
+          "league_window": 500,
+          "venue_window": 20,
+          "prior_matches": 5,
+          "half_life_days": 180,
+          "min_rate": 0.15,
+          "max_rate": 6,
+          "distribution": "independent_poisson"
+        },
+        "code_ref": "src/sports_lottery/forecast.py@6c83416bd7a3cb67cd4db94bb3f09ef7b6ca6acd",
+        "created_at": "2026-09-04T00:00:00Z",
+        "status": "candidate",
+        "notes": "Retrospective rolling-origin evaluation only; no verified odds, injuries, xG or prospective validation."
+      },
+      "evaluation": {
+        "split_name": "rolling-origin-2024-07-01",
+        "start_date": "2024-07-01",
+        "end_date": "2026-05-31",
+        "matches": 612,
+        "metrics": {
+          "accuracy": 0.5261437908496732,
+          "log_loss": 1.0137831194311189,
+          "brier": 0.6068379594482386,
+          "expected_calibration_error": 0.07181623855562481
+        },
+        "is_prospective": false
+      }
+    },
+    {
+      "model": {
+        "model_id": "venue-poisson-v1-premier-league",
+        "family": "venue-poisson",
+        "version": "1.0.0",
+        "competition": "Premier League",
+        "markets": [
+          "result",
+          "score",
+          "total_goals"
+        ],
+        "trained_through": "2024-06-30",
+        "training_data_hash": "68d78f2a3331d180ec9bc26403379152d95e41eaa65709174cb6bfa658d868ab",
+        "parameters": {
+          "league_window": 500,
+          "venue_window": 20,
+          "prior_matches": 5,
+          "half_life_days": 180,
+          "min_rate": 0.15,
+          "max_rate": 6,
+          "distribution": "independent_poisson"
+        },
+        "code_ref": "src/sports_lottery/forecast.py@6c83416bd7a3cb67cd4db94bb3f09ef7b6ca6acd",
+        "created_at": "2026-09-04T00:00:00Z",
+        "status": "candidate",
+        "notes": "Retrospective rolling-origin evaluation only; no verified odds, injuries, xG or prospective validation."
+      },
+      "evaluation": {
+        "split_name": "rolling-origin-2024-07-01",
+        "start_date": "2024-07-01",
+        "end_date": "2026-05-31",
+        "matches": 760,
+        "metrics": {
+          "accuracy": 0.49736842105263157,
+          "log_loss": 1.039240421074684,
+          "brier": 0.6238614593787285,
+          "expected_calibration_error": 0.04874327549918148
+        },
+        "is_prospective": false
+      }
+    },
+    {
+      "model": {
+        "model_id": "venue-poisson-v1-serie-a",
+        "family": "venue-poisson",
+        "version": "1.0.0",
+        "competition": "Serie A",
+        "markets": [
+          "result",
+          "score",
+          "total_goals"
+        ],
+        "trained_through": "2024-06-30",
+        "training_data_hash": "68d78f2a3331d180ec9bc26403379152d95e41eaa65709174cb6bfa658d868ab",
+        "parameters": {
+          "league_window": 500,
+          "venue_window": 20,
+          "prior_matches": 5,
+          "half_life_days": 180,
+          "min_rate": 0.15,
+          "max_rate": 6,
+          "distribution": "independent_poisson"
+        },
+        "code_ref": "src/sports_lottery/forecast.py@6c83416bd7a3cb67cd4db94bb3f09ef7b6ca6acd",
+        "created_at": "2026-09-04T00:00:00Z",
+        "status": "candidate",
+        "notes": "Retrospective rolling-origin evaluation only; no verified odds, injuries, xG or prospective validation."
+      },
+      "evaluation": {
+        "split_name": "rolling-origin-2024-07-01",
+        "start_date": "2024-07-01",
+        "end_date": "2026-05-31",
+        "matches": 760,
+        "metrics": {
+          "accuracy": 0.5013157894736842,
+          "log_loss": 1.0374556428854524,
+          "brier": 0.6229678353746704,
+          "expected_calibration_error": 0.06842046632267547
+        },
+        "is_prospective": false
+      }
+    },
+    {
+      "model": {
+        "model_id": "venue-poisson-v1-bundesliga",
+        "family": "venue-poisson",
+        "version": "1.0.0",
+        "competition": "Bundesliga",
+        "markets": [
+          "result",
+          "score",
+          "total_goals"
+        ],
+        "trained_through": "2024-06-30",
+        "training_data_hash": "68d78f2a3331d180ec9bc26403379152d95e41eaa65709174cb6bfa658d868ab",
+        "parameters": {
+          "league_window": 500,
+          "venue_window": 20,
+          "prior_matches": 5,
+          "half_life_days": 180,
+          "min_rate": 0.15,
+          "max_rate": 6,
+          "distribution": "independent_poisson"
+        },
+        "code_ref": "src/sports_lottery/forecast.py@6c83416bd7a3cb67cd4db94bb3f09ef7b6ca6acd",
+        "created_at": "2026-09-04T00:00:00Z",
+        "status": "candidate",
+        "notes": "Retrospective rolling-origin evaluation only; no verified odds, injuries, xG or prospective validation."
+      },
+      "evaluation": {
+        "split_name": "rolling-origin-2024-07-01",
+        "start_date": "2024-07-01",
+        "end_date": "2026-05-31",
+        "matches": 612,
+        "metrics": {
+          "accuracy": 0.4852941176470588,
+          "log_loss": 1.035734178481044,
+          "brier": 0.6212003729649613,
+          "expected_calibration_error": 0.032363108115389866
+        },
+        "is_prospective": false
+      }
+    }
+  ]
+}
