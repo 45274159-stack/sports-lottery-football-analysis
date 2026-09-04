@@ -95,7 +95,7 @@ def main() -> int:
             rows = collect_results(start, end, delay=max(0.0, args.delay))
         except SourceBlocked as error:
             print(f"采集停止：{error}")
-            print("请在可正常打开竞彩网的本地网络运行同一命令；不要绕过网站安全策略。")
+            print("请使用官方允许的数据导出或授权服务；不要绕过网站安全策略。")
             return 2
         save_snapshot(args.output, rows, start, end)
         print(f"采集完成：{len(rows)} 场，保存至 {args.output}")
