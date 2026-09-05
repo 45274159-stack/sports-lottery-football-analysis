@@ -9,6 +9,7 @@ from .database import connect, import_rows
 from .review import render_review
 from .schema import validate_csv
 from .sporttery_source import SourceBlocked, collect_results, save_snapshot
+from .prematch_source import collect_prematch, save_prematch_snapshot
 
 
 def _validate(path: str) -> int:
@@ -69,6 +70,11 @@ def build_parser() -> argparse.ArgumentParser:
     collect.add_argument("--end", required=True, help="结束日期 YYYY-MM-DD")
     collect.add_argument("--output", required=True, help="原始JSON快照输出路径")
     collect.add_argument("--delay", type=float, default=0.4, help="分页请求间隔秒数")
+
+    prematch = subparsers.add_parser("collect-prematch", help="采集固定奖金、伤停与新赛季技术资料")
+    prematch.add_argument("--date", required=True, help="受注日期 YYYY-MM-DD")
+    prematch.add_argument("--output", required=True, help="不可变JSON快照输出路径")
+    prematch.add_argument("--delay", type=float, default=0.25, help="明细请求间隔秒数")
     return parser
 
 
@@ -99,6 +105,16 @@ def main() -> int:
             return 2
         save_snapshot(args.output, rows, start, end)
         print(f"采集完成：{len(rows)} 场，保存至 {args.output}")
+        return 0
+    if args.command == "collect-prematch":
+        try:
+            payload = collect_prematch(date.fromisoformat(args.date), delay=max(0.0, args.delay))
+        except SourceBlocked as error:
+            print(f"采集停止：{error}")
+            print("请使用官方允许的数据导出或授权服务；不要绕过网站安全策略。")
+            return 2
+        save_prematch_snapshot(args.output, payload)
+        print(f"采集完成：{payload['fixture_count']} 场，保存至 {args.output}")
         return 0
     return _analyze(args.db, args.home, args.away, args.kickoff)
 

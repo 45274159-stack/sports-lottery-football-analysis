@@ -18,6 +18,7 @@
   2026/27七个联赛已完赛163场；当前跨14项赛事校验通过40,842场；
 - 可一键复算十年主胜率、平局率、客胜率、进球和双方进球分布。
 - 支持在可访问竞彩网的本地网络按日期采集官方编号与赛果，自动翻页、去重并保存原始证据。
+- 支持采集固定奖金完整变化轨迹、官方详情页伤停和新赛季技术资料；缺失字段明确标记，不伪造正式首发。
 
 ## 快速开始
 
@@ -32,6 +33,7 @@ sporttery import data/templates/matches_template.csv
 sporttery analyze --home 皇家社会 --away 塞尔塔 --kickoff 2026-09-04T03:00:00+08:00
 sporttery review-history data/processed/top5_2016_2026
 sporttery collect-sporttery --start 2026-09-01 --end 2026-09-03 --output data/raw/sporttery/2026-09-01_2026-09-03.json
+sporttery collect-prematch --date 2026-09-04 --output data/raw/prematch/2026-09-04/210000Z.json
 ```
 
 Python模型需要读取全部已审计批次时，统一使用
@@ -61,6 +63,7 @@ tests/             自动化测试
 
 首批结果见 [五大联赛十赛季复盘](reports/top5_2016_2026_review.md)，当前覆盖与明确缺口见
 [完整性审计](reports/history_completeness_20260904.md)。详细字段见 [数据字典](docs/DATA_DICTIONARY.md)，分析边界见 [方法说明](docs/METHODOLOGY.md)，来源等级见 [数据来源](docs/SOURCES.md)。
+赛前快照字段、首发边界和运行方式见 [赛前数据采集](docs/PREMATCH_COLLECTION.md)。
 
 ## 责任提示
 
