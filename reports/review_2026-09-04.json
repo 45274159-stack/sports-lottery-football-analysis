@@ -1,0 +1,18 @@
+{
+  "lottery_date": "2026-09-04",
+  "reviewed_at": "2026-09-05T00:21:20Z",
+  "completed": 13,
+  "pending": ["周五014"],
+  "user_facing_recommendations": {
+    "parlay": {"legs": ["周五002 里昂胜", "周五013 波尔图胜"], "result": "won_both_legs"},
+    "exact_score": {"selection": "周五013 波尔图2:0，次防1:0", "actual": "2:1", "result": "miss"},
+    "upset_warning": {"selection": "周五008 斯图加特防平", "actual": "4:1", "result": "upset_did_not_occur"},
+    "avoid": {"selection": "周五012 巴黎圣日耳曼—摩纳哥回避", "actual": "1:2", "result": "risk_warning_validated"}
+  },
+  "stored_model_review": {
+    "eligible_matches": ["周五002", "周五008", "周五009", "周五010", "周五011", "周五012"],
+    "venue_form_v1": {"direction_correct": 4, "n": 6, "accuracy": 0.6666666667, "exact_score_correct": 0, "modal_total_goals_correct": 1, "log_loss": 0.9074412685, "brier": 0.5363506149},
+    "fitted_attack_defence_v1": {"direction_correct": 4, "n": 6, "accuracy": 0.6666666667, "exact_score_correct": 0, "modal_total_goals_correct": 1, "log_loss": 0.8545232373, "brier": 0.4903412623}
+  },
+  "interpretation": "Six matches are too small for recalibration. Preserve the observations; do not tune on this batch alone. Exact-score output remains low-confidence."
+}

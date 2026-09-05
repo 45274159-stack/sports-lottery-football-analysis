@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-09-05T00:21:20Z",
+  "batch": "sporttery_2026-09-04.csv",
+  "completed_ingested": 13,
+  "pending_not_ingested": 1,
+  "pending_matches": ["周五014 纽约城 vs 纳什维尔"],
+  "current_season_rows": 176,
+  "unified_catalog_rows": 40855,
+  "validation_issues": [],
+  "duplicate_or_conflicting_keys": [],
+  "note": "Result-list mapping is secondary-source evidence. The official result page was linked but dynamic match rows were not machine-readable during this run."
+}

@@ -1,0 +1,14 @@
+source,source_url,source_revision,source_row,observed_at,league,season,date,home_team,away_team,ft_home_goals,ft_away_goals,ft_result,ht_home_goals,ht_away_goals,ht_result,round,score_period,home_team_raw,away_team_raw
+zgzcw/result-crosscheck,https://live.zgzcw.com/,2026-09-05T00:21:20Z,1,2026-09-05T00:21:20Z,2. Bundesliga,2026-27,2026-09-04,Hannover,Karlsruhe,2,2,D,2,1,H,Matchday 4,90_minutes,Hannover 96,Karlsruher SC
+zgzcw/result-crosscheck,https://live.zgzcw.com/,2026-09-05T00:21:20Z,2,2026-09-05T00:21:20Z,Ligue 1,2026-27,2026-09-04,Lyon,Auxerre,3,1,H,2,1,H,Matchday 3,90_minutes,Olympique Lyonnais,AJ Auxerre
+zgzcw/result-crosscheck,https://live.zgzcw.com/,2026-09-05T00:21:20Z,3,2026-09-05T00:21:20Z,Eliteserien,2026,2026-09-04,Fredrikstad,Bodo Glimt,1,2,A,0,1,A,Matchday 20,90_minutes,Fredrikstad FK,FK Bodø/Glimt
+zgzcw/result-crosscheck,https://live.zgzcw.com/,2026-09-05T00:21:20Z,4,2026-09-05T00:21:20Z,Saudi Pro League,2026-27,2026-09-04,Al Shabab,Al Hilal,0,2,A,0,0,D,Matchday 5,90_minutes,Al-Shabab FC,Al-Hilal
+zgzcw/result-crosscheck,https://live.zgzcw.com/,2026-09-05T00:21:20Z,5,2026-09-05T00:21:20Z,Ligue 2,2026-27,2026-09-04,Grenoble,Annecy,1,2,A,0,0,D,Matchday 5,90_minutes,Grenoble Foot 38,Annecy FC
+zgzcw/result-crosscheck,https://live.zgzcw.com/,2026-09-05T00:21:20Z,6,2026-09-05T00:21:20Z,Eredivisie,2026-27,2026-09-04,Sparta Rotterdam,PEC Zwolle,2,2,D,1,1,D,Matchday 5,90_minutes,Sparta Rotterdam,PEC Zwolle
+zgzcw/result-crosscheck,https://live.zgzcw.com/,2026-09-05T00:21:20Z,7,2026-09-05T00:21:20Z,Eerste Divisie,2026-27,2026-09-04,Emmen,Volendam,5,3,H,1,0,H,Matchday 5,90_minutes,FC Emmen,FC Volendam
+zgzcw/result-crosscheck,https://live.zgzcw.com/,2026-09-05T00:21:20Z,8,2026-09-05T00:21:20Z,Bundesliga,2026-27,2026-09-04,Stuttgart,FC Koln,4,1,H,1,0,H,Matchday 2,90_minutes,VfB Stuttgart,1. FC Köln
+zgzcw/result-crosscheck,https://live.zgzcw.com/,2026-09-05T00:21:20Z,9,2026-09-05T00:21:20Z,Serie A,2026-27,2026-09-04,Genoa,Como,1,4,A,1,3,A,Matchday 3,90_minutes,Genoa CFC,Como 1907
+zgzcw/result-crosscheck,https://live.zgzcw.com/,2026-09-05T00:21:20Z,10,2026-09-05T00:21:20Z,Premier League,2026-27,2026-09-04,Ipswich,Liverpool,0,2,A,0,2,A,Matchday 3,90_minutes,Ipswich Town,Liverpool FC
+zgzcw/result-crosscheck,https://live.zgzcw.com/,2026-09-05T00:21:20Z,11,2026-09-05T00:21:20Z,La Liga,2026-27,2026-09-04,Betis,Real Madrid,1,0,H,0,0,D,Matchday 4,90_minutes,Real Betis,Real Madrid
+zgzcw/result-crosscheck,https://live.zgzcw.com/,2026-09-05T00:21:20Z,12,2026-09-05T00:21:20Z,Ligue 1,2026-27,2026-09-04,Paris SG,Monaco,1,2,A,1,0,H,Matchday 3,90_minutes,Paris Saint-Germain,AS Monaco
+zgzcw/result-crosscheck,https://live.zgzcw.com/,2026-09-05T00:21:20Z,13,2026-09-05T00:21:20Z,Primeira Liga,2026-27,2026-09-04,Porto,Moreirense,2,1,H,1,1,D,Matchday 5,90_minutes,FC Porto,Moreirense FC

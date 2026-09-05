@@ -15,9 +15,9 @@ class CurrentHistoryTests(unittest.TestCase):
         gaps, gap_issues = load_validated(str(ROOT / "data/processed/completed_gaps_2025_26"))
         self.assertEqual(current_issues, [])
         self.assertEqual(gap_issues, [])
-        self.assertEqual(len(current), 163)
+        self.assertEqual(len(current), 176)
         self.assertEqual(len(gaps), 22)
-        self.assertTrue(all(row["date"] < "2026-09-04" for row in current))
+        self.assertTrue(all(row["date"] <= "2026-09-04" for row in current))
 
     def test_completeness_report_matches_batches(self):
         report = json.loads((ROOT / "reports/history_completeness_20260904.json").read_text())
@@ -29,8 +29,19 @@ class CurrentHistoryTests(unittest.TestCase):
 
     def test_unified_catalog_has_no_cross_batch_duplicates(self):
         rows = load_all_history()
-        self.assertEqual(len(rows), 40842)
-        self.assertEqual(len({(r["league"], r["date"], r["home_team"], r["away_team"]) for r in rows}), 40842)
+        self.assertEqual(len(rows), 40855)
+        self.assertEqual(len({(r["league"], r["date"], r["home_team"], r["away_team"]) for r in rows}), 40855)
+
+    def test_latest_sourced_result_batch(self):
+        result = json.loads((ROOT / "data/processed/results/2026-09-04.json").read_text())
+        finals = [row for row in result["records"] if row["status"] == "final"]
+        pending = [row for row in result["records"] if row["status"] != "final"]
+        self.assertEqual(len(finals), 13)
+        self.assertEqual([row["display_number"] for row in pending], ["周五014"])
+        self.assertTrue(result["model_training_ingested"])
+        self.assertTrue(all(row["result"] in "HDA" for row in finals))
+        update = json.loads((ROOT / "reports/current_season_update_20260905.json").read_text())
+        self.assertEqual(update["unified_catalog_rows"], len(load_all_history()))
 
 
 if __name__ == "__main__":
