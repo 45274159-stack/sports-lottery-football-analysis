@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-09-06T03:58:38Z",
+  "batches": [
+    {"path": "data/processed/current_season_2026_27/sporttery_2026-09-04.csv", "rows": 14, "net_new_since_previous_commit": 1},
+    {"path": "data/processed/current_season_2026_27/sporttery_2026-09-05.csv", "rows": 29, "net_new_since_previous_commit": 29}
+  ],
+  "completed_ingested": 30,
+  "pending_not_ingested": 0,
+  "pending_matches": [],
+  "current_season_rows": 206,
+  "unified_catalog_rows": 40885,
+  "validation_issues": [],
+  "duplicate_or_conflicting_keys": [],
+  "official_source_gap": "The official lottery result page was checked first, but its dynamic per-match rows were not machine-readable. ZGZCW result rows and independent match sources were retained as evidence.",
+  "temporal_review": "not_run_insufficient_auditable_forecasts_and_missing_committed_archive"
+}

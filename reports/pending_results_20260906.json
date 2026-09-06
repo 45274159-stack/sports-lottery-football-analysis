@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-09-06T03:58:38Z",
+  "settled": [
+    {
+      "match_key": "2026-09-04-周五014",
+      "score_90_minutes": [0, 0],
+      "extra_time": null,
+      "penalties": null,
+      "sources": [
+        "https://www.nycfc.com/competitions/mls-regular-season/2026/matches/nycvsnsh-09-04-2026/",
+        "https://www.espn.co.uk/football/match/_/gameId/761770"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "remaining_pending": []
+}

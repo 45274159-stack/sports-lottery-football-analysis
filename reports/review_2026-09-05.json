@@ -1,0 +1,27 @@
+{
+  "lottery_date": "2026-09-05",
+  "reviewed_at": "2026-09-06T03:58:38Z",
+  "expected": 29,
+  "verified_final": 29,
+  "newly_ingested": 29,
+  "duplicates": 0,
+  "conflicts": 0,
+  "pending": [],
+  "score_basis": "90_minutes",
+  "extra_time_or_penalties": 0,
+  "result_distribution": {"home": 8, "draw": 8, "away": 13},
+  "total_goals": {"sum": 89, "mean": 3.0689655172, "zero_goal_matches": 4, "five_or_more_matches": 8},
+  "stored_prematch_review": {
+    "eligible_predictions": 0,
+    "reason": "No repository-backed pre-kickoff prediction archive for the 2026-09-05 lottery date was found. Chat-only recommendations are not counted as auditable model predictions."
+  },
+  "sunday_temporal_review": {
+    "status": "not_run",
+    "reason": "data/processed/forecast_archive.sqlite is not committed and the only auditable batch-level review in the repository contains six predictions, below the documented minimum of 30 per league/model with all three classes.",
+    "production_model_changed": false
+  },
+  "pending_recheck": {
+    "settled": ["2026-09-04-周五014 纽约城 0:0 纳什维尔"],
+    "remaining": []
+  }
+}
