@@ -10,7 +10,7 @@
   "score_basis": "90_minutes",
   "extra_time_or_penalties": 0,
   "result_distribution": {"home": 8, "draw": 8, "away": 13},
-  "total_goals": {"sum": 89, "mean": 3.0689655172, "zero_goal_matches": 4, "five_or_more_matches": 8},
+  "total_goals": {"sum": 86, "mean": 2.9655172414, "zero_goal_matches": 4, "five_or_more_matches": 7},
   "stored_prematch_review": {
     "eligible_predictions": 0,
     "reason": "No repository-backed pre-kickoff prediction archive for the 2026-09-05 lottery date was found. Chat-only recommendations are not counted as auditable model predictions."
