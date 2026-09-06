@@ -11,6 +11,7 @@ DATASETS = (
     ROOT / "data/processed/top5_2016_2026",
     ROOT / "data/processed/expanded_leagues_2016_2026",
     ROOT / "data/processed/completed_gaps_2025_26",
+    ROOT / "data/processed/completed_gaps_decade",
     ROOT / "data/processed/current_season_2026_27",
     ROOT / "data/processed/openfootball_2016_2026",
 )
@@ -22,6 +23,8 @@ def load_all_history() -> list[dict[str, str]]:
     seen: dict[tuple[str, str, str, str], tuple[str, str]] = {}
     problems: list[str] = []
     for directory in DATASETS:
+        if not directory.exists():
+            continue
         rows, issues = load_validated(str(directory))
         problems.extend(f"{directory.name}: {issue}" for issue in issues)
         for row in rows:
