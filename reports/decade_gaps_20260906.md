@@ -1,17 +1,23 @@
 # 近十年历史缺口补档（2026-09-06）
 
-十年主表约 40,842 场。本次只补能核验来源的缺口。
+十年主表原约 40,842 场。
 
-## 已准备入主目录
+## 已准备的补档（项目目录 `decade_gaps/`）
 
-- Eliteserien 2024-2025 后段：164 场
-- Saudi Pro League 2017-18：186 场
+来源：Hugging Face `eatpizzanot/soccer-dataset` fixtures.parquet（SECONDARY）。
 
-管线已增加 `data/processed/completed_gaps_decade/`。CSV 在项目目录 `decade_gaps/`，放进该文件夹后 `load_all_history()` 会读到。
+| 文件 | 场次 |
+|---|---|
+| eerste_divisie_2016_2020_gaps.csv | 1430 |
+| saudi_2018_2024_gaps.csv | 1506 |
+| eliteserien_2024_2026_more.csv | 308 |
+| mls_2024_2026_more.csv | 1250 |
+| eliteserien_2024_2025_gaps.csv（openfootball） | 164 |
+| saudi_2017_18_gaps.csv（alioh） | 186 |
 
-## 仍缺
+合计约 **4844** 场新行。放进 `data/processed/completed_gaps_decade/` 后由 `load_all_history()` 读取。
 
-- Eerste Divisie 2016-17 至 2019-20
-- Saudi Pro League 2018-19 至 2023-24
-- Eliteserien 2025 秋后及 2026
-- MLS 2024 夏后、2026
+## 源内仍不满的
+
+- 沙特 2019-20：176 / 240
+- 荷乙 2019-20：290 / 380
