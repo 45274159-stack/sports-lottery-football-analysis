@@ -1,0 +1,17 @@
+{
+  "observed_at": "2026-09-06T13:06:20Z",
+  "window": ["2026-08-27", "2026-09-06"],
+  "days": {
+    "2026-08-27": {"total": 9, "final": 9, "pending": [], "already_in_repo": false, "action": "add"},
+    "2026-08-28": {"total": 14, "final": 14, "pending": [], "already_in_repo": false, "action": "add"},
+    "2026-08-29": {"total": 29, "final": 29, "pending": [], "already_in_repo": false, "action": "add"},
+    "2026-08-30": {"total": 25, "final": 25, "pending": [], "already_in_repo": false, "action": "add"},
+    "2026-08-31": {"total": 12, "final": 12, "pending": [], "already_in_repo": false, "action": "add"},
+    "2026-09-01": {"total": 10, "final": 10, "pending": [], "already_in_repo": false, "action": "add"},
+    "2026-09-02": {"total": 13, "final": 13, "pending": [], "already_in_repo": false, "action": "add"},
+    "2026-09-03": {"total": 7, "final": 7, "pending": [], "already_in_repo": true, "action": "keep_existing_audited_files"},
+    "2026-09-04": {"total": 14, "final": 14, "pending": [], "already_in_repo": true, "action": "keep_existing_audited_files"},
+    "2026-09-05": {"total": 29, "final": 29, "pending": [], "already_in_repo": true, "action": "keep_existing_audited_files"},
+    "2026-09-06": {"total": 24, "final": 5, "pending": ["周日006 伯明翰 vs 伍尔弗", "周日007 海伦芬 vs 阿尔克马", "周日008 埃弗顿 vs 曼联", "周日009 弗洛西诺 vs 威尼斯", "周日010 帕尔马 vs 蒙扎", "周日011 特鲁瓦 vs 斯特拉斯", "周日012 汉堡 vs 美因茨", "周日013 巴伦西亚 vs 巴萨", "周日014 圣克拉拉 vs 里奥阿维", "周日015 莫尔德 vs 奥斯KFUM", "周日016 阿森纳 vs 切尔西", "周日017 法兰克福 vs 奥格斯堡", "周日018 博洛尼亚 vs 萨索洛", "周日019 阿拉维斯 vs 奥萨苏纳", "周日020 马拉加 vs 莱万特", "周日021 尤文图斯 vs AC米兰", "周日022 马赛 vs 巴黎FC", "周日023 西班牙人 vs 塞维利亚", "周日024 博塔弗戈 vs 帕梅拉斯"], "already_in_repo": false, "action": "add"}
+  }
+}
