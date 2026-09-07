@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-09-07T04:02:58Z",
+  "batches": [
+    {"path": "data/processed/current_season_2026_27/sporttery_2026-09-06.csv", "rows": 24, "net_new_since_previous_commit": 24}
+  ],
+  "completed_ingested": 24,
+  "pending_not_ingested": 0,
+  "pending_matches": [],
+  "current_season_rows": 230,
+  "unified_catalog_rows": 40909,
+  "validation_issues": [],
+  "duplicate_or_conflicting_keys": [],
+  "official_source_gap": "The China Sports Lottery result page timed out in this environment. The dated CPBao and 500.com Sporttery result tables agreed on all 24 numbers, teams and 90-minute scores.",
+  "halftime_data_gap": "The retained result tables did not expose verified halftime scores; halftime fields remain blank/null.",
+  "temporal_review": "not_scheduled_monday; no auditable pre-kickoff prediction archive was found for lottery date 2026-09-06"
+}

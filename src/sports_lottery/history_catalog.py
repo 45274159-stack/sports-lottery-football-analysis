@@ -25,6 +25,11 @@ def load_all_history() -> list[dict[str, str]]:
     for directory in DATASETS:
         if not directory.exists():
             continue
+        # Metadata manifests may live beside result batches but are not match
+        # tables.  Do not pass a manifest-only directory to the strict loader.
+        result_files = [path for path in directory.glob("*.csv") if path.name.upper() != "MANIFEST.CSV"]
+        if not result_files:
+            continue
         rows, issues = load_validated(str(directory))
         problems.extend(f"{directory.name}: {issue}" for issue in issues)
         for row in rows:

@@ -38,7 +38,8 @@ def outcome(home: int, away: int) -> str:
 
 def load_validated(directory: str):
     rows, issues, seen = [], [], set()
-    for path in sorted(Path(directory).glob("*.csv")):
+    for path in sorted(path for path in Path(directory).glob("*.csv")
+                       if path.name.upper() != "MANIFEST.CSV"):
         with path.open(encoding="utf-8-sig", newline="") as stream:
             for number, row in enumerate(csv.DictReader(stream), 2):
                 try:
