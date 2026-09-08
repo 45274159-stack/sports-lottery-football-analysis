@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-09-08T04:02:15Z",
+  "batches": [
+    {"path": "data/processed/current_season_2026_27/sporttery_2026-09-07.csv", "rows": 9, "net_new_since_previous_commit": 9}
+  ],
+  "completed_ingested": 9,
+  "pending_not_ingested": 0,
+  "pending_matches": [],
+  "current_season_rows": 239,
+  "unified_catalog_rows": 40918,
+  "validation_issues": [],
+  "duplicate_or_conflicting_keys": [],
+  "official_source_gap": "The China Sports Lottery result page returned an access error in this environment. CPBao and ZGZCW agreed on all 9 numbers, teams and 90-minute scores; 500.com additionally agreed on 001-008 while 009 had not yet populated there at capture time.",
+  "halftime_data_gap": null,
+  "temporal_review": "not_scheduled_tuesday; no auditable pre-kickoff prediction archive was found for lottery date 2026-09-07"
+}
