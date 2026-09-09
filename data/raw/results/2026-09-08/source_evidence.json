@@ -1,0 +1,26 @@
+{
+  "observed_at": "2026-09-09T04:02:34Z",
+  "lottery_date": "2026-09-08",
+  "sources": [
+    {"url":"https://www.lottery.gov.cn/jc/zqsgkj/","status":"access_error_567","usable":false,"page_sha256":"ecd58466a60e49144bc2d058e2fd6164a5fbce9f163452269fb20b2086228e97"},
+    {"url":"https://cp.zgzcw.com/dc/getKaijiangFootBall.action","status":"http_200","page_sha256":"779b14e198fc59030472c01122fc447a8cdff64e8e4fe0e7fa3587fa44750040","extracted_rows":[
+      ["周二001","韩K联","09-08 18:30","蔚山现代","1:0","0:0","FC首尔"],
+      ["周二002","欧冠","09-09 00:45","雅典AEK","1:0","1:0","LA林茨"],
+      ["周二003","欧冠","09-09 00:45","布鲁日","2:3","1:3","维拉"],
+      ["周二004","荷甲","09-09 00:45","奈梅亨","2:2","1:1","SBV精英"],
+      ["周二005","沙特联","09-09 02:00","卡达西亚","3:2","3:0","吉达国民"],
+      ["周二006","英冠","09-09 02:45","南安普敦","3:1","2:0","斯旺西"],
+      ["周二007","英联杯","09-09 02:45","桑德兰","1:0","0:0","赫尔城"],
+      ["周二008","欧冠","09-09 03:00","皇马","2:1","2:0","国际米兰"],
+      ["周二009","欧冠","09-09 03:00","多特蒙德","3:2","0:0","比利亚雷"],
+      ["周二010","欧冠","09-09 03:00","里尔","2:3","2:1","贝蒂斯"],
+      ["周二011","欧冠","09-09 03:00","波尔图","0:2","0:0","曼城"],
+      ["周二012","解放者杯","09-09 06:00","弗鲁米嫩","2:0","2:0","普拉腾斯"]
+    ]},
+    {"url":"https://trade.500.com/jczq/index.php?date=2026-09-08&g=2&playid=354&vtype=nspf","status":"http_200","page_sha256":"489293fd711e22a8b65f099fb342f81142de98305183b8d5fec4562c9e6fe007","extracted_rows":[
+      ["周二001","蔚山现代","首尔FC","1:0"],["周二002","雅典AEK","LASK林茨","1:0"],["周二003","布鲁日","维拉","2:3"],["周二004","奈梅亨","SBV精英","2:2"],["周二005","胡巴尔卡德西亚","吉达国民","3:2"],["周二006","南安普敦","斯旺西","3:1"],["周二007","桑德兰","赫尔城","1:0"],["周二008","皇马","国际米兰","2:1"],["周二009","多特蒙德","比利亚雷","3:2"],["周二010","里尔","贝蒂斯","2:3"],["周二011","波尔图","曼城","0:2"],["周二012","弗鲁米嫩","普拉滕斯","2:0"]
+    ]},
+    {"url":"https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260908&playType=FSPF&t=1","status":"http_200_partial_2_rows","page_sha256":"df73d369556df71a42eb4a3bff6ca82f67fa4c50f6411930626f6a8e916dc23a","extracted_rows":[["周二001","韩职","2026-09-08","蔚山现代","首尔FC","1:0","胜"],["周二002","欧冠","2026-09-09","雅典AEK","LASK林茨","1:0","胜"]],"note":"Only two rows were returned at capture time; this source was not used for matches 003-012."},
+    {"url":"https://www.reuters.com/sports/soccer/torres-helps-villa-hold-off-brugge-marin-fires-aek-victory-2026-09-08/","status":"http_200_via_search_index","note":"Independent match report corroborated the six UEFA Champions League scores; not used for Sporttery numbering."}
+  ]
+}

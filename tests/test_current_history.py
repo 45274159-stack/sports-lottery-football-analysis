@@ -15,9 +15,9 @@ class CurrentHistoryTests(unittest.TestCase):
         gaps, gap_issues = load_validated(str(ROOT / "data/processed/completed_gaps_2025_26"))
         self.assertEqual(current_issues, [])
         self.assertEqual(gap_issues, [])
-        self.assertEqual(len(current), 239)
+        self.assertEqual(len(current), 251)
         self.assertEqual(len(gaps), 22)
-        self.assertTrue(all(row["date"] <= "2026-09-07" for row in current))
+        self.assertTrue(all(row["date"] <= "2026-09-08" for row in current))
 
     def test_completeness_report_matches_batches(self):
         report = json.loads((ROOT / "reports/history_completeness_20260904.json").read_text())
@@ -29,8 +29,8 @@ class CurrentHistoryTests(unittest.TestCase):
 
     def test_unified_catalog_has_no_cross_batch_duplicates(self):
         rows = load_all_history()
-        self.assertEqual(len(rows), 40918)
-        self.assertEqual(len({(r["league"], r["date"], r["home_team"], r["away_team"]) for r in rows}), 40918)
+        self.assertEqual(len(rows), 40930)
+        self.assertEqual(len({(r["league"], r["date"], r["home_team"], r["away_team"]) for r in rows}), 40930)
 
     def test_latest_sourced_result_batches(self):
         friday = json.loads((ROOT / "data/processed/results/2026-09-04.json").read_text())
@@ -52,7 +52,12 @@ class CurrentHistoryTests(unittest.TestCase):
         self.assertTrue(all(row["status"] == "final" for row in monday["records"]))
         self.assertTrue(all(row["result"] in "HDA" for row in monday["records"]))
         self.assertTrue(all(row["score_period"] == "90_minutes" for row in monday["records"]))
-        update = json.loads((ROOT / "reports/current_season_update_20260908.json").read_text())
+        tuesday = json.loads((ROOT / "data/processed/results/2026-09-08.json").read_text())
+        self.assertEqual(len(tuesday["records"]), 12)
+        self.assertTrue(all(row["status"] == "final" for row in tuesday["records"]))
+        self.assertTrue(all(row["result"] in "HDA" for row in tuesday["records"]))
+        self.assertTrue(all(row["score_period"] == "90_minutes" for row in tuesday["records"]))
+        update = json.loads((ROOT / "reports/current_season_update_20260909.json").read_text())
         self.assertEqual(update["unified_catalog_rows"], len(load_all_history()))
 
 

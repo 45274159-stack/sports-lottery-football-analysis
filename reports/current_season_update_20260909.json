@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-09-09T04:02:34Z",
+  "batches": [
+    {"path":"data/processed/current_season_2026_27/sporttery_2026-09-08.csv","rows":12,"net_new_since_previous_commit":12}
+  ],
+  "completed_ingested": 12,
+  "pending_not_ingested": 0,
+  "pending_matches": [],
+  "current_season_rows": 251,
+  "unified_catalog_rows": 40930,
+  "validation_issues": [],
+  "duplicate_or_conflicting_keys": [],
+  "official_source_gap": "The China Sports Lottery result page returned access restriction status 567. ZGZCW and 500.com agreed on all 12 numbers, teams and 90-minute scores; CPBao additionally agreed on 001-002 but returned only those two rows.",
+  "halftime_data_gap": null,
+  "temporal_review": "not_scheduled_wednesday; no auditable pre-kickoff prediction archive was found for lottery date 2026-09-08"
+}
