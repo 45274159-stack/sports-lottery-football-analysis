@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-09-10T04:07:33Z",
+  "batches": [
+    {"path":"data/processed/current_season_2026_27/sporttery_2026-09-09.csv","rows":15,"net_new_since_previous_commit":15}
+  ],
+  "completed_ingested": 15,
+  "pending_not_ingested": 0,
+  "pending_matches": [],
+  "current_season_rows": 266,
+  "unified_catalog_rows": 40945,
+  "validation_issues": [],
+  "duplicate_or_conflicting_keys": [],
+  "official_source_gap": "The China Sports Lottery result page returned an access challenge. CPBao supplied all 15 settled results; 500.com independently agreed on the eight rows it had settled in the captured page, while contemporary competition and club reports corroborated the major omitted and late matches.",
+  "halftime_data_gap": "Neither settled result table provided auditable halftime scores for this batch; all halftime fields remain empty.",
+  "temporal_review": "not_scheduled_thursday; no auditable pre-kickoff prediction archive was found for lottery date 2026-09-09"
+}

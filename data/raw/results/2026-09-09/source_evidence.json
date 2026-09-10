@@ -1,0 +1,34 @@
+{
+  "observed_at": "2026-09-10T04:07:33Z",
+  "lottery_date": "2026-09-09",
+  "sources": [
+    {"url":"https://www.lottery.gov.cn/jc/zqsgkj/","status":"access_challenge","usable":false,"page_sha256":"62e1e0af37293959bf98fdb21ced502b8c0b9912c41aed23cbfb6383d17ab926"},
+    {"url":"https://cp.zgzcw.com/dc/getKaijiangFootBall.action","status":"access_blocked","usable":false,"page_sha256":"21bd47d226f47579b2add917a415587d26e50f7d37dc528e535a1401e3d14877"},
+    {"url":"https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260909&playType=FSPF&t=1","status":"http_200","page_sha256":"949cdd6d6378bae9e16aed6317f43ac83096beadc3f3e611d50051a837771044","extracted_rows":[
+      ["周三001","韩职","2026-09-09","江原FC","全北现代","1:1","平"],
+      ["周三002","沙职","2026-09-09","拉斯永恒","利雅青年","2:1","胜"],
+      ["周三003","欧冠","2026-09-10","巴萨","费耶诺德","5:1","胜"],
+      ["周三004","欧冠","2026-09-10","斯图加特","维京","3:1","胜"],
+      ["周三005","荷甲","2026-09-10","特温特","特尔斯达","1:0","胜"],
+      ["周三006","欧冠","2026-09-10","里斯本","加拉塔萨","3:1","胜"],
+      ["周三007","欧冠","2026-09-10","那不勒斯","阿森纳","0:1","负"],
+      ["周三008","欧冠","2026-09-10","利物浦","马竞","2:1","胜"],
+      ["周三009","欧冠","2026-09-10","巴黎圣曼","布拉迪斯","6:1","胜"],
+      ["周三010","英冠","2026-09-10","查尔顿","女王巡游","0:0","平"],
+      ["周三011","英联赛杯","2026-09-10","切尔西","利兹联","6:3","胜"],
+      ["周三012","葡超","2026-09-10","摩雷伦斯","本菲卡","0:4","负"],
+      ["周三013","解放者杯","2026-09-10","帕梅拉斯","基多体大","1:0","胜"],
+      ["周三014","解放者杯","2026-09-10","拉普大学","科林蒂安","1:1","平"],
+      ["周三015","美职","2026-09-10","芝加哥","迈国际","1:1","平"]
+    ]},
+    {"url":"https://trade.500.com/jczq/index.php?date=2026-09-09&g=2&playid=354&vtype=nspf","status":"http_200_10_settled_rows","page_sha256":"101af1fe0ad7f1212ded2c74231fc61a7222896a31492b351ee456e7a855f9d6","extracted_rows":[
+      ["周三001","江原FC","全北现代","1:1"],["周三002","拉斯永恒","利雅得青年","2:1"],["周三006","里斯本","加拉塔萨","3:1"],["周三007","那不勒斯","阿森纳","0:1"],["周三008","利物浦","马竞","2:1"],["周三010","查尔顿","女王巡游","0:0"],["周三011","切尔西","利兹联","6:3"],["周三013","帕梅拉斯","基多体大","1:0"]
+    ],"note":"Matches 014-015 remained displayed as VS in the captured page and were not treated as corroboration; non-N-SPF rows 003-005, 009 and 012 were absent."},
+    {"url":"https://www.reuters.com/sports/soccer/barcelona-thrash-feyenoord-champions-league-demirovic-hits-stuttgart-hat-trick-2026-09-09/","status":"http_200_via_search_index","note":"Corroborates all six UEFA Champions League scores; not used for Sporttery numbering."},
+    {"url":"https://www.theguardian.com/football/2026/sep/09/chelsea-leeds-carabao-cup-third-round-match-report","status":"http_200_via_search_index","note":"Corroborates Chelsea 6-3 Leeds and that the tie was decided in regulation."},
+    {"url":"https://www.slbenfica.pt/pt-pt/agora/media-list/videos/2026/09/09/futebol-moreirense-benfica-golo-pavlidis-45-4-minutos-3-jornada-liga-betclic","status":"http_200_via_search_index","note":"Benfica official media corroborates Moreirense 0-4 Benfica."},
+    {"url":"https://www.uol.com.br/esporte/futebol/colunas/juca-kfouri/2026/09/09/p.ghtm","status":"http_200_via_search_index","note":"Corroborates Palmeiras 1-0 LDU Quito."},
+    {"url":"https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/09/09/estudiantes-corinthians-libertadores.ghtm","status":"http_200_via_search_index","note":"Corroborates Estudiantes 1-1 Corinthians."},
+    {"url":"https://as.com/us/futbol/casemiro-fue-la-figura-en-el-duelo-entre-messi-y-lewandowski-f202609-n/","status":"http_200_via_search_index","note":"Corroborates Chicago Fire 1-1 Inter Miami."}
+  ]
+}
