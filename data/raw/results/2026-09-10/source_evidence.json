@@ -1,0 +1,21 @@
+{
+  "observed_at": "2026-09-11T04:04:27Z",
+  "lottery_date": "2026-09-10",
+  "sources": [
+    {"url":"https://www.lottery.gov.cn/jc/zqsgkj/","status":"access_challenge_567","usable":false,"note":"Official page was attempted first; no bypass was attempted."},
+    {"url":"https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260910&playType=FSPF&t=1","status":"http_200","extracted_rows":[
+      ["周四001","欧冠","2026-09-11","费内巴切","罗马","1:1","平"],
+      ["周四002","欧冠","2026-09-11","科莫","莱红牛","4:1","胜"],
+      ["周四003","欧冠","2026-09-11","拜仁","博德闪耀","5:0","胜"],
+      ["周四004","欧冠","2026-09-11","斯拉维亚","朗斯","2:3","负"],
+      ["周四005","欧冠","2026-09-11","曼联","萨巴赫","4:0","胜"],
+      ["周四006","葡超","2026-09-11","阿马多拉","布拉加","2:1","胜"],
+      ["周四007","解放者杯","2026-09-11","德尔瓦耶","弗拉门戈","0:2","负"]
+    ]},
+    {"url":"https://www.reuters.com/sports/soccer/psv-held-by-shakhtar-fenerbahce-draw-with-roma-return-champions-league-2026-09-10/","status":"http_200_via_search_index","note":"Corroborates all six UEFA Champions League scores; not used for Sporttery numbering."},
+    {"url":"https://www.theguardian.com/football/live/2026/sep/10/manchester-united-v-sabah-champions-league-live","status":"http_200_via_search_index","note":"Corroborates Manchester United 4-0 Sabah."},
+    {"url":"https://www.foxsports.com/soccer/primeria-liga-estrela-amadora-vs-sporting-braga-sep-10-2026-game-boxscore-912871","status":"http_200_via_search_index","note":"Detailed event log corroborates Estrela da Amadora 2-1 Braga."},
+    {"url":"https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/09/10/independiente-del-valle-x-flamengo-quartas-de-final-libertadores.ghtm","status":"http_200_via_search_index","note":"Corroborates Independiente del Valle 0-2 Flamengo and regulation-time context."},
+    {"url":"https://www1.folha.uol.com.br/esporte/2026/09/flamengo-vence-no-equador-e-da-um-salto-rumo-a-semifinal-da-libertadores.shtml","status":"http_200_via_search_index","note":"Independent corroboration of Independiente del Valle 0-2 Flamengo."}
+  ]
+}

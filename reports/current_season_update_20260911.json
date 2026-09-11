@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-09-11T04:04:27Z",
+  "batches": [
+    {"path":"data/processed/current_season_2026_27/sporttery_2026-09-10.csv","rows":7,"net_new_since_previous_commit":7}
+  ],
+  "completed_ingested": 7,
+  "pending_not_ingested": 0,
+  "pending_matches": [],
+  "current_season_rows": 273,
+  "unified_catalog_rows": 40952,
+  "validation_issues": [],
+  "duplicate_or_conflicting_keys": [],
+  "official_source_gap": "The China Sports Lottery result page returned access status 567. CPBao supplied all seven settled results; Reuters independently corroborated all six UEFA Champions League scores, and separate sources corroborated the Portuguese and Libertadores matches.",
+  "halftime_data_gap": "A consistent auditable halftime source was unavailable for all seven rows; all halftime fields remain empty.",
+  "temporal_review": "not_scheduled_friday; no auditable pre-kickoff prediction archive was found for lottery date 2026-09-10"
+}
