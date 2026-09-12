@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-09-12T04:01:54Z",
+  "batches": [
+    {"path":"data/processed/current_season_2026_27/sporttery_2026-09-11.csv","rows":12,"net_new_since_previous_commit":12}
+  ],
+  "completed_ingested": 12,
+  "pending_not_ingested": 0,
+  "pending_matches": [],
+  "current_season_rows": 285,
+  "unified_catalog_rows": 40964,
+  "validation_issues": [],
+  "duplicate_or_conflicting_keys": [],
+  "official_source_gap": "The China Sports Lottery result page returned access status 567. CPBao supplied all twelve settled results; independent league, broadcaster and match-report sources corroborated every score.",
+  "halftime_data_gap": "A consistent auditable halftime source was unavailable for all twelve rows; all halftime fields remain empty.",
+  "temporal_review": "not_scheduled_saturday; no auditable pre-kickoff prediction archive was found for lottery date 2026-09-11"
+}

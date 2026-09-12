@@ -1,0 +1,34 @@
+{
+  "observed_at": "2026-09-12T04:01:54Z",
+  "lottery_date": "2026-09-11",
+  "sources": [
+    {"url":"https://www.lottery.gov.cn/jc/zqsgkj/","status":"access_challenge_567","usable":false,"note":"Official page was attempted first; no bypass was attempted."},
+    {"url":"https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260911&playType=FSPF&t=1","status":"http_200","extracted_rows":[
+      ["周五001","日职","2026-09-11","京都","柏太阳神","2:3","负"],
+      ["周五002","沙职","2026-09-11","哈马费萨","吉达联合","1:3","负"],
+      ["周五003","德乙","2026-09-12","纽伦堡","汉诺威96","2:1","胜"],
+      ["周五004","瑞超","2026-09-12","赫根","米亚尔比","1:1","平"],
+      ["周五005","荷甲","2026-09-12","阿尔克马","威廉二世","1:1","平"],
+      ["周五006","荷乙","2026-09-12","马斯特里","阿尔梅勒","0:4","负"],
+      ["周五007","德甲","2026-09-12","柏林联合","沙尔克04","1:3","负"],
+      ["周五008","意甲","2026-09-12","威尼斯","佛罗伦萨","2:4","负"],
+      ["周五009","法甲","2026-09-12","雷恩","马赛","1:0","胜"],
+      ["周五010","英冠","2026-09-12","西汉姆联","雷克斯","6:0","胜"],
+      ["周五011","西甲","2026-09-12","塞维利亚","巴伦西亚","1:0","胜"],
+      ["周五012","巴甲","2026-09-12","科里蒂巴","巴竞技","3:3","平"]
+    ]},
+    {"url":"https://www.jleague.jp/","status":"http_200_via_search_index","note":"Official J.League result listing corroborates Kyoto Sanga 2-3 Kashiwa Reysol and local kickoff context."},
+    {"url":"https://www.espn.com/soccer/odds/_/gameId/401900451","status":"http_200_via_search_index","note":"Corroborates Al Faisaly 1-3 Al Ittihad."},
+    {"url":"https://www.foxsports.com/soccer/saudi-pro-league-al-faisaly-fc-vs-al-ittihad-club-sep-11-2026-game-boxscore-949517","status":"http_200_via_search_index","note":"Second corroboration of Al Faisaly 1-3 Al Ittihad."},
+    {"url":"https://www.welt.de/article6aa4557a181cb962d488c5e6","status":"http_200_via_search_index","note":"Corroborates Nurnberg 2-1 Hannover 96."},
+    {"url":"https://footystats.org/","status":"http_200_via_search_index","note":"Corroborates Hacken 1-1 Mjallby."},
+    {"url":"https://us.soccerway.com/","status":"http_200_via_search_index","note":"Corroborates AZ Alkmaar 1-1 Willem II."},
+    {"url":"https://espndeportes.espn.com/","status":"http_200_via_search_index","note":"Corroborates MVV Maastricht 0-4 Almere City."},
+    {"url":"https://www.espn.com/soccer/match/_/gameId/401884793/schalke-04-1-fc-union-berlin","status":"http_200_via_search_index","note":"Corroborates Union Berlin 1-3 Schalke 04."},
+    {"url":"https://www.violanation.com/fiorentina-match-coverage/22909/venezia-2-4-fiorentina-serie-a-match-report-mastantuono-goal-hat-trick-pellegrino-adams-hainaut","status":"http_200_via_search_index","note":"Corroborates Venezia 2-4 Fiorentina."},
+    {"url":"https://www.aiscore.com/","status":"http_200_via_search_index","note":"Corroborates Rennes 1-0 Marseille."},
+    {"url":"https://www.skysports.com/","status":"http_200_via_search_index","note":"Corroborates West Ham United 6-0 Wrexham."},
+    {"url":"https://cadenaser.com/nacional/2026/09/11/sevilla-1-0-valencia-resumen-resultado-y-goles-del-partido-de-la-jornada-5-de-laliga-ea-sports-cadena-ser/","status":"http_200_via_search_index","note":"Corroborates Sevilla 1-0 Valencia."},
+    {"url":"https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/09/11/coritiba-x-athletico---brasileirao.ghtm","status":"http_200_via_search_index","note":"Corroborates Coritiba 3-3 Athletico Paranaense and regulation-time context."}
+  ]
+}
