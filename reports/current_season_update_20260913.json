@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-09-13T04:03:05Z",
+  "batches": [
+    {
+      "path": "data/processed/current_season_2026_27/sporttery_2026-09-12.csv",
+      "rows": 30,
+      "net_new_since_previous_commit": 30
+    }
+  ],
+  "completed_ingested": 30,
+  "pending_not_ingested": 0,
+  "pending_matches": [],
+  "current_season_rows": 315,
+  "unified_catalog_rows": 40994,
+  "validation_issues": [],
+  "duplicate_or_conflicting_keys": [],
+  "official_source_gap": "The China Sports Lottery result page timed out. CPBao supplied all thirty settled results; Reuters, official league pages and ESPN independently corroborated the batch.",
+  "halftime_data_gap": "A consistent auditable halftime source was unavailable for all thirty rows; all halftime fields remain empty.",
+  "temporal_review": "scheduled_sunday_but_not_run; auditable pre-kickoff archive missing and true archived sample count is 0, below minimum 30; production model unchanged"
+}
+
