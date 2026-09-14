@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-09-14T04:12:00Z",
+  "batches": [
+    {
+      "path": "data/processed/current_season_2026_27/sporttery_2026-09-13.csv",
+      "rows": 24,
+      "net_new_since_previous_commit": 24
+    }
+  ],
+  "completed_ingested": 24,
+  "pending_not_ingested": 0,
+  "pending_matches": [],
+  "current_season_rows": 339,
+  "unified_catalog_rows": 41018,
+  "validation_issues": [],
+  "duplicate_or_conflicting_keys": [],
+  "maintenance_correction": "Corrected the two J.League official match-page URLs in the 2026-09-12 sourced results batch; no team or score changed.",
+  "official_source_gap": "China Sports Lottery and Sporttery pages returned access status 567. CPBao supplied all 24 settled results; Reuters and ESPN independently corroborated the batch.",
+  "halftime_data_gap": "A consistent auditable halftime source was unavailable for all 24 rows; all halftime fields remain empty.",
+  "temporal_review": "not_scheduled_monday; auditable pre-kickoff archive missing and true archived sample count is 0; production model unchanged"
+}
