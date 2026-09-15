@@ -1,0 +1,456 @@
+{
+  "observed_at": "2026-09-15T04:04:39Z",
+  "lottery_date": "2026-09-14",
+  "sources": [
+    {
+      "url": "https://www.lottery.gov.cn/jc/zqsgkj/",
+      "status": "timeout",
+      "usable": false,
+      "note": "Official China Sports Lottery result page attempted first; no bypass attempted."
+    },
+    {
+      "url": "https://m.sporttery.cn/",
+      "status": "timeout",
+      "usable": false,
+      "note": "Official Sporttery mobile page attempted; no bypass attempted."
+    },
+    {
+      "url": "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260914&playType=FSPF&t=1",
+      "status": "http_200",
+      "extracted_rows": [
+        [
+          "周一002",
+          "Veikkausliiga",
+          "2026-09-14T23:00:00+08:00",
+          "国际图尔库",
+          "瓦萨",
+          "1:0",
+          "H"
+        ],
+        [
+          "周一003",
+          "Serie A",
+          "2026-09-15T00:30:00+08:00",
+          "科莫",
+          "帕尔马",
+          "2:1",
+          "H"
+        ],
+        [
+          "周一004",
+          "Serie A",
+          "2026-09-15T00:30:00+08:00",
+          "都灵",
+          "罗马",
+          "0:2",
+          "A"
+        ],
+        [
+          "周一005",
+          "Allsvenskan",
+          "2026-09-15T01:00:00+08:00",
+          "佐加顿斯",
+          "盖斯",
+          "2:0",
+          "H"
+        ],
+        [
+          "周一006",
+          "Eliteserien",
+          "2026-09-15T01:00:00+08:00",
+          "博德闪耀",
+          "桑纳菲尤尔",
+          "3:2",
+          "H"
+        ],
+        [
+          "周一007",
+          "AFC Champions League Elite",
+          "2026-09-15T02:15:00+08:00",
+          "吉达国民",
+          "棉农",
+          "1:1",
+          "D"
+        ],
+        [
+          "周一008",
+          "Serie A",
+          "2026-09-15T02:45:00+08:00",
+          "国际米兰",
+          "乌迪内斯",
+          "5:3",
+          "H"
+        ],
+        [
+          "周一009",
+          "Ligue 2",
+          "2026-09-15T02:45:00+08:00",
+          "圣旺红星",
+          "梅斯",
+          "1:0",
+          "H"
+        ],
+        [
+          "周一010",
+          "Premier League",
+          "2026-09-15T03:00:00+08:00",
+          "利兹联",
+          "纽卡斯尔",
+          "4:1",
+          "H"
+        ],
+        [
+          "周一011",
+          "La Liga",
+          "2026-09-15T03:00:00+08:00",
+          "比利亚雷亚尔",
+          "贝蒂斯",
+          "1:2",
+          "A"
+        ],
+        [
+          "周一012",
+          "Primeira Liga",
+          "2026-09-15T03:45:00+08:00",
+          "布拉加",
+          "埃斯托里尔",
+          "1:0",
+          "H"
+        ],
+        [
+          "周一014",
+          "Asian Games Women",
+          "2026-09-14T18:00:00+08:00",
+          "中国女足",
+          "中国香港女足",
+          "5:1",
+          "H"
+        ]
+      ]
+    },
+    {
+      "url": "https://www.shsportslottery.com/",
+      "status": "search_index_usable_for_schedule",
+      "note": "Shanghai Sports Lottery search index corroborated lottery numbering and schedule."
+    },
+    {
+      "url": "https://www.reuters.com/sports/soccer/inter-rally-past-udinese-stay-level-with-roma-serie-summit-2026-09-14/",
+      "status": "http_200",
+      "corroborates": [
+        "周一003",
+        "周一004",
+        "周一008"
+      ]
+    },
+    {
+      "url": "https://www.reuters.com/sports/soccer/leeds-thrash-newcastle-4-1-climb-third-premier-league-2026-09-14/",
+      "status": "http_200",
+      "corroborates": [
+        "周一010"
+      ]
+    },
+    {
+      "url": "https://www.thecfa.cn/",
+      "status": "http_200",
+      "corroborates": [
+        "周一014"
+      ]
+    },
+    {
+      "url": "https://www.okooo.cn/soccer/match/1347920/history/",
+      "status": "http_200",
+      "corroborates": [
+        "周一002"
+      ]
+    },
+    {
+      "url": "https://scbraga.pt/pt/news/sc-braga-vence-na-rececao-ao-estoril-praia",
+      "status": "http_200",
+      "corroborates": [
+        "周一012"
+      ]
+    }
+  ],
+  "numbering_note": "The settled list skips 周一001 and 周一013. Only the twelve published settled identifiers were ingested.",
+  "halftime_data_gap": "No batch-wide, consistent auditable halftime source was available; all halftime fields remain null.",
+  "extracted_records": [
+    {
+      "match_key": "2026-09-14-周一002",
+      "display_number": "周一002",
+      "home": "国际图尔库",
+      "away": "瓦萨",
+      "league": "Veikkausliiga",
+      "status": "final",
+      "kickoff_beijing": "2026-09-14T23:00:00+08:00",
+      "home_goals": 1,
+      "away_goals": 0,
+      "half_home_goals": null,
+      "half_away_goals": null,
+      "total_goals": 1,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_okooo_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260914&playType=FSPF&t=1",
+        "https://www.okooo.cn/soccer/match/1347920/history/"
+      ]
+    },
+    {
+      "match_key": "2026-09-14-周一003",
+      "display_number": "周一003",
+      "home": "科莫",
+      "away": "帕尔马",
+      "league": "Serie A",
+      "status": "final",
+      "kickoff_beijing": "2026-09-15T00:30:00+08:00",
+      "home_goals": 2,
+      "away_goals": 1,
+      "half_home_goals": null,
+      "half_away_goals": null,
+      "total_goals": 3,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_reuters_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260914&playType=FSPF&t=1",
+        "https://www.reuters.com/sports/soccer/inter-rally-past-udinese-stay-level-with-roma-serie-summit-2026-09-14/"
+      ]
+    },
+    {
+      "match_key": "2026-09-14-周一004",
+      "display_number": "周一004",
+      "home": "都灵",
+      "away": "罗马",
+      "league": "Serie A",
+      "status": "final",
+      "kickoff_beijing": "2026-09-15T00:30:00+08:00",
+      "home_goals": 0,
+      "away_goals": 2,
+      "half_home_goals": null,
+      "half_away_goals": null,
+      "total_goals": 2,
+      "result": "A",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_reuters_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260914&playType=FSPF&t=1",
+        "https://www.reuters.com/sports/soccer/inter-rally-past-udinese-stay-level-with-roma-serie-summit-2026-09-14/"
+      ]
+    },
+    {
+      "match_key": "2026-09-14-周一005",
+      "display_number": "周一005",
+      "home": "佐加顿斯",
+      "away": "盖斯",
+      "league": "Allsvenskan",
+      "status": "final",
+      "kickoff_beijing": "2026-09-15T01:00:00+08:00",
+      "home_goals": 2,
+      "away_goals": 0,
+      "half_home_goals": null,
+      "half_away_goals": null,
+      "total_goals": 2,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_flashscore_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260914&playType=FSPF&t=1",
+        "https://www.flashscore.com.ng/football/sweden/allsvenskan/"
+      ]
+    },
+    {
+      "match_key": "2026-09-14-周一006",
+      "display_number": "周一006",
+      "home": "博德闪耀",
+      "away": "桑纳菲尤尔",
+      "league": "Eliteserien",
+      "status": "final",
+      "kickoff_beijing": "2026-09-15T01:00:00+08:00",
+      "home_goals": 3,
+      "away_goals": 2,
+      "half_home_goals": null,
+      "half_away_goals": null,
+      "total_goals": 5,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_espn_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260914&playType=FSPF&t=1",
+        "https://www.espn.com/soccer/scoreboard/_/date/20260914"
+      ]
+    },
+    {
+      "match_key": "2026-09-14-周一007",
+      "display_number": "周一007",
+      "home": "吉达国民",
+      "away": "棉农",
+      "league": "AFC Champions League Elite",
+      "status": "final",
+      "kickoff_beijing": "2026-09-15T02:15:00+08:00",
+      "home_goals": 1,
+      "away_goals": 1,
+      "half_home_goals": null,
+      "half_away_goals": null,
+      "total_goals": 2,
+      "result": "D",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_forebet_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260914&playType=FSPF&t=1",
+        "https://www.forebet.com/en/football/matches/al-ahli-pakhtakor"
+      ]
+    },
+    {
+      "match_key": "2026-09-14-周一008",
+      "display_number": "周一008",
+      "home": "国际米兰",
+      "away": "乌迪内斯",
+      "league": "Serie A",
+      "status": "final",
+      "kickoff_beijing": "2026-09-15T02:45:00+08:00",
+      "home_goals": 5,
+      "away_goals": 3,
+      "half_home_goals": null,
+      "half_away_goals": null,
+      "total_goals": 8,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_reuters_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260914&playType=FSPF&t=1",
+        "https://www.reuters.com/sports/soccer/inter-rally-past-udinese-stay-level-with-roma-serie-summit-2026-09-14/"
+      ]
+    },
+    {
+      "match_key": "2026-09-14-周一009",
+      "display_number": "周一009",
+      "home": "圣旺红星",
+      "away": "梅斯",
+      "league": "Ligue 2",
+      "status": "final",
+      "kickoff_beijing": "2026-09-15T02:45:00+08:00",
+      "home_goals": 1,
+      "away_goals": 0,
+      "half_home_goals": null,
+      "half_away_goals": null,
+      "total_goals": 1,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_espn_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260914&playType=FSPF&t=1",
+        "https://www.espn.com/soccer/scoreboard/_/date/20260914"
+      ]
+    },
+    {
+      "match_key": "2026-09-14-周一010",
+      "display_number": "周一010",
+      "home": "利兹联",
+      "away": "纽卡斯尔",
+      "league": "Premier League",
+      "status": "final",
+      "kickoff_beijing": "2026-09-15T03:00:00+08:00",
+      "home_goals": 4,
+      "away_goals": 1,
+      "half_home_goals": null,
+      "half_away_goals": null,
+      "total_goals": 5,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_reuters_club_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260914&playType=FSPF&t=1",
+        "https://www.reuters.com/sports/soccer/leeds-thrash-newcastle-4-1-climb-third-premier-league-2026-09-14/",
+        "https://www.newcastleunited.com/en/matches/mens-team/2026-27/leeds-united-v-newcastle-united"
+      ]
+    },
+    {
+      "match_key": "2026-09-14-周一011",
+      "display_number": "周一011",
+      "home": "比利亚雷亚尔",
+      "away": "贝蒂斯",
+      "league": "La Liga",
+      "status": "final",
+      "kickoff_beijing": "2026-09-15T03:00:00+08:00",
+      "home_goals": 1,
+      "away_goals": 2,
+      "half_home_goals": null,
+      "half_away_goals": null,
+      "total_goals": 3,
+      "result": "A",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_espn_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260914&playType=FSPF&t=1",
+        "https://www.espn.com/soccer/scoreboard/_/date/20260914"
+      ]
+    },
+    {
+      "match_key": "2026-09-14-周一012",
+      "display_number": "周一012",
+      "home": "布拉加",
+      "away": "埃斯托里尔",
+      "league": "Primeira Liga",
+      "status": "final",
+      "kickoff_beijing": "2026-09-15T03:45:00+08:00",
+      "home_goals": 1,
+      "away_goals": 0,
+      "half_home_goals": null,
+      "half_away_goals": null,
+      "total_goals": 1,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_club_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260914&playType=FSPF&t=1",
+        "https://scbraga.pt/pt/news/sc-braga-vence-na-rececao-ao-estoril-praia"
+      ]
+    },
+    {
+      "match_key": "2026-09-14-周一014",
+      "display_number": "周一014",
+      "home": "中国女足",
+      "away": "中国香港女足",
+      "league": "Asian Games Women",
+      "status": "final",
+      "kickoff_beijing": "2026-09-14T18:00:00+08:00",
+      "home_goals": 5,
+      "away_goals": 1,
+      "half_home_goals": null,
+      "half_away_goals": null,
+      "total_goals": 6,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_cfa_xinhua_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260914&playType=FSPF&t=1",
+        "https://www.thecfa.cn/",
+        "https://k.sina.com.cn/article_1699432410_654b47da02001vy6c.html"
+      ]
+    }
+  ]
+}

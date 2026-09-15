@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-09-15T04:04:39Z",
+  "previous_pending_checked": 0,
+  "settled": [],
+  "conflicts": [],
+  "remaining_pending": [],
+  "note": "The prior pending list was empty. All twelve published matches from lottery date 2026-09-14 were final at this check. The absent identifiers 周一001 and 周一013 were not treated as pending because the settled Sporttery list did not publish them as matches."
+}

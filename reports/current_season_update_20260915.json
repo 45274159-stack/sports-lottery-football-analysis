@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-09-15T04:04:39Z",
+  "batches": [
+    {
+      "path": "data/processed/current_season_2026_27/sporttery_2026-09-14.csv",
+      "rows": 12,
+      "net_new_since_previous_commit": 12
+    }
+  ],
+  "completed_ingested": 12,
+  "pending_not_ingested": 0,
+  "pending_matches": [],
+  "current_season_rows": 351,
+  "unified_catalog_rows": 41030,
+  "validation_issues": [],
+  "duplicate_or_conflicting_keys": [],
+  "official_source_gap": "China Sports Lottery and Sporttery pages timed out. CPBao supplied all twelve settled rows; Reuters, official association/club pages and reliable score indexes independently corroborated the batch.",
+  "numbering_note": "Published settled identifiers are 周一002-012 and 周一014; no 周一001 or 周一013 was invented or ingested.",
+  "halftime_data_gap": "A consistent auditable halftime source was unavailable for all twelve rows; all halftime fields remain empty.",
+  "temporal_review": "not_scheduled_tuesday; auditable pre-kickoff archive missing and true archived sample count is 0; production model unchanged"
+}
