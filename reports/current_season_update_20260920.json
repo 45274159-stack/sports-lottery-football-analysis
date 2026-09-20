@@ -1,0 +1,56 @@
+{
+  "as_of": "2026-09-20T04:01:24Z",
+  "batches": [
+    {
+      "path": "data/processed/current_season_2026_27/sporttery_2026-09-15.csv",
+      "rows": 14,
+      "net_new_since_previous_commit": 14
+    },
+    {
+      "path": "data/processed/current_season_2026_27/sporttery_2026-09-16.csv",
+      "rows": 16,
+      "net_new_since_previous_commit": 16
+    },
+    {
+      "path": "data/processed/current_season_2026_27/sporttery_2026-09-17.csv",
+      "rows": 11,
+      "net_new_since_previous_commit": 11
+    },
+    {
+      "path": "data/processed/current_season_2026_27/sporttery_2026-09-18.csv",
+      "rows": 14,
+      "net_new_since_previous_commit": 14
+    },
+    {
+      "path": "data/processed/current_season_2026_27/sporttery_2026-09-19.csv",
+      "rows": 30,
+      "net_new_since_previous_commit": 30
+    }
+  ],
+  "completed_ingested": 85,
+  "pending_not_ingested": 1,
+  "pending_matches": [
+    {
+      "match_key": "2026-09-16-周三014",
+      "display_number": "周三014",
+      "league": "La Liga",
+      "kickoff_beijing": "2026-09-17T03:30:00+08:00",
+      "home": "莱万特",
+      "away": "毕尔巴鄂竞技",
+      "status": "unsettled_or_postponed",
+      "home_goals": null,
+      "away_goals": null,
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260916&playType=FSPF&t=1",
+        "https://cp.zgzcw.com/dc/getKaijiangFootBall.action?startTime=2026-09-17&endTime=2026-09-17"
+      ]
+    }
+  ],
+  "current_season_rows": 436,
+  "unified_catalog_rows": 41115,
+  "validation_issues": [],
+  "duplicate_or_conflicting_keys": [],
+  "official_source_gap": "China Sports Lottery and Sporttery official pages timed out. CPBao and ZGZCW independently agreed on all imported rows.",
+  "halftime_data_gap": null,
+  "temporal_review": "scheduled_sunday_but_skipped: auditable pre-kickoff archive missing; true prospective sample count 0 (<30); production model unchanged"
+}
