@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-09-21T04:01:39Z",
+  "previous_pending_checked": 1,
+  "settled": [],
+  "conflicts": [],
+  "remaining_pending": [
+    {
+      "match_key": "2026-09-16-周三014",
+      "display_number": "周三014",
+      "league": "La Liga",
+      "kickoff_beijing": "2026-09-17T03:30:00+08:00",
+      "home": "莱万特",
+      "away": "毕尔巴鄂竞技",
+      "status": "unsettled_or_postponed",
+      "home_goals": null,
+      "away_goals": null,
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260916&playType=FSPF&t=1",
+        "https://cp.zgzcw.com/dc/getKaijiangFootBall.action?startTime=2026-09-17&endTime=2026-09-17"
+      ]
+    }
+  ],
+  "note": "2026-09-16 周三014 remains blank on both indexes and was not ingested."
+}

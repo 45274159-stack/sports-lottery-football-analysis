@@ -15,9 +15,9 @@ class CurrentHistoryTests(unittest.TestCase):
         gaps, gap_issues = load_validated(str(ROOT / "data/processed/completed_gaps_2025_26"))
         self.assertEqual(current_issues, [])
         self.assertEqual(gap_issues, [])
-        self.assertEqual(len(current), 436)
+        self.assertEqual(len(current), 466)
         self.assertEqual(len(gaps), 22)
-        self.assertTrue(all(row["date"] <= "2026-09-20" for row in current))
+        self.assertTrue(all(row["date"] <= "2026-09-21" for row in current))
 
     def test_completeness_report_matches_batches(self):
         report = json.loads((ROOT / "reports/history_completeness_20260904.json").read_text())
@@ -29,8 +29,8 @@ class CurrentHistoryTests(unittest.TestCase):
 
     def test_unified_catalog_has_no_cross_batch_duplicates(self):
         rows = load_all_history()
-        self.assertEqual(len(rows), 41115)
-        self.assertEqual(len({(r["league"], r["date"], r["home_team"], r["away_team"]) for r in rows}), 41115)
+        self.assertEqual(len(rows), 41145)
+        self.assertEqual(len({(r["league"], r["date"], r["home_team"], r["away_team"]) for r in rows}), 41145)
 
     def test_latest_sourced_result_batches(self):
         friday = json.loads((ROOT / "data/processed/results/2026-09-04.json").read_text())
@@ -108,9 +108,16 @@ class CurrentHistoryTests(unittest.TestCase):
             self.assertTrue(all(row["extra_time"] is None for row in batch["records"]))
             self.assertTrue(all(row["penalties"] is None for row in batch["records"]))
             self.assertTrue(all(row["half_home_goals"] is not None for row in batch["records"]))
-        pending = json.loads((ROOT / "reports/pending_results_20260920.json").read_text())
+        latest = json.loads((ROOT / "data/processed/results/2026-09-20.json").read_text())
+        self.assertEqual([row["display_number"] for row in latest["records"]], [f"周日{i:03d}" for i in range(1, 31)])
+        self.assertTrue(all(row["status"] == "final" for row in latest["records"]))
+        self.assertTrue(all(row["score_period"] == "90_minutes" for row in latest["records"]))
+        self.assertTrue(all(row["extra_time"] is None for row in latest["records"]))
+        self.assertTrue(all(row["penalties"] is None for row in latest["records"]))
+        self.assertTrue(all(row["half_home_goals"] is not None for row in latest["records"]))
+        pending = json.loads((ROOT / "reports/pending_results_20260921.json").read_text())
         self.assertEqual([row["display_number"] for row in pending["remaining_pending"]], ["周三014"])
-        update = json.loads((ROOT / "reports/current_season_update_20260920.json").read_text())
+        update = json.loads((ROOT / "reports/current_season_update_20260921.json").read_text())
         self.assertEqual(update["unified_catalog_rows"], len(load_all_history()))
 
 
