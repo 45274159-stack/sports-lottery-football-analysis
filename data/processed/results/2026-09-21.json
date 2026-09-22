@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "lottery_date": "2026-09-21",
+  "record_type": "sourced_results_batch",
+  "model_training_ingested": true,
+  "official_number_verification": "Official pages returned access-control page 567. CPBao and an independent match report agree on the only listed final match.",
+  "observed_at": "2026-09-22T03:59:11Z",
+  "records": [
+    {
+      "match_key": "2026-09-21-周一001",
+      "display_number": "周一001",
+      "home": "中国女足",
+      "away": "菲律宾女足",
+      "league": "Asian Games Women",
+      "status": "final",
+      "kickoff_beijing": "2026-09-21T15:00:00+08:00",
+      "home_goals": 5,
+      "away_goals": 1,
+      "half_home_goals": 2,
+      "half_away_goals": 0,
+      "total_goals": 6,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_match_report_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260921&playType=FSPF&t=1",
+        "https://news.zhibo8.com/zuqiu/2026-09-21/match2113578date2026vnative.htm"
+      ]
+    }
+  ]
+}

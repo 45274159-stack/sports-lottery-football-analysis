@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-09-22T03:59:11Z",
+  "previous_pending_checked": 1,
+  "settled": [],
+  "conflicts": [],
+  "remaining_pending": [
+    {
+      "match_key": "2026-09-16-周三014",
+      "display_number": "周三014",
+      "league": "La Liga",
+      "kickoff_beijing": "2026-09-17T03:30:00+08:00",
+      "home": "莱万特",
+      "away": "毕尔巴鄂竞技",
+      "status": "postponed_weather",
+      "reason": "Heavy rain left the pitch unplayable; rescheduled date not yet confirmed in checked sources.",
+      "home_goals": null,
+      "away_goals": null,
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260916&playType=FSPF&t=1",
+        "https://cadenaser.com/nacional/2026/09/17/temporal-alertas-y-partidos-laliga-explica-el-protocolo-que-se-siguio-con-levante-athletic-y-barca-racing-cadena-ser/"
+      ]
+    }
+  ],
+  "note": "2026-09-16 周三014 was postponed because of heavy rain and remains without a final score; it was not ingested."
+}

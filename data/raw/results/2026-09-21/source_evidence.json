@@ -1,0 +1,65 @@
+{
+  "observed_at": "2026-09-22T03:59:11Z",
+  "lottery_date": "2026-09-21",
+  "sources": [
+    {
+      "url": "https://www.lottery.gov.cn/jc/zqsgkj/",
+      "status": "access_restricted_567",
+      "usable": false,
+      "note": "Official source attempted first; no bypass."
+    },
+    {
+      "url": "https://m.sporttery.cn/",
+      "status": "access_restricted_567",
+      "usable": false,
+      "note": "Official source attempted first; no bypass."
+    },
+    {
+      "url": "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260921&playType=FSPF&t=1",
+      "status": "http_200",
+      "role": "lottery number, teams and 90-minute score"
+    },
+    {
+      "url": "https://news.zhibo8.com/zuqiu/2026-09-21/match2113578date2026vnative.htm",
+      "status": "http_200",
+      "role": "kickoff, halftime and full-time cross-check"
+    }
+  ],
+  "extracted_records": [
+    {
+      "match_key": "2026-09-21-周一001",
+      "display_number": "周一001",
+      "home": "中国女足",
+      "away": "菲律宾女足",
+      "league": "Asian Games Women",
+      "status": "final",
+      "kickoff_beijing": "2026-09-21T15:00:00+08:00",
+      "home_goals": 5,
+      "away_goals": 1,
+      "half_home_goals": 2,
+      "half_away_goals": 0,
+      "total_goals": 6,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_match_report_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260921&playType=FSPF&t=1",
+        "https://news.zhibo8.com/zuqiu/2026-09-21/match2113578date2026vnative.htm"
+      ]
+    }
+  ],
+  "pending_recheck": {
+    "match_key": "2026-09-16-周三014",
+    "display_number": "周三014",
+    "home": "莱万特",
+    "away": "毕尔巴鄂竞技",
+    "status": "postponed_weather",
+    "reason": "Heavy rain and an unplayable pitch; no rescheduled final score available.",
+    "source_urls": [
+      "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260916&playType=FSPF&t=1",
+      "https://cadenaser.com/nacional/2026/09/17/temporal-alertas-y-partidos-laliga-explica-el-protocolo-que-se-siguio-con-levante-athletic-y-barca-racing-cadena-ser/"
+    ]
+  }
+}

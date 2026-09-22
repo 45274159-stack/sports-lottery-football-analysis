@@ -1,0 +1,37 @@
+{
+  "as_of": "2026-09-22T03:59:11Z",
+  "batches": [
+    {
+      "path": "data/processed/current_season_2026_27/sporttery_2026-09-21.csv",
+      "rows": 1,
+      "net_new_since_previous_commit": 1
+    }
+  ],
+  "completed_ingested": 1,
+  "pending_not_ingested": 1,
+  "pending_matches": [
+    {
+      "match_key": "2026-09-16-周三014",
+      "display_number": "周三014",
+      "league": "La Liga",
+      "kickoff_beijing": "2026-09-17T03:30:00+08:00",
+      "home": "莱万特",
+      "away": "毕尔巴鄂竞技",
+      "status": "postponed_weather",
+      "reason": "Heavy rain left the pitch unplayable; rescheduled date not yet confirmed in checked sources.",
+      "home_goals": null,
+      "away_goals": null,
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260916&playType=FSPF&t=1",
+        "https://cadenaser.com/nacional/2026/09/17/temporal-alertas-y-partidos-laliga-explica-el-protocolo-que-se-siguio-con-levante-athletic-y-barca-racing-cadena-ser/"
+      ]
+    }
+  ],
+  "current_season_rows": 467,
+  "unified_catalog_rows": 41146,
+  "validation_issues": [],
+  "duplicate_or_conflicting_keys": [],
+  "official_source_gap": "China Sports Lottery and Sporttery official pages returned access-control status 567; CPBao and an independent match report agreed on the only imported row.",
+  "halftime_data_gap": null,
+  "temporal_review": "not_scheduled_tuesday; auditable pre-kickoff archive missing and true prospective sample count is 0; production model unchanged"
+}

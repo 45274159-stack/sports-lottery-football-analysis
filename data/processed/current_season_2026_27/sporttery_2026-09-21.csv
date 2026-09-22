@@ -1,0 +1,2 @@
+source,source_url,source_revision,source_row,observed_at,league,season,date,home_team,away_team,ft_home_goals,ft_away_goals,ft_result,ht_home_goals,ht_away_goals,ht_result,round,score_period,home_team_raw,away_team_raw
+cpbao+match-report/result-crosscheck,https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260921&playType=FSPF&t=1,2026-09-22T03:59:11Z,001,2026-09-22T03:59:11Z,Asian Games Women,2026,2026-09-21,China Women,Philippines Women,5,1,H,2,0,H,Group G round 3,90_minutes,中国女足,菲律宾女足
