@@ -1,0 +1,160 @@
+{
+  "observed_at": "2026-09-23T04:01:37Z",
+  "lottery_date": "2026-09-22",
+  "sources": [
+    {
+      "url": "https://www.lottery.gov.cn/jc/zqsgkj/",
+      "status": "access_restricted_567",
+      "usable": false,
+      "note": "Official source attempted first; no bypass."
+    },
+    {
+      "url": "https://m.sporttery.cn/",
+      "status": "timeout",
+      "usable": false,
+      "note": "Official source attempted first; no bypass."
+    },
+    {
+      "url": "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260922&playType=FSPF&t=1",
+      "status": "http_200",
+      "role": "lottery numbers, teams and 90-minute scores"
+    },
+    {
+      "url": "https://cp.zgzcw.com/dc/getKaijiangFootBall.action",
+      "status": "http_200",
+      "role": "kickoff times, halftime and 90-minute score cross-check"
+    }
+  ],
+  "raw_source_rows": {
+    "cpbao": [
+      "周二001 亚运男足 韩国亚 2:0 沙特亚",
+      "周二002 英锦标赛 米尔顿 4:1 克劳利",
+      "周二003 英锦标赛 诺茨郡 2:1 格里姆",
+      "周二004 英锦标赛 维冈 3:2 布莱克浦"
+    ],
+    "zgzcw": [
+      "周二001 09-22 18:00 韩国U23 2:0 (0:0) 沙特阿拉伯U23",
+      "周二002 09-23 02:00 米尔顿 4:1 (2:0) 克劳利",
+      "周二003 09-23 02:00 诺茨郡 2:1 (1:0) 格里姆",
+      "周二004 09-23 02:00 维冈竞技 3:2 (1:0) 布莱克浦"
+    ]
+  },
+  "extracted_records": [
+    {
+      "match_key": "2026-09-22-周二001",
+      "display_number": "周二001",
+      "home": "韩国U23",
+      "away": "沙特阿拉伯U23",
+      "home_normalized": "South Korea U23",
+      "away_normalized": "Saudi Arabia U23",
+      "league": "Asian Games Men",
+      "status": "final",
+      "kickoff_beijing": "2026-09-22T18:00:00+08:00",
+      "home_goals": 2,
+      "away_goals": 0,
+      "half_home_goals": 0,
+      "half_away_goals": 0,
+      "total_goals": 2,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_zgzcw_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260922&playType=FSPF&t=1",
+        "https://cp.zgzcw.com/dc/getKaijiangFootBall.action"
+      ]
+    },
+    {
+      "match_key": "2026-09-22-周二002",
+      "display_number": "周二002",
+      "home": "米尔顿凯恩斯",
+      "away": "克劳利",
+      "home_normalized": "Milton Keynes Dons",
+      "away_normalized": "Crawley Town",
+      "league": "EFL Trophy",
+      "status": "final",
+      "kickoff_beijing": "2026-09-23T02:00:00+08:00",
+      "home_goals": 4,
+      "away_goals": 1,
+      "half_home_goals": 2,
+      "half_away_goals": 0,
+      "total_goals": 5,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_zgzcw_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260922&playType=FSPF&t=1",
+        "https://cp.zgzcw.com/dc/getKaijiangFootBall.action"
+      ]
+    },
+    {
+      "match_key": "2026-09-22-周二003",
+      "display_number": "周二003",
+      "home": "诺茨郡",
+      "away": "格里姆斯比",
+      "home_normalized": "Notts County",
+      "away_normalized": "Grimsby Town",
+      "league": "EFL Trophy",
+      "status": "final",
+      "kickoff_beijing": "2026-09-23T02:00:00+08:00",
+      "home_goals": 2,
+      "away_goals": 1,
+      "half_home_goals": 1,
+      "half_away_goals": 0,
+      "total_goals": 3,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_zgzcw_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260922&playType=FSPF&t=1",
+        "https://cp.zgzcw.com/dc/getKaijiangFootBall.action"
+      ]
+    },
+    {
+      "match_key": "2026-09-22-周二004",
+      "display_number": "周二004",
+      "home": "维冈竞技",
+      "away": "布莱克浦",
+      "home_normalized": "Wigan Athletic",
+      "away_normalized": "Blackpool",
+      "league": "EFL Trophy",
+      "status": "final",
+      "kickoff_beijing": "2026-09-23T02:00:00+08:00",
+      "home_goals": 3,
+      "away_goals": 2,
+      "half_home_goals": 1,
+      "half_away_goals": 0,
+      "total_goals": 5,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_zgzcw_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260922&playType=FSPF&t=1",
+        "https://cp.zgzcw.com/dc/getKaijiangFootBall.action"
+      ]
+    }
+  ],
+  "pending_recheck": {
+    "match_key": "2026-09-16-周三014",
+    "display_number": "周三014",
+    "league": "La Liga",
+    "kickoff_beijing": "2026-09-17T03:30:00+08:00",
+    "home": "莱万特",
+    "away": "毕尔巴鄂竞技",
+    "status": "postponed_weather",
+    "reason": "Heavy rain left the pitch unplayable; the checked lottery result page still has no final score.",
+    "home_goals": null,
+    "away_goals": null,
+    "source_urls": [
+      "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260916&playType=FSPF&t=1",
+      "https://cadenaser.com/nacional/2026/09/17/temporal-alertas-y-partidos-laliga-explica-el-protocolo-que-se-siguio-con-levante-athletic-y-barca-racing-cadena-ser/"
+    ]
+  }
+}
