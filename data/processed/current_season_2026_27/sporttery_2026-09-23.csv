@@ -1,0 +1,4 @@
+source,source_url,source_revision,source_row,observed_at,league,season,date,home_team,away_team,ft_home_goals,ft_away_goals,ft_result,ht_home_goals,ht_away_goals,ht_result,round,score_period,home_team_raw,away_team_raw
+crosschecked/result-import,https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260923&playType=FSPF&t=1,2026-09-24T03:58:34Z,001,2026-09-24T03:58:34Z,Asian Games Men,2026,2026-09-23,China U23,United Arab Emirates U23,0,0,D,0,0,D,,90_minutes,中国U23,阿联酋U23
+crosschecked/result-import,https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260923&playType=FSPF&t=1,2026-09-24T03:58:34Z,002,2026-09-24T03:58:34Z,Asian Games Men,2026,2026-09-23,Japan U23,Thailand U23,3,0,H,1,0,H,,90_minutes,日本U23,泰国U23
+crosschecked/result-import,https://cp.zgzcw.com/dc/getKaijiangFootBall.action,2026-09-24T03:58:34Z,003,2026-09-24T03:58:34Z,MLS,2026,2026-09-23,Seattle Sounders FC,Real Salt Lake,2,0,H,0,0,D,,90_minutes,西雅图,盐湖城

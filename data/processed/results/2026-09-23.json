@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "lottery_date": "2026-09-23",
+  "record_type": "sourced_results_batch",
+  "model_training_ingested": true,
+  "official_number_verification": "China Sports Lottery and Sporttery both returned access-control status 567. CPBao and ZGZCW agree on matches 001-002; ZGZCW, ESPN and MLS agree on match 003.",
+  "observed_at": "2026-09-24T03:58:34Z",
+  "records": [
+    {
+      "match_key": "2026-09-23-周三001",
+      "display_number": "周三001",
+      "home": "中国U23",
+      "away": "阿联酋U23",
+      "home_normalized": "China U23",
+      "away_normalized": "United Arab Emirates U23",
+      "league": "Asian Games Men",
+      "status": "final",
+      "kickoff_beijing": "2026-09-23T13:30:00+08:00",
+      "home_goals": 0,
+      "away_goals": 0,
+      "half_home_goals": 0,
+      "half_away_goals": 0,
+      "total_goals": 0,
+      "result": "D",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_zgzcw_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260923&playType=FSPF&t=1",
+        "https://cp.zgzcw.com/dc/getKaijiangFootBall.action"
+      ]
+    },
+    {
+      "match_key": "2026-09-23-周三002",
+      "display_number": "周三002",
+      "home": "日本U23",
+      "away": "泰国U23",
+      "home_normalized": "Japan U23",
+      "away_normalized": "Thailand U23",
+      "league": "Asian Games Men",
+      "status": "final",
+      "kickoff_beijing": "2026-09-23T18:30:00+08:00",
+      "home_goals": 3,
+      "away_goals": 0,
+      "half_home_goals": 1,
+      "half_away_goals": 0,
+      "total_goals": 3,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_zgzcw_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260923&playType=FSPF&t=1",
+        "https://cp.zgzcw.com/dc/getKaijiangFootBall.action"
+      ]
+    },
+    {
+      "match_key": "2026-09-23-周三003",
+      "display_number": "周三003",
+      "home": "西雅图",
+      "away": "盐湖城",
+      "home_normalized": "Seattle Sounders FC",
+      "away_normalized": "Real Salt Lake",
+      "league": "MLS",
+      "status": "final",
+      "kickoff_beijing": "2026-09-24T09:30:00+08:00",
+      "home_goals": 2,
+      "away_goals": 0,
+      "half_home_goals": 0,
+      "half_away_goals": 0,
+      "total_goals": 2,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "zgzcw_espn_mls_agree",
+      "source_urls": [
+        "https://cp.zgzcw.com/dc/getKaijiangFootBall.action",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20260923",
+        "https://www.mlssoccer.com/competitions/mls-regular-season/2026/matches/seavsrsl-09-23-2026/"
+      ]
+    }
+  ]
+}

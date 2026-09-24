@@ -1,0 +1,147 @@
+{
+  "observed_at": "2026-09-24T03:58:34Z",
+  "lottery_date": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://www.lottery.gov.cn/jc/zqsgkj/",
+      "status": "access_restricted_567",
+      "usable": false,
+      "note": "Official source attempted first; no bypass."
+    },
+    {
+      "url": "https://m.sporttery.cn/",
+      "status": "access_restricted_567",
+      "usable": false,
+      "note": "Official source attempted first; no bypass."
+    },
+    {
+      "url": "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260923&playType=FSPF&t=1",
+      "status": "http_200",
+      "role": "lottery numbers, teams and 90-minute scores for 001-002; 003 still blank at collection time"
+    },
+    {
+      "url": "https://cp.zgzcw.com/dc/getKaijiangFootBall.action",
+      "status": "http_200",
+      "role": "all lottery numbers, kickoff times, halftime and 90-minute score cross-check"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20260923",
+      "status": "http_200",
+      "role": "Seattle 2-0 Real Salt Lake final score and UTC kickoff cross-check"
+    },
+    {
+      "url": "https://www.mlssoccer.com/competitions/mls-regular-season/2026/matches/seavsrsl-09-23-2026/",
+      "status": "http_200",
+      "role": "competition-official Seattle vs Real Salt Lake match page"
+    }
+  ],
+  "raw_source_rows": {
+    "cpbao": [
+      "周三001 亚运男足 中国亚 0:0 阿联酋亚",
+      "周三002 亚运男足 日本亚 3:0 泰国亚",
+      "周三003 美职 西雅图 -:- 盐湖城（采集时未更新）"
+    ],
+    "zgzcw": [
+      "周三001 09-23 13:30 中国U23 0:0 (0:0) 阿联酋U23",
+      "周三002 09-23 18:30 日本U23 3:0 (1:0) 泰国U23",
+      "周三003 09-24 09:30 西雅图 2:0 (0:0) 盐湖城"
+    ],
+    "espn": [
+      "Real Salt Lake at Seattle Sounders FC; 2026-09-24T01:30Z; Full Time; Seattle 2, Real Salt Lake 0"
+    ]
+  },
+  "extracted_records": [
+    {
+      "match_key": "2026-09-23-周三001",
+      "display_number": "周三001",
+      "home": "中国U23",
+      "away": "阿联酋U23",
+      "home_normalized": "China U23",
+      "away_normalized": "United Arab Emirates U23",
+      "league": "Asian Games Men",
+      "status": "final",
+      "kickoff_beijing": "2026-09-23T13:30:00+08:00",
+      "home_goals": 0,
+      "away_goals": 0,
+      "half_home_goals": 0,
+      "half_away_goals": 0,
+      "total_goals": 0,
+      "result": "D",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_zgzcw_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260923&playType=FSPF&t=1",
+        "https://cp.zgzcw.com/dc/getKaijiangFootBall.action"
+      ]
+    },
+    {
+      "match_key": "2026-09-23-周三002",
+      "display_number": "周三002",
+      "home": "日本U23",
+      "away": "泰国U23",
+      "home_normalized": "Japan U23",
+      "away_normalized": "Thailand U23",
+      "league": "Asian Games Men",
+      "status": "final",
+      "kickoff_beijing": "2026-09-23T18:30:00+08:00",
+      "home_goals": 3,
+      "away_goals": 0,
+      "half_home_goals": 1,
+      "half_away_goals": 0,
+      "total_goals": 3,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "cpbao_zgzcw_agree",
+      "source_urls": [
+        "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260923&playType=FSPF&t=1",
+        "https://cp.zgzcw.com/dc/getKaijiangFootBall.action"
+      ]
+    },
+    {
+      "match_key": "2026-09-23-周三003",
+      "display_number": "周三003",
+      "home": "西雅图",
+      "away": "盐湖城",
+      "home_normalized": "Seattle Sounders FC",
+      "away_normalized": "Real Salt Lake",
+      "league": "MLS",
+      "status": "final",
+      "kickoff_beijing": "2026-09-24T09:30:00+08:00",
+      "home_goals": 2,
+      "away_goals": 0,
+      "half_home_goals": 0,
+      "half_away_goals": 0,
+      "total_goals": 2,
+      "result": "H",
+      "score_period": "90_minutes",
+      "extra_time": null,
+      "penalties": null,
+      "verification": "zgzcw_espn_mls_agree",
+      "source_urls": [
+        "https://cp.zgzcw.com/dc/getKaijiangFootBall.action",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20260923",
+        "https://www.mlssoccer.com/competitions/mls-regular-season/2026/matches/seavsrsl-09-23-2026/"
+      ]
+    }
+  ],
+  "pending_recheck": {
+    "match_key": "2026-09-16-周三014",
+    "display_number": "周三014",
+    "league": "La Liga",
+    "kickoff_beijing": "2026-09-17T03:30:00+08:00",
+    "home": "莱万特",
+    "away": "毕尔巴鄂竞技",
+    "status": "postponed_weather",
+    "reason": "Heavy rain left the pitch unplayable; the checked lottery result page still has no final score.",
+    "home_goals": null,
+    "away_goals": null,
+    "source_urls": [
+      "https://www.cpbao.com/jc/jcResult!getJczcResultNew.action?matchDate=20260916&playType=FSPF&t=1",
+      "https://cadenaser.com/nacional/2026/09/17/temporal-alertas-y-partidos-laliga-explica-el-protocolo-que-se-siguio-con-levante-athletic-y-barca-racing-cadena-ser/"
+    ]
+  }
+}

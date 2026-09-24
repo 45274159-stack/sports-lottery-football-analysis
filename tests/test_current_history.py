@@ -14,8 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class CurrentHistoryTests(unittest.TestCase):
     def test_daily_import_refuses_to_overwrite_different_content(self):
-        script_path = ROOT / "scripts/import_results_20260922.py"
-        spec = importlib.util.spec_from_file_location("import_results_20260922", script_path)
+        script_path = ROOT / "scripts/import_results_20260923.py"
+        spec = importlib.util.spec_from_file_location("import_results_20260923", script_path)
         module = importlib.util.module_from_spec(spec)
         assert spec.loader is not None
         spec.loader.exec_module(module)
@@ -39,9 +39,9 @@ class CurrentHistoryTests(unittest.TestCase):
         gaps, gap_issues = load_validated(str(ROOT / "data/processed/completed_gaps_2025_26"))
         self.assertEqual(current_issues, [])
         self.assertEqual(gap_issues, [])
-        self.assertEqual(len(current), 471)
+        self.assertEqual(len(current), 474)
         self.assertEqual(len(gaps), 22)
-        self.assertTrue(all(row["date"] <= "2026-09-22" for row in current))
+        self.assertTrue(all(row["date"] <= "2026-09-23" for row in current))
 
     def test_completeness_report_matches_batches(self):
         report = json.loads((ROOT / "reports/history_completeness_20260904.json").read_text())
@@ -53,8 +53,8 @@ class CurrentHistoryTests(unittest.TestCase):
 
     def test_unified_catalog_has_no_cross_batch_duplicates(self):
         rows = load_all_history()
-        self.assertEqual(len(rows), 41150)
-        self.assertEqual(len({(r["league"], r["date"], r["home_team"], r["away_team"]) for r in rows}), 41150)
+        self.assertEqual(len(rows), 41153)
+        self.assertEqual(len({(r["league"], r["date"], r["home_team"], r["away_team"]) for r in rows}), 41153)
 
     def test_latest_sourced_result_batches(self):
         friday = json.loads((ROOT / "data/processed/results/2026-09-04.json").read_text())
@@ -160,10 +160,22 @@ class CurrentHistoryTests(unittest.TestCase):
         self.assertTrue(all(row["extra_time"] is None for row in latest_tuesday["records"]))
         self.assertTrue(all(row["penalties"] is None for row in latest_tuesday["records"]))
         self.assertTrue(all(row["half_home_goals"] is not None for row in latest_tuesday["records"]))
-        pending = json.loads((ROOT / "reports/pending_results_20260923.json").read_text())
+        latest_wednesday_path = ROOT / "data/processed/results/2026-09-23.json"
+        self.assertTrue(latest_wednesday_path.exists())
+        latest_wednesday = json.loads(latest_wednesday_path.read_text())
+        self.assertEqual(
+            [row["display_number"] for row in latest_wednesday["records"]],
+            [f"周三{i:03d}" for i in range(1, 4)],
+        )
+        self.assertTrue(all(row["status"] == "final" for row in latest_wednesday["records"]))
+        self.assertTrue(all(row["score_period"] == "90_minutes" for row in latest_wednesday["records"]))
+        self.assertTrue(all(row["extra_time"] is None for row in latest_wednesday["records"]))
+        self.assertTrue(all(row["penalties"] is None for row in latest_wednesday["records"]))
+        self.assertTrue(all(row["half_home_goals"] is not None for row in latest_wednesday["records"]))
+        pending = json.loads((ROOT / "reports/pending_results_20260924.json").read_text())
         self.assertEqual([row["display_number"] for row in pending["remaining_pending"]], ["周三014"])
         self.assertEqual(pending["remaining_pending"][0]["status"], "postponed_weather")
-        update = json.loads((ROOT / "reports/current_season_update_20260923.json").read_text())
+        update = json.loads((ROOT / "reports/current_season_update_20260924.json").read_text())
         self.assertEqual(update["unified_catalog_rows"], len(load_all_history()))
 
 
